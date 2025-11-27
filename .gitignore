@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Models
+models/
+intent_classifier_model.zip
+
+bagisto_database_report.json
+bagisto_database_report.txt
