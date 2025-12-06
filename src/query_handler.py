@@ -508,14 +508,76 @@ class BagistoQueryHandler:
             print(f"❌ Error in _get_featured_products: {e}")
             return {'error': str(e)}
     
+    def get_product_by_id(self, product_id: int, query_type: str = 'all'):
+        """
+        Get product information by ID with specific query type
+
+        Args:
+            product_id (int): Product ID
+            query_type (str): Type of info to fetch ('price', 'stock', 'description', 'all')
+
+        Returns:
+            dict: Product information based on query type
+        """
+        try:
+            if not product_id:
+                return {'found': False, 'error': 'Product ID required'}
+
+            query = """
+                SELECT
+                    pf.product_id as id,
+                    pf.sku,
+                    pf.name,
+                    pf.price,
+                    pf.short_description,
+                    pf.description,
+                    (
+                        SELECT COALESCE(SUM(pi.qty), 0)
+                        FROM product_inventories pi
+                        WHERE pi.product_id = pf.product_id
+                    ) as total_stock
+                FROM product_flat pf
+                WHERE pf.product_id = %s
+                  AND pf.status = 1
+                LIMIT 1
+            """
+
+            result = self._execute_query(query, (product_id,))
+
+            if result and len(result) > 0:
+                row = result[0]
+                product = {
+                    'id': row['id'],
+                    'sku': row['sku'],
+                    'name': row['name'],
+                    'price': float(row['price']) if row['price'] else 0,
+                    'stock': int(row['total_stock']) if row['total_stock'] else 0,
+                    'description': row['short_description'] or row['description'] or 'Produk berkualitas'
+                }
+
+                return {
+                    'found': True,
+                    'products': [product],
+                    'count': 1
+                }
+            else:
+                return {
+                    'found': False,
+                    'message': f'Produk dengan ID {product_id} tidak ditemukan'
+                }
+
+        except Exception as e:
+            print(f"Error in get_product_by_id: {e}")
+            return {'error': str(e)}
+
     def get_product_stock(self, product_id=None, sku=None):
         """
         Get specific product stock information
-        
+
         Args:
             product_id (int): Product ID
             sku (str): Product SKU
-        
+
         Returns:
             dict: Stock information
         """
