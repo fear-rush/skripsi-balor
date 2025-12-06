@@ -49,21 +49,24 @@ class BagistoQueryHandler:
     def _connect(self):
         """Establish database connection"""
         try:
-            self.connection = mysql.connector.connect(**self.db_config)
-            
+            self.connection = mysql.connector.connect(
+                **self.db_config,
+                autocommit=True  # Enable autocommit for real-time database changes
+            )
+
             if self.connection.is_connected():
                 self.cursor = self.connection.cursor(dictionary=True)
-                
+
                 # Disable ONLY_FULL_GROUP_BY mode to prevent GROUP BY issues
                 try:
                     self.cursor.execute("SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''))")
                 except:
                     pass  # Ignore if fails
-                
+
                 db_info = self.connection.get_server_info()
                 print(f"✅ Connected to Bagisto MySQL Server v{db_info}")
                 return True
-        
+
         except Error as e:
             print(f"❌ Database connection error: {e}")
             self.connection = None
@@ -79,12 +82,12 @@ class BagistoQueryHandler:
     
     def _execute_query(self, query, params=None):
         """
-        Execute SQL query with auto-reconnect
-        
+        Execute SQL query with auto-reconnect and fresh data guarantee.
+
         Args:
             query (str): SQL query
             params (tuple): Query parameters
-        
+
         Returns:
             list: Query results or None
         """
@@ -92,14 +95,23 @@ class BagistoQueryHandler:
             # Ensure connection
             if not self._reconnect():
                 return None
-            
+
+            # Commit any pending transaction to see latest data from other sessions
+            # This ensures we're reading the most recent committed data
+            try:
+                self.connection.commit()
+            except:
+                pass
+
             self.cursor.execute(query, params or ())
             return self.cursor.fetchall()
-        
+
         except Error as e:
             print(f"❌ Query error: {e}")
             print(f"   Query: {query}")
             print(f"   Params: {params}")
+            # Try to reconnect on error
+            self._reconnect()
             return None
     
     def _clean_id(self, id_value):
