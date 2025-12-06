@@ -480,9 +480,13 @@ class LLMChatbot:
                 return {"products": result['products'], "type": "featured"}
             return {"error": "no_products", "message": "Tidak ada produk tersedia"}
 
-        # Build search query with brand if available
-        search_query = f"{product_name} {brand}" if brand else product_name
-        result = self.query_handler.get_product_info(search_query)
+        # Search with just product_name first (brand might already be in the name)
+        result = self.query_handler.get_product_info(product_name)
+
+        # If not found and brand exists but not already in product_name, try with brand
+        if not result.get('found') and brand and brand.lower() not in product_name.lower():
+            search_query = f"{product_name} {brand}"
+            result = self.query_handler.get_product_info(search_query)
 
         # Handle query_handler response format: {'found': True, 'products': [...]}
         if result.get('error'):
@@ -517,9 +521,13 @@ class LLMChatbot:
                 "message": "Produk mana yang ingin dicek harganya?"
             }
 
-        # Build search query with brand if available
-        search_query = f"{product_name} {brand}" if brand else product_name
-        result = self.query_handler.get_product_info(search_query)
+        # Search with just product_name first (brand might already be in the name)
+        result = self.query_handler.get_product_info(product_name)
+
+        # If not found and brand exists but not already in product_name, try with brand
+        if not result.get('found') and brand and brand.lower() not in product_name.lower():
+            search_query = f"{product_name} {brand}"
+            result = self.query_handler.get_product_info(search_query)
 
         # Handle query_handler response format: {'found': True, 'products': [...]}
         if result.get('error'):
@@ -565,9 +573,13 @@ class LLMChatbot:
                 "message": "Produk mana yang ingin diketahui informasinya?"
             }
 
-        # Build search query with brand if available
-        search_query = f"{product_name} {brand}" if brand else product_name
-        result = self.query_handler.get_product_info(search_query)
+        # Search with just product_name first (brand might already be in the name)
+        result = self.query_handler.get_product_info(product_name)
+
+        # If not found and brand exists but not already in product_name, try with brand
+        if not result.get('found') and brand and brand.lower() not in product_name.lower():
+            search_query = f"{product_name} {brand}"
+            result = self.query_handler.get_product_info(search_query)
 
         # Handle query_handler response format: {'found': True, 'products': [...]}
         if result.get('error'):
@@ -610,9 +622,13 @@ class LLMChatbot:
                 "message": "Kata kunci pencarian tidak ditemukan."
             }
 
-        # Build search query with brand if available
-        search_query = f"{product_name} {brand}" if brand else product_name
-        result = self.query_handler.get_product_info(search_query)
+        # Search with just product_name first (brand might already be in the name)
+        result = self.query_handler.get_product_info(product_name)
+
+        # If not found and brand exists but not already in product_name, try with brand
+        if not result.get('found') and brand and brand.lower() not in product_name.lower():
+            search_query = f"{product_name} {brand}"
+            result = self.query_handler.get_product_info(search_query)
 
         # Handle query_handler response format: {'found': True, 'products': [...]}
         if result.get('error'):
@@ -665,21 +681,23 @@ class LLMChatbot:
         color = attributes.get("color") if attributes else None
         size = attributes.get("size") if attributes else None
 
-        # Build search query with product name and brand
-        search_parts = []
-        if product_name:
-            search_parts.append(product_name)
-        if brand:
-            search_parts.append(brand)
-
-        if not search_parts:
+        if not product_name and not brand:
             return {
                 "error": "no_attributes",
                 "message": "Produk atau atribut apa yang dicari?"
             }
 
-        search_query = " ".join(search_parts)
-        result = self.query_handler.get_product_info(search_query)
+        # Search with just product_name first (brand might already be in the name)
+        if product_name:
+            result = self.query_handler.get_product_info(product_name)
+
+            # If not found and brand exists but not already in product_name, try with brand
+            if not result.get('found') and brand and brand.lower() not in product_name.lower():
+                search_query = f"{product_name} {brand}"
+                result = self.query_handler.get_product_info(search_query)
+        else:
+            # Only brand provided
+            result = self.query_handler.get_product_info(brand)
 
         # Handle query_handler response format: {'found': True, 'products': [...]}
         if result.get('error'):

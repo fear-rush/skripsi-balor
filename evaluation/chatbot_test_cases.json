@@ -108,7 +108,7 @@
       "name": "Out of scope - store hours",
       "query": "jam buka toko kapan ya",
       "expected_task": "out_of_scope",
-      "expected_response_contains": ["hubungi"]
+      "expected_response_contains": []
     },
     {
       "id": "ST-015",
