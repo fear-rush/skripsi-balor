@@ -1,0 +1,466 @@
+text,intent,sample_type,noise_level
+ada promo pembayaran,payment_info,keyword_based,medium
+halo ini berapa ya,product_price,keyword_based,high
+Info order 99,order_status,keyword_based,clean
+ready,out_of_scope,ambiguous,clean
+tinggal sedikit ga ya,product_stock,generic,medium
+Itu udah jalan emm blom,order_status,generic,low
+kak out of stock ga please,product_stock,generic,medium
+order ORD-001 gimana statusnya,order_status,keyword_based,medium
+test,out_of_scope,ambiguous,low
+kak pake kartu kredit bsa thx,payment_info,generic,low
+permisi ukuran arctic cozy knit unisex beanie berapa ya,product_description,keyword_based,high
+btw biaya admin berapa thx,payment_info,keyword_based,high
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L awet ga,product_description,generic,medium
+Permisi harga arctic cozy knit unisex beanie berapa ?,product_price,keyword_based,high
+Masih jual omniheat men's solid hooded puffer jacket-blue-yellow-l,product_stock,generic,medium
+info harganya dong,product_price,keyword_based,medium
+Yang saya pesan udah sampai mana,order_status,generic,clean
+Halo baranng cacat ya kak,out_of_scope,keyword_based,medium
+hi uang saya kapan dikembalikan ?,out_of_scope,keyword_based,low
+Omniheat men's solid hooded puffer jacket-blue-yellow-l berapa,product_price,keyword_based,clean
+cek pesanan 12345,order_status,keyword_based,medium
+admin Jaket Puffer Pria OmniHeat Solid Bertudung kosong ga please,product_stock,generic,high
+halo psnan ready kirim kapan ?,order_status,keyword_based,medium
+ubah alamat pengiriman dong,out_of_scope,keyword_based,medium
+bisa bayar shopeepay,payment_info,keyword_based,low
+lewat mana,payment_info,generic,low
+barang rusak,out_of_scope,keyword_based,high
+kak oke thanks,out_of_scope,ambiguous,low
+Berapa lama lagi nyampe,order_status,keyword_based,clean
+cara bayar gimana,payment_info,keyword_based,clean
+permisi ekonomis ga ?,product_price,generic,clean
+ganti ukuran pesanan,out_of_scope,keyword_based,low
+bos info lengkap arctic warmth wool blend socks thx,product_description,keyword_based,clean
+Yang kemarin,out_of_scope,ambiguous,clean
+min ada upddate pesanan 99 pls,order_status,keyword_based,high
+Bisa cod ga,payment_info,keyword_based,medium
+admin gimana harganya ?,product_price,keyword_based,low
+Yg itu,out_of_scope,ambiguous,low
+support qris,payment_info,generic,low
+Brg rusak,out_of_scope,keyword_based,high
+Eh tersedia apa deh,payment_info,generic,low
+ada arctic warmth wool blend socks,product_stock,keyword_based,clean
+Jaket puffer pria omniheat solid bertudung-biru-hijau-l ready stock,product_stock,keyword_based,clean
+Harga arctic cozy knit unisex beanie gimana,product_price,keyword_based,low
+Eh acrtic ya warmth wool blend socks bagus ga sih,product_description,generic,high
+Kak info harga arctic warmth wool blend socks,product_price,keyword_based,medium
+gimana,out_of_scope,ambiguous,clean
+Bos lewat nih apa bisa min,payment_info,generic,high
+hi barang cacat makasih,out_of_scope,keyword_based,medium
+Jaket puffer pria omniheat solid bertudung bisa dipakai untuk apa,product_description,keyword_based,clean
+misi ramah kantong ga jaket puffer pria omniheat osld bertudung,product_price,generic,high
+arctic touchscreen winter gloves ada diskon ga,product_price,keyword_based,low
+itu gimana,out_of_scope,ambiguous,low
+Alamat toko dimana,out_of_scope,keyword_based,medium
+Uang saya kapan dikembalikan,out_of_scope,keyword_based,clean
+permisi terima linkaja thx,payment_info,generic,low
+mau tuker ukuran,out_of_scope,keyword_based,clean
+out of stockk ga,product_stock,generic,low
+import atau lokal Arctic Cozy Knit Unisex Beanie,product_description,generic,high
+mau tau harga arctic touchscreen winter gloves,product_price,keyword_based,low
+hi discontinue belum Arctic Touchscreen Winter Gloves thanks,product_stock,generic,low
+Berat omniheat men's solid deh hooded puffer jacket-blue-yellow-m berapa,product_description,keyword_based,high
+Omniheat men's solid hooded puffer jacket-blue-yellow-m tuh apa sih,product_description,generic,clean
+tersedia Jaket Puffer Pria OmniHeat Solid Bertudung ga,product_stock,keyword_based,clean
+kak mau kembalikan barang min,out_of_scope,keyword_based,clean
+hai bsa langsung dikirim dong,product_stock,generic,high
+Halo bisa ambil langsung ga dong,out_of_scope,keyword_based,high
+order 456 berapa hari lagi,order_status,keyword_based,clean
+btw ada ukuran apa Arctic Touchscreen Winter Gloves deh,product_description,keyword_based,medium
+asli ga Jaket Puffer Pria OmniHeat Solid Bertudung,product_description,generic,low
+pesanan berapa lama sampai,order_status,keyword_based,clean
+Bos out of stock ga ??,product_stock,generic,high
+mau tau harga sama ready ga,out_of_scope,ambiguous,low
+metode pembayaran apa aja,payment_info,keyword_based,medium
+min udah idproses kan blom ya kak,order_status,generic,high
+Itu udah jalan belum,order_status,generic,medium
+btw masih banyak ga Arctic Cozy Knit Unisex Beanie sih,product_stock,generic,medium
+recommended ga Arctci Cozy Knit Unisex Benie,product_description,generic,medium
+Kena berapa arctic touchscreen winter gloves,product_price,keyword_based,high
+Bisa return barang ga,out_of_scope,keyword_based,low
+hai brp lama lagi nyampe ?,order_status,keyword_based,medium
+produk beda sama gambar,out_of_scope,keyword_based,clean
+kapan nyampe ya,order_status,generic,medium
+tersedia Arctic Cozy Knit Unisex Beanie ga ??,product_stock,keyword_based,low
+Metode pembayaran apa aja,payment_info,keyword_based,low
+omniheat men's solid hooded puffer jacket-blue-yellow-m original ga,product_description,generic,low
+eh terjangkau ga dong,product_price,generic,high
+Hi kok belum dateng,order_status,generic,low
+Bos barangnya mana ya deh,order_status,generic,low
+Batalkan order,out_of_scope,keyword_based,medium
+Omniheat men's solid hooded puffer jacket-blue-yellow-m kosong ga,product_stock,generic,medium
+pesanan saya gimana,order_status,keyword_based,medium
+jadi reseller gimana,out_of_scope,keyword_based,low
+bs bayar dana,payment_info,keyword_based,medium
+hi,out_of_scope,ambiguous,clean
+stok berapa,product_stock,keyword_based,low
+Omniheat men's soldi hooded puffer jacket-blue-yellow-l ada fitur apa,product_description,keyword_based,medium
+Pilihan apa saja,payment_info,generic,medium
+transfer gimana,payment_info,keyword_based,clean
+Mau tuker ukuran,out_of_scope,keyword_based,low
+info Arctic Touchscreen Winter Gloves,product_description,keyword_based,medium
+gimana kabar pesanan,order_status,keyword_based,low
+cek pesanan 67890,order_status,keyword_based,low
+hi minimum bayar berapa pls,payment_info,keyword_based,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-l masih ada,product_stock,keyword_based,high
+price arctic cozy knit unisex beanie,product_price,keyword_based,clean
+ready kirim ga ordr gue,order_status,keyword_based,high
+ini berapa ya,product_price,keyword_based,high
+admin cara refund gimana thanks,out_of_scope,keyword_based,medium
+worth it ga Jaket Pufferr Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_price,generic,medium
+barangnya mana ya,order_status,generic,clean
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L murah ga,product_price,generic,clean
+Permisi gmn harganya dong,product_price,keyword_based,medium
+in stock ga omniheat men's solid hooded puffer jacket-blue-yellow-l,product_stock,generic,low
+btw pricey ga omniheat men's solid emm hooded puffer jackt-blue-yellow-m ya kak,product_price,generic,high
+gan lowongan kerja ad ga sih,out_of_scope,keyword_based,high
+tersedia OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L ga,product_stock,keyword_based,clean
+laangsung kirim bisa arctic touchscreen winter gloves,product_stock,generic,low
+affordaable ga arctic touchscreen winter gloves,product_price,generic,medium
+Min ada promo arctic touchscreen winter gloves pls,product_price,keyword_based,low
+Admin ukuran arctic warmth wool blend socks berapa min,product_description,keyword_based,low
+hi berapa lama lagi nyampe min,order_status,keyword_based,medium
+omniheat men's solid hooded puffer jacket-blue-yellow-m bisa dibeli,product_stock,keyword_based,medium
+Bisa transfer bank,payment_info,keyword_based,clean
+mau komplain,out_of_scope,keyword_based,low
+admin stk brp pls,product_stock,keyword_based,medium
+bisa ambil langsung ga,out_of_scope,keyword_based,medium
+Mau tau harga sama ready ga,out_of_scope,ambiguous,clean
+admin status oorder 1 pls,order_status,keyword_based,medium
+lowongan kerja ad ga,out_of_scope,keyword_based,low
+masih banyak ga Arctic Cozy Knit Unisex Beanie,product_stock,generic,clean
+udah berapa lama diproses,order_status,keyword_based,medium
+berat Arctic Touchscreen Witer Gloves berapa,product_description,keyword_based,low
+Permisi bisa transfer bank thanks,payment_info,keyword_based,low
+mau tau harga Arctic Touchscreen Winter Gloves,product_price,keyword_based,clean
+mau kembalikan barang,out_of_scope,keyword_based,medium
+yang tadi,out_of_scope,ambiguous,clean
+misi inf order 1245 ?,order_status,keyword_based,medium
+Mau komplain,out_of_scope,keyword_based,clean
+bos tersedia jaket puffer pria omniheat solid bertudung nih ga ya,product_stock,keyword_based,medium
+info order deh #1,order_status,keyword_based,low
+admin udah berapa lama diproses,order_status,keyword_based,medium
+Halo ganti ukuran psnan deh,out_of_scope,keyword_based,medium
+info harga omniheat men's solid hooded puffer jacket-blue-yellow-l,product_price,keyword_based,high
+ubah alamat pengiriman,out_of_scope,keyword_based,clean
+ini ya,out_of_scope,ambiguous,low
+bisa dapet Arctic Touchscreen Winter Gloves,product_stock,keyword_based,clean
+bos bisa beli jaket puffer pria omniheat solid bertudung-biru-hijau-l sih,product_stock,keyword_based,low
+via apa,payment_info,generic,medium
+ukuran arctic warmth wool blend socks berapa,product_description,keyword_based,high
+abis belum omniheat men's solid hooded puffer jacket-blue-yellow-l,product_stock,generic,low
+Jam buka toko,out_of_scope,keyword_based,low
+Tahan lama ga jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_description,generic,clean
+kemahalan ga Arctic Warmth Wool Blend Socks,product_price,generic,clean
+lewat apa bisa,payment_info,generic,clean
+kak alaat toko dimana ??,out_of_scope,keyword_based,high
+ganti ukuran peasnna,out_of_scope,keyword_based,medium
+Beraa baanyak stok,product_stock,keyword_based,high
+Arctic Warmth Wool Blend Socks waterproof ga,product_description,generic,clean
+tersedia apa,payment_info,generic,medium
+masih banyak ga jaket puffer pria omniheat solid bertudung,product_stock,generic,clean
+Info jaket puffer pria omniheat solid bertudung,product_description,keyword_based,high
+yang dibeli tadi pagi,order_status,generic,clean
+Kak ini berapa ya dong,product_price,keyword_based,low
+Min udah diproses belum ya kak,order_status,generic,clean
+misi stok Jaket eh Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ada ya kak,product_stock,keyword_based,high
+in stock ga Arctic Touchscreen Winter Gloves,product_stock,generic,clean
+Hai deskripsi jaket puffer pria omniheat solid bertudung sih,product_description,keyword_based,medium
+bos ramah kantong ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M please,product_price,generic,high
+Yg saya pesan udah nyampe mana,order_status,generic,low
+eh mau tau harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ya,product_price,keyword_based,medium
+eh kok belum dateng ya kak,order_status,generic,high
+Hai info lengkap arctic touchscreen winter gloves pls,product_description,keyword_based,medium
+misi mau tanya yang kemarin thx,order_status,generic,low
+stok emm berapa harga berapa,out_of_scope,ambiguous,low
+Harga omniheat men's solid hooded puffer jacket-blue-yellow-l gimana,product_price,keyword_based,clean
+opsi apa aja thanks,payment_info,generic,medium
+Gan info lengkap jaket puffer pria omniheat solid bertudung pls,product_description,keyword_based,low
+Hi bingung nih thanks,out_of_scope,ambiguous,low
+Arctic Cozy Knit Unisex Beanie tinggal berapa,product_stock,keyword_based,clean
+Cara refund gimana,out_of_scope,keyword_based,medium
+harga dan stok arctic cozy knit unisex beanie,out_of_scope,ambiguous,low
+Apa,out_of_scope,ambiguous,low
+hai bisa dapet arctic touchscreen winter gloves makasih,product_stock,generic,high
+Hi ga ngerti ya kak,out_of_scope,ambiguous,low
+Yng gue pesan kemaarin itu,order_status,generic,medium
+Caranya gimana,payment_info,generic,clean
+Arctic cozy knit unisex beanie bagus ga ??,product_description,generic,medium
+Lewta apa bisa,payment_info,generic,medium
+order 12345 berapa hari lagi,order_status,keyword_based,medium
+Stook jaket puffer pria omniheat soldi bertudung-biru-hijau-l ada,product_stock,keyword_based,medium
+admin bisa return barang ga pls,out_of_scope,keyword_based,high
+gan yang saya pesan kemarin itu deh,order_status,generic,low
+hai terjangkau ga pls,product_price,generic,medium
+alamat toko dimana,out_of_scope,keyword_based,low
+ada opsi credit card,payment_info,keyword_based,clean
+Ada ppromo artic touchscreen winter gloves,product_price,keyword_based,low
+Itu gimana kan kelanjutannya,order_status,generic,low
+admin arctic warmth wool blend socks mahal ga please,product_price,generic,low
+order ready dikirim kan belum,order_status,keyword_based,medium
+jelasin jaket puffer pria omniheat solid bertudung-biru-hijau-l dong,product_description,generic,clean
+Langsung kirim bisa arctic warmth wool blend socks,product_stock,generic,low
+gimana sih arctic warmth wool blend socks,product_description,keyword_based,low
+Omniheat men's solid hooded puffer jacket-blue-yellow-l masih ada,product_stock,keyword_based,clean
+Ada warna apa arctic touchscreen winter gloves,product_description,keyword_based,medium
+omniheat men's solid hooded puffer jacket-blue-yellow-l gimana,product_description,keyword_based,medium
+Ada kabar order saaya,order_status,keyword_based,medium
+permisi asli ga Arctic Warmth Wool Blend Socks,product_description,generic,high
+arctic touchscreen winter golves harganya berapa,product_price,keyword_based,low
+omniheat men's solid hooded puffer jacket-blue-yellow-l ada diskon ga,product_price,keyword_based,low
+miinimum bayra berapa,payment_info,keyword_based,medium
+permisi worth it ga Jaket Puffer Pria OmniHeat Solid Bertudung makasih,product_price,generic,clean
+spesifikasi jaket puffer pria omniheat solid bertudung,product_description,keyword_based,low
+terus gimana,out_of_scope,ambiguous,clean
+halo mau kerja disini ??,out_of_scope,keyword_based,low
+Udah diproses blom,order_status,generic,medium
+lagi promo ga omniheat men's solid hooded puffer jacket-blue-yellow-l,product_price,generic,medium
+info lengkap omniheat men's solid emm hooded puffer jacket-blue-yellow-l,out_of_scope,ambiguous,low
+available ga arctic cozy knit unisex beanie,product_stock,generic,clean
+yang loh kemarin udah dikirim belm,order_status,generic,medium
+Ada sale ga,product_price,keyword_based,low
+Sisa berapa unit jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_stock,keyword_based,low
+bisa dicuci ga omniheat men's solid hooded puffer jacket-blue-yellow-m,product_description,keyword_based,low
+accept ciciln,payment_info,generic,low
+Arctic Warmth Wool Blend Socks bisa dibeli,product_stock,keyword_based,medium
+pesanan ready kirim kapan,order_status,keyword_based,clean
+Arctic Cozy Knit Unisex Beanie ada diskon ga,product_price,keyword_based,medium
+Tukar barang,out_of_scope,keyword_based,high
+Ad prmoo kan pembayarna,payment_info,keyword_based,medium
+misi cancel pesanan makasih,out_of_scope,keyword_based,high
+hai ready ga jaket puffer pria omniheat solid bertudung ya kak,product_stock,keyword_based,low
+arctic touchscreen wintre gloves awet ga,product_description,generic,low
+Kena berapa jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_price,keyword_based,high
+Arctic Touchscreen Winter Gloves tinggal berapa,product_stock,keyword_based,clean
+asli ga Arctic Warmth Wool Blend Socks,product_description,generic,medium
+Min out of stock ga pls,product_stock,generic,medium
+caranya gimana,payment_info,generic,clean
+ada promo arctic wrmth wol blend socks,product_price,keyword_based,high
+worth it ga beli Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_description,generic,low
+ready transfer sekarang,payment_info,keyword_based,clean
+Min ad kabar order gw dong,order_status,keyword_based,high
+bayar pake apa,payment_info,keyword_based,medium
+gan ready ga arctic warmth wool blend kan socks please,product_stock,keyword_based,low
+kak ada stok arctic cozy knit unisex beanie thx,product_stock,keyword_based,low
+misi ada warna apa Arctic Touchscreen Winter Gloves ya,product_description,keyword_based,high
+yang saya pesan udah sampai mana,order_status,generic,medium
+spesifikasi omniheat men's solid hooded puffer jacket-blue-yellow-l,product_description,keyword_based,low
+Transfer gimana,payment_info,keyword_based,clean
+Tersedia apa,payment_info,generic,medium
+btw worth it ga beli Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ?,product_description,generic,low
+kemahalan ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_price,generic,clean
+affordable ga Arctic Touchscreen Winter Gloves,product_price,generic,clean
+halo arctic touchscreen winter glovees kayak gimana ??,product_description,generic,high
+murahan ga omniheat men's solid hooded puffer jacket-blue-yellow-l,product_price,generic,low
+eh arctic cozy knit unisex beanie keren ga sih,product_description,generic,high
+Omniheat men's solid hooded puffer jacket-blue-yellow-l murah ga,product_price,generic,clean
+berapa banyak stok,product_stock,keyword_based,clean
+recommended ga arctic touchscreen winter gloves,product_description,generic,high
+Barangnya mana ya ya,order_status,generic,medium
+Brg accat,out_of_scope,keyword_based,high
+yang saya emm pesan kemarin itu,order_status,generic,high
+Yang ready apa aja,product_stock,keyword_based,low
+misi bisa ambil langsung ga ??,out_of_scope,keyword_based,medium
+omniheat men's solid hooded puffer jacket-blue-yellow-l murah ga,product_price,generic,clean
+masih banyak ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M,product_stock,generic,clean
+recommended ga Arctic Touchscreen Winter Gloves,product_description,generic,high
+lagi diskon ga,product_price,generic,low
+tolong,out_of_scope,ambiguous,clean
+arctic warmth wool blend socks mahal ga,product_price,generic,low
+arctic cozy knit unisex beanie tuh apa sih,product_description,generic,high
+hai masih banyak ga jaket puffer pria omniheat solid bertudung ??,product_stock,generic,high
+Hi price arctic warmth wool bled loh socks,product_price,keyword_based,medium
+ukuran jaket puffer pria omniheat solid bertudung-biru-hijau-l berapa,product_description,keyword_based,low
+ekonomis ga,product_price,generic,medium
+uang sy kapan dikembalikan,out_of_scope,keyword_based,low
+ada toko offline,out_of_scope,keyword_based,clean
+kapan,out_of_scope,ambiguous,low
+Arctic Warmth Wool Blend Socks tuh apa sih,product_description,generic,low
+Pake gopay bisa,payment_info,generic,clean
+permisi jelasin Jaket Puffer Pria OmniHeat Solid eh Bertudung dong ya,product_description,generic,high
+ada warna apa Arctic Touchscreen Winter Gloves,product_description,keyword_based,low
+Ready stock omniheat men's solid hooded puffer jacket-blue-yellow-m,product_stock,keyword_based,clean
+kok lama ya,order_status,generic,medium
+bos pake apa dong,payment_info,generic,clean
+btw lewt man@ makasih,payment_info,generic,high
+sisa berapa unit Arctic Touchscreen Winter Gloves,product_stock,keyword_based,clean
+ready stock jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_stock,keyword_based,clean
+in stocck ga OmniHeat Men's oSlid Hooded Puffer Jacket-Blue-Yellow-M,product_stock,generic,medium
+masih diproses ya,order_status,generic,low
+Kecewa sama pelayanan,out_of_scope,keyword_based,medium
+Info lengkap jaket puffer pria omniheat solid bertudung,out_of_scope,ambiguous,clean
+jaket puffer pria omniheat solid bertudung tinggal berapa,product_stock,keyword_based,clean
+Budget friendly ga,product_price,generic,medium
+Cancel psnan,out_of_scope,keyword_based,low
+harga jaket puffer pria omniheat solid bertudung-biru-hijau-l gimana,product_price,keyword_based,clean
+halo mau kembalikan barang sih,out_of_scope,keyword_based,high
+Available ga omniheat men's solid hooded puffeer jacket-blue-yellow-m,product_stock,generic,medium
+Berapa banyak stok,product_stock,keyword_based,low
+Arctic Warmth Wool Blend Socks bagus ga,product_description,generic,low
+bisa bayar qris,payment_info,keyword_based,clean
+halo produk beda sama gambar ya,out_of_scope,keyword_based,medium
+metod pembayaran apa aja,payment_info,keyword_based,high
+Halo ramah kantong ga omniheat men's solid hooded puffer jacket-blue-yellow-m ??,product_price,generic,low
+Min ahrag arctic touchscreen winter gloves berapa sih,product_price,keyword_based,low
+Cara nya gimana ya,payment_info,generic,clean
+ukuran arctic cozy knit unisex beanie berapa,product_description,keyword_based,clean
+ada ukuran apa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_description,keyword_based,clean
+hi ready krim ga ordre saya deh,order_status,keyword_based,medium
+gan udah berapa lama diproses ya kak,order_status,keyword_based,low
+berapa lama lagi nyampe,order_status,keyword_based,clean
+kak berat Jaket Puffer Pria OmniHeat Solid Bertudung berapa ??,product_description,keyword_based,medium
+omniheat men's solid hooded puffer jacket-blue-yellow-l ready stock,product_stock,keyword_based,low
+hai berapa please,out_of_scope,ambiguous,low
+arctic cozy knit unisex beanie habis belum,product_stock,generic,clean
+permisi udah jaaln belum sih sih,order_status,generic,low
+info harga Arctic Touchscreen Witer Gloves,product_price,keyword_based,high
+ad opsi credit card,payment_info,keyword_based,high
+cara nya gimana ya,payment_info,generic,clean
+Hai cocok ga arctic touchscreen winter gloves thx,product_description,generic,medium
+review omniheat men's solid hooded pffer jacket-blue-yellow-m,product_description,generic,high
+Kualitasnya gimana jaket puffer pria omniheat solid bertudung,product_description,keyword_based,clean
+Abbyar pake apa,payment_info,keyword_based,low
+cocok ga Arctic Coy Knit Unisex Beanie,product_description,generic,medium
+udah diproses belum,order_status,generic,medium
+ramah kantong ga Arctic Cozy Knit Unisex Beanie,product_price,generic,medium
+hai lewat mana,payment_info,generic,low
+mau kerja disini,out_of_scope,keyword_based,low
+Misi ada info pengiriman 123 pls,order_status,keyword_based,low
+Support bri,payment_info,generic,medium
+lowongan kerja ada ga,out_of_scope,keyword_based,clean
+Berapa harga jaket puffer pria ya omniheat solid bertudung-biru-hijau-l,product_price,keyword_based,medium
+Kok belum dateng,order_status,generic,medium
+halo alamat tokoo dimana ?,out_of_scope,keyword_based,high
+bos yang saya beli kemarin gimana makasih,order_status,generic,low
+Ukuran arctic touchscreen winter gloves berapa,product_description,keyword_based,low
+eh ada promo omniheat men's solid hooded puffer jacket-blue-yellow-m thx,product_price,keyword_based,medium
+lagi promo ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_price,generic,clean
+btw sampe mana ya min,order_status,generic,medium
+hi biaya admin brapa ya kak,payment_info,keyword_based,high
+transfer berapa,payment_info,keyword_based,clean
+gan ready deh kirim ga order saya min,order_status,keyword_based,medium
+misi Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L mahal ga sih,product_price,generic,low
+Masih banyak ga omniheat men's solid hooded puffer jacket-blue-yellow-l,product_stock,generic,medium
+Masih diproses ya,order_status,generic,low
+barang cact,out_of_scope,keyword_based,medium
+Kak ada update pesanan 123 min,order_status,keyword_based,low
+review arctic warmth woool blend oscks,product_description,generic,medium
+hai acccept virtual acount ??,payment_info,generic,medium
+pricey ga arctic touchscreen winter gloves,product_price,generic,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-l murah ga,product_price,generic,clean
+Berat omniheat men's solid hooded puffer jacket-blue-yellow-m berapa thx,product_description,keyword_based,clean
+halo barang rusak,out_of_scope,keyword_based,medium
+admin ready stock arctic cozy knit unisex beanie ?,product_stock,keyword_based,low
+Ada cicilan ga,payment_info,keyword_based,clean
+Ada jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_stock,keyword_based,clean
+Eh stock berapa thx,product_stock,keyword_based,medium
+Ga ngerti,out_of_scope,ambiguous,clean
+Misi pesanan ready kirim kapan thanks,order_status,keyword_based,low
+halo bsa dapet arctic touchscreen winter glves ya kak,product_stock,generic,medium
+lanjut,out_of_scope,ambiguous,clean
+bisa bayar credit card,payment_info,keyword_based,low
+Discontinue belum arctic warmth wool blend socks,product_stock,generic,low
+admin status order 123 thanks,order_status,keyword_based,low
+ada warna apa OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L,product_description,keyword_based,low
+pembayaran ready,payment_info,keyword_based,clean
+barang cacat,out_of_scope,keyword_based,clean
+admin ganti ukuran pesanan min,out_of_scope,keyword_based,low
+belum nyampe nih,order_status,generic,low
+Kak terjangkau ga ??,product_price,generic,medium
+produk tidak sesuai,out_of_scope,keyword_based,clean
+Bos mau tuker ukuran thx,out_of_scope,keyword_based,low
+Arctic cozy knit unisex beanie bagus ga,product_description,generic,low
+btw caranya gmn ya,payment_info,generic,high
+Itu gimana kelanjutannya,order_status,generic,clean
+Sampai manna ya,order_status,generic,low
+omniheat men's solid hooded puffer jacket-blue-yellow-m mahal ga,product_price,generic,clean
+eh uag saya kapan dikembalkian ya kak,out_of_scope,keyword_based,medium
+pake cod bisa,payment_info,generic,medium
+itu aja,out_of_scope,ambiguous,low
+kecewa sama pelayanan,out_of_scope,keyword_based,medium
+eh OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M sold out,product_stock,generic,high
+Gan omniheat men's solid hooded puffer jacket-blue-yellow-m waterproof ga ya kak,product_description,generic,medium
+lagi promo ga Arctic Cozy Knit Unisex Beanie,product_price,generic,medium
+udah diproses eblum,order_status,generic,low
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M bisa dipakai untuk apa,product_description,keyword_based,low
+eh bayar pake apa thanks,payment_info,keyword_based,medium
+Eh kapan nyampe ya ya kak,order_status,generic,low
+gan detail jaket puffer pria omniheat solid bertudung-biru-hijau-l ??,product_description,keyword_based,low
+min bs dapet jaket puffer pria omniheat solid bertudung thanks,product_stock,generic,low
+pricey ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L,product_price,generic,medium
+Gan gimana harganya min,product_price,keyword_based,medium
+minimum bayar berapa,payment_info,keyword_based,clean
+Mau refund,out_of_scope,keyword_based,clean
+status order 789,order_status,keyword_based,clean
+mau refund,out_of_scope,keyword_based,low
+mau tau harga sama ready eh ga,out_of_scope,ambiguous,low
+Bayar gimana caranya,payment_info,keyword_based,high
+ada promo jaket puffer pria omniheat solid bertudung,product_price,keyword_based,high
+btw yang gw pesan udah nyampe mana please,order_status,generic,high
+Ada update pesanan 12345 pls,order_status,keyword_based,low
+Affordable ga jaket puffer pria omniheat solid bertudung,product_price,generic,low
+gan Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L kayak gmana deh,product_description,generic,high
+info harga OmniHeat Men's Solid hmm Hooded Puffer Jacket-Blue-Yellow-M,product_price,keyword_based,low
+review jaket puffer pria omniheat solid bertudung,product_description,generic,high
+yang itu dong,out_of_scope,ambiguous,low
+ready bayar,payment_info,keyword_based,low
+arctic touchscreen winter gloves tuh apa sih,product_description,generic,low
+affordable ga arctic cozy knit unisex beanie,product_price,generic,medium
+support shopeepay,payment_info,generic,clean
+udah berapa lama dipproses,order_status,keyword_based,high
+masih bisa dibeli arctic cozy knit unisex beanie,product_stock,generic,clean
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L berapa,product_price,keyword_based,clean
+program affiliate,out_of_scope,keyword_based,clean
+Jaket Puffer Pria OmniHeat Solid Bertudung murah sih ga,product_price,generic,high
+Arctic Cozy Knit Unisex Beanie bisa dipakai untuk apa,product_description,keyword_based,high
+Masih banyak ga jaket puffer pria omniheat solid bertudung,product_stock,generic,low
+yang kemarin,out_of_scope,ambiguous,low
+misi Jaket Puffer Pria OmniHeat Solid Bertudung bisa dibeli ya,product_stock,keyword_based,medium
+Available ga arctic cozy knit unisex beanie,product_stock,generic,clean
+berapa,out_of_scope,ambiguous,low
+available ga arctic touchscreen winter gloves,product_stock,generic,clean
+pilihan apa saja,payment_info,generic,low
+hi pembayarn ready ?,payment_info,keyword_based,low
+jaket puffer pria omniheat solid bertuudng ker3n ga,product_description,generic,low
+pembayaran readyy,payment_info,keyword_based,medium
+hai kualitasnya gimana Arctic Warmth Wool Blend Socks dong,product_description,keyword_based,medium
+info lengkap arctic touchscreen winter gloves,product_description,keyword_based,medium
+Halo,out_of_scope,ambiguous,low
+Detail arctic warmth wool blend socks,product_description,keyword_based,medium
+Infoo arctic touchscreen winter glovs,product_description,keyword_based,high
+halo ada promo pembayaran ya,payment_info,keyword_based,high
+mau ready bayar,payment_info,keyword_based,clean
+Bos cocok ga arctic touchscreen winter gloves ??,product_description,generic,high
+Via apa,payment_info,generic,clean
+opsi apa aja,payment_info,generic,medium
+ready kirim ga order saya,order_status,keyword_based,low
+bisa dapet jaket puffer pria omniheat solid bertudung,product_stock,generic,medium
+Ada ukuran apa jaket puffer pria omniheat solid bertudung,product_description,keyword_based,clean
+lagi promo ga Arctic Warmth Wool Blend Socks,product_price,generic,clean
+Mau info tentang omniheat men's solid hooded puffer jacket-blue-yellow-m,product_description,keyword_based,low
+proses refund berapa lama,out_of_scope,keyword_based,clean
+Terjangkau ga,product_price,generic,low
+uang saya kapan dikembalikan,out_of_scope,keyword_based,medium
+arctic warmth wool blend socks original ga,product_description,generic,medium
+support transfer bank,payment_info,generic,low
+masih jual Jaket Puffer Pria OmniHeat sih Solid Bertudung,product_stock,generic,low
+hi stock brp min,product_stock,keyword_based,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M bisa dibeli,product_stock,keyword_based,medium
+permisi tersedia arctic warmth wool blend socks ga,product_stock,keyword_based,high
+Omniheat men's solid hooded puffer jacket-blue-yellow-l tuh apa sih,product_description,generic,medium
+Totalnya berapa,product_price,keyword_based,clean
+bos Arctic Touchscreen Winter Gloves kayak gmn please,product_description,generic,low
+eh mau tau hrg Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ?,product_price,keyword_based,high
+Omniheat men's solid hooded puffer jacket-blue-yellow-m habis b3lum,product_stock,generic,medium
+yang saya beli kemarin gimana,order_status,generic,low
+kak stok berapa sih,product_stock,keyword_based,medium
+stok berapa harga berapa,out_of_scope,ambiguous,clean
+lacak roer 789,order_status,keyword_based,high
+Bisa dicuci ga arctic touchscreen winter gloves,product_description,keyword_based,medium
+Bisa pake shopeepay ga,payment_info,keyword_based,clean
+berapa harga jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_price,keyword_based,low
+hai pas di kantong ga dong,product_price,generic,high
+arctic warmth wool blend socks awet ga,product_description,generic,clean
+apa,out_of_scope,ambiguous,clean
+mau tau harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_price,keyword_based,clean

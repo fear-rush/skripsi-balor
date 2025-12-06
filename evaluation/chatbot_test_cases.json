@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "description": "Comprehensive test cases for LLM-based e-commerce chatbot",
+
+  "single_turn_tests": [
+    {
+      "id": "ST-001",
+      "name": "Check order with ID",
+      "query": "cek pesanan 5",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "5"},
+      "expected_response_contains": ["Pesanan", "5"]
+    },
+    {
+      "id": "ST-002",
+      "name": "Check order with ID (informal)",
+      "query": "psen gw 5 gmn?",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "5"},
+      "expected_response_contains": ["Pesanan"]
+    },
+    {
+      "id": "ST-003",
+      "name": "Check stock with product name",
+      "query": "stok beanie masih ada?",
+      "expected_task": "check_stock",
+      "expected_entities": {"product_name": "beanie"},
+      "expected_response_contains": ["beanie"]
+    },
+    {
+      "id": "ST-004",
+      "name": "Check stock with brand",
+      "query": "jaket ready ga?",
+      "expected_task": "check_stock",
+      "expected_entities": {"product_name": "jaket"},
+      "expected_response_contains": ["jaket"]
+    },
+    {
+      "id": "ST-005",
+      "name": "Ask price",
+      "query": "harga beanie berapa?",
+      "expected_task": "ask_price",
+      "expected_entities": {"product_name": "beanie"},
+      "expected_response_contains": ["Rp", "89"]
+    },
+    {
+      "id": "ST-006",
+      "name": "Ask price (informal)",
+      "query": "brp hrg jaket?",
+      "expected_task": "ask_price",
+      "expected_entities": {"product_name": "jaket"},
+      "expected_response_contains": ["Rp"]
+    },
+    {
+      "id": "ST-007",
+      "name": "Ask payment methods",
+      "query": "bisa bayar pake apa aja?",
+      "expected_task": "ask_payment",
+      "expected_response_contains": ["Cash", "Transfer"]
+    },
+    {
+      "id": "ST-008",
+      "name": "Ask payment (informal)",
+      "query": "cara bayar gimana sih",
+      "expected_task": "ask_payment",
+      "expected_response_contains": ["bayar"]
+    },
+    {
+      "id": "ST-009",
+      "name": "Product info",
+      "query": "info produk beanie dong",
+      "expected_task": "product_info",
+      "expected_entities": {"product_name": "beanie"},
+      "expected_response_contains": ["beanie"]
+    },
+    {
+      "id": "ST-010",
+      "name": "Product list",
+      "query": "produk ada apa aja?",
+      "expected_task": "product_list",
+      "expected_response_contains": ["produk"]
+    },
+    {
+      "id": "ST-011",
+      "name": "Search product",
+      "query": "cari jaket dong",
+      "expected_task": "search_product",
+      "expected_entities": {"product_name": "jaket"},
+      "expected_response_contains": ["jaket"]
+    },
+    {
+      "id": "ST-012",
+      "name": "Product by category",
+      "query": "produk fashion ada apa?",
+      "expected_task": "product_by_category",
+      "expected_entities": {"category": "fashion"},
+      "expected_response_contains": ["produk"]
+    },
+    {
+      "id": "ST-013",
+      "name": "Out of scope - refund",
+      "query": "mau refund dong barang rusak",
+      "expected_task": "out_of_scope",
+      "expected_response_contains": []
+    },
+    {
+      "id": "ST-014",
+      "name": "Out of scope - store hours",
+      "query": "jam buka toko kapan ya",
+      "expected_task": "out_of_scope",
+      "expected_response_contains": ["hubungi"]
+    },
+    {
+      "id": "ST-015",
+      "name": "Check completed order",
+      "query": "pesanan 8 udah sampai belum?",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "8"},
+      "expected_response_contains": ["Pesanan", "Selesai"]
+    },
+    {
+      "id": "ST-016",
+      "name": "Check cancelled order",
+      "query": "status order 10",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "10"},
+      "expected_response_contains": ["Pesanan", "Dibatalkan"]
+    },
+    {
+      "id": "ST-017",
+      "name": "Check processing order",
+      "query": "pesanan saya 5 udah diproses?",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "5"},
+      "expected_response_contains": ["Pesanan", "#5"]
+    },
+    {
+      "id": "ST-018",
+      "name": "Check non-existent order",
+      "query": "cek order 999",
+      "expected_task": "check_order",
+      "expected_entities": {"order_id": "999"},
+      "expected_response_contains": ["tidak ditemukan"]
+    },
+    {
+      "id": "ST-019",
+      "name": "Product with attributes",
+      "query": "ada jaket warna hitam?",
+      "expected_task": ["check_stock", "product_by_attribute"],
+      "expected_entities": {"product_name": "jaket"},
+      "expected_response_contains": []
+    },
+    {
+      "id": "ST-020",
+      "name": "Multi-intent query",
+      "query": "stok beanie ada ga? kalo ada harga berapa?",
+      "expected_task": "check_stock",
+      "expected_multi_intent": ["ask_price"],
+      "expected_response_contains": ["beanie"]
+    }
+  ],
+
+  "multi_turn_tests": [
+    {
+      "id": "MT-001",
+      "name": "Order status with clarification",
+      "turns": [
+        {
+          "user": "cek pesanan dong",
+          "expect_clarification": true,
+          "expected_task": "check_order",
+          "expected_response_contains": ["nomor", "pesanan"]
+        },
+        {
+          "user": "5",
+          "expect_clarification": false,
+          "expected_task": "check_order",
+          "expected_entities": {"order_id": "5"},
+          "expected_response_contains": ["Pesanan", "#5"]
+        }
+      ]
+    },
+    {
+      "id": "MT-002",
+      "name": "Order status with hash in ID",
+      "turns": [
+        {
+          "user": "cek status pesanan",
+          "expect_clarification": true,
+          "expected_task": "check_order"
+        },
+        {
+          "user": "#8",
+          "expect_clarification": false,
+          "expected_task": "check_order",
+          "expected_entities": {"order_id": "8"},
+          "expected_response_contains": ["Pesanan", "Selesai"]
+        }
+      ]
+    },
+    {
+      "id": "MT-003",
+      "name": "Order status informal clarification",
+      "turns": [
+        {
+          "user": "pesen gue mana ya",
+          "expect_clarification": true,
+          "expected_task": "check_order"
+        },
+        {
+          "user": "nomor 5",
+          "expect_clarification": false,
+          "expected_task": "check_order",
+          "expected_response_contains": ["Pesanan"]
+        }
+      ]
+    },
+    {
+      "id": "MT-004",
+      "name": "Product inquiry then price",
+      "turns": [
+        {
+          "user": "stok beanie ada ga?",
+          "expect_clarification": false,
+          "expected_task": "check_stock",
+          "expected_response_contains": ["beanie"]
+        },
+        {
+          "user": "harganya berapa?",
+          "expect_clarification": false,
+          "expected_task": "ask_price",
+          "expected_response_contains": ["Rp"]
+        }
+      ]
+    },
+    {
+      "id": "MT-005",
+      "name": "Three turn conversation",
+      "turns": [
+        {
+          "user": "mau cek pesanan",
+          "expect_clarification": true,
+          "expected_task": "check_order"
+        },
+        {
+          "user": "5",
+          "expect_clarification": false,
+          "expected_task": "check_order",
+          "expected_response_contains": ["Pesanan"]
+        },
+        {
+          "user": "cara bayar gimana?",
+          "expect_clarification": false,
+          "expected_task": "ask_payment",
+          "expected_response_contains": ["bayar"]
+        }
+      ]
+    }
+  ],
+
+  "error_tests": [
+    {
+      "id": "ERR-001",
+      "name": "Non-existent order",
+      "query": "cek pesanan 999999",
+      "expected_task": "check_order",
+      "expected_error": true,
+      "expected_response_contains": ["tidak ditemukan"]
+    },
+    {
+      "id": "ERR-002",
+      "name": "Non-existent product",
+      "query": "harga iphone 15 berapa?",
+      "expected_task": "ask_price",
+      "expected_response_contains": ["tidak ditemukan"]
+    }
+  ]
+}

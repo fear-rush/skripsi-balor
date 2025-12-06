@@ -1,0 +1,310 @@
+{
+  "timestamp": "2025-12-06T03:47:11.441604",
+  "model": "Qwen2.5-3B-Instruct-GGUF (Q8_0)",
+  "runtime": "macOS 14.4.1 - arm",
+  "backend": "Native llama.cpp (Homebrew) + Metal GPU",
+  "total_queries": 16,
+  "latency_stats": {
+    "mean": 2.769013002514839,
+    "std": 0.5221523274045871,
+    "min": 2.5232439041137695,
+    "max": 4.775569200515747,
+    "median": 2.6510534286499023
+  },
+  "results": [
+    {
+      "query": "stok jaket biru masih ada ga?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "jaket biru",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 4.775569200515747
+    },
+    {
+      "query": "ready stock sepatu nike size 42?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "size 42",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.7241921424865723
+    },
+    {
+      "query": "harga tas ransel berapa?",
+      "result": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6592319011688232
+    },
+    {
+      "query": "ada diskon gak untuk laptop asus?",
+      "result": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "laptop asus",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.7064831256866455
+    },
+    {
+      "query": "pesanan saya 12345 udah sampai mana?",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "12345",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.673205852508545
+    },
+    {
+      "query": "order gue kapan nyampe ya",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.527773857116699
+    },
+    {
+      "query": "bisa bayar pake gopay ga?",
+      "result": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "gopay",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.607914924621582
+    },
+    {
+      "query": "cara bayar gimana sih",
+      "result": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.525068998336792
+    },
+    {
+      "query": "spek laptop lenovo yang ini gimana?",
+      "result": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop lenovo",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6128969192504883
+    },
+    {
+      "query": "bahan kaos ini apa ya",
+      "result": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "kaos",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6049280166625977
+    },
+    {
+      "query": "stok hp samsung ada ga? kalo ada harga berapa?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6428749561309814
+    },
+    {
+      "query": "jaket ini ready ga? gimana cara bayarnya?",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": "jaket",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_payment"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6701231002807617
+    },
+    {
+      "query": "mau refund dong barang rusak",
+      "result": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.5232439041137695
+    },
+    {
+      "query": "jam buka toko kapan ya",
+      "result": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6354939937591553
+    },
+    {
+      "query": "brp hrg sepatu nike?",
+      "result": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.6725640296936035
+    },
+    {
+      "query": "psen gw 99871 gmn?",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "99871",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.742643117904663
+    }
+  ]
+}

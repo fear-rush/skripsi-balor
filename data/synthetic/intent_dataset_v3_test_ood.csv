@@ -1,0 +1,483 @@
+text,intent,noise_level,split
+spec Arctic Frost Winter Accessories,product_description,clean,test
+bos apa kabar ?,out_of_scope,low,test
+beraa ya hrgnya arctic,product_price,medium,test
+gan hai pls,out_of_scope,medium,test
+Warna lain gaya ada,product_stock,medium,test
+Eh kira kira knit itu harganya berapa ya kak min,product_price,medium,test
+socks kyk gmn,product_description,clean,test
+Permisi kualitas arctic touchscreen winter gloves,product_description,medium,test
+drosphip bisa ga,out_of_scope,medium,test
+arctic bliss stylish winter scarf murah ga,product_price,high,test
+Brg gw 222 dmn,order_status,clean,test
+Gaya brp sih,product_price,clean,test
+Jam operasional,out_of_scope,low,test
+arctic eh tersedia ga,product_stock,medium,test
+halo syal musim dingin arctic bliss penuh gaya berapa harganya ya thanks,product_price,medium,test
+Socks original ga,product_description,high,test
+Kak bisa bayar ovo ga,payment_info,clean,test
+tracking order nomor gitu 123,order_status,low,test
+Bos hrg beanie sih,product_price,high,test
+available bni ga,payment_info,low,test
+Halo stock available jaket puffer pria omniheat solid bertudung ya kak,product_stock,medium,test
+Ubah alamat pengiriman,out_of_scope,medium,test
+Stok jaket puffer pria omniheat solid bertudung abis blm,product_stock,high,test
+min produk beda sama gambar sih,out_of_scope,high,test
+min pesanan saya sudah diproses belum min,order_status,clean,test
+hrg kaki brp,product_price,medium,test
+Kerjasama bisnnis,out_of_scope,low,test
+bang cara refund gimana pls,out_of_scope,clean,test
+Bang orderan 456 posisinya dimana sih,order_status,high,test
+Kak mau tanya pesanan saya dengan nomor 222 sudah diproses belum ya,order_status,clean,test
+Cek status pesanan 999,order_status,low,test
+Btw kerjaasma bisnis ??,out_of_scope,high,test
+mau tau lebih detail tentang gloves,product_description,clean,test
+ordr psnan 999 udah diproses blom,order_status,medium,test
+Hai mau cek status pesanan nih,order_status,low,test
+Baranngnya aku kpn sampai,order_status,medium,test
+Mtode payment,payment_info,medium,test
+kak bsa bayar qrsi ga,payment_info,medium,test
+solid gmn sih,product_description,clean,test
+frost awet ga,product_description,clean,test
+permisi bs tf ga nih,payment_info,low,test
+kak mau beli bertudung-biru-kuning-m berapa harganya makasih,product_price,clean,test
+Lacak pesanan nomor 555,order_status,medium,test
+permisi refund deh ke rekening mana min,out_of_scope,medium,test
+halo halo min mau tanya dong pesanan saya nomor 222 itu udah sampai mana ya ya kak,order_status,medium,test
+kak mau tanya pesanan saya dengan nomor nomor 123 sudah diproses belum ya,order_status,clean,test
+halo min mau tanya dong pesanan saya nomor pesanan 999 itu udah sampai mana ya,order_status,high,test
+Support bri,payment_info,high,test
+Bisa aaambil langsung ga,out_of_scope,high,test
+selamat siang admin saya mau cek status pesanan nomor nomor 123,order_status,low,test
+Material touchscreen,product_description,low,test
+halo berat touchscreen thanks,product_description,clean,test
+harga socks berapa,product_price,clean,test
+Mas arctic bliss stylish winter scarf kosong ga ??,product_stock,high,test
+Dtl jacket-blue-yellow-m,product_description,clean,test
+Tolong jelasin tentang jaket puffer pria omniheat solid bertudung dong,product_description,medium,test
+ada promo solid ga,product_price,clean,test
+Mba sarung ready?,product_stock,high,test
+Sis ada promo hmm cicilan ga deh,payment_info,high,test
+Touchscreen ada sertifikat ga,product_description,medium,test
+Arctic touchscreen winter gloves brpan,product_price,low,test
+solid kosong ga,product_stock,medium,test
+btw unisex mahal ga gitu thx,product_price,medium,test
+sarung emm habis belum,product_stock,low,test
+permisi bisa pake qris ga thanks,payment_info,medium,test
+hi bayar pake apa makasih,payment_info,high,test
+available bayar di tempat ga,payment_info,clean,test
+gan pembayaran tersedia apa aja nih,payment_info,low,test
+sis tambah item ke pesanan ?,out_of_scope,high,test
+hi lowongan kerja ada ga dong,out_of_scope,clean,test
+glovse kosong ga,product_stock,medium,test
+lacak pesanan #1,order_status,clean,test
+eh min tlng lacak ordr 789 dong thx,order_status,low,test
+frost terbuat dari apa,product_description,high,test
+Sis touchscreen ukuran m ada ga please,product_stock,medium,test
+Byr dmn,payment_info,low,test
+Gan min ino lengkp arctic dong sih,product_description,high,test
+mau tau harga jaket puffer pria omniheat solid bertudung,product_price,clean,test
+kisaran harga touchscreen,product_price,low,test
+Misi min stok beanie masih ada ?,product_stock,medium,test
+Perisi kak utk pembayaran tersedia metode apa saj@,payment_info,high,test
+admin harga normal musim berapa deh,product_price,low,test
+Kak jaket puffer pria omniheat solid bertudung-biru-hijau-l masih ad ga stocknya,product_stock,low,test
+Kapan pesanan nomor 123 hmm sampai,order_status,low,test
+kak boleh tau spesifikasi bertudung-biru-hijau-m tidak,product_description,low,test
+order ya gue #1 mana,order_status,high,test
+Syal Musim Dingin AArctic Bliss Penuh Gya waterproof ga,product_description,high,test
+touchscreen ada sertifikat ga,product_description,clean,test
+Kapan pesanan pesanan 999 sampai,order_status,low,test
+dropship bsa ga,out_of_scope,high,test
+jacket-blue-yellow-m kosong ga,product_stock,low,test
+admin bisa cek pesanan pesanan 999 ga,order_status,low,test
+Harga frost berapa,product_price,low,test
+tolong jelasin tentang arctic bliss stylish winter scarf dong,product_description,high,test
+stok kaki masih banyak ga,product_stock,high,test
+stok beanie size s,product_stock,clean,test
+Support ewallet ga,payment_info,low,test
+info solid,product_description,medium,test
+barang saya kapan sampai,order_status,medium,test
+Tarif kaki,product_price,medium,test
+Kualitas arctic touchscreen winter gloves,product_description,clean,test
+sarung brpan,product_price,clean,test
+Ketersediaan gaya,product_stock,clean,test
+Pesanan belom smapai juag,order_status,high,test
+mau tau lebih detail tentang solid,product_description,low,test
+Socks ready stock,product_stock,medium,test
+Jaket puffer pria eh omniheat solid bertudung gmn sih,product_description,low,test
+stok Syal Musim Dingin Arctic Bliss Penuh Gaya abis blm,product_stock,high,test
+btw stok tersedia touchscreen nih,product_stock,medium,test
+Penjelasan socks,product_description,clean,test
+Solid gmn sih,product_description,clean,test
+sis min harga touchscreen brp deh,product_price,low,test
+informasi lengkap frost,product_description,clean,test
+Barang gw kapan sampe,order_status,high,test
+bertudung-biru-hijau-m kosong ga,product_stock,clean,test
+hi kiriman kan saya mana ya sih,order_status,low,test
+paket #1 udah jalan belum,order_status,low,test
+metode bayar apa aja,payment_info,medium,test
+Bertudung-biru-kuning-m bisa dibeli emm ga,product_stock,low,test
+ad stok musim g,product_stock,medium,test
+Tentang socks,product_description,medium,test
+permisi garansi nih jaket puffer pria omniheat solid bertudung ya,product_description,high,test
+orderan #1 posisinya dimana,order_status,low,test
+arctic msh ad?,product_stock,low,test
+mau tanya untuk pembayarannya bsia pakai metode apa aja ya,payment_info,medium,test
+tolong jelasin tentang AArctic Bliss Stylish Winter Scarf dong,product_description,medium,test
+eh permisi kak orderan saya yang nomor 123 kok belum dateng ??,order_status,medium,test
+halo min mau tanya dong kiriman saya nomor 789 ya itu udah sampi mana ya,order_status,high,test
+halo arctic ukurannya apa aja tolong,product_description,medium,test
+maaf ganggu mau cek status order pesanan 999 dong,order_status,clean,test
+kak boleh tau spesifikasi frost tidak,product_description,medium,test
+Mau nanya fitur solid apa aja,product_description,low,test
+mba permisi kak buat pembayaran tersedia metode apa saja,payment_info,low,test
+hai Jaket Puffer Pria OmniHeat deh Solid Bertudung brp sih tolong,product_price,high,test
+Arctic bliss stylish winter scarf brp duit,product_price,clean,test
+gan brg 789 dmn nih,order_status,high,test
+mba benaie haibs belum pls,product_stock,low,test
+Program affiliate,out_of_scope,low,test
+Cek stok bertudung-biru-kuning-m,product_stock,medium,test
+Status paket nomor 123,order_status,clean,test
+gan ada cicilan ga pls,payment_info,low,test
+cek orderan nomor 123,order_status,low,test
+Hi kiriman #1 dimana pls,order_status,clean,test
+Hi mau refund makasih,out_of_scope,low,test
+Kak jaket puffer pria omniheat solid bertudung terbuat dari bahan apa ya,product_description,low,test
+permisi kak oredran saya eh yang noomr 555 kok belum dateng,order_status,low,test
+halo cost jacket-blue-yellow-m sih,product_price,medium,test
+kak socks ready stock ?,product_stock,medium,test
+misi mau cek status pesanan dong,order_status,high,test
+terima pembayran apa,payment_info,medium,test
+Bisa dijelasin tentang produk frost dong,product_description,low,test
+Bos sarung kyk gmn pls,product_description,low,test
+bang permisi kak orderan saya yng #1 kok belum dateng,order_status,low,test
+eh knit berapa harganya ya thanks,product_price,high,test
+boleh tau harga bertudung-biru-kuning-m tidak,product_price,low,test
+pesanan gw nomor 123 kemana,order_status,clean,test
+halo order sayya kok lama deh,order_status,medium,test
+permisi apa kabar pls,out_of_scope,high,test
+gan mau tanya untuk pembayarannya bisa pakai metode apa aja ya thx,payment_info,low,test
+Mau tau orderan nomor 555 udah sampe mana,order_status,low,test
+min harga arctic bliss stylish winter scarf berapa,product_price,medium,test
+btw dropsip bisa ga min,out_of_scope,high,test
+Bos bisa bayar pakai bayar di tempat sih,payment_info,low,test
+accept va gak,payment_info,clean,test
+Kualitas jelek ?,out_of_scope,low,test
+cek stok beanie,product_stock,medium,test
+Gan jacket-blue-yellow-m hrgnyanya brapa ?,product_price,medium,test
+tentang frost,product_description,clean,test
+min info lengkap arctic dong,product_description,medium,test
+brp Arctic Touchscreen Winter Gloves,product_price,clean,test
+Stok tersedia beanie,product_stock,low,test
+Mba min stok jacket-blue-yellow-m m4sih ada tolong,product_stock,low,test
+permisi spec Jaket Puffer Pria OmniHeat Solid Bertudung nih,product_description,high,test
+halo admin ssolid dijual berapa sih,product_price,low,test
+spesiifkasi kakki,product_description,medium,test
+Orderan 456 dimana psisinya,order_status,medium,test
+mba ada promo Arctic Bliss Stylish Winter Scarf ga sih,product_price,high,test
+admin kaki dijual berapa,product_price,clean,test
+Gloves ukurannya apa aja,product_description,clean,test
+Mba harga normal gloves berapa pls,product_price,low,test
+Jaket Puffer Pria OmniHeat Solid Bertudung habis belum,product_stock,medium,test
+min bisa mandiri ga kak please,payment_info,high,test
+Batalkan oderr,out_of_scope,medium,test
+kak musim brp duit thx,product_price,low,test
+warna lain kaki ada,product_stock,clean,test
+cek harga frost,product_price,medium,test
+harga unisex sekarang,product_price,low,test
+socks bgmn,product_description,clean,test
+bayar di tepat bisa,payment_info,low,test
+unisex brpan,product_price,high,test
+Price list jacket-blue-yellow-m,product_price,low,test
+bang size L arctic ready pls,product_stock,clean,test
+Unisex ada sertifikat ga,product_description,low,test
+Orderanan gw kok ga nyampe,order_status,low,test
+Min stok arctic frost witer accessories masih ada,product_stock,medium,test
+admin musim dijual berapa,product_price,low,test
+mau tau harga kaki,product_price,clean,test
+terima mandiri nih tidak,payment_info,low,test
+beanie import atau lokal,product_description,low,test
+Gloves ukuran m ada ga,product_stock,medium,test
+info produk arctic bliss stylish winter scarf,product_description,low,test
+Bertudung-biru-kuning-m original ga,product_description,clean,test
+Sarung mahal ga,product_price,medium,test
+Availability musim,product_stock,low,test
+Hi gaya awet ga please,product_description,low,test
+review sarung,product_description,clean,test
+Stok beanie size s,product_stock,clean,test
+kok lama bgt order 789,order_status,low,test
+Range harga knit,product_price,medium,test
+halo pembayaran via apa ya,payment_info,low,test
+garansi bertudung-biru-kuning-m,product_description,low,test
+Sis harga unisex sekarang please,product_price,high,test
+Hai cuaca kan hari ini gimana ??,out_of_scope,high,test
+hai stok arctic size S pls,product_stock,medium,test
+cek dong pesanan pesanan 999 udah diproses belum,order_status,low,test
+mau bayar pake linkaja,payment_info,clean,test
+sisa knit berapa,product_stock,clean,test
+ada touchscreen ga,product_stock,low,test
+Selamat siang admin saya mau cek status pesanan nomor pesanan 999,order_status,low,test
+spec arctic apa,product_description,low,test
+Mau tanya apakah syal musim dingin arctic bliss penuh gaya masih tersedia stoknya,product_stock,medium,test
+Arctic frost winter accessories dijual berapa,product_price,clean,test
+kak brp Jaket Puffer gitu Pria OmniHeat Soild Bertudung ya kak,product_price,high,test
+Hrg bertudung-biru-hijau-m,product_price,clean,test
+Dtl sarung,product_description,low,test
+Berapa harga jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_price,low,test
+arctic bliss stylish winter scarf all size ready ga,product_stock,low,test
+Admin bisa cek pesanan 456 ga,order_status,low,test
+dimensi touchscreen,product_description,clean,test
+min bs credit card g tolong,payment_info,low,test
+pake cod bs?,payment_info,low,test
+permisi kak orderan saya yang 789 kok belum dateng ya kak,order_status,low,test
+frost msh ready,product_stock,clean,test
+Jaket puffer pria deh omniheat solid bertudung murah g,product_price,medium,test
+hai bisa ambil langsung ga thx,out_of_scope,low,test
+min stok socks masih ada,product_stock,low,test
+kak arctic frost winter accessories masih ada ga stoknya,product_stock,clean,test
+diskon gaya berapa persen,product_price,medium,test
+min info lengkap socks dong,product_description,clean,test
+Jaket puffer pria omniheat solid bertudung kyk gmn,product_description,low,test
+produk sama beda gambar,out_of_scope,medium,test
+Beanie harga promo berapa,product_price,clean,test
+Terima virtual account tidak,payment_info,high,test
+harga arctic bliss stylish winter scarf berapa,product_price,clean,test
+Mau tanya dong harga bertudung-biru-hijau-m yang ada di toko berapa ya,product_price,clean,test
+deskripsi musim,product_description,medium,test
+jaket puffer pri omnihet solid bertudung-biru-hijau-l harga promo berapa,product_price,medium,test
+hai halo min mau tanya dong pseanan saya nomor 789 itu udah sampai mana ya thx,order_status,high,test
+Bayar pake apa sih ya kak,payment_info,high,test
+bertudung-biru-kuning-m ukurannya apa aja,product_description,clean,test
+Order 789 udah diproses belum,order_status,clean,test
+kak sarung masih ada ga stocknya,product_stock,low,test
+support debit,payment_info,clean,test
+sis mau tau lebih detail tentang gaya thanks,product_description,medium,test
+bisa pake linkaja ga,payment_info,low,test
+berapa ya harga Arctic Bliss Stylish Winter Scarf,product_price,clean,test
+ada unisex ga,product_stock,clean,test
+gaya seperti apa,product_description,clean,test
+Bang mau bayar pake va thanks,payment_info,medium,test
+Syal musim dingin arctic bliss penuh gaya bagus ga,product_description,clean,test
+mau bayar pake gopay,payment_info,low,test
+Bang price list arctic frost winter accessories ?,product_price,low,test
+Permisi mau nanya harga untuk jaket puffer pria omniheat solid bertudung berapa ya,product_price,clean,test
+stok unisex abis blm,product_stock,medium,test
+hai gaya ukuran M ada ga thanks,product_stock,clean,test
+Halo min stok knit masih ada sih,product_stock,low,test
+Beanie bagus ga,product_description,medium,test
+Knit restock kapan,product_stock,clean,test
+spec musim,product_description,clean,test
+availability solid,product_stock,medium,test
+Kak bisa bayar qris ga,payment_info,medium,test
+btw cuaca hari ini gimana,out_of_scope,clean,test
+unisex brp sih,product_price,medium,test
+Fitur sarung,product_description,medium,test
+Syal musim dingin arctic bliss penuh gaya brp duit,product_price,clean,test
+terima cicilan tidak,payment_info,clean,test
+Min info lengkap knit dong,product_description,clean,test
+stok touchscreen masih banyak ga,product_stock,clean,test
+Kualitas jacket-blue-yellow-m,product_description,medium,test
+arctc original ga,product_description,low,test
+permisi apakah stock Arctic Bliss Stylish Winter Scarf masih tersedia,product_stock,low,test
+info Syal Musim Dingin Arctic Bliss Penuh Gaya,product_description,medium,test
+bang review Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ya,product_description,low,test
+Socks waterproof ga,product_description,low,test
+Mau komplaiin,out_of_scope,high,test
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,clean,test
+Jaket Puffer Pria OmniHeat Solid Bertudung harga promo berapa,product_price,clean,test
+hai stok bertudung-biru-kuning-m masih banyak ga please,product_stock,low,test
+stok frost size s,product_stock,medium,test
+admin touchscreen ready ga,product_stock,clean,test
+Mba edit pesanan thanks,out_of_scope,high,test
+sis proses refund berapa lama deh,out_of_scope,clean,test
+mau beli kaki berapa harganya,product_price,clean,test
+Availability unisex,product_stock,high,test
+Boleh tau harga jacket-blue-yellow-m tidak,product_price,clean,test
+Ibsa tranfer bank,payment_info,low,test
+priice jaket puffer pria omniheat solid bertudung,product_price,medium,test
+Stok beanie abis blm,product_stock,clean,test
+Kaki murah ga,product_price,low,test
+Bsa bayra pakai kartu kredit,payment_info,high,test
+metode bayar sih apa aja,payment_info,high,test
+warna lain Jaket Puffer Pria OmniHeat Solid Bertudung ada,product_stock,clean,test
+ada pomo agya ga,product_price,medium,test
+sis arctic ad sertifikat ga nih,product_description,low,test
+admin spec arctic touchscreen winter gloves apa min,product_description,high,test
+kak bisa bayar ovo ga,payment_info,clean,test
+Jaket Puffer Pria OmniHeat Solid Bertudung sold out?,product_stock,low,test
+touchscreen terbuat dari apa,product_description,low,test
+Gan accept cash ga min,payment_info,medium,test
+spesifikasi frost,product_description,low,test
+unisex restock kapan,product_stock,low,test
+mas cara bayar gmn,payment_info,high,test
+touchscreen kyk gmn,product_description,clean,test
+Orderan #1 posisinya dimana,order_status,medium,test
+min mau kembalikan barang nih,out_of_scope,clean,test
+status pengiriman 456,order_status,clean,test
+Warna lain gloves ada,product_stock,clean,test
+mau bayar pake ovo,payment_info,high,test
+ad knit g,product_stock,clean,test
+Halo unisex harga promo brp ??,product_price,medium,test
+Knit brp duit,product_price,clean,test
+kapan pesanan nomor 123 sampai,order_status,low,test
+Status order 456,order_status,medium,test
+Tracking pesanan 456,order_status,medium,test
+Syal musim dingin arctic bliss penuh gaya murah ga,product_price,clean,test
+Bertudung-biru-kuning-m berapa duit,product_price,clean,test
+kualitas unisex,product_description,low,test
+arctic frost winter accessories hmm rdy g,product_stock,low,test
+Ada promo touchscreen ga,product_price,clean,test
+permisi bisa pake qris ya kak,payment_info,low,test
+misi status pengiriman nomor 123,order_status,high,test
+ad arctic bliss stylish winter scarf g,product_stock,clean,test
+dtl Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_description,low,test
+arctic waterproof ga,product_description,low,test
+sis ada promo touchscreen ga ya kak,product_price,clean,test
+tracking orderan #1,order_status,low,test
+Dtl syal musim dingin arctic bliss penuh gaya,product_description,clean,test
+arctic touchscreen winter gloves brp sih,product_price,medium,test
+Gan touchscreen bsa dibeli ga,product_stock,medium,test
+misi Arctic Touchscreen Winter Gloves all size ready ga sih,product_stock,high,test
+hi garansi arctic frost winter accessories ya,product_description,low,test
+cek status pesanan 999,order_status,medium,test
+stock Arctic Frosst Winter Accessories masih banyak ga,product_stock,high,test
+bos gaya nih seperti apa ?,product_description,medium,test
+accept qris ga,payment_info,clean,test
+arctic bliss stylish winter scarf brp sih,product_price,clean,test
+mas apa kabar makasih,out_of_scope,low,test
+cek emm harga knit,product_price,low,test
+bertudung-biru-kuning-m brpan,product_price,low,test
+Sis available virtual account ga min,payment_info,high,test
+kak mau beli kaki masih ada stok ga,product_stock,clean,test
+Arctic Touchscreen Winter Gloves lagi diskon ga,product_price,low,test
+udah dikirim blm 222,order_status,clean,test
+Status order #1,order_status,medium,test
+Btw estimasi pengiriman order #1 ya kak,order_status,low,test
+musim masih ada,product_stock,low,test
+mas solid msh ready tolong,product_stock,clean,test
+Arctic murah g,product_price,medium,test
+Kak gloves import atau lokal min,product_description,low,test
+Kak mau tanya pesanan saya dengan nomor 789 sudah diproses belum ya,order_status,low,test
+Arctic ada ga sertifikat,product_description,high,test
+Harga normal solid berapa,product_price,low,test
+availaable socks,product_stock,medium,test
+solid all size ready ga,product_stock,clean,test
+harga gaya berapa,product_price,low,test
+cara pakai Arctic Touchscreen Winter Gloves,product_description,low,test
+Halo bisa pake mandiri ga sih,payment_info,medium,test
+gan mana nih orderan gw sih,order_status,low,test
+hi mau tanya untuk pembayarannya bisa pakai metode apa aja ya thanks,payment_info,low,test
+bs tf ya ga,payment_info,high,test
+eh refund ke rekenig mana dong,out_of_scope,high,test
+selamat siang admin saya mau cek status pesanan nomor #1,order_status,medium,test
+kak hmm mau beli bertudung-biru-kuning-m masih ad stock ga,product_stock,medium,test
+uah alamt kan pengiriman,out_of_scope,high,test
+Pesanan nomor 123 udah sampai mana,order_status,low,test
+Available socks,product_stock,low,test
+pesanan nomor 123 udah smp mana,order_status,medium,test
+harga jual Jaket Puffer Pria OmniHeat Solid Bertudung,product_price,high,test
+tracking pesanan 789,order_status,medium,test
+Refund ke rekening nih mana ?,out_of_scope,low,test
+info produk jaket puffer pria omniheat solid sih bertudung-biru-hijau-l,product_description,medium,test
+Diskon kaki berapa persen,product_price,clean,test
+Stok beanie ada,product_stock,low,test
+cara perawatan gaya,product_description,low,test
+Unisex original ga,product_description,high,test
+Warna lain arctic frost winter accessories ada,product_stock,clean,test
+kak arctic frost winter accessories harganya berapa ya,product_price,clean,test
+musim brpan,product_price,high,test
+Tarif jacket-blue-yellow-m,product_price,high,test
+ad socks g,product_stock,clean,test
+Kak dropship bbisa ga makasih,out_of_scope,medium,test
+Arctic Frost Winter Accessories habis belum,product_stock,clean,test
+mba ubah alamat pengiriman thx,out_of_scope,clean,test
+btw kecewa sama pelayanan ?,out_of_scope,high,test
+ad arctic frost winter accesssories g pls,product_stock,high,test
+Hai dtl bertudung-biru-hijau-m sih,product_description,low,test
+Mas mau tanya apakah sarung masih tersedia stoknya min,product_stock,medium,test
+harganya solid brp,product_price,low,test
+hi gaya harga promo brp deh,product_price,medium,test
+Cek status nomor 123,order_status,low,test
+Mas cek harga kaki thanks,product_price,medium,test
+Berapa harga gaya,product_price,low,test
+Hai admin gaya ready ga ??,product_stock,low,test
+cek stok unisex,product_stock,high,test
+Available bayar di tempat ga,payment_info,clean,test
+estimasi pengiriman order 789,order_status,low,test
+Admin solid sih terbuat dari apa please,product_description,high,test
+pesanan belum sampai ya juga,order_status,medium,test
+syal musim dingin arctic bliss penuh gaya kyk gmn,product_description,medium,test
+sis mau lapr,out_of_scope,low,test
+maaf ganggu mau cek status order 456 dong,order_status,medium,test
+Ada promo loh cicilan ga,payment_info,low,test
+Range hrg kaki,product_price,high,test
+Cek resi pesanan 999,order_status,low,test
+arctic frost winter accessories rdy g,product_stock,medium,test
+Bahan arctic apa,product_description,medium,test
+Min mau bayar pake gopay bisa,payment_info,medium,test
+solid ada sertifikat ga,product_description,clean,test
+Admin prorgam affiliate ?,out_of_scope,high,test
+min tolong lacak order nomor 555 dong,order_status,medium,test
+Gaansi bertudung-biru-kuning-m,product_description,medium,test
+halo sisa stok bertudung-biru-hijau-m min,product_stock,high,test
+Hi ada socks ga,product_stock,low,test
+btw pesanan nomor 123 udah sampai mana min,order_status,high,test
+halo min mau nanya solid masih ready stock tidak ya,product_stock,clean,test
+bisa bayar pakai credit card,payment_info,low,test
+min karakteristik bertudung-biru-kuning-m pls,product_description,clean,test
+kak mau beli knit masih ada stok ga,product_stock,low,test
+mas brp gloves makasih,product_price,medium,test
+sis stok tersedia emm arctic ?,product_stock,high,test
+Sis nomor teleepon toko ya,out_of_scope,medium,test
+Mau tanya bisa bayar pakai linkaja tidak ya,payment_info,medium,test
+Bertudung-biru-kuning-m m ukuran ad ga,product_stock,medium,test
+Permisi caa refund gimana dong,out_of_scope,high,test
+mau taya apakah jaket puffer pria omiheat solid bertudung-biru-hijau-l masih tersedia stoknya,product_stock,low,test
+admin unisex ready ga,product_stock,medium,test
+mna nih orderan gw,order_status,high,test
+beanie kyk gmn,product_description,medium,test
+gan orderan sy statusnya apa deh,order_status,medium,test
+Hrg satuan toucshcreen,product_price,high,test
+hi ada promo unisex ga sih,product_price,low,test
+Ada toko offline,out_of_scope,clean,test
+Berapa ya harga bertudung-biru-kuning-m,product_price,medium,test
+Bos harga normal bertudung-biru-hijau-m berapa min,product_price,low,test
+Kiriman 789 dimana,order_status,clean,test
+Permisi pesanan 789 udah sampai mana pls,order_status,clean,test
+Kaki bisa dicuci mesin,product_description,medium,test
+permisi mau nanya hrg untuk knit berapa ya,product_price,high,test
+eh sollid in stock please,product_stock,medium,test
+Min kapan ya kira-kira sampai tolong,order_status,low,test
+stok tersedia jacket-blue-yellow-m,product_stock,low,test
+Bos jaket puffer pria omniheat solid bertudung mahal ga ya,product_price,low,test
+Jacket-blue-yellow-m habis belum,product_stock,low,test
+Admin jam operasional thx,out_of_scope,medium,test
+mau tanya dong harga unisex yang ada di toko berapa ya,product_price,low,test
+btw kelebihan touchscreen dong,product_description,low,test
+mas knti in stock thx,product_stock,high,test
+Kaki original ga,product_description,clean,test
+sarung anti air,product_description,clean,test
+Misi stk gloves ??,product_stock,medium,test
+Syal Musim Dingin Arctic Bliss Penuh Gaya rady stock,product_stock,high,test
+eh kisaran harga jacket-blue-yellow-m min,product_price,low,test
+accept gopay gak,payment_info,medium,test
+Hrg syal musim dingin arctic bliss penuh gaya brp,product_price,low,test
+Hai arctic bliss stylish winter scarf seperti apa thanks,product_description,medium,test
+bisa kartu kredit ga kak,payment_info,high,test
+Arctic bliss stylish winter scarf bgmn,product_description,clean,test
+bisa pake mandiri ga,payment_info,clean,test
+bang barang cacat,out_of_scope,medium,test
+Arctic Frost Winter Accessories all size ready ga,product_stock,low,test
+Min cost jacket-blue-yellow-m pls,product_price,low,test
+cnacel peasnan,out_of_scope,medium,test
+Permisi pembayaran apa saja yang tersedia,payment_info,medium,test
+eh siapa kamu dong,out_of_scope,medium,test
+Status pengiriman loh 222,order_status,low,test
+sis hrg touchscreen brp tolong,product_price,low,test
+kak cek pesanan 789 ya kak,order_status,medium,test
+Eh bayar lewat mana please,payment_info,medium,test
+Ada bertudung-biru-hijau-m ga,product_stock,low,test
+Bisa dijelasin tentang produk gaya dong,product_description,clean,test
+tetang gya,product_description,high,test
+sis metode pembayaran apa aja makasih,payment_info,high,test

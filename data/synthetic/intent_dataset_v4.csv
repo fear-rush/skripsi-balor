@@ -1,0 +1,1951 @@
+text,intent,sample_type,noise_level
+redy bayar sekarang,payment_info,hard_negative,medium
+tolong info detail,product_description,hard_negative,clean
+halo support virutal account min,payment_info,generic,medium
+Pricey ga omniheat men's solid hooded puffer jacket,product_price,generic,medium
+Info harganya dong,product_price,keyword_based,clean
+Harga sarung tangan musim dingin arctic layar sentuh berapa,product_price,keyword_based,clean
+Masih ada garansi,out_of_scope,hard_negative,low
+halo ad stok Arctic Frost Winter Accessories sih,product_stock,keyword_based,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-l sold out,product_stock,generic,medium
+berapa harga Jaket Puffer Pia OminHeat Solid Bertudung-Biru-Hijau-M,product_price,keyword_based,medium
+harga omniheat men's solid hooded puffer jacket-blue-green-m berapa,product_price,keyword_based,clean
+mau tau cara cancel,out_of_scope,hard_negative,medium
+min alamat toko dmana please,out_of_scope,keyword_based,low
+eh jam buka toko sih,out_of_scope,keyword_based,low
+Kapan bisa diambil,order_status,hard_negative,clean
+mintta info hargaa,product_price,hard_negative,medium
+Order ready dikirim belum,order_status,keyword_based,medium
+ready bayar ??,payment_info,hard_negative,clean
+Eh harga syaal msim dingin arctic bliss penuh gaya gimana thx,product_price,keyword_based,high
+min order ready dikirim belum thx,order_status,keyword_based,low
+Ready stock jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,keyword_based,low
+Tracking pesanan 789,order_status,keyword_based,medium
+worth it gitu ga arctic frost winter accessories,product_price,generic,high
+Gimana kabar ppesanan,order_status,hard_negative,low
+Halo info omniheat men's solid hooded puffer jacket please,product_description,keyword_based,low
+Kemahalan ga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,generic,low
+Bayra gmn caranya,payment_info,keyword_based,medium
+hi harga omniheat men's solid hooded puffer jacket berapa ya,product_price,keyword_based,high
+mau tau paket aksesori musim dingin arctic frost,product_description,hard_negative,low
+Berapa lama lgi nyampe,order_status,keyword_based,medium
+ada masalah,out_of_scope,ambiguous,low
+unitnya berapa,product_stock,hard_negative,clean
+Arctic Frost Winter Accessories awet ga,product_description,generic,high
+Hi info hargganya dong thx,product_price,hard_negative,medium
+Discontinue belum arctic bliss stylish winter scarf,product_stock,generic,high
+worth it ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_price,generic,medium
+ada update pesanan 1,order_status,keyword_based,clean
+import atau lokal OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_description,generic,clean
+spesifikasi arctic frost winter accessories bundle,product_description,keyword_based,medium
+Review omniheat men's solid hooded puffer jacket-blue-green-m,product_description,generic,low
+Kiriman gimana,order_status,hard_negative,low
+eh recommended ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M thanks,product_description,generic,medium
+info order 789,order_status,keyword_based,low
+Omniheat men's solid hooded puffer jacket-blue-green-m murah ga,product_price,generic,medium
+pake shopeepay bisa,payment_info,generic,clean
+cara nya gimana ya,payment_info,generic,medium
+itu gimana pesanannya,order_status,hard_negative,medium
+langsung kirim bisa paket aksesorri musim dingin arctic frost,product_stock,generic,medium
+kapan kirim pesanan,order_status,hard_negative,clean
+mau tau hargga kupulk rajut unisex arctic cozy,product_price,hard_negative,medium
+jaket puffer pria omniheat solid bertudung-biru-kuning-m tuh apa sih,product_description,generic,clean
+deskripsi kupluk rajut unisex arctic cozy,product_description,keyword_based,medium
+min worth it ga beli omniheat men's solid hooded puffer jacket-blue-green-m ?,product_description,generic,high
+Gan arctic bliss stylish winter scarf habis blm thx,product_stock,generic,high
+ibaya admn berapa,payment_info,keyword_based,high
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M masih ada,product_stock,keyword_based,medium
+Kaus kaki campuran wol arctic warmth harganya berapa,product_price,keyword_based,medium
+Min berapa eh banyak stok ??,product_stock,keyword_based,medium
+Btw ready kan ga syal musim dingin arctic bliss penuh gaya deh,product_stock,keyword_based,high
+Ready kirim kupluk rajut unisex arctic cozy,product_stock,hard_negative,medium
+mau tukre ukuran,out_of_scope,keyword_based,medium
+stk paket aksesori musim dingin arctic frost,product_stock,hard_negative,medium
+Harga dan stok arctic frost winter accessories,out_of_scope,ambiguous,clean
+delivery kapan ??,order_status,hard_negative,medium
+hai detail Paket Aksesori Musim Dingin Arctic Frost ya kak,product_description,keyword_based,low
+Arctic bliss stylish winter scarf ready,product_stock,keyword_based,low
+price jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_price,keyword_based,medium
+Hai recommended ga arctic bliss stylish winter scarf thanks,product_description,generic,medium
+Min batalkan ordr pls,out_of_scope,keyword_based,high
+Import atau lokal omniheat men's solid hooded puffer jacket,product_description,generic,medium
+per pcs berapa,product_price,hard_negative,clean
+terima cod,payment_info,generic,clean
+admin mau kembalikan brg deh,out_of_scope,keyword_based,low
+eh ada info peniriman 789 makasih,order_status,keyword_based,low
+Misi review kupluk rajut unisex arctic cozy,product_description,generic,medium
+hi accept gpoayy ya kak,payment_info,generic,medium
+admin terus gmana min,out_of_scope,ambiguous,low
+Gan bisa info spec pls,product_description,hard_negative,medium
+hi bayar pake apa please,payment_info,keyword_based,low
+kualitasnya gimana omniheat men's solid hooded puffer jacket-blue-green-l,product_description,keyword_based,clean
+alamat toko dmana,out_of_scope,keyword_based,low
+Kapan kirim pesanan,order_status,hard_negative,clean
+bos KKupluk Rajut Unisex Arctic Cozy ad fitur apa makasih,product_description,keyword_based,medium
+Kupluk rajut unisex arctic cozy awet ga,product_description,generic,medium
+hi yang dibeli tadi pagi,order_status,generic,medium
+masih jual Arctic Frost Winter Accessories Bundle,product_stock,generic,low
+kena berapa Paket Aksesori Musim Dingin Arctic Frost,product_price,keyword_based,medium
+support cicilan,payment_info,generic,low
+ada warna apa OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_description,keyword_based,medium
+Omniheat men's solid hooded puffer jacket-blue-green-l bisa dipakai untuk apa,product_description,keyword_based,clean
+Ada ukuran apa kupluk rajut unisex arctic cozy,product_description,keyword_based,medium
+Cek return,out_of_scope,hard_negative,clean
+affordable ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_price,generic,low
+tahan lama ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,generic,clean
+lacak oorder 12345,order_status,keyword_based,medium
+gan kiriman gimanna pls,order_status,hard_negative,medium
+kkasih tau harganya,product_price,hard_negative,low
+Permisi sarung tangan musim dingin arctic layar sentuh brp ya kak,product_price,hard_negative,low
+yang ini sisa berapa,product_stock,hard_negative,low
+lacak order 123,order_status,keyword_based,low
+Stoknya berapa,product_stock,hard_negative,low
+halo ad ukuran apa kupluk rajut unisex arctic cozy please,product_description,keyword_based,high
+Harga arctic frost winter accessories,product_price,hard_negative,clean
+Itu gimana bahannya,product_description,hard_negative,medium
+yang saya pesan kemarin itu,order_status,generic,clean
+gan uang gue kpn dkembalikan ??,out_of_scope,keyword_based,medium
+ini berapa ya,product_price,keyword_based,high
+tahan lama ga OmniHeat Men's Solid Hooded Puffer Jacket,product_description,generic,clean
+order 123 gimana statusnya,order_status,keyword_based,medium
+syal musim dingin arctic bliss penuh gaya ad diskon ga,product_price,keyword_based,medium
+Paket aksesori musim dingin arctic frost orgiinal ga,product_description,generic,high
+admin harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M gimana ??,product_price,keyword_based,high
+oke,out_of_scope,ambiguous,clean
+cocok ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,generic,clean
+Gan syal musim dingin arctic bliss penuh gaya bisa dibeli dong,product_stock,keyword_based,clean
+yang dibeli tadi pagi,order_status,generic,clean
+mau kerja disini,out_of_scope,keyword_based,low
+kupluk rajut unisex arctic cozy berapa,product_price,hard_negative,clean
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M bisa loh dibeli,product_stock,keyword_based,medium
+ada toko offline,out_of_scope,keyword_based,low
+arctic bliss stylish winter scarf bagus ga,product_description,generic,high
+pake mandiri bisa,payment_info,generic,clean
+Hi abis belum paket aksesori musim dingin arctic frost pls,product_stock,generic,low
+Masih banyak ga kupluk rajut unisex arctic cozy,product_stock,generic,high
+worth it ga beli jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,generic,clean
+Ada stok syal musim dingin arctic bliss penuh gaya,product_stock,keyword_based,clean
+order saya gimana,order_status,hard_negative,clean
+asli ga sarung tangan musim dingin arctic layar sentuh,product_description,generic,clean
+min gimana pesanan saya deh,order_status,hard_negative,clean
+Arctic bliss stylish winter scarf bisa dipakai untuk apa,product_description,keyword_based,clean
+Eh masih bisa dibeli arctic frost winter accessories ??,product_stock,generic,medium
+Halo ready stock omniheat men's solid hooded puffer jacket-blue-green-m ya,product_stock,keyword_based,medium
+per stok berapa,product_stock,hard_negative,clean
+Lacak order ord-001,order_status,keyword_based,medium
+Mau ready eh bayar,payment_info,keyword_based,low
+info hrg omniheat men's slid hooded puffer jacket-blue-green-l,product_price,keyword_based,medium
+permisi lagi diskon ga dong,product_price,generic,medium
+bisa pake credit card ga,payment_info,keyword_based,clean
+kak bisa info spec please,product_description,hard_negative,clean
+min metode pembayaran apa aja pls,payment_info,keyword_based,low
+bos biaya admin berapa pls,payment_info,keyword_based,low
+harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M gimana,product_price,keyword_based,clean
+gan kualitasnya gimana Kupluk Rajut eh Unisex Arctic Cozy thanks,product_description,keyword_based,medium
+Asli ga omniheat men's solid hooded puffer jacket-blue-green-l,product_description,generic,clean
+Syal Musim Dingin Arctic Bliss Penuh Gaya bisa dibeli,product_stock,keyword_based,clean
+Gan yang ini sisa brp thanks,product_stock,hard_negative,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M bisa dipakai untuk apa,product_description,keyword_based,medium
+ada promo Kupluk Rajut Unisex Arctic Cozy,product_price,keyword_based,clean
+min biaya admin berapa sih,payment_info,keyword_based,clean
+admin OmniHeat Men's Solid Hooded Puffer Jacket mahal ga ya kak,product_price,generic,medium
+gan harga omniheat men's solid hooded puffer jacket-blue-green-l gimana thanks,product_price,keyword_based,low
+Bos lanjut ??,out_of_scope,ambiguous,low
+Biisa bayar bri,payment_info,keyword_based,low
+btw tersedia Arctic Frost Winter Accessories ga min,product_stock,keyword_based,medium
+Permisi mau komplain thx,out_of_scope,keyword_based,medium
+hai dimana ya,out_of_scope,ambiguous,low
+Kak pake shopeepay bisa,payment_info,generic,low
+ready kaus kaki campuran wol arctic warmth,product_stock,hard_negative,medium
+Misi jaket puffer pria omniheat solid emm bertudung-biru-kuning-m brp,product_price,hard_negative,medium
+ada opsi bri,payment_info,keyword_based,medium
+Kupluk Rajut Unisex Arctic Cozy available,product_stock,hard_negative,medium
+Ready ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,clean
+paket aksesori musim dingin arctci frost original ga,product_description,generic,medium
+Bisa dapet sarung tangan musim dingin arctic layar sentuh,product_stock,keyword_based,low
+hi kemahalan ga Arctic Frost Winter Accessories thx,product_price,generic,high
+Mau tanya yang kemarin,order_status,generic,clean
+yang kemarin gimana,order_status,hard_negative,clean
+Admin uang aku kpn dikembalkan ??,out_of_scope,keyword_based,high
+hai discontinue belum omniheat men's solid hooded puffer jacket-blue-green-m ??,product_stock,generic,clean
+bos yang tadi sih,out_of_scope,ambiguous,low
+Jaket Puffer Pria OminHeat Solid Bertudung-Biru-Kuning-L ad fitur apa,product_description,keyword_based,medium
+info harga,product_price,hard_negative,clean
+Hi info order nomor 123 dong,order_status,keyword_based,low
+gan berapa harga paket aksesori musim dingin arctic frost min,product_price,keyword_based,low
+Berapa lama lagi nyampe,order_status,keyword_based,low
+murahan ga sarung tangan musim dingin arctic layar sentuh,product_price,generic,medium
+Arctic Frost Winter Accessories Bundle awet ga,product_description,generic,medium
+murahan ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_price,generic,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M sold out,product_stock,generic,medium
+info harga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_price,hard_negative,low
+Ada sih opsi cod,payment_info,keyword_based,high
+halo spesifikasi Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_description,keyword_based,medium
+OmniHeat Men's Solid Hooded Puffer Jacket aet ga,product_description,generic,high
+Ada emm sale ga,product_price,keyword_based,medium
+gimana,out_of_scope,ambiguous,clean
+cancel pesanan,out_of_scope,keyword_based,clean
+btw cek psnan #1 deh,order_status,keyword_based,high
+Paket aksesori musim dingin arctic frost sold out,product_stock,generic,clean
+prduk bdea sama gambar,out_of_scope,keyword_based,low
+btw review sarung tangan musim diingin arctic layar sentuh ya kak,product_description,generic,high
+masih jual Kupluk Rajut Unisex Arctic Cozy,product_stock,generic,medium
+@sli ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_description,generic,high
+kak tracking psnan ??,order_status,hard_negative,medium
+hai kapan ready bayar dong,payment_info,hard_negative,clean
+trnsfer berapa,payment_info,keyword_based,medium
+Kak deskripsi syal musim dingin arctic bliss penuh gaya makasih,product_description,keyword_based,medium
+Misi yang kemarin udah dikirim belum ya kak,order_status,generic,high
+Halo unitnya berapa min,product_stock,hard_negative,low
+permisi support virtual account deh,payment_info,generic,medium
+min tracking pesanan ORD-555 pls,order_status,keyword_based,medium
+Arctic frost winter accessories bisa dibeli,product_stock,keyword_based,medium
+bingung nih,out_of_scope,ambiguous,clean
+Kapan ready kupluk rajut unisex arctic cozy,product_stock,hard_negative,clean
+Btw stok sarung tangan musm dingin arctic layar sentuh ada,product_stock,keyword_based,high
+stok berapa,product_stock,keyword_based,medium
+murahan ga arctic frost winter accessories,product_price,generic,high
+kaus kaki campuran wol giitu arctic warmth ada diskon ga,product_price,keyword_based,high
+kena brp jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_price,keyword_based,medium
+min budget friendly ga sih,product_price,generic,medium
+Ada ciclian ga pls,payment_info,keyword_based,high
+ada opsi kartu kredit,payment_info,keyword_based,low
+ready belum bayarnya,payment_info,hard_negative,clean
+min sarung tangan musim dingin arctic layar sentuh bagus ga pls,product_description,generic,high
+asli ga kaus kaki campuran wol arctic warmth,product_description,generic,low
+info Paket Aksesori Musim Dingin Arctic Frost,product_description,keyword_based,clean
+syal musim dingin arctic bliss penuh gaya awet ga,product_description,generic,high
+pesanan brp lama sampai,order_status,keyword_based,low
+hai murahan ga OmniHeat Men's Solid Hooded Puff3r aJcket-Blue-Green-M makasih,product_price,generic,high
+min itu aja ?,out_of_scope,ambiguous,low
+hi ada kabar orderan saya,order_status,keyword_based,medium
+bos caranya giman4 dong,payment_info,generic,medium
+harga dan stok Arctic Bliss Stylish Winter Scarf,out_of_scope,ambiguous,low
+Btw dimana ??,out_of_scope,ambiguous,clean
+bisa dicuci ga arctic frost winter accessories,product_description,keyword_based,low
+bos pesanan rready kirim kapan min,order_status,keyword_based,high
+kapan ready sarung tangan musim dingin arctic layar sentuh,product_stock,hard_negative,low
+Kaus Kaki Campuran Wol Arctic Warmth ada diskon ga,product_price,keyword_based,medium
+mau ready bayar,payment_info,keyword_based,low
+eh transfer gimana sih,payment_info,keyword_based,medium
+Misi price arctic frost winter accessories sih,product_price,keyword_based,medium
+Mau kembalikan barang,out_of_scope,keyword_based,medium
+mau tau harga,product_price,hard_negative,medium
+stock brapa hrg brapa,out_of_scope,ambiguous,low
+orderan aku gmana,order_status,keyword_based,medium
+btw tahan lama ga Paket Aksesori Musim Dingin Arctic Frost dong,product_description,generic,medium
+hi kasih tau specnya sih,product_description,hard_negative,medium
+btw asli ga Kupluk Rajut Unisex AArctic Cozy ya,product_description,generic,high
+ukuran Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M berapa,product_description,keyword_based,clean
+kak program affiliate ya kak,out_of_scope,keyword_based,medium
+murahan ga omniheta men's solid hooded puffer jacket-blue-green-l,product_price,generic,high
+admin ada OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L thx,product_stock,hard_negative,medium
+hi lanjut dong,out_of_scope,ambiguous,clean
+info return,out_of_scope,hard_negative,clean
+permisi ada promo Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M deh,product_price,keyword_based,medium
+cocok ga Arctic Bliss Stylish Winter Scarf,product_description,generic,low
+hi jelasin omniheat men's solid hooded puffer jacket-blue-green-m dong dong,product_description,generic,high
+transfer berapa,payment_info,keyword_based,medium
+arctic frost winter accessories ready,product_stock,keyword_based,clean
+Caa refund gimnaa,out_of_scope,keyword_based,low
+Spesifikasi paket aksesori musim dingin arctic frost,product_description,keyword_based,medium
+Hemat ga arctic frost winter emm accessories bundle,product_price,generic,medium
+Berapa harga omniheat men's solid hooded puffer jacket,product_price,keyword_based,medium
+halo mmasih ya diproses ya thanks,order_status,generic,high
+Mau refud ?,out_of_scope,keyword_based,low
+Kak pembayaran ready thx,payment_info,keyword_based,low
+Kena berapa omniheat men's solid hooded puffer jacket,product_price,keyword_based,low
+berapa harga sarung tangan musim dingin arctic layar sentuh,product_price,hard_negative,clean
+pesanan berapa lama sampai,order_status,keyword_based,medium
+ada psi ovo,payment_info,keyword_based,low
+kak berapa harga omniheat men's solid hooded puffer jacket-blue-green-l thx,product_price,keyword_based,medium
+btw pesanan ready kirim kpn ya,order_status,keyword_based,medium
+bisa bayar ovo,payment_info,keyword_based,medium
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m bisa dibeli,product_stock,keyword_based,clean
+Info jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,keyword_based,medium
+ready transfer,payment_info,hard_negative,clean
+Ino harga,product_price,hard_negative,low
+Jadi reselleer gimana makasih,out_of_scope,keyword_based,medium
+Omniheat men's solid hooded puffer jacket ready stock,product_stock,keyword_based,clean
+cek pesanan 99,order_status,keyword_based,medium
+pilihan apa saja,payment_info,generic,low
+out of stock ga,product_stock,generic,low
+ramah kantong ga Paket Aksesori Musim Dingin Arctic Frost,product_price,generic,medium
+cek pesanan nomor 555,order_status,keyword_based,low
+jadi reseller loh gimana,out_of_scope,keyword_based,low
+Omniheat men's solid hooded puffer jacket gimana reviewnya,product_description,hard_negative,clean
+harga arctic frost winter accessories,product_price,hard_negative,clean
+hi info harga Paket loh Aksesori Musim iDnign Arctic Frost thx,product_price,keyword_based,high
+stok Kupluk Rajut Unisex Arctic Cozy ada,product_stock,keyword_based,low
+ada OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L ??,product_stock,hard_negative,clean
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M gimana,product_description,keyword_based,medium
+pesanan ready kirim kapan,order_status,keyword_based,clean
+bisa return barang ga,out_of_scope,keyword_based,clean
+bisa dapet kupluk rajut unisex arctic cozy,product_stock,keyword_based,medium
+Ramah kantong ga sarung tangan musim dingin arctic layar sentuh,product_price,generic,clean
+bisa dapet arctic bliss stylish winter scarf,product_stock,generic,low
+ada stok kaus kaki campuran wol arctic warmth,product_stock,keyword_based,clean
+lewat mana ??,payment_info,generic,medium
+mau tau hrg,product_price,hard_negative,medium
+bs return barang ga,out_of_scope,keyword_based,medium
+Bisa dapet omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,keyword_based,low
+eh sip ??,out_of_scope,ambiguous,low
+Hi ada info pengiriman ord-555 ya kak,order_status,keyword_based,high
+bahan Kaus Kaki Campuran Wol Arctic Warmth apa,product_description,keyword_based,medium
+ada promo pembayaran,payment_info,keyword_based,low
+available kapan,product_stock,hard_negative,clean
+omniheat men's solid hooded puffer jacket-blue-green-l habis belum,product_stock,generic,clean
+Kecewa sama pelayanan,out_of_scope,keyword_based,clean
+arctic frost winter accessories bundle ready sih,product_stock,keyword_based,low
+deskripsi arctic bliss stylish winter scarf,product_description,keyword_based,clean
+btw brgnya mana ya thx,order_status,generic,medium
+Arctic Bliss Stylish Winter Scarf ada diskon ga,product_price,keyword_based,medium
+alamat toko dimana pls,out_of_scope,keyword_based,clean
+omniheat men's solid hooded puffer jacket-blue-green-l bisa dibeli,product_stock,keyword_based,low
+btw Kaus Kaki Campuran Wol Arctic Warmth waterproof ga please,product_description,generic,low
+omniheat menn'ss solid hooded puffer jacket-blue-green-l ready stock,product_stock,keyword_based,low
+gmn paket aksesori musim dingin arctic frost,product_description,hard_negative,medium
+cara bayar gimana,payment_info,keyword_based,clean
+bos barang yang dipesan gimana ya kak,order_status,hard_negative,medium
+Mau tau harga omniheat men's solid hooded puffer jacket,product_price,hard_negative,medium
+bisa beli syal musim dingin arctic bliss penuh gaya,product_stock,keyword_based,low
+Jaket puffer pria omniheat solid gitu bertudung-biru-kuning-m kaak gimana,product_description,generic,medium
+kak terus gimana thx,out_of_scope,ambiguous,clean
+ukuran jaket puffer pria omniheat solid bertudung-biru-hijau-m berapa,product_description,keyword_based,clean
+hi barangnya gimana please,product_description,hard_negative,medium
+Btw uang eh saya kpn dikembalikan please,out_of_scope,keyword_based,high
+produk emm beda sama gambar,out_of_scope,keyword_based,low
+Info harga sarung tangan musim dingin arctic layar sentuh,product_price,hard_negative,medium
+Lewat apa bisa,payment_info,generic,low
+admin arctic frost winter loh accessories bundle tinggal berapa dong,product_stock,keyword_based,medium
+Hemat ga arctic frost winter accessories,product_price,generic,clean
+Orderan ready kpn,order_status,hard_negative,low
+Order #12345 brp hari lagi,order_status,keyword_based,high
+Syal Musim Dingin Arctic Bliss Penuh Gaya ready stock,product_stock,keyword_based,clean
+proses refund brp lama please,out_of_scope,keyword_based,high
+Halo bisa dapet jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,high
+misi pakai apa bsa makasih,payment_info,generic,medium
+berapa harga kaus kaki campuran wol arctic warmth,product_price,keyword_based,low
+Hi kena brapa paket aksesori musim dingin arctic frost ya,product_price,keyword_based,medium
+Totlanya berapa,product_price,keyword_based,low
+Ada cicilan ga,payment_info,keyword_based,low
+Sisa berapa uniit jaket pufffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,medium
+bisa ga,out_of_scope,ambiguous,clean
+Halo stoknya berapa dong,product_stock,hard_negative,medium
+Ini berapa ya,product_price,keyword_based,high
+Eh bisa dapet omniheat men's solid hooded puffer jacket-blue-green-l ??,product_stock,generic,medium
+btw transfer gimana makasih,payment_info,keyword_based,high
+Spesifikasi arctic frost winter accessories,product_description,keyword_based,medium
+ad update pesanan nomor 555,order_status,keyword_based,high
+Harga refund,out_of_scope,hard_negative,clean
+syal musim dingin arctic bliss penuh gaya ready stock,product_stock,keyword_based,clean
+ready stock kupluk rajut unisex arctic cozy,product_stock,hard_negative,low
+Yang emm ready apa aja,product_stock,keyword_based,medium
+kena berapa sarung tangan musim dingin arctic layar sentuh,product_price,keyword_based,clean
+btw status refund sih,out_of_scope,hard_negative,low
+Omniheat men's solid hooded puffer jacket-blue-green-m berapa,product_price,keyword_based,clean
+halo alamat toko dimana makasih,out_of_scope,keyword_based,low
+Halo kok lama ya ya,order_status,generic,medium
+Price arctic frost winter accessories bundle,product_price,keyword_based,clean
+Mau tau harga,product_price,hard_negative,low
+bisa dicuci ga kaus kaki campuran wol arctic warmth,product_description,keyword_based,low
+Lewat mana,payment_info,generic,high
+btw omniheat men's solid hooded puffer jacket original ga pls,product_description,generic,clean
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m udah ready,product_stock,hard_negative,low
+Harga promo,product_price,hard_negative,clean
+info lengkap Kupluk Rajut Unisex Arctic Cozy,product_description,hard_negative,clean
+mau ya info tentang OmniHeat Men's Solid Hooded Puffer Jacket,product_description,keyword_based,medium
+ada ukuran apa OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_description,keyword_based,high
+eh bisa beli kupluk rajut unisex arctic cozy thx,product_stock,keyword_based,medium
+accept virtual account,payment_info,generic,medium
+Cocok ga omniheat men's solid hooded puffer jacket-blue-green-m,product_description,generic,low
+admin unitnya brapa thanks,product_stock,hard_negative,medium
+ready transfer sekanag,payment_info,keyword_based,medium
+import atau lokal omniheat men's sloid hooded puffer jacket-blue-green-m,product_description,generic,medium
+transfer gimana makasih,payment_info,keyword_based,medium
+bos bisa dicuci ga jaket puffer pia omniheat hmm solid bertudung-biru-kuning-m deh,product_description,keyword_based,high
+hai ready kirim Kaus Kaki Campuran Wol Arctic Warmth ?,product_stock,hard_negative,low
+btw tersedia omiheat men''s solid hooded puffer jacket ga ya kak,product_stock,keyword_based,high
+Min ekonomsi ga thanks,product_price,generic,high
+halo bisa beli syal musim dingin arctic bliss penuh gaya thanks,product_stock,keyword_based,medium
+Arctic frost winter accessories sih ada diskon ga,product_price,keyword_based,medium
+Halo pas di kantong ga min,product_price,generic,medium
+sisa berapa unit OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_stock,keyword_based,low
+abis belum Syal Musim Dingin Arctic Bliss Penuh Gaya,product_stock,generic,clean
+Sisa berapa unnit omniheat men's solid hooded ppuffer jacket-blue-green-l,product_stock,keyword_based,medium
+berat Paket Aksesori Musim Dingin Arctic Frost berapa,product_description,keyword_based,medium
+status order 456,order_status,keyword_based,medium
+masih diproses ya,order_status,generic,clean
+Gan ready transfer sekarang deh,payment_info,keyword_based,high
+kak gimana kabar pesanan makasih,order_status,keyword_based,medium
+eh jaket puffer pria omniheat solid bertudung-biru-kuning-l masih ad min,product_stock,keyword_based,high
+stok arctic bliss stylish winter scarf ada,product_stock,keyword_based,clean
+bisa beli Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_stock,keyword_based,clean
+hi ada sle ga deh,product_price,keyword_based,medium
+hi mau tau harga pls,product_price,hard_negative,clean
+stokknya berapa ya,product_stock,hard_negative,low
+Stok arctic frost winter accessories bundle ada,product_stock,keyword_based,low
+misi ini brp deh ya please,product_price,keyword_based,high
+Min ppilihan apa saja makasih,payment_info,generic,medium
+kapan nyampe ya,order_status,generic,low
+admin per stok berapa please,product_stock,hard_negative,low
+Kapan nih nyampe ya,order_status,generic,medium
+hi yang ready emm apa aja please,product_stock,keyword_based,high
+ordr saya gimana,order_status,hard_negative,low
+masuk kapan jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,hard_negative,low
+caranya gimana,payment_info,generic,clean
+hai barang cacat min,out_of_scope,keyword_based,high
+Hai,out_of_scope,ambiguous,clean
+Min barang rusak pls,out_of_scope,keyword_based,high
+bos ada promo Arctic Bliss Stylish Winter Scarf pls,product_price,keyword_based,high
+bisa dapet Kupluk Rajut Unisex Arctic Cozy,product_stock,keyword_based,low
+bisa pake gopay ga,payment_info,keyword_based,clean
+yg dibeli tadi pagi,order_status,generic,medium
+bos info arctic frost winter accessories ya kak,product_description,keyword_based,low
+cara nya gmn ya,payment_info,generic,low
+ad ga,out_of_scope,ambiguous,low
+ready ga paket aksesori musim dingin arcitc frost,product_stock,keyword_based,high
+gimana syal musim dingin arctic bliss penuh gaya,product_description,hard_negative,low
+order ORD123 gimana statusnya,order_status,keyword_based,high
+ready kirim ga order saya,order_status,keyword_based,medium
+info lengkap OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,keyword_based,clean
+tukar barang,out_of_scope,keyword_based,clean
+stok baru kpan,product_stock,hard_negative,medium
+Arctic Frost Winter Accessories ada diskon ga,product_price,keyword_based,low
+gimana sih omniheat men's solid hooded puffer jacket-blue-green-l,product_description,keyword_based,low
+kapan,out_of_scope,ambiguous,clean
+masih bisa dibeli paket aksesori musim dingin arctic frost,product_stock,generic,clean
+ready stock Arctic Frost Winter Accessories Bundle,product_stock,keyword_based,medium
+murahan ga Paket Aksesori Musim Dingin Arctic Frost,product_price,generic,low
+halo mau komplain sih,out_of_scope,keyword_based,high
+Mau komplaini,out_of_scope,keyword_based,high
+bisa kan transfer bank,payment_info,keyword_based,medium
+admin ada promo pembayaran,payment_info,keyword_based,medium
+eh yang kemarin udah dikirim belum ya,order_status,generic,medium
+bisa bayar linkaja,payment_info,keyword_based,clean
+ukuran arctci eh frost winter accessories berapa,product_description,keyword_based,medium
+Min per pcs brapa makasih,product_price,hard_negative,low
+lagi promo ga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,high
+bisa dapet Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_stock,generic,high
+halo sampai mana ya ?,order_status,generic,high
+min arctic frost winter accessories bundle kayak gimana thanks,product_description,generic,medium
+Omniheat men's solid hooded puffer jacket murah ga,product_price,generic,low
+mau tau harga Arctic Frost Winter Accessories Bunlde,product_price,keyword_based,medium
+Bisa bayar ovo,payment_info,keyword_based,low
+misi gimana sih kupluk rajut unisex arctic cozy makasih,product_description,keyword_based,medium
+Tolong info detail,product_description,hard_negative,low
+Bingung nih,out_of_scope,ambiguous,low
+Admin ready transfer sekarang ??,payment_info,keyword_based,low
+Jaket puffer pria omniheat solid bertudung-biru-kuning-l ada diskon ga,product_price,keyword_based,low
+hai stok berapa pls,product_stock,keyword_based,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-m original ga,product_description,generic,low
+ready ga brapa harganya,out_of_scope,ambiguous,low
+totalnya berapa,product_price,keyword_based,clean
+Sarung Tangan Musim Dingin Arctic Layar Sentuh ada diskon ga,product_price,keyword_based,medium
+bisa beli Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_stock,keyword_based,clean
+eh ad promo omniheat men's solid hooded puffer jacket,product_price,keyword_based,high
+Omniheat men's solid hooded puffer jacket-blue-green-l ready,product_stock,keyword_based,high
+bos kemahalan ga Kupluk Rajut Unisex Arctic C0zy sih,product_price,generic,medium
+Kapan ready bayar,payment_info,hard_negative,clean
+btw jaket puffer pria omniheat solid bertudung-biru-kuning-m original ga ?,product_description,generic,low
+price Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_price,keyword_based,medium
+kapan ready jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,hard_negative,clean
+itu aja,out_of_scope,ambiguous,low
+permisi refund available ya,out_of_scope,hard_negative,medium
+kak cara nya gimana ya deh,payment_info,generic,medium
+ready stock paket aksesori musim dingin arct1c frost,product_stock,keyword_based,high
+Jaket puffer pria omniheat solid bertudung-biru-hijau-m ready stock,product_stock,keyword_based,low
+bisa bayar gopay,payment_info,keyword_based,medium
+Ok,out_of_scope,ambiguous,clean
+Ready tansefr sekarang,payment_info,keyword_based,low
+Jaket Puffer Pria OmniHeat SSolid Bertudung-Biru-Kuning-M hrgnyanya brapa,product_price,keyword_based,medium
+Jakt puffer pria omnihat solid bertudung-biru-kuning-m tinggal berapa,product_stock,keyword_based,low
+Ya,out_of_scope,ambiguous,low
+eh ada promo omniheat men's solid hooded puffer jacket-blue-green-l min,product_price,keyword_based,high
+batalkan order,out_of_scope,keyword_based,medium
+jaket puffer pria omniheat solid bertudung-biru-kuning-l ready,product_stock,keyword_based,low
+Hai jaket puffer pria omniheat solid bertudung-biru-hijau-m brp,product_price,hard_negative,medium
+min kemahalan ga paket aksesori msuim dingin arctic frost deh,product_price,generic,medium
+Ubah alamat pengiriman,out_of_scope,keyword_based,clean
+hai minimum bayar berapa sih,payment_info,keyword_based,high
+bos in stock ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L thanks,product_stock,generic,low
+Lanjut,out_of_scope,ambiguous,clean
+in stock ga omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,generic,low
+misi info hrgnya dong ?,product_price,keyword_based,medium
+hrg OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L brapa,product_price,keyword_based,medium
+misi minta info produk thx,product_description,hard_negative,medium
+Ekonomis ga,product_price,generic,low
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L gimana,product_description,keyword_based,clean
+arctic frost winter accessories mahal ga,product_price,generic,clean
+kualitasnya gimana paket aksesori musim dingin arctic frost,product_description,keyword_based,clean
+ready transfer sekarang,payment_info,keyword_based,low
+Ukuran jaket puffer pria omniheat solid bertudung-biru-kuning-m berapa,product_description,keyword_based,medium
+kemahalan ga sarung tangan musim dingin arctic layar sentuh,product_price,generic,clean
+Paket aksesori musim dingin arctic frost murah ga,product_price,generic,clean
+Hai jaket puffer pria omniheat solid bertudung-biru-hijau-m original ga min,product_description,generic,high
+Harga paket aksesori musim dingin arctic frost berapa,product_price,keyword_based,medium
+mau tanya yang kemarin,order_status,generic,clean
+kapan ready Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_stock,hard_negative,low
+harganya berapa,product_price,hard_negative,clean
+Barang cacat,out_of_scope,keyword_based,clean
+Halo kupluk rajut unisex arctic cozy keren ga ?,product_description,generic,medium
+Mau komplain,out_of_scope,keyword_based,clean
+Kaus kaki campuran wol arctic warmth habis belum,product_stock,generic,clean
+hi ready stock Jaket Puffer Pria kan OmniHeat Solid Bertudung-Biru-Hijau-M thx,product_stock,keyword_based,high
+bos bayar gimana caranya,payment_info,keyword_based,high
+order #99 berapa hari lagi,order_status,keyword_based,low
+kak biaya admin berapa thanks,payment_info,keyword_based,low
+pilihannya apa,payment_info,generic,clean
+Yang kemarin gimana,order_status,hard_negative,low
+Opsi apa aja,payment_info,generic,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M bisa dibeli,product_stock,keyword_based,clean
+ready bayar sekarang,payment_info,hard_negative,low
+Bos itu gimana kelanjutannya,order_status,generic,medium
+jam buka toko,out_of_scope,keyword_based,clean
+Halo mau kerja disini sih,out_of_scope,keyword_based,medium
+cocok ga Kupluk Rajut Unisex Arctic Cozy,product_description,generic,medium
+Permisi mau yang ready thanks,product_stock,hard_negative,clean
+hi redy stock OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L please,product_stock,keyword_based,high
+Yang ready apa aja,product_stock,keyword_based,clean
+ada cicilan ga,payment_info,keyword_based,clean
+btw yng sy beli kemarin gmn thanks,order_status,generic,low
+on the way kapan,order_status,hard_negative,clean
+Misi mau kerja disini ??,out_of_scope,keyword_based,high
+pricey ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_price,generic,clean
+Itu gimana pesanannya,order_status,hard_negative,medium
+Arctic frost winter accessories bundle kayak gimana,product_description,generic,low
+Cancel deh ordr gimana,out_of_scope,hard_negative,medium
+sampa mana ya,order_status,generic,high
+admin yaang kmarin gimana ya,order_status,hard_negative,medium
+OmniHeat Men's Solid Hoded Puffer Jacket-Blue-Green-M gimana reviewnya,product_description,hard_negative,medium
+jadi reseller gimana,out_of_scope,keyword_based,low
+Ada ukuran apa paket aksesori musim dingin arctic frost,product_description,keyword_based,clean
+Btw pesanan berapa lama sampai pls,order_status,keyword_based,medium
+ad opsi shopeepay,payment_info,keyword_based,medium
+Pesanan saya gimana,order_status,keyword_based,low
+Belum nyampe nih,order_status,generic,medium
+Mau tau omniheat men's solid hooded puffer jacket-blue-green-m,product_description,hard_negative,low
+Pake apa,payment_info,generic,clean
+Tracking pesanan 1,order_status,keyword_based,clean
+spesifikasi arctci froost winter accessories,product_description,keyword_based,medium
+halo paket aksesori musim dingin arctic frost ready stock makasih,product_stock,keyword_based,low
+hi bisa ambil langsung ga thanks,out_of_scope,keyword_based,medium
+halo kok lama ya ya,order_status,generic,medium
+tlong ya kak,out_of_scope,ambiguous,low
+ada stok omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,keyword_based,clean
+gimana OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,hard_negative,low
+ready bayar apa,payment_info,hard_negative,low
+refund available,out_of_scope,hard_negative,low
+dimana,out_of_scope,ambiguous,clean
+Order ready dikirim belum thx,order_status,keyword_based,medium
+Pilihannya apa sih,payment_info,generic,high
+Masih bisa dibeli arctic frost winter accessories,product_stock,generic,low
+Ini ya,out_of_scope,ambiguous,clean
+ada omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,keyword_based,medium
+stok Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L ada,product_stock,keyword_based,low
+bos terjangkau ga ya kak,product_price,generic,medium
+Paket Aksesori Musim Dingin Arctic Frost bisa dibeli,product_stock,keyword_based,clean
+misi deskripsi Kaus Kaki Campuran Wol Arctic Warmth ??,product_description,keyword_based,medium
+hai produk beda sama gambr thx,out_of_scope,keyword_based,medium
+cara refund gmana,out_of_scope,keyword_based,low
+bahan Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M apa,product_description,keyword_based,clean
+Hai ukuran jaket puffer pria omniheat solid bertudung-biru-kuning-m brapa makasih,product_description,keyword_based,medium
+hemat ga Kupluk Rajut Unisex Arctic Cozy,product_price,generic,medium
+Arctic Bliss Stylish Winter Scarf harganya berapa,product_price,keyword_based,low
+Yang dipesan gimana,order_status,hard_negative,medium
+harga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M gimana,product_price,keyword_based,high
+syal musim dingin arctic bliss penuh gaya bagus ga,product_description,generic,clean
+kak masih jual OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_stock,generic,low
+permisi jaket puffer pria omniheat solid bertudung-biru-hijau-m harganya berapa ??,product_price,keyword_based,high
+Ada opsi cicilan,payment_info,keyword_based,medium
+Mau tau kupluk rajut unisex arctic cozy,product_description,hard_negative,medium
+Kaus Kaki Campuran Wol Arctic Warmth habis belum,product_stock,generic,low
+sisanya berapa,product_stock,hard_negative,clean
+kualitasnya gimaa jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,keyword_based,high
+gimana sih kupluk rajut unisex arctic cozy,product_description,keyword_based,low
+Info ordr 67890,order_status,keyword_based,medium
+ada arctic bliss stylish winter scarf,product_stock,keyword_based,medium
+kak mau info tentang Paket Akksesori Musim Dingin Arctic Frost thanks,product_description,keyword_based,medium
+Bos cara nya gimana ya makasih,payment_info,generic,medium
+Ada ukuran apa syal musim dingin arctic bliss penuh gaya,product_description,keyword_based,low
+admin cek order sih,order_status,hard_negative,medium
+kupluk rajut unisex arctic cozy tinggal berapa,product_stock,keyword_based,clean
+deskripsi Arctic Frost Winter Accessories Bundle,product_description,keyword_based,clean
+Bisa langsung dikirm,product_stock,generic,low
+OmniHeat Men's Solid Hooded Puffer Jacket keren ga,product_description,generic,clean
+hai produk tidak nih sesuai deh,out_of_scope,keyword_based,medium
+bantuin dong,out_of_scope,ambiguous,low
+Misi syal musim dingin arctic bliss penuh gaya berapa pls,product_price,keyword_based,low
+Bos tolong info detail ?,product_description,hard_negative,low
+mau tau harga Kupluk Rajut Unisex Arctic Cozy,product_price,hard_negative,clean
+Langsung kiirim bisa omniheat men's solid hooded puffer jacket,product_stock,generic,medium
+Bos yang itu dong please,out_of_scope,ambiguous,low
+OmniHeat Men's Solid Hooded Puffer Jacket gimana reviewnya,product_description,hard_negative,medium
+permisi lagi diskon ga makasih,product_price,generic,medium
+gan asli ga Sarung Tangan Musim Dingin Arctic Layar Sentuh thanks,product_description,generic,medium
+deskripsi Paket ya Aksesori Musim Dingin Arctic Frost,product_description,keyword_based,high
+Gan boleh tau harganya please,product_price,hard_negative,low
+info lengkap omniheat men's solid hooded puffer jacket,out_of_scope,ambiguous,low
+kapan ready bayar,payment_info,hard_negative,medium
+Hai worth it ga beli kaus kaki campuran wol arctic warmth ?,product_description,generic,high
+kemahalan ga Kupluk Rajut Unisex Arctic Cozy,product_price,generic,clean
+gan info arctic bliss stylish winter scarf ya kak,product_description,keyword_based,medium
+Kapan kan bisa diambil,order_status,hard_negative,low
+itu gimana bahannya,product_description,hard_negative,clean
+ada hmm omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,keyword_based,low
+mau kembalikan barang,out_of_scope,keyword_based,low
+bayar giman@ caranya,payment_info,keyword_based,medium
+btw harga dan stok omniheat men's solid hooded puffer jacket ??,out_of_scope,ambiguous,low
+gimana harganay,product_price,keyword_based,medium
+kemahalan ga paket aksesori musim dingin arctic frost,product_price,generic,clean
+halo minimum baayar berapa thx,payment_info,keyword_based,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-m ready,product_stock,keyword_based,medium
+Btw bisa ambil langsung ga dong,out_of_scope,keyword_based,low
+eh pricey ga arctic frost winter accessories bundle dong,product_price,generic,medium
+biaya admin nih brapa,payment_info,keyword_based,medium
+Berapa lama refund,out_of_scope,hard_negative,medium
+kiriman gimana,order_status,hard_negative,clean
+info order 67890,order_status,keyword_based,low
+Hai traacking refund please,out_of_scope,hard_negative,medium
+Yang tadi,out_of_scope,ambiguous,clean
+gimana kabar jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,hard_negative,clean
+Berapa harga kaus kaki campuran wol arctic warmth,product_price,keyword_based,low
+eh ada stock omniheat men's solid hooded puffer jacket-blue-green-l ??,product_stock,keyword_based,low
+mau info tentang Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_description,keyword_based,low
+gan terjangkau ga ya kak,product_price,generic,high
+admin stoknya berappa ya thanks,product_stock,hard_negative,medium
+Detail kaus kaki campuran wol arctic warmth,product_description,hard_negative,low
+Kecewa sama pelayanan dong,out_of_scope,keyword_based,low
+barangnya gimana,product_description,hard_negative,clean
+gimana Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_description,hard_negative,clean
+info order #55,order_status,keyword_based,high
+available ga jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,generic,medium
+bos bs dicuci ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L sih,product_description,keyword_based,high
+gan yang ready apa aja makasih,product_stock,keyword_based,medium
+Hi ada stok paket aksesori musiim dingin arctic frost ??,product_stock,keyword_based,medium
+ada info pengiriman #555,order_status,keyword_based,high
+paket aksesori musim dingin arctic frost available,product_stock,hard_negative,medium
+eh promo cancel ya,out_of_scope,hard_negative,low
+Sarung Tangan Musim Dingin Arctic Lyaar Sentuh ada diskon ga,product_price,keyword_based,medium
+terima linkaja,payment_info,generic,medium
+halo mau tau harga ya,product_price,hard_negative,low
+order ready dikirim beulm,order_status,keyword_based,high
+Masuk kapan omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,hard_negative,low
+info harga OmniHeat Men's Solid Hooded Puffer Jacket,product_price,keyword_based,medium
+min udah berapa lama diproses thx,order_status,keyword_based,medium
+Ada warna apa jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,keyword_based,low
+Ganti ukuran pesanan,out_of_scope,keyword_based,medium
+yang saya pesan deh udah sampai mana,order_status,generic,low
+Udah jalan belum sih,order_status,generic,high
+stok beapa,product_stock,keyword_based,low
+Sarung tangan musim dingin arctic layar sentuh masih ada,product_stock,keyword_based,low
+admin info return,out_of_scope,hard_negative,clean
+Jaket Puffer Pria OmniHaet Solid Bertudung-Biru-Hijau-M ada diskon ga,product_price,keyword_based,high
+min kualitasnya gimana ya,product_description,hard_negative,clean
+Gan batalkan ordeer ?,out_of_scope,keyword_based,high
+gan syal musim dingin arctic bliss penuh gaya bagus ga pls,product_description,generic,low
+ayng saya pesan kemarin itu,order_status,generic,medium
+ubah alamat pengiriman,out_of_scope,keyword_based,high
+gan gimana sih OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M makasih,product_description,keyword_based,high
+ready stock jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,hard_negative,clean
+eh deskripsi Kaus Kaki Campuran Wol Arctic Warmth makasih,product_description,keyword_based,medium
+misi support cicilan deh,payment_info,generic,high
+tolong,out_of_scope,ambiguous,low
+hai,out_of_scope,ambiguous,clean
+detail omniheat men's solid hooded puffer jacket-blue-green-m,product_description,hard_negative,low
+price arctic bliss stylish winter scarf,product_price,keyword_based,low
+Orderan saya gmn,order_status,hard_negative,medium
+kaus kaki campuran wol arctic warmth keren ga,product_description,generic,low
+hrgnya dan stk Arctic Frost Winter Accessories,out_of_scope,ambiguous,low
+yang saya beli kemrinn gimana,order_status,generic,low
+tahan lama ga kupluk rajut unisex arctic cozy,product_description,generic,low
+Bayar gimana caranya,payment_info,keyword_based,high
+murahan ga jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_price,generic,low
+bos stknya berapa min,product_stock,hard_negative,medium
+info order 123,order_status,keyword_based,clean
+harga promo,product_price,hard_negative,clean
+barang cacat,out_of_scope,keyword_based,clean
+Tersedia sarung tangan musim dingin arctic layar sentuh ga,product_stock,keyword_based,low
+Yang itu dong,out_of_scope,ambiguous,clean
+B3rapa lama lagi nyampe,order_status,keyword_based,medium
+gimana kabar Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_description,hard_negative,low
+berat Kaus Kaki Campuran Wol Arctic Warmth berapa,product_description,keyword_based,clean
+metode pembayaran apa aja,payment_info,keyword_based,low
+ada update pesanan #1235,order_status,keyword_based,low
+support cash,payment_info,generic,low
+ada arctic frost winter accessories,product_stock,hard_negative,low
+Btw pakai apa bisa thanks,payment_info,generic,clean
+Metode pembayaran apa aja,payment_info,keyword_based,low
+Bos tolong,out_of_scope,ambiguous,low
+eh berapa banyak gitu stok ya kak,product_stock,keyword_based,high
+ya,out_of_scope,ambiguous,low
+Order 99 berapa hari lagi,order_status,keyword_based,clean
+bos berapa harga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,keyword_based,clean
+Recommended ga kaus kaki campuran wol arctic hmm warmth,product_description,generic,high
+gimnaa harganay,product_price,keyword_based,low
+Mau tau harga kupluk rajut unisex arctic cozy,product_price,hard_negative,clean
+mau tau harga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,keyword_based,medium
+yang dipesan gimana,order_status,hard_negative,clean
+Detail hmm omniheat men's solid hooded puffer jacket-blue-green-l,product_description,hard_negative,low
+permisi mau info tentang omniheat men's solid hooded puffer jacket-blue-green-m please,product_description,keyword_based,low
+Tracking psnan ord-555,order_status,keyword_based,medium
+Yang saya pesan kemarin itu,order_status,generic,medium
+Via apa,payment_info,generic,low
+Bisa pake cod ga,payment_info,keyword_based,low
+gimana sih Kaus Kaki Campuran Wol Arctic Warmth,product_description,keyword_based,clean
+gimana harganya,product_price,keyword_based,medium
+eh kaus kaki campuran wol arctic warmth tinggal berapa please,product_stock,keyword_based,medium
+bos jadi reseller gimana thx,out_of_scope,keyword_based,clean
+gimana sih Arctic Frost Winter Accessories,product_description,keyword_based,low
+admin bisa dapet jaket puffer pria omniheat solid bertudung-biru-kuning-m thx,product_stock,generic,medium
+harga Sarung Tangan Musim Dingin Arctic Layar Sentuh gimana,product_price,keyword_based,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L bisa dipakai untuk apa,product_description,keyword_based,low
+tracking pesanan #1,order_status,keyword_based,clean
+masih jual sarung tangan musim dingin arctic layar sentuh,product_stock,generic,clean
+totalnya berappa,product_price,keyword_based,medium
+cek pesanan 123,order_status,keyword_based,low
+hi udah brapa lama diproses pls,order_status,keyword_based,low
+berapa banyak sstok,product_stock,keyword_based,medium
+bayar gimana caranya,payment_info,keyword_based,clean
+bahan kaus kaki campuran wol arctic warmth apa,product_description,keyword_based,low
+kemahalan ga Jaaket Puffer Pria OmniHeatt Solid Bertudung-Biru-Kuning-L,product_price,generic,medium
+halo bisa langsung dikirim ??,product_stock,generic,low
+ada komplain,out_of_scope,hard_negative,low
+masih jual omniheat men's solid hooded puffer jacket,product_stock,generic,clean
+kak poses refund berapa alma thx,out_of_scope,keyword_based,medium
+Stok jaket puffer pria omniheat solid bertudung-biru-hijau-m ada,product_stock,keyword_based,medium
+kak kapan bisa diambil ya kak,order_status,hard_negative,low
+gan transfer gimanna ya kak,payment_info,keyword_based,low
+Lagi promo ga sarung tangan musim dingin arctic layar sentuh,product_price,generic,medium
+satuan beraapa,product_price,hard_negative,medium
+Spesifikasi jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,keyword_based,low
+masih bisa dibeli sarung tangan musim dingin arctic layar sentuh,product_stock,generic,high
+Kualitasnya gimana,product_description,hard_negative,clean
+Ready ga sarung tangan musim dingin arctic layar sentuh,product_stock,keyword_based,low
+Mau tau harga kaus kaki campuran wol arctic warmth,product_price,keyword_based,low
+Bos kapan ready jaket puffer pria omniheat solid bertudung-biru-kuning-l ya kak,product_stock,hard_negative,medium
+kak lowongan kerja ada ga thx,out_of_scope,keyword_based,clean
+Produk bea hmm sama gambar,out_of_scope,keyword_based,medium
+mau tuker ukuran,out_of_scope,keyword_based,medium
+Eh berapa lamaa refund thanks,out_of_scope,hard_negative,medium
+stok Arctic Bliss Stylish Winter Scarf ada,product_stock,keyword_based,clean
+affordable ga Kupluk Rajut Unisex Arctic Cozy,product_price,generic,high
+Bisa bayar qris,payment_info,keyword_based,low
+yang kemarin udah dikirim belum,order_status,generic,clean
+Minta info produk,product_description,hard_negative,low
+btw mau tuker ukuran dong,out_of_scope,keyword_based,medium
+harga jaket puffer pria omniheat solid bertudung-biru-kuuning-m gimana,product_price,keyword_based,medium
+ada promo OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_price,keyword_based,clean
+alamat toko dimana,out_of_scope,keyword_based,clean
+halo itu gimana kelanjutannya deh,order_status,generic,medium
+hrgnya sarung tangan musim dingin arctic layar sentuh gmana,product_price,keyword_based,low
+Harga arctic bliss stylish winter scarf berapa,product_price,keyword_based,low
+Info lengkap jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,keyword_based,low
+Ada promo jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_price,keyword_based,medium
+eh bisa dapet arctic frost winter accessories dong,product_stock,keyword_based,medium
+accept shopeepay,payment_info,generic,low
+Bayar kan gimana caranya,payment_info,keyword_based,high
+permisi itu udah jalan belum ?,order_status,generic,clean
+omniheat men's solid hooded puffer jacket-blue-green-m ready,product_stock,keyword_based,low
+hai halo,out_of_scope,ambiguous,low
+Kak bisa langsung dikirim thx,product_stock,generic,high
+min pake bri bisa ??,payment_info,generic,medium
+barang rusak,out_of_scope,keyword_based,low
+status refund,out_of_scope,hard_negative,clean
+price OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_price,keyword_based,medium
+Hi status refund ??,out_of_scope,hard_negative,medium
+Arctic frost winter accessories bundle ready stock,product_stock,keyword_based,low
+min asli ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M min,product_description,generic,medium
+Syal Musim Dingin Arctic Bliss Pnuh Gaya tuh apa sih,product_description,generic,medium
+permisi info harga jaket puffer pria omniheat solid bertudung-biru-kuning-l deh,product_price,keyword_based,clean
+kapan dikirim,order_status,hard_negative,low
+Lacak order 789,order_status,keyword_based,low
+Order ord-001 berapa hari lagi,order_status,keyword_based,medium
+permisi arctic frost winter accessories bundle sold out,product_stock,generic,medium
+Kupluk Rajut Unisex Arctic Cozy murah ga,product_price,generic,low
+mau tau harga Arctic Frost Winter Accessories Bundle,product_price,keyword_based,clean
+Mau kembalikan brg,out_of_scope,keyword_based,medium
+Halo gimana sih syal musim dingin arctic bliss penuh gaya thx,product_description,keyword_based,medium
+bisa langsung dikirim,product_stock,generic,clean
+share info harga,product_price,hard_negative,clean
+Min transfer berapa ??,payment_info,keyword_based,low
+halo udah diproses belum please,order_status,generic,clean
+Status order 123,order_status,keyword_based,clean
+order ready kapan,order_status,hard_negative,medium
+tahan lama ga Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_description,generic,clean
+sarung tangan musim dingin arctic layar sentuh habis belum,product_stock,generic,clean
+hi yang ini sisa berapa ya,product_stock,hard_negative,clean
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M bagus ga,product_description,generic,medium
+uang saya kpn dikembalikan,out_of_scope,keyword_based,high
+permisi kualitasnya gmn kupluk rajut unisex 4rctic cozy ya,product_description,keyword_based,high
+eh Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M bagus ga,product_description,generic,medium
+Gimana kkabar pesaan,order_status,hard_negative,medium
+sampai mana ya,order_status,generic,clean
+info pengiriman pesanan saya,order_status,keyword_based,clean
+Berapa unit jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,hard_negative,low
+Arctic frost winter accessories waterproof ga,product_description,generic,medium
+mau tau harga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_price,keyword_based,high
+kena berapa arctic frost winter sih accessories bundle,product_price,keyword_based,low
+bs dicuci ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,keyword_based,high
+Info omniheat men's solid hooded puffer jacket,product_description,keyword_based,low
+Asli ga sarung tangan musim dingin arctic layar sentuh,product_description,generic,low
+kok lama ya ya,order_status,generic,low
+Order ord-001 gimana statusnya,order_status,keyword_based,clean
+Admin arctic frost winter accessories bundle habis belum deh,product_stock,generic,high
+totalyna berapa,product_price,keyword_based,medium
+kemahalan ga Paket Aksesori Musim Dingin Arctic Frost,product_price,generic,medium
+Ada ukuran apa arctic bliss stylish winter scarf,product_description,keyword_based,medium
+Hi pakai apa eh bsa deh,payment_info,generic,medium
+kecewa sama pelayanan,out_of_scope,keyword_based,medium
+eh masih diproses ya please,order_status,generic,high
+hi ada toko offline dong,out_of_scope,keyword_based,low
+info lengkap arctic frost winter accessories bundle,product_description,keyword_based,medium
+Transfer berapa,payment_info,keyword_based,low
+misi murahan ga syal musim dingin arctic bliss penuh gaya ya,product_price,generic,clean
+biaya admin berapa,payment_info,keyword_based,low
+Support bri,payment_info,generic,clean
+gimana sih Arctic Frost Winter Accessories Bundle,product_description,keyword_based,low
+bos bisa dapeet arctic frost winter accessories,product_stock,keyword_based,low
+uang saya kapan dikembalikan,out_of_scope,keyword_based,medium
+ada kupluk rajut unisex arctic cozy,product_stock,keyword_based,low
+hai biaya admin berapa min,payment_info,keyword_based,medium
+gan kapan ready kaus kaki campuran wol arctic warmth dong,product_stock,hard_negative,medium
+misi terima cash,payment_info,generic,low
+omniheat men's solid hooded puffer jacket-blue-green-l harganya berapa,product_price,keyword_based,clean
+status order ORD-001,order_status,keyword_based,clean
+Tersedia apa,payment_info,generic,medium
+via apa,payment_info,generic,low
+ready bayar,payment_info,keyword_based,clean
+berapa harga OmniHeat Men's Solid Hooded Puffer Jacket,product_price,keyword_based,low
+Dimana,out_of_scope,ambiguous,clean
+bisa beli Arctic Bliss Stylish Winter Scarf,product_stock,keyword_based,medium
+kemahalan ga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,generic,low
+Arctic Frost Winter Accessories Bundle bisa dipakai untuk apa,product_description,keyword_based,clean
+omniheat men's solid hooded puffer jacket-blue-green-l mahal ga,product_price,generic,medium
+btw bisa ambil langsung ga ya,out_of_scope,keyword_based,low
+asli ga arctic frost winter accessories,product_description,generic,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M ready,product_stock,keyword_based,low
+Terjangkau ga,product_price,generic,medium
+misi bayar pake apa ?,payment_info,keyword_based,low
+Harga omniheat men's solid hooded puffer jacket-blue-green-m gimana,product_price,keyword_based,low
+kak Paket Aksesori Musim Dingin Arctic Frost ready ya,product_stock,keyword_based,low
+Ready transfer,payment_info,hard_negative,low
+halo hrgnya promo min,product_price,hard_negative,low
+Syal Musim Dingin Arctic Bliss Penuh Gaya waterproof ga,product_description,generic,clean
+minta info harga,product_price,hard_negative,clean
+mau tau syal musim dingin arctic bliss penuh gaya,product_description,hard_negative,clean
+Itu gimana kelanjutannya,order_status,generic,medium
+eh lewat mana,payment_info,generic,low
+langsung kirim bisa omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,generic,medium
+st4tus refund,out_of_scope,hard_negative,low
+Deskripsi arctic frost winter accessories bundle,product_description,keyword_based,clean
+Hi pesanan ready kirim kapan min,order_status,keyword_based,medium
+hai mau rfeund ?,out_of_scope,keyword_based,medium
+refund availabble,out_of_scope,hard_negative,low
+jaket puffer pria omniheat solid bertudung-biru-kuning-l berapa,product_price,keyword_based,clean
+Detail sarung tangan musim dingin arctic layar sentuh,product_description,keyword_based,clean
+Bisa info harga,product_price,hard_negative,clean
+Ada ukuran hmm apa omniheat men's solid hooded puffer jacket-blue-green-m,product_description,keyword_based,medium
+stok berapa harga berapa,out_of_scope,ambiguous,clean
+permisi jaket puffer pria omniheat solid bertudung-biru-kuning-l bisa dibeli ya,product_stock,keyword_based,low
+Totalnya berapa,product_price,keyword_based,low
+eh review Syal Musim Dingin Arctic Bliss Penuh Gaya makasih,product_description,generic,clean
+psnan 67890,order_status,hard_negative,low
+Hai cara refund gimana thanks,out_of_scope,keyword_based,high
+status order nomor 123,order_status,keyword_based,medium
+Ada kabar ordre saa,order_status,keyword_based,medium
+Terus gimana,out_of_scope,ambiguous,clean
+Proudk tidak sesuai,out_of_scope,keyword_based,low
+tracking pesanan 12345,order_status,keyword_based,low
+Arctic Frost Winter Accessories bagus ga,product_description,generic,clean
+Kupluk Rajut Unisex Arctic Cozy tuh apa sih,product_description,generic,medium
+hi ekonomis ga ??,product_price,generic,medium
+Min kapan pls,out_of_scope,ambiguous,low
+gan kapan sampe dong,order_status,hard_negative,medium
+Mau tau harga arctic bliss stylish winter scarf,product_price,hard_negative,clean
+transfer brapa,payment_info,keyword_based,high
+ada ukuran apa kupluk rajut unisex arctic cozy,product_description,keyword_based,medium
+Kena berapa arctic bliss stylish winter scarf,product_price,keyword_based,low
+masih bisa dibeli OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_stock,generic,low
+Tolong info harga,product_price,hard_negative,clean
+min produk tidak sesuai,out_of_scope,keyword_based,medium
+hai lewat apa bisa thx,payment_info,generic,high
+bos bisa dicuci ga Syal Musim Dingin Arctic Bliss Penuh Gaya sih,product_description,keyword_based,medium
+Blom nyampe nih,order_status,generic,medium
+gimana hrgnyanyya,product_price,keyword_based,high
+Mau hmm tuker ukuran,out_of_scope,keyword_based,low
+ada stok Kupluk Rajut Unisex Arctic Cozy,product_stock,keyword_based,low
+Mau komlain,out_of_scope,keyword_based,high
+bisa ambil langsung ga,out_of_scope,keyword_based,clean
+harga dan stok OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,out_of_scope,ambiguous,low
+Admin gimana pesanan saya min,order_status,hard_negative,clean
+Arctic frost winter accessories bundle available,product_stock,hard_negative,medium
+misi plihan apa saja sih,payment_info,generic,high
+hi ad stok jaket puffer pria omniheat solid bertudung-biru-kuning-m please,product_stock,keyword_based,high
+Hai kena berapa jaket puffer pria omniheat solid bertudung-biru-kuning-l thx,product_price,keyword_based,high
+asli ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,generic,clean
+price Syal Musim Dingin Arctic Bliss Penuh Gaya,product_price,keyword_based,medium
+masih jual Paket Aksesori Musim Dingin Arctic Frost pls,product_stock,generic,high
+yang kemarin,out_of_scope,ambiguous,low
+kapan restock Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_stock,hard_negative,clean
+udah diproses belum,order_status,generic,low
+Murahan ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_price,generic,clean
+support linkaja,payment_info,generic,medium
+bsa ga,out_of_scope,ambiguous,low
+Eh dimana dong,out_of_scope,ambiguous,clean
+Lowongan kerja ada ga,out_of_scope,keyword_based,clean
+Eh abis belum sarung tangan musim dingin arctic layar sentuh dong,product_stock,generic,high
+btw gimna hargayna dong,product_price,keyword_based,high
+OmniHeat Men's Solid Hooded Puffer Jacket mahal ga,product_price,generic,medium
+jaket puffer pria omniheat solid bertudung-biru-hijau-m harganya brapa,product_price,keyword_based,low
+Yang ready apa,product_stock,hard_negative,low
+Jelasin kupluk rajut unisex arctic cozy dong,product_description,generic,clean
+Kena brapa syal musim dingin arctic bliss penuh gaya,product_price,hard_negative,medium
+transfer gimana,payment_info,keyword_based,clean
+order 456 gimana statusnya,order_status,keyword_based,low
+Eh lowongan kerja ada ga thanks,out_of_scope,keyword_based,medium
+minimum bayar berapa,payment_info,keyword_based,low
+bahan Kupluk Rajut Unisex Arctic Cozy apa,product_description,keyword_based,clean
+min bisa bayar eh transfer bank ya,payment_info,keyword_based,low
+masih bisa dibeli omniheat men's solid hooded puffer jacket,product_stock,generic,clean
+Kapan,out_of_scope,ambiguous,low
+Kak pake apa,payment_info,generic,medium
+Kak bisa dicuci ga kaus kaki campuran wol arctic warmth thanks,product_description,keyword_based,high
+bsa cod ga,payment_info,keyword_based,low
+hi udah jalan blm sih please,order_status,generic,high
+Yang dibeli tadi pagi,order_status,generic,medium
+halo prdk tidak sesuai ?,out_of_scope,keyword_based,medium
+ada info pengiriman 67890,order_status,keyword_based,medium
+pake bni bisa,payment_info,generic,medium
+hi ready ya,out_of_scope,ambiguous,low
+Ada stok omniheat men's solid hooded puffer jacket,product_stock,keyword_based,low
+Worth it ga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,medium
+Ready kirim jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,hard_negative,medium
+masih ada garansi,out_of_scope,hard_negative,medium
+hai out of stock ga ?,product_stock,generic,medium
+Arctic frost winter accessories ready,product_stock,keyword_based,clean
+admin tracking pesanan ORD123 ya kak,order_status,keyword_based,low
+berapa unit Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_stock,hard_negative,clean
+Omniheat men's solid hooded puffer jackte ready stck,product_stock,keyword_based,high
+Ready bayar,payment_info,keyword_based,low
+min info lengkap OmniHeat Men's Soid Hooded Puffer Jacket-Blue-Green-M deh,product_description,keyword_based,medium
+Gimana sih omniheat men's deh solid hooded puffer jacket-blue-green-l ??,product_description,keyword_based,high
+Paket kapan,order_status,hard_negative,clean
+Permisi pakai apa bisa dong,payment_info,generic,medium
+hai berapa harga kupluk rajut unisex arctic cozy ?,product_price,keyword_based,medium
+berapa harga Kaus Kaki Campuran Wol Arctic Warmth,product_price,keyword_based,high
+affordable ga Syal Musim Dingin Arctic Bliss Penuh Gaya,product_price,generic,low
+info harga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_price,keyword_based,clean
+arctic frost winter accessories bundle tuh apa eh sih,product_description,generic,medium
+delivery kapan,order_status,hard_negative,medium
+info order #555,order_status,keyword_based,high
+harga dan stok kupluk rajut unisex arctic cozy thanks,out_of_scope,ambiguous,low
+info Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_description,keyword_based,medium
+accept bni,payment_info,generic,medium
+Mau ready bayar,payment_info,keyword_based,low
+hi berapa harga paket aksesori musim dingin arctic frost pls,product_price,keyword_based,low
+Omniheat mens' solid gitu hooded puffer jacket-blue-green-l ready,product_stock,keyword_based,high
+lwat apa bisa,payment_info,generic,low
+ada stok Paket Aksesori Musim Dingin Arctic Frost,product_stock,keyword_based,clean
+permisi ada arctic frost winter accessories bundle ya,product_stock,keyword_based,high
+Permisi mau tau paket aksesori musim dingin arctic frost please,product_description,hard_negative,clean
+Kaus nih kaki campuran wol arctic warmth kosong ga,product_stock,generic,high
+help,out_of_scope,ambiguous,low
+itu udah jaln belum,order_status,generic,high
+tracking pesanan #99,order_status,keyword_based,medium
+Min masih jual kaus kaki campuran wol arctic warmth ??,product_stock,generic,high
+Bisa dapet arctic frost winter accessories bundle,product_stock,generic,medium
+eh bs beli Paket Aksesori Musim Dingin Arctic Frost ??,product_stock,keyword_based,medium
+info harganya dong,product_price,keyword_based,high
+Bos info pengiriman pesanan saya min,order_status,keyword_based,medium
+Biaya admin berapa,payment_info,keyword_based,low
+Arctic Frost Winter Accessories Bundle tuh apa sih,product_description,generic,medium
+Sarung Tangan Musim Dingin Arctic Layyar Sentuh deh bisa dibeli,product_stock,keyword_based,medium
+btw ada 0pis bca sih,payment_info,keyword_based,high
+pesanan ready kirim kapan min,order_status,keyword_based,low
+permisi jaket puffer pria omniheat solid bertudung-biru-kuning-m ready stock dong,product_stock,keyword_based,low
+permisi ada opsi ddana ??,payment_info,keyword_based,high
+Pilihan apa saja,payment_info,generic,medium
+Bs langsung dikkirim,product_stock,generic,medium
+ada info pengiriman ORD123,order_status,keyword_based,low
+tnggal sdeikit ga,product_stock,generic,low
+yang itu,out_of_scope,ambiguous,clean
+Info lengkap omniheat men's solid hooded puffer jacket-blue-green-l,out_of_scope,ambiguous,low
+misi opsi apa aja pls,payment_info,generic,low
+min kok lama ya ?,order_status,generic,medium
+ada stok paket aksesori musim dingin arctic frost,product_stock,keyword_based,medium
+kok belum dateng,order_status,generic,medium
+affordable ga nih omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,low
+Arctic Frost Winter Accessories Bundle udah ready,product_stock,hard_negative,low
+Kapan ada lagi,product_stock,hard_negative,clean
+mau tau harga sama ready ga,out_of_scope,ambiguous,clean
+Arctic bliss stylish deh winter scarf tinggal brp,product_stock,keyword_based,high
+Yng kemarin,out_of_scope,ambiguous,low
+produk beda sama gambar,out_of_scope,keyword_based,medium
+Spesifikasi jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,keyword_based,low
+Ada promo omniheat men's solid hooded puffer jacket-blue-green-m,product_price,keyword_based,medium
+Help,out_of_scope,ambiguous,low
+Sarung tangan musim dingin arctic layar sentuh harganya berapa,product_price,keyword_based,low
+Permisi kapan ya kak,out_of_scope,ambiguous,low
+Pilihan apa gitu saja,payment_info,generic,medium
+Abis belum jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,generic,clean
+Kak ini berapa ya ??,product_price,keyword_based,low
+masih ad syal musim dingin arctic bliss penuh gaya,product_stock,hard_negative,medium
+Harga arctic frost winter accessories berapa ya kak,product_price,keyword_based,high
+Hi abis belum paket aksesori musim dingin arctic frost thanks,product_stock,generic,medium
+mau tau harga arctic frost winter accessories,product_price,keyword_based,medium
+Info hrgnyanya dong,product_price,keyword_based,medium
+Kualitasnya gimana omniheat men's solid hooded puffer jacket,product_description,keyword_based,clean
+masih ada OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L ??,product_stock,hard_negative,medium
+sudah ready omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,hard_negative,clean
+bos ada promo jaket puffer pria omniheat solid bertudung-biru-kuning-m thx,product_price,keyword_based,low
+Misi berapa banyak stok min,product_stock,keyword_based,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-l ready stock,product_stock,keyword_based,low
+hi mau refund min,out_of_scope,keyword_based,medium
+info harga omniheat men's solid hooded puffer jacket,product_price,keyword_based,medium
+detail omniheat men's solid hooded puffer jacket-blue-green-l,product_description,hard_negative,clean
+Arctic frost winter accessories ready kapan,product_stock,hard_negative,low
+ada warna apa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_description,keyword_based,clean
+admin bantuin dong thx,out_of_scope,ambiguous,low
+Stknya berapa ya,product_stock,hard_negative,medium
+min stok barang rusak dong,out_of_scope,hard_negative,low
+Halo metode pembayaran apa kan aja deh,payment_info,keyword_based,high
+hemat ga jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_price,generic,low
+gimana statusnya,order_status,hard_negative,clean
+Bos sarung tangan musim dingin arctic layar sentuh awet ga ya kak,product_description,generic,high
+hai affordable ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L ??,product_price,generic,medium
+Tracking pesanan #12345,order_status,keyword_based,clean
+gan info harga OminHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M ??,product_price,keyword_based,medium
+sisa berapa unit Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_stock,keyword_based,medium
+Halo tracking pesanan #12345 thx,order_status,keyword_based,low
+Ada promo pembayaran,payment_info,keyword_based,low
+bisa info harga,product_price,hard_negative,medium
+Tracking pesanan #99,order_status,keyword_based,low
+Btw ready ga jaket puffer pria omniheat solid bertudung-biru-kuning-l pls,product_stock,keyword_based,low
+yang saya pesan loh kemarin itu,order_status,generic,high
+bos kemahalan ga jaket puffer pria omniheat solid bertudung-biru-kuning-m min,product_price,generic,low
+pesannan raedy kirim kapan,order_status,keyword_based,medium
+Masih banyak ga sarung tangan musim dingin arctic layar sentuh,product_stock,generic,clean
+Import atau lokal sarung tangan musim dingin arctic layar sentuh,product_description,generic,low
+ada ga,out_of_scope,ambiguous,clean
+omniheat men's solid hooded puffer jacket original ga,product_description,generic,clean
+abis belum jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,generic,medium
+Kena berapa arctic frost winter accessories bundle,product_price,keyword_based,clean
+Tinggal berapa omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,hard_negative,low
+Abis belum jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,generic,clean
+pricey ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_price,generic,low
+Permisi ramah kantong ga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,low
+misi bisa langsung dikirim thanks,product_stock,generic,medium
+kupluk rajut unisex arctic cozy original ga,product_description,generic,low
+produk beda sama gambar ?,out_of_scope,keyword_based,medium
+ada ukuran apa Syal Musim Dingin Arctic Bliss Penuh Gaya,product_description,keyword_based,medium
+Bos mau tau harga omniheat men's solid hooded puffer jacket-blue-green-l deh,product_price,keyword_based,high
+bos order #1 berapa hari lagi ??,order_status,keyword_based,low
+misi orderan saya gimana min,order_status,keyword_based,high
+ada omniheat emn's solid hooded puffer jacket-blueg-reen-l,product_stock,hard_negative,low
+Jaket puffer pria omniheat solid bertudung-biru-hijau-m masih ada,product_stock,keyword_based,medium
+ready ga berapa harganya,out_of_scope,ambiguous,clean
+Hai status orderan 12345 makasih,order_status,keyword_based,high
+Info omniheat men's solid hooded puffer jacket-blue-green-l,product_description,keyword_based,clean
+harga kupluk rajut unisex arctic cozy berapa,product_price,keyword_based,medium
+Kak berat arctic frost winter accessories berapa deh,product_description,keyword_based,medium
+Ukuran sarung tangan musim dingin arctic layar sentuh berapa,product_description,keyword_based,high
+Tracking peesanan 789,order_status,keyword_based,high
+hi bahhan arctic bliss stylish winter scarf apa ??,product_description,keyword_based,medium
+murahan ga OmniHeat Men's Solid Hooded Puffer Jacket,product_price,generic,clean
+Price omniheat men's solid hooded puffer jacket-blue-green-m,product_price,keyword_based,medium
+pesanan saya gimana,order_status,keyword_based,low
+boleh tau harganya,product_price,hard_negative,medium
+lacak order #555,order_status,keyword_based,low
+berapa harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_price,keyword_based,low
+Eh ready bayar ??,payment_info,keyword_based,medium
+eh ada cicilan ga ya,payment_info,keyword_based,high
+Yang ini brp,product_price,hard_negative,medium
+sarung tangan musim dingin arctc lyaar sentuh kosong ga,product_stock,generic,high
+Jaket puffer pria omniheat soldi bertudung-biru-kuning-m bisa dipakai untuk apa,product_description,keyword_based,low
+admin import atau lokal jaket puffer pria omniheat solid bertudung-biru-hijau-m makasih,product_description,generic,high
+bos hi thanks,out_of_scope,ambiguous,low
+Ready stock arctic bliss stylish winter scarf,product_stock,keyword_based,low
+permisi ada promo pembayaran ya,payment_info,keyword_based,medium
+mau info tentang arctic frost winter accessories,product_description,keyword_based,clean
+cancel order gimana,out_of_scope,hard_negative,medium
+ada stok jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,medium
+Gimana specnya,product_description,hard_negative,low
+ready ga kupluk rajut unisex arctic cozy,product_stock,keyword_based,medium
+kupluk rajut unisex arctic cozy sold out,product_stock,generic,medium
+admin hemat ga omniheat men's solid hooded puffer jacket-blue-green-m sih,product_price,generic,medium
+Uang saya kapan dikembalikan,out_of_scope,keyword_based,medium
+ada info pengiriman ORD-555,order_status,keyword_based,medium
+cek return,out_of_scope,hard_negative,low
+Ada update pesanan ord-001,order_status,keyword_based,clean
+Eh berat omniheat men's solid emm hooded puffer jacket-blue-green-l berapa ?,product_description,keyword_based,high
+kena berapa omniheat men's solid hooded puffer jacket-blue-green-m,product_price,keyword_based,clean
+L@gi diskon ga pls,product_price,generic,high
+Syal Musim Dingin Arctic Bliss Penuh Gaya ada diskon ga,product_price,keyword_based,medium
+Worth it ga beli syal musim dingin arctic bliss penuh gaya,product_description,generic,medium
+hi out of stock sih ga sih,product_stock,generic,medium
+Yang saya beli kemarin gimana,order_status,generic,medium
+Arctic Bliss Stylish Winter Scarf bagus ga,product_description,generic,clean
+Info sih pengiriman pesanan saya,order_status,keyword_based,medium
+Pesanan ready kirim kapan,order_status,keyword_based,low
+ada info pengiriman #99,order_status,keyword_based,medium
+Bayar pake apa,payment_info,keyword_based,low
+Ada update pesanan #555,order_status,keyword_based,medium
+Arctic Frost Winter Accessories Bundle tinggal berapa,product_stock,keyword_based,low
+Hai ordr #1 brp hari lagi please,order_status,keyword_based,medium
+abis belum OmniHeat Men's Solid Hooded Puffer Jacket,product_stock,generic,low
+Barang rusak,out_of_scope,keyword_based,low
+bisa bayar mandiri,payment_info,keyword_based,low
+tracking pesanan ord-555,order_status,keyword_based,clean
+pake kartu kredit bisa,payment_info,generic,low
+Ad ukur@n apa paket aksesori musim dingin arctic frost,product_description,keyword_based,medium
+Bos lcak order nomor 123 dong,order_status,keyword_based,medium
+ada kabar order sya,order_status,keyword_based,low
+ready belum eh bayarnya,payment_info,hard_negative,medium
+ready stock arctic frost winter accessories,product_stock,keyword_based,clean
+Stok satuan berapa,product_stock,hard_negative,clean
+Pricey ga omniheat men's solid hooded puffer jacket-blue-green-m ?,product_price,generic,clean
+Bisa pake bca ga,payment_info,keyword_based,medium
+btw baayar pake apa thanks,payment_info,keyword_based,medium
+permisi omniheat men's solid hooded puffer jacket bisa dibeli pls,product_stock,keyword_based,medium
+btw langsung kirim bisa Sarung Tangan Musim Dingin Arctic Layar Sentuh min,product_stock,generic,low
+yang sy pesan udah sampai maa,order_status,generic,medium
+langsung kirim bisa kaus kaik campur4n wol arctic warmth,product_stock,generic,low
+gimana sih kabar pesanan,order_status,keyword_based,high
+halo jadi reseller gimana thanks,out_of_scope,keyword_based,high
+Arctic frost winter accessories bisa dipakai untuk apa,product_description,keyword_based,clean
+Paket Aksesori Musim Dingin Arctic Frost waterproof ga,product_description,generic,clean
+Status order #99,order_status,keyword_based,low
+harga Arctic Frost Winter Accessories gimana,product_price,keyword_based,low
+Gan oredr nomor 555 gimana statusnya please,order_status,keyword_based,high
+halo yang itu dong dong,out_of_scope,ambiguous,low
+Syal musim dingin arctic bliss penuh gaya habis belum,product_stock,generic,clean
+Min via apa makasih,payment_info,generic,high
+berapa harga omniheat men's solid hooded puffer jacket,product_price,hard_negative,clean
+tolong info harga,product_price,hard_negative,medium
+gimana statsuya,order_status,hard_negative,medium
+Misi ad ukuran apa omniheat men's solid hooded puffer jacket min,product_description,keyword_based,medium
+Budget friendly ga,product_price,generic,clean
+Kaus kaki campuran deh wol arctic warmth berapa,product_price,keyword_based,low
+halo ada promo pembayaran please,payment_info,keyword_based,low
+hai totalnya berapa ??,product_price,hard_negative,low
+Bos ready nih transfer sekarang ya,payment_info,keyword_based,high
+kupluk rajut unisex arctic cozy waterproof ga,product_description,generic,clean
+Tracking pesanan 456,order_status,keyword_based,high
+Bayaran udah ready,payment_info,hard_negative,clean
+Detail jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,keyword_based,high
+kak cara bayar gimana ya kak,payment_info,keyword_based,high
+nyampe kpn,order_status,hard_negative,medium
+misi jadi reseller gimana ??,out_of_scope,keyword_based,medium
+hai tracking psnan eh nomor 555 ?,order_status,keyword_based,high
+hai ready kirim ga order saya ya kak,order_status,keyword_based,high
+kak info harga Paket Aksesori Musim Dingin Arctic Frost dong,product_price,hard_negative,medium
+Berapa unit kaus kaki campuran wol arctic warmth,product_stock,hard_negative,medium
+Berapa banyak stok,product_stock,keyword_based,clean
+Syal musim dingin arctic bliss penuh gaya ada fitur apa,product_description,keyword_based,low
+Paket aksesori musim dingin arctic frost original ga,product_description,generic,low
+ok,out_of_scope,ambiguous,clean
+gimana kabar pesanan,order_status,keyword_based,clean
+Bisa ambil langsung ga,out_of_scope,keyword_based,clean
+masih bisa dibeli Arctic Frost Winter Accessories,product_stock,generic,medium
+Masih bisa dibeli omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,generic,low
+Status order #555,order_status,keyword_based,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L kayak gimana,product_description,generic,medium
+paket aksesori musim dingin arctic frost ad fitur apa,product_description,keyword_based,low
+Gan tukar barang pls,out_of_scope,keyword_based,low
+OmniHeat Men's Soolid Hooded Puffer Jacket murah ga,product_price,generic,medium
+Kualitasnya gimana sarung tangan musim dingin arctic layar sentuh,product_description,keyword_based,clean
+ready stock Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_stock,hard_negative,clean
+worth it ga beli omniheat men's solid hooded puffer jacket-blue-green-l,product_description,generic,high
+kapan ready Paket Aksesori Musim Dingin Arctic Frost,product_stock,hard_negative,clean
+ready stock jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,hard_negative,clean
+Harga omniheat men's solid hooded puffer jacket gimana,product_price,keyword_based,low
+promo cancel,out_of_scope,hard_negative,low
+kak Paket Aksesori Musim Dingin Arctic Frost tuh apa sih please,product_description,generic,medium
+Bos omniheat men's solid hooded puffer jacket-blue-green-m tuh apa sih min,product_description,generic,low
+Info order #555,order_status,keyword_based,low
+bisa dicuci ga jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,keyword_based,clean
+Worth it ga beli kaus kaki campuran wol arctic warmth,product_description,generic,low
+gan mau tanya yang kemarin ya kak,order_status,generic,low
+pesanan syaa gimana,order_status,keyword_based,medium
+min yang saya beli kemarinn gimana makasih,order_status,generic,low
+Jelasin syal musim dingin arctic bliss penuh gaya dong,product_description,generic,clean
+Bisa pake transfer bank ga,payment_info,keyword_based,medium
+Btw tracking pesanan 123 ?,order_status,keyword_based,high
+Kaus Kaki Campuran Wol Arctic Warmth murah ga,product_price,generic,medium
+kaus kaki campuran wol arctic warmth ad diskon ga,product_price,keyword_based,medium
+yang itu dong,out_of_scope,ambiguous,clean
+Arctic Bliss Stylish Winter Scarf kosong ga,product_stock,generic,clean
+eh oke ??,out_of_scope,ambiguous,low
+produk gimana ya,product_description,hard_negative,low
+On the way kapan,order_status,hard_negative,clean
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L awet ga,product_description,generic,clean
+order nomor 123 gimana statusnya,order_status,keyword_based,clean
+bos ada stok OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M thanks,product_stock,keyword_based,medium
+min bisa dicuci ga syal musim dingin arctic bliss penuh gaya ya,product_description,keyword_based,medium
+bayar gimana gitu caranya,payment_info,keyword_based,medium
+Itu udah jalan belum,order_status,generic,medium
+Info harga omniheat men's solid hooded puffer jacket,product_price,keyword_based,low
+pakai apa bisa,payment_info,generic,high
+tersedia apa,payment_info,generic,high
+Detail harga jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_price,hard_negative,clean
+bos on the way kapan dong,order_status,hard_negative,low
+ada Kaus Kaki Campuran Wol Arctic Warmth,product_stock,keyword_based,clean
+worth it ga beli paket aksesori musim dingin arctic frost,product_description,generic,low
+Masih banyak ga syal musim dingin arctic bliss penuh gaya,product_stock,generic,low
+accept bri,payment_info,generic,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-l bisa dibeli,product_stock,keyword_based,low
+Jaket puffer pria omniheat solid bertudung-biru-kuning-l bisa dipakai untuk apa,product_description,keyword_based,clean
+btw bantuin dong ya,out_of_scope,ambiguous,low
+permisi yang saya beli kmarin gimana ??,order_status,generic,medium
+Permisi bs diccuci ga jaket puffer pria omniheat solid ya bertudung-biru-kuning-m ya kak,product_description,keyword_based,high
+ada jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,low
+Available ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,generic,clean
+bahan Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M apa,product_description,keyword_based,low
+terus gimana,out_of_scope,ambiguous,clean
+sarung tangan musim dingin arctic layar sentuh kayak gimana,product_description,generic,clean
+Omniheat men's solid hooded puffer jacket-blue-green-m kosong ga,product_stock,generic,low
+Affordable ga jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_price,generic,low
+Hai kena berapa omniheat men's sloid hooded puffer jacket-blue-green-l sih,product_price,keyword_based,medium
+bahan omniheat men's solid hooded puffer jacket-blue-green-l apa,product_description,keyword_based,clean
+cek order,order_status,hard_negative,medium
+price arctic frost winter loh accessories,product_price,keyword_based,low
+leewat apa bisa,payment_info,generic,medium
+Hai kualitasnya gimaan sarung tangan musim dingin arctic layr sentuh ??,product_description,keyword_based,high
+gimana sih OmniHeat Men's Solid Hooded Puffer Jacket,product_description,keyword_based,medium
+bos lagi promo ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L thx,product_price,generic,clean
+min lewat apa bisa ??,payment_info,generic,medium
+pesanan #99,order_status,hard_negative,low
+tracking refund,out_of_scope,hard_negative,clean
+yang tadi,out_of_scope,ambiguous,clean
+kapan bisa beli,product_stock,hard_negative,medium
+Ready omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,hard_negative,medium
+status order,order_status,hard_negative,clean
+btw belum nyampe nih ??,order_status,generic,clean
+orderan saya gimana,order_status,keyword_based,low
+in stock ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,generic,medium
+barangnya mana ya,order_status,generic,medium
+permisi syal musim dingin arctic bliss penuh gaya kayak gimana ?,product_description,generic,high
+berat Kupluk Rajut Unisex Arctic Cozy berapa,product_description,keyword_based,medium
+Refund available,out_of_scope,hard_negative,medium
+bos ada update pesanan ord123 ??,order_status,keyword_based,high
+Status order ord-001,order_status,keyword_based,low
+Masih jual omnihaet men's solid hooded puffer jacket-blue-green-l,product_stock,generic,medium
+accept ovo,payment_info,generic,clean
+Hi,out_of_scope,ambiguous,low
+udah jalan belum sih,order_status,generic,low
+masih jual Arctic Frost Winter emm Accessories,product_stock,generic,low
+kak tersedia kupluk rajut unisex arctic cozy ga ya kak,product_stock,keyword_based,low
+halo,out_of_scope,ambiguous,low
+kena berapa arctic bliss stylish winter scarf,product_price,keyword_based,low
+price arctic frost winter accessories,product_price,keyword_based,clean
+terjangkau ga,product_price,generic,clean
+Pakai apa bs,payment_info,generic,medium
+yang saya beli kemarin gimana,order_status,generic,low
+Tukar barang,out_of_scope,keyword_based,low
+yang ready apa aja,product_stock,keyword_based,medium
+Kapan dikirim,order_status,hard_negative,clean
+min gimana specnya thx,product_description,hard_negative,medium
+halo per stok berapa please,product_stock,hard_negative,clean
+Arctic bliss stylish winter scarf gimana,product_description,keyword_based,low
+Ready transfer sekarang,payment_info,keyword_based,clean
+Btw bs langsung dikirim thx,product_stock,generic,high
+Lacak order #1,order_status,keyword_based,clean
+hai bahan Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M apa please,product_description,keyword_based,medium
+Hi status orderan sih #99 deh,order_status,keyword_based,medium
+Jam buka toko,out_of_scope,keyword_based,medium
+Halo available ga sarung tangan musim dingin arctic layar sentuh ya kak,product_stock,generic,high
+kok lama ya,order_status,generic,clean
+cocok ga omniheat men's solid hooded puffer jacket,product_description,generic,medium
+Ramah kantong ga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,clean
+masih bisa dibeli omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,generic,medium
+satuan berapa,product_price,hard_negative,clean
+eh mau kerja disini ??,out_of_scope,keyword_based,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-m ready,product_stock,keyword_based,clean
+Hai arctic frost winter accessories bundle berapa min,product_price,keyword_based,clean
+masih jual Arctic Frost Winter Accessories,product_stock,generic,low
+Info pengiriman pesanan saya,order_status,keyword_based,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-m habis belum,product_stock,generic,clean
+recommended ga omniheat men's solid hooded puffer jacket,product_description,generic,clean
+min hmm ??,out_of_scope,ambiguous,clean
+support bca,payment_info,generic,clean
+bisa cod ga,payment_info,keyword_based,low
+sudah ready bayar,payment_info,hard_negative,low
+sarung tangan musim dingin arctic layar sentuh sold out,product_stock,generic,clean
+recommended ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,generic,low
+hi cara nya gimana ya pls,payment_info,generic,high
+ada OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_stock,keyword_based,medium
+misi caranya gimana makasih,payment_info,generic,high
+Out of stock ga,product_stock,generic,clean
+lagi diskon ga,product_price,generic,clean
+bisa dapet jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,medium
+Bos jaket puffer pria omniheat solid bertudung-biru-kuning-m ada fitur apa deh,product_description,keyword_based,medium
+detail OmniHeat Men's Solid Hooded Puffer Jacket,product_description,keyword_based,low
+halo biaya aadmin deh berapa,payment_info,keyword_based,medium
+deskripsi jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,keyword_based,clean
+Batalkan order,out_of_scope,keyword_based,clean
+kpn dikirim,order_status,hard_negative,medium
+Hi bisa langsung dikirim dong,product_stock,generic,low
+Gimana kaus kaki campuran wol arctic warmth,product_description,hard_negative,low
+harga refund,out_of_scope,hard_negative,clean
+Harga refund please,out_of_scope,hard_negative,medium
+Support virtual account,payment_info,generic,medium
+bisa langsung dikir1m,product_stock,generic,medium
+eh lagi diskon ga ya kak,product_price,generic,low
+status order #99,order_status,keyword_based,medium
+pesanan gimana ya,order_status,hard_negative,clean
+Paket Aksesori Musim Dingin Arctic Frost tinggal berapa,product_stock,keyword_based,low
+Masih banyak ga jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,generic,low
+hi masih bisa dibeli OmniHeat Men's Solid Hooded Puffer Jacket sih,product_stock,generic,medium
+min kok belum dateng dong,order_status,generic,medium
+Cara nya gimana ya,payment_info,generic,low
+worth it ga paket aksesori musim dingin arctic frost,product_price,generic,low
+Omniheat men's solid hooded puffer jacket-blue-green-l waterproof ga,product_description,generic,low
+misi asli ga Syal Musim Dingin Arctic Bliss Penuh Gaya min,product_description,generic,medium
+Ada ga,out_of_scope,ambiguous,clean
+Hai yang sayya pesan kemarin itu dong,order_status,generic,medium
+yang ini berapa,product_price,hard_negative,clean
+Kapan nyampe ya,order_status,generic,clean
+Gimana sih omniheat men's solid hooded puffer jacket-blue-green-m,product_description,keyword_based,low
+Mau info tentang arctic bliss stylish winter scarf,product_description,keyword_based,clean
+Yyang ready apa aja,product_stock,keyword_based,low
+halo biaya admin berapa please,payment_info,keyword_based,clean
+Ada update pesanan 67890,order_status,keyword_based,low
+promo cnacel,out_of_scope,hard_negative,medium
+Paket aksesori musm dingin arct!c frost ada diskon ga,product_price,keyword_based,medium
+price Kaus Kaki Campuran Wol Arctic Warmth,product_price,keyword_based,clean
+Bs pake cash ga,payment_info,keyword_based,medium
+gan kemahalan ga arctic frost winter accessories please,product_price,generic,medium
+berapa harga Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_price,hard_negative,clean
+info lengkap kaus kaki campuran wol arctic warmth,out_of_scope,ambiguous,low
+review Kaus Kaki Campuran Wol Arctic Warmth,product_description,generic,clean
+arctic bliss stylish winter scarf masih ada,product_stock,keyword_based,high
+ada info pengiriman #12345,order_status,keyword_based,medium
+Cocok ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_description,generic,clean
+sampai eh mana ya,order_status,generic,high
+mau refund,out_of_scope,keyword_based,clean
+Produk tidak sesuai,out_of_scope,keyword_based,low
+kak ada opsi cod thx,payment_info,keyword_based,medium
+bos ad update pesanan 67890 pls,order_status,keyword_based,high
+kapan ada lagi,product_stock,hard_negative,low
+Kak info sarung tangan musim dingin arctic layar sentuh ?,product_description,keyword_based,low
+Hi ada ga sih,out_of_scope,ambiguous,clean
+berapa unit arctic frost winter accessories bundle,product_stock,hard_negative,clean
+halo tersedia apa thx,payment_info,generic,medium
+btw info bahannya dong pls,product_description,hard_negative,medium
+halo bahan Pakte Aksesori Musim Dingin Arctic Frst apa ?,product_description,keyword_based,medium
+bayar pake apa,payment_info,keyword_based,clean
+pake apa,payment_info,generic,low
+Bsa dapet jaket puffer pria omniheat solid bertudung-biru-kuning-m ya kak,product_stock,keyword_based,high
+Bisa dicuci ga arctic frost wiinter accessories bundle,product_description,keyword_based,medium
+kak ukuran syal musim dingin arctic bliss penuh gaya berapa thx,product_description,keyword_based,medium
+Sip,out_of_scope,ambiguous,clean
+Pesanan gimana ya,order_status,hard_negative,low
+Arctic Frost Winter Accessories ada fitur apa,product_description,keyword_based,low
+Bos harga sarung tangan musim dingin arctic layar sentuh gimana thx,product_price,keyword_based,high
+Langsung kirim bisa kupluk rajut unisex arctic cozy,product_stock,generic,clean
+itu gimana kelanjutannya,order_status,generic,clean
+Pesanan gimna ya,order_status,hard_negative,medium
+Bisa dapet kupluk rajut unisex arctic cozy,product_stock,keyword_based,low
+info ordre ORD-555,order_status,keyword_based,medium
+mau tau harga omniheat men's solid hooded puffer jacket,product_price,keyword_based,clean
+mau komplain,out_of_scope,keyword_based,medium
+support cod,payment_info,generic,clean
+Kaus kaki campuran wol arctic wartmh amsih ada,product_stock,keyword_based,medium
+mau kembalikan brg,out_of_scope,keyword_based,medium
+Order #1 berapa hari lagi,order_status,keyword_based,medium
+belum nyampe nih,order_status,generic,clean
+Omniheat men's solid hooded puffer jacket berapa,product_price,hard_negative,clean
+proses refund berapa lama,out_of_scope,keyword_based,low
+deskripsi jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,keyword_based,clean
+gan sisa berapa unit Kaus Kaki Campuran Wol Arctic Warmth min,product_stock,keyword_based,medium
+review omniheat men's solid hooded puffer jacket-blue-green-l,product_description,generic,low
+worth it ga bei Jaket Puffer Pria OmniHeat Slid Bertudung-Biru-Hijau-M,product_description,generic,low
+lacak order #1,order_status,keyword_based,medium
+btw harga omniheat men's solid hooded puffer jacket-blue-green-l gimana thx,product_price,keyword_based,medium
+eh arctic frost winter accessories berapa ya,product_price,keyword_based,low
+Kemahalan ga omniheat men's solid hooded puffer jacket ya,product_price,generic,high
+available ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_stock,generic,low
+berapa,out_of_scope,ambiguous,clean
+gimana sih Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_description,keyword_based,clean
+Hi info harga eh jjaket puffer pra omniheat solid bertudung-biru-kuning-m pls,product_price,hard_negative,medium
+Kak proses refund berapa lama ya,out_of_scope,keyword_based,medium
+Eh mau info tentang arctic bliss stylish winter scarf min,product_description,keyword_based,medium
+Kapan nyampe ya deh,order_status,generic,medium
+bisa pake cod ga,payment_info,keyword_based,low
+btw lewat apa bisa thanks,payment_info,generic,high
+mau tau cara cancel makasih,out_of_scope,hard_negative,medium
+Eh ready transfer sekarang ?,payment_info,keyword_based,medium
+Berapa harga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,keyword_based,medium
+produk tidak sesuai,out_of_scope,keyword_based,clean
+hi lagi promo ga arctic frost winter accessories bundle deh,product_price,generic,clean
+Min berapa banyak stok sih,product_stock,keyword_based,clean
+Review sarung tangan musim dingin arctic layar sentuh,product_description,generic,high
+halo lagi promo ga Arctic Frost Winter Accessories Bundle,product_price,generic,low
+Ukuran arctic frost winter accessories brapa,product_description,keyword_based,high
+gan sip pls,out_of_scope,ambiguous,low
+mau info tentang Syal Musim Dingin Arctic Bliss Penuh Gaya,product_description,keyword_based,low
+Review omniheat men's solid hooded puffer jacket-blue-green-l makasih,product_description,generic,high
+Syal Musim Dingin Arctic Bliss Penuh Gaya kosong ga,product_stock,generic,clean
+Arctic frost winter accessories bundle gimana reviewnya,product_description,hard_negative,low
+bos tukar barang min,out_of_scope,keyword_based,high
+Paket aksesori musim dingin arctic frost ready stock,product_stock,keyword_based,clean
+order ready dikirim belum,order_status,keyword_based,low
+bos Arctic Bliss Stylish Winter Scarf berapa thanks,product_price,keyword_based,medium
+Cocok ga kupluk rajut unisex arctic cozy,product_description,generic,medium
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m waterproof ga,product_description,generic,clean
+paket kpn,order_status,hard_negative,medium
+hai harga Jaket Puffer Pria OmniHeat S0lid Bertudung-Biru-Kuning-M gimana thanks,product_price,keyword_based,low
+info hrgnya kaus kaki campuran wol arctic warmth,product_price,keyword_based,medium
+tersedia Syal Musim Dingin Arctic Bliss Penuh Gaya ga,product_stock,keyword_based,clean
+eh ad promo pembayaran ??,payment_info,keyword_based,high
+opsi apa aja,payment_info,generic,low
+Import atau lokal jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,generic,clean
+sampai kapn ya kak,order_status,hard_negative,medium
+lagi diskon nih ga,product_price,generic,high
+Hi tukar barang,out_of_scope,keyword_based,high
+berapa lama lagi nyape,order_status,keyword_based,medium
+kak OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M murah ga ?,product_price,generic,high
+kemahalan ga Kaus Kaki Campuran Wol Arctic Warmth min,product_price,generic,medium
+hai worth it ga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,generic,medium
+Info return,out_of_scope,hard_negative,clean
+Bos omniheat men's solid hooded puffer jacket-blue-green-m kayak gimana thanks,product_description,generic,low
+admin detail omniheat men's solid hooded puffer jacket-blue-green-m deh,product_description,keyword_based,high
+hi bat@lkan order ?,out_of_scope,keyword_based,high
+kemahalan ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_price,generic,low
+Udah berapa lama diproses,order_status,keyword_based,clean
+Admin bisa dapet omniheat men's solid hooded puffer jacket-blue-green-l please,product_stock,generic,high
+stoknya deh brp ya,product_stock,hard_negative,medium
+Ad tok offline,out_of_scope,keyword_based,high
+bisa dicuci ga Kaus Kaki Campuran Wol Arctic Warmth,product_description,keyword_based,medium
+Omniheat men's solid hooded puffer jacket bisa dibeli,product_stock,keyword_based,high
+Bahan sarung tangan musim dingin arctic loh layar sentuh apa ??,product_description,keyword_based,medium
+Kak abis belum arctic frost winter accessories bundle pls,product_stock,generic,medium
+Arctic Bliss Stylish Winter Scarf awet ga,product_description,generic,medium
+Ready kaus kaki campuran wol arctic warmth,product_stock,hard_negative,clean
+min tahan lama ga omniheat men's solid hooded puffer jacket deh,product_description,generic,medium
+Ready ga kupluk rajut unisex arctic cozy,product_stock,keyword_based,low
+Paket Aksesori Musim Dingin Arctic Frost ready,product_stock,keyword_based,low
+permisi bsa dapet Sarung Tangan Musim Dingin Arctic Layar Sentuh ??,product_stock,generic,high
+Btw bisa langsung dikirim dong,product_stock,generic,medium
+Arctic frost winter accessories bundle gimana,product_description,keyword_based,low
+Halo bsa beli arctic frost winter accessories min,product_stock,keyword_based,high
+spesifikasi OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,keyword_based,high
+kasih tau specnya,product_description,hard_negative,low
+Itu gimana,out_of_scope,ambiguous,low
+Detail harga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,hard_negative,low
+arctic bliss stylish winter scarf kosong ga,product_stock,generic,clean
+ukuran OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L berapa,product_description,keyword_based,clean
+Orderan saya gimana,order_status,keyword_based,clean
+misi bisa diucci ga paket aksesori musim dingin arcttic frost ya kak,product_description,keyword_based,low
+in stock kapan,product_stock,hard_negative,medium
+ramah kantong ga Syal Musim Dingin Arctic Bliss Penuh Gaya,product_price,generic,medium
+gan udah diproses belum please,order_status,generic,clean
+ada info pengiriman nomor 555,order_status,keyword_based,clean
+ada warna apa jaket puffer prria omniheat soldi bertudung-biru-hijau-m,product_description,keyword_based,medium
+Btw batalkan ordr thanks,out_of_scope,keyword_based,medium
+berat Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L berapa,product_description,keyword_based,clean
+halo info harganya dong please,product_price,keyword_based,high
+Bisa transfer bbank,payment_info,keyword_based,low
+ukuran OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M berapa,product_description,keyword_based,low
+bos pake apa ya kak,payment_info,generic,medium
+lama banget nih,order_status,generic,clean
+barangay mana ya,order_status,generic,medium
+ada info pengiriman 123,order_status,keyword_based,medium
+bisa info spec,product_description,hard_negative,clean
+nyampe kapan,order_status,hard_negative,clean
+Misi murahan ga kupluk rajut unisex arctic cozy sih,product_price,generic,clean
+misi masih diproses ya min,order_status,generic,high
+hai spesifikasi jaket puffer pria omniheat solid bertudung-biru-hijau-m ?,product_description,keyword_based,low
+jaket puffer pria omniheat solid bertudung-biru-kuning-l waterproof ga,product_description,generic,clean
+gan ubah emm alamat pengiriman deh,out_of_scope,keyword_based,high
+udah berapa lama diproses,order_status,keyword_based,medium
+Lagi promo ga sarung tangan musim dingin arctic layar sentuh deh,product_price,generic,low
+btw cek return ya kak,out_of_scope,hard_negative,medium
+Bbaar gimana caranya,payment_info,keyword_based,low
+Mau yang ready,product_stock,hard_negative,clean
+Oke,out_of_scope,ambiguous,clean
+mau tau hrg Sarung Tangan Musim Dingin 4rctic Layar Sentuh,product_price,keyword_based,high
+pas di kantong ga,product_price,generic,clean
+Pricey ga arctic frost winter accessories bundle,product_price,generic,medium
+min mau tanya yang kemarin min,order_status,generic,low
+Info lengkap arctic frost winter accessories,out_of_scope,ambiguous,clean
+Ad sale ga,product_price,keyword_based,medium
+info bahannya dong,product_description,hard_negative,clean
+Ready arctic bliss stylish winter scarf,product_stock,hard_negative,clean
+kena berapa OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_price,keyword_based,medium
+halo cek pesanan nomor 123 min,order_status,keyword_based,high
+Sarung Tangan Musim Dingin Arctic Layar Sentuh sold out,product_stock,generic,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M habis belum,product_stock,generic,clean
+sisa berapa unit Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_stock,keyword_based,low
+info order ORD123,order_status,keyword_based,low
+Halo,out_of_scope,ambiguous,clean
+bisa dicuci ga sarung tangan musim dingin arctic layar sentuh,product_description,keyword_based,medium
+yag saya pesan udah sampai mana,order_status,generic,low
+kualitasnya gimana,product_description,hard_negative,clean
+tinggal sedikit ga,product_stock,generic,high
+Langsung kirim bisa sarung tangan musim dingin arctci layar sentuh,product_stock,generic,low
+Sisa berapa unit sarung tangan musim dingin arctic layar sentuh,product_stock,keyword_based,low
+caranya gimana ya,payment_info,generic,high
+min ada warna apa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M thanks,product_description,keyword_based,low
+omniheat mens' solid hooded puffer jacket-blue-green-m harganya berapa,product_price,keyword_based,low
+ready stock sarung tangan musim dingin arctic layar sentuh,product_stock,keyword_based,clean
+kak ada promo Arctic Frost Winter Accessories thx,product_price,keyword_based,low
+gan lacak order 67890 ya,order_status,keyword_based,low
+Gimana sih jaket puffer pria eh omniheat solid bertudung-biru-kuning-l,product_description,keyword_based,high
+btw psnan berapa lama sampai min,order_status,keyword_based,high
+pakai kan apa bisa,payment_info,generic,low
+gan kok blom dateng ya kak,order_status,generic,low
+harga dan stok jaket puffer pria omniheat solid bertudung-biru-hijau-m,out_of_scope,ambiguous,low
+info harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_price,keyword_based,low
+btw lewat apa bisa min,payment_info,generic,clean
+Stok berapa,product_stock,keyword_based,low
+Kualitasnya gimana omniheat men's solid hooded puffer jacket-blue-green-l,product_description,keyword_based,clean
+hi tukar barang makasih,out_of_scope,keyword_based,medium
+kemahalan ga OmniHeat eh Men's Solid Hooded Puffer Jacket,product_price,generic,medium
+misi discontinue belum syal musim dingin arctic bliss penuh gaya,product_stock,generic,clean
+Bisa cod ga,payment_info,keyword_based,clean
+Ready refund,out_of_scope,hard_negative,clean
+Bisa dapet jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,generic,low
+Deskripsi jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,keyword_based,low
+Ini dong,out_of_scope,ambiguous,low
+Omniheat men's solid hooded puffer jacket-blue-green-m bisa dibeli,product_stock,keyword_based,clean
+Pesanan saya gmn,order_status,keyword_based,low
+admin tersedia apa thx,payment_info,generic,medium
+Udah diproses belum,order_status,generic,low
+Recommended ga arctic frost winter accessories bundle,product_description,generic,medium
+hi ukuran Arctic Frost Winter Accessories Bundle berapa ya kak,product_description,keyword_based,low
+bos kualitasnya gimana paket aksesori musim dingin arctic frost ya kak,product_description,keyword_based,medium
+Min produk beda sama gambar min,out_of_scope,keyword_based,medium
+min omniheat men's solid hooded puffer jacket ready makasih,product_stock,keyword_based,clean
+lowogan kerja ad ga,out_of_scope,keyword_based,high
+order 123 berapa hari lagi,order_status,keyword_based,medium
+hi order ORD-555 gimana statusnya please,order_status,keyword_based,high
+review jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,generic,low
+asli ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_description,generic,medium
+Halo jam buuka sih toko thx,out_of_scope,keyword_based,high
+terima bri,payment_info,generic,medium
+accept transfer bannk,payment_info,generic,low
+Mau refund,out_of_scope,keyword_based,low
+bis cod ga,payment_info,keyword_based,medium
+admin bisa dapet syal musim dingin arctic bliss penuh gaya deh,product_stock,generic,clean
+ekonomis ga,product_price,generic,clean
+Program affiliate,out_of_scope,keyword_based,medium
+Stok barang rusak,out_of_scope,hard_negative,clean
+bos kaus kaki campuran wol arctic warmth tinggal berapa makasih,product_stock,keyword_based,high
+min metode pembayaran apa aja min,payment_info,keyword_based,low
+kak kena berapa Arctic Frost Winter Accessories Bundle deh,product_price,keyword_based,low
+berapa banyak stok,product_stock,keyword_based,medium
+yang ini gimana specnya,product_description,hard_negative,clean
+kak Paket Aksesori Musim Dingin Arctic Frost available min,product_stock,hard_negative,clean
+tracking psnan,order_status,hard_negative,medium
+sip,out_of_scope,ambiguous,low
+omniheat men's solid hooded puffer jacket-blue-green-m tinggal berapa,product_stock,keyword_based,clean
+Cara refund gimana ya kak,out_of_scope,keyword_based,medium
+Bos terjangkau ga,product_price,generic,medium
+ready ga OmiHeat Men's Solid Hooded hmm Puffer Jacket-Blue-Green-M,product_stock,keyword_based,high
+pembayaran ready,payment_info,keyword_based,clean
+Tahan lama ga kaus kaki campuran wol arctic warmth,product_description,generic,clean
+Kak masih jual kaus kaki campuran wol arctic warmth ??,product_stock,generic,clean
+eh udah berapa lama diproses ya kak,order_status,keyword_based,clean
+Admin jaket puffer pria omniheat solid bertudung-biru-hijau-m ready kapan makasih,product_stock,hard_negative,low
+Worth it ga jaket ppuffer pria omniheat solid bertudung-biru-kuning-l,product_price,generic,high
+gan mau refund min,out_of_scope,keyword_based,low
+misi yang ready apa aja thx,product_stock,keyword_based,clean
+kak gimana kabr sarung tangan musim dingin arctic layar sentuh dong,product_description,hard_negative,low
+Btw gimana sih arctic frost winter accessories bundle ?,product_description,keyword_based,low
+Admin tracking refund ?,out_of_scope,hard_negative,medium
+hi lagi diskon ga ya,product_price,generic,high
+min yang ready apa thx,product_stock,hard_negative,low
+sisanya breapa,product_stock,hard_negative,medium
+Caranya gimana,payment_info,generic,medium
+hi jadi reseller gimana ?,out_of_scope,keyword_based,high
+gimana harganya sih,product_price,keyword_based,high
+Ada ukuran apa arctic frost winter accessories,product_description,keyword_based,clean
+detail harga Kaus Kaki Campuran Wol Arctic Warmth,product_price,hard_negative,clean
+bos pembayaran ready thx,payment_info,keyword_based,medium
+hai ada info pengiriman ya #555 ?,order_status,keyword_based,high
+ini dong,out_of_scope,ambiguous,clean
+jaket puffer pria omniheeat solid bertudung-biru-kuning-l berapa,product_price,keyword_based,medium
+eh cara refund gimana min,out_of_scope,keyword_based,clean
+gan detail harga Kaus Kaki Campuran Wol AArctic Warmth dong,product_price,hard_negative,medium
+min pembayaran ready please,payment_info,keyword_based,high
+psnan ready kirim kapan,order_status,keyword_based,low
+Bahan omniheat men's solid hooded puffer jacket-blue-green-l apa,product_description,keyword_based,low
+hemat ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_price,generic,medium
+Order saya gimana,order_status,hard_negative,low
+Halo stok berapa ya kak,product_stock,keyword_based,medium
+hi masih ada garansi pls,out_of_scope,hard_negative,low
+kak batlakan roder ?,out_of_scope,keyword_based,high
+ada warna apa paket aksesori musim dingin arctic frost,product_description,keyword_based,clean
+yg itu,out_of_scope,ambiguous,low
+jaket puffer pria omniheat solid bertudung-biru-kuning-l bisa dipakai untuk apa,product_description,keyword_based,clean
+masih ada Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_stock,hard_negative,low
+In sttock ga omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,generic,high
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M sold out,product_stock,generic,high
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L yg sih itu gmn,product_description,hard_negative,medium
+detail harga OmniHeat Men's Solid Hooded Puffer Jacket,product_price,hard_negative,clean
+hai masuk kapan omniheat men's solid hooded puffer jacket,product_stock,hard_negative,low
+R3view jaket puffer pria omniheat oslid bertudung-biru-hijau-m,product_description,generic,high
+Admin oke ??,out_of_scope,ambiguous,low
+berat OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M berapa,product_description,keyword_based,medium
+ad cicilan ga,payment_info,keyword_based,low
+pake ovo bisa thanks,payment_info,generic,high
+in stock ga kaus kaki campuran wol arctic warmth,product_stock,generic,low
+yang saya pesan udah sampai mana,order_status,generic,medium
+admin info return please,out_of_scope,hard_negative,low
+Yang kemarin udah dikirim belum,order_status,generic,clean
+halo pake qsi bisa min,payment_info,generic,high
+kak order 456 berapa hari lagi ?,order_status,keyword_based,low
+test,out_of_scope,ambiguous,clean
+hi,out_of_scope,ambiguous,clean
+ada Arctic Frost Winter Accessories Bundle,product_stock,keyword_based,medium
+misi in stock ga Syal Musim Dingin Arctic Bliss Penuh Gaya thanks,product_stock,generic,low
+misi worth it ga beli sarungg tangan musim dingin arctic layar sentuh,product_description,generic,high
+omniheat men's solid hooded puffer jacket-blue-green-l yang itu gimana,product_description,hard_negative,medium
+Hi lacak order nomor 123 please,order_status,keyword_based,medium
+info lengkap paket aksesori musim dingin arctic frost,product_description,hard_negative,clean
+misi pesanan 67890 deh,order_status,hard_negative,low
+syal musim dingin arctic bliss penuh gaya ready,product_stock,keyword_based,low
+btw ganti ukuran pesanan dong,out_of_scope,keyword_based,medium
+hai OmniHeat Men's Solid Hooded Puffer Jacket kosong ga dong,product_stock,generic,low
+ada info pengiriman 456,order_status,keyword_based,clean
+ada update pesanan ORD-555,order_status,keyword_based,clean
+Arctic bliss stylish nih winter scarf ada diskon ga makasih,product_price,keyword_based,high
+Hi cara refund gimana min,out_of_scope,keyword_based,clean
+bs cod ga,payment_info,keyword_based,high
+Uang saya kapan dikembalikan min,out_of_scope,keyword_based,medium
+In stock ga jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_stock,generic,clean
+Hai dimanaa,out_of_scope,ambiguous,low
+berapa lama lagi nyampe,order_status,keyword_based,medium
+pricey ga arctic frost winter accessories,product_price,generic,low
+permisi hi ya,out_of_scope,ambiguous,low
+Worth it ga sarung tangan musim dingin arctic layar sentuh,product_price,generic,clean
+admin stok Sarung Tangan Musim Dingin Arctic Layar Sentuh ada dong,product_stock,keyword_based,high
+ada opsi bni,payment_info,keyword_based,clean
+misi review paket aksesori musim dingin arctic frost makasih,product_description,generic,clean
+lewat mana,payment_info,generic,clean
+Kaus Kaki Campuran Wol Arctic Warmth gimana reviewnya,product_description,hard_negative,medium
+kak yang saya beli kemarin gimana thx,order_status,generic,high
+admin arctic frost winter accessories bundle berapa min,product_price,hard_negative,clean
+Ada toko offline,out_of_scope,keyword_based,clean
+arctic frost winter accessories bundle bisa dipakai untuk apa,product_description,keyword_based,medium
+Kak berapa harga omniheat men's solid hooded puffer jacket pls,product_price,keyword_based,low
+Yang ini berapa,product_price,hard_negative,low
+Cara bayar gimana,payment_info,keyword_based,clean
+detail sarung tangan musim dingin arctic layar sentuh,product_description,hard_negative,medium
+Jelasin arctic frost winter accessories bundle dong,product_description,generic,low
+permisi stook satuan ber4pa thanks,product_stock,hard_negative,low
+halo psanan ready kirim kapan,order_status,keyword_based,medium
+kak yang ready apa aja min,product_stock,keyword_based,medium
+mau info tentang OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,keyword_based,clean
+lowongan kerja ada ga,out_of_scope,keyword_based,low
+Jadi reseller gimana,out_of_scope,keyword_based,high
+bisa beli Arctic Frost Winter Accessories,product_stock,keyword_based,clean
+min accept ovo ya kak,payment_info,generic,clean
+ready sih stock Arctcic Frost Winter Accessories,product_stock,keyword_based,medium
+btw itu aja ya kak,out_of_scope,ambiguous,low
+masih bisa dibeli syal musim dingin arctic bliss penuh gaya,product_stock,generic,clean
+info order 456,order_status,keyword_based,medium
+apa,out_of_scope,ambiguous,low
+Ganti ukuran pe5anan,out_of_scope,keyword_based,low
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m ada diskon ga,product_price,keyword_based,clean
+btw pilihan apa saja deh,payment_info,generic,medium
+Misi cara refund gimana ??,out_of_scope,keyword_based,medium
+info lengkap Arctic Frost Winter Accessories,product_description,keyword_based,medium
+permisi redy ga bayarnya makasih,payment_info,hard_negative,low
+Bisa beli syal musim dingin arctic bliss penuh gaya,product_stock,keyword_based,clean
+Min review omniheat men's solid hooded puffer jacket-blue-green-l dong,product_description,generic,medium
+Pembayaran ready,payment_info,keyword_based,low
+Hi bs langsung dikirim min,product_stock,generic,high
+Kaus Kaik Campuran Wol Acrtic Warmth awet ga,product_description,generic,medium
+Stok jaket puffer pria omniheat solid bertudung-biru-kuning-l ada,product_stock,keyword_based,clean
+btw pesanan berapa lama sampai makasih,order_status,keyword_based,medium
+admin kupluk rajut unisex arctic cozy ad fitur apa min,product_description,keyword_based,medium
+bos ready kirim jaket puffer pria omniheat solid bertudung-biru-hijau-m ??,product_stock,hard_negative,clean
+permisi pake cicilan bisa please,payment_info,generic,low
+Gan transfer gimana min,payment_info,keyword_based,medium
+Minta ya info harga,product_price,hard_negative,medium
+min yang dibeli tadi pagi deh,order_status,generic,low
+Gimana harganya,product_price,keyword_based,high
+Permisi paket aksesori musim dingni arctic frost berapa sih,product_price,keyword_based,medium
+Ga ngerti,out_of_scope,ambiguous,low
+info harga Syal Musim Dingin Arctic Bliss Penuh Gaya,product_price,keyword_based,clean
+hai info pengiriman pesanan 5aya thanks,order_status,keyword_based,medium
+Kupluk rajut unisex arctic cozy habis belum,product_stock,generic,low
+Bisa bayar bca,payment_info,keyword_based,high
+Stoknya berapa ya,product_stock,hard_negative,medium
+Sampai mana ya,order_status,generic,high
+bisa bayar kartu kredit,payment_info,keyword_based,low
+stoknya berapa,product_stock,hard_negative,clean
+hai ada toko offline please,out_of_scope,keyword_based,medium
+Proses refund berapa lama,out_of_scope,keyword_based,medium
+Masih jual arctic frost winter accessories bundle,product_stock,generic,clean
+cancel pesanan ord123,out_of_scope,hard_negative,clean
+detail harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_price,hard_negative,clean
+ada promo OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_price,keyword_based,high
+ga ngerti,out_of_scope,ambiguous,clean
+hi itu udah jalan belum thx,order_status,generic,medium
+Status refund,out_of_scope,hard_negative,medium
+admin ada cicilan ga ??,payment_info,keyword_based,medium
+Bisa dicuci ga kaus kaki campuran wol arctic warmth,product_description,keyword_based,high
+halo pesanan berapa lama sampai thx,order_status,keyword_based,medium
+hai info order nomor 123 please,order_status,keyword_based,low
+info arctic frost winter accessories bundle,product_description,keyword_based,low
+cara refund gimana,out_of_scope,keyword_based,medium
+Eh support mandiri dong,payment_info,generic,high
+Kak yang kemarin gimana thanks,order_status,hard_negative,medium
+mau tau sarung tangan musim dingin arctic layar sentuh,product_description,hard_negative,medium
+Jadi er5eller gimana,out_of_scope,keyword_based,low
+Per stok berapa,product_stock,hard_negative,clean
+stoknya berapa ya,product_stock,hard_negative,low
+ready belum Arctic Frost Winter Accessories Bundle,product_stock,hard_negative,low
+Bos tahan lama ga sarung tangan musim dingin arctic layar sentuh min,product_description,generic,low
+Stok berapa harga berapa,out_of_scope,ambiguous,clean
+Info harga jaket puffre pria omniheat solid bertudung-biruu-hijau-m,product_price,keyword_based,low
+Permisi sudah ready syal musim dingin arctic bliss penuh gaya please,product_stock,hard_negative,clean
+omniheat men's solid hooded puffer jacket sold out,product_stock,generic,clean
+halo Kupluk Rjut Unisex Arctic Cozy original ga,product_description,generic,low
+min mau komplain ya kak,out_of_scope,keyword_based,medium
+min ready kirim OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M dong,product_stock,hard_negative,low
+itu gimana,out_of_scope,ambiguous,clean
+tracking pesanan,order_status,hard_negative,clean
+eh info Arctic Frost Winter Accessories Bundle thx,product_description,keyword_based,low
+Yang kemarin,out_of_scope,ambiguous,low
+import atau lokal Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_description,generic,clean
+misi info lengkap Arctic Bliss Stylish Winter Scarf deh,out_of_scope,ambiguous,clean
+Itu aja,out_of_scope,ambiguous,low
+ada sale ga,product_price,keyword_based,medium
+Halo bahan arctic bliss stylish winter scarf apa ya,product_description,keyword_based,medium
+jaket puffer kan pria omniheat solid bertudung-bru-kuning-m ready kapan,product_stock,hard_negative,low
+Stk brp,product_stock,hard_negative,medium
+bisa dicuci ga Arctic Bliss Stylish Winter Scarf,product_description,keyword_based,high
+berapa lama refund,out_of_scope,hard_negative,low
+review kaus kaki campuran wol arctic warmth,product_description,generic,low
+Terima cicilan,payment_info,generic,medium
+paket aksesori musim dingin arctic frost bisa dipakai untuk apa,product_description,keyword_based,clean
+ada warna apa omniheat men's solid hooded puffer jacket-blue-green-l pls,product_description,keyword_based,medium
+gan worth it ga beli arctic frost winter accessories deh,product_description,generic,medium
+Produk gimana ya,product_description,hard_negative,clean
+Syal Musim Dingin Arctic Bliss Penuh Gaya udah ready,product_stock,hard_negative,clean
+Sarung Tangan Musim Dingin Arctic Layar Sentuh original ga,product_description,generic,low
+Eh mau utker ukuran min,out_of_scope,keyword_based,high
+hi ejlasin jaket puffer pria omniheat solid bertudung-biru-kuning-l dong thanks,product_description,generic,high
+stok Arctic Frost Winter Accessories,product_stock,hard_negative,clean
+pesanan 456,order_status,hard_negative,clean
+stok barang rusak,out_of_scope,hard_negative,low
+tinggal berapa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_stock,hard_negative,clean
+detail arctic frots wintr accessories,product_description,hard_negative,medium
+lowongan keraj ada ga,out_of_scope,keyword_based,medium
+baraang cacat sih,out_of_scope,keyword_based,low
+yang reaaady apa,product_stock,hard_negative,low
+Permisi ada ga ya,out_of_scope,ambiguous,clean
+btw gimana sih arctic frost winter accessories sih,product_description,keyword_based,medium
+kualitasnya gimana Kupluk Rajut nUisex Arctic Cozy,product_description,keyword_based,high
+Eh arctic bliss stylish winter scarf mahal ga ??,product_price,generic,low
+Misi gimana sih,out_of_scope,ambiguous,low
+tersedia OmniHeat Men's Solid Hooded Puffer Jacket ga,product_stock,keyword_based,clean
+Omniheat men's solid hooded puffer jacket bsa dipakai untuk apa,product_description,keyword_based,low
+btw Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L bisa dibeli,product_stock,keyword_based,low
+Hi masih bisa dibeli syal musim dingin arctic bliss penuh gaya ??,product_stock,generic,medium
+worth it ga beli Kupluk Rajut Unisex nih Arctic Cozy,product_description,generic,high
+lanjut,out_of_scope,ambiguous,clean
+Tinggal sedikit ga,product_stock,generic,medium
+gan ready stock Syal Musim Dingin Arctic Bliss Penuh loh Gaya sih,product_stock,keyword_based,high
+murahan ga arctic bliss stylish winter scarf,product_price,generic,clean
+ready stock omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,keyword_based,low
+langsung kirim bisa paket aksesori musim dingin arctic frost,product_stock,generic,medium
+Ready kan bayar apa,payment_info,hard_negative,medium
+ada ukuran apa Jakket Puffer Pia OmniHeat Solid Bertudung-Biru-Kuning-M,product_description,keyword_based,low
+Tuakar barang,out_of_scope,keyword_based,high
+Sisanya berpaa,product_stock,hard_negative,low
+Arctic Frost Winter Accessories Bundle bisa dibeli,product_stock,keyword_based,clean
+Gmn,out_of_scope,ambiguous,low
+Ada update pesanan nomor 555,order_status,keyword_based,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-m murah ga,product_price,generic,low
+ada stok jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,keyword_based,clean
+import atau lokal OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,generic,low
+mau info tentang arctic frost winter accessories bundle,product_description,keyword_based,low
+hi yang saya pesan udah sampai mana ?,order_status,generic,medium
+misi ready transfer dong,payment_info,hard_negative,medium
+Bantuin dong,out_of_scope,ambiguous,low
+berapa ya hrgnya Arctic Frost Winter Accessories Bundle,product_price,hard_negative,medium
+misi kok belum dateng thx,order_status,generic,high
+Info hrgnya dong,product_price,hard_negative,low
+gan affordable ga omniheat men's solid hooded puffer jacket-blue-green-m dong,product_price,generic,medium
+min bayar pake apa ?,payment_info,keyword_based,clean
+Ada promo arctic frost winter accessories,product_price,keyword_based,low
+gan detail kupluk rajut unisex arctic cozy please,product_description,keyword_based,high
+Yng dibeli sih tadi pagi,order_status,generic,medium
+btw gimana harganya min,product_price,keyword_based,clean
+info lengkap syal musim dingin arctic bliss penuh gaya,product_description,keyword_based,low
+Yang itu,out_of_scope,ambiguous,clean
+Omniheat men's solid hooded puffer jacket-blue-green-l awet ga,product_description,generic,clean
+pricey ga arrctic frost winter accessories bundlee,product_price,generic,medium
+ada warna apa arctic bliss stylish winter scarf,product_description,keyword_based,low
+Cancel pesanan,out_of_scope,keyword_based,clean
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L masih ada,product_stock,keyword_based,low
+Ready,out_of_scope,ambiguous,clean
+Accept bni,payment_info,generic,clean
+prmoo cancel,out_of_scope,hard_negative,low
+ada ukuran apa Arctic Frost Winter Accessories,product_description,keyword_based,clean
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M ada fitur apa,product_description,keyword_based,low
+tracking deh pesanan 789,order_status,keyword_based,medium
+kualitasnya gimana arctic frost winter hmm accessories bundle,product_description,keyword_based,medium
+info lengkap Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,out_of_scope,ambiguous,clean
+kak gimana kabar pesanan thanks,order_status,hard_negative,medium
+harga Arctic Bliss Stylish Winter Scaf bearpa,product_price,keyword_based,medium
+Sisa berapa unit omniheat men's solid hooded puffer jacket-blue-green-l,product_stock,keyword_based,medium
+ramah kantong ga Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_price,generic,low
+Kemahalan ga kaus kaki campuran wol arctic warmth,product_price,generic,low
+halo via apa please,payment_info,generic,high
+Spesifikasi jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,keyword_based,low
+eh metode pembayaran apa sih aja ya kak,payment_info,keyword_based,low
+hai pesanan kan saya gimana,order_status,keyword_based,medium
+kemahalan ga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,generic,clean
+Cek pesanan 789,order_status,keyword_based,low
+Affordable ga arctic frost winter accessories bundle,product_price,generic,low
+halo ada sih cicilan ga,payment_info,keyword_based,medium
+sudah ready Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_stock,hard_negative,clean
+Bos bias ga thanks,out_of_scope,ambiguous,low
+kak ada sale ga makasih,product_price,keyword_based,high
+Arctic Frost Winter Accessories Bundle berapa,product_price,keyword_based,low
+min ada promo Jaket nih Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L dong,product_price,keyword_based,medium
+hmm,out_of_scope,ambiguous,low
+hai gimana harganya deh,product_price,keyword_based,high
+Syal musim dingin arctic bliss penuh gaya ready,product_stock,keyword_based,medium
+Misi info return ya kak,out_of_scope,hard_negative,medium
+Bisa dapet arctic frost wint3r accessories,product_stock,generic,low
+Hemat ga paket aksesori musim dingin arctic frost,product_price,generic,high
+Kapan ready paket aksesori musim dingin arctic frost,product_stock,hard_negative,low
+ukuran syal musim dingin arctic bliss penuh gaya berapa,product_description,keyword_based,medium
+Masih banyak ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,generic,high
+kak mau ready bayar please,payment_info,hard_negative,medium
+Arctic Frost Winter Accessories ready,product_stock,keyword_based,medium
+eh order ready dikirim belum ?,order_status,keyword_based,high
+Gmn kabar psnan,order_status,keyword_based,medium
+hai masih jual omniheat men's solid hooded puffer jacket-blue-green-l makasih,product_stock,generic,medium
+pricey ga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M,product_price,generic,medium
+stok Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M ada,product_stock,keyword_based,clean
+kena berapa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_price,keyword_based,clean
+kak cara bayarr ggimana thx,payment_info,keyword_based,medium
+ada warna apa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_description,keyword_based,low
+Hi ready bayar thanks,payment_info,keyword_based,medium
+Mau info tentang omiheat men's solid hooded puffer jacket-blue-green-l,product_description,keyword_based,high
+kemahalan ga OmniHeat Men's Solid Hooded Puffer Jacket,product_price,generic,low
+Yang dibeli gitu tadi pagi,order_status,generic,medium
+mau tau harga jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_price,keyword_based,high
+gan harga dan stok Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L ya kak,out_of_scope,ambiguous,low
+hai berat Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L berapa pls,product_description,keyword_based,low
+Tolong,out_of_scope,ambiguous,low
+Halo gimana harganya deh,product_price,keyword_based,low
+Permisi yang tadi thx,out_of_scope,ambiguous,low
+murahan ga kaus kaki campuran wol arctic warmth,product_price,generic,medium
+worth it ga beli Syal Musim Dingin Arctic Bliss Penuh Gaya,product_description,generic,low
+Ready ga berapa harganya,out_of_scope,ambiguous,clean
+Hi kapan bisa diambil ??,order_status,hard_negative,medium
+ready ga arctic frost winter accessories,product_stock,keyword_based,low
+Tukar brg,out_of_scope,keyword_based,high
+Kak itu gimana kelanjutannya ?,order_status,generic,medium
+kak ready bayar please,payment_info,keyword_based,medium
+budget friendly ga,product_price,generic,low
+hi bayar ppake apa dong,payment_info,keyword_based,medium
+Transfer gimana,payment_info,keyword_based,low
+ada arctic gitu frost winter accessories bundle,product_stock,hard_negative,medium
+Bos spesifikasi syal musim dingin arctic bliss penuh gaya deh,product_description,keyword_based,medium
+sarung tangan musim dingin arctic layar sentuh brapa,product_price,keyword_based,medium
+Info kupluk rajut unisex nih arctic cozy,product_description,keyword_based,medium
+Admin produk gmn ya sih,product_description,hard_negative,medium
+Bsa ambli langsung ga,out_of_scope,keyword_based,low
+ready ga brp hrgnyanya,out_of_scope,ambiguous,low
+Masih banyak ga kaus kaki campuran wol arctic warmth,product_stock,generic,low
+admin kaus kaki campuran wol arctic warmth tinggal berapa deh,product_stock,keyword_based,high
+share info jaket puffer pria omniheat solid bertudung-biru-kuning-m ??,product_description,hard_negative,low
+ramah kantong ga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L pls,product_price,generic,medium
+btw worth it ga Kaus Kaki Campuran Wol Arctic Warmth makasih,product_price,generic,low
+kena brapa Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L,product_price,hard_negative,medium
+admin kiriman gimana ya,order_status,hard_negative,low
+available ga arctic bliss stylish winter scarf,product_stock,generic,low
+eh bisa cod ga thanks,payment_info,keyword_based,low
+hai ready kirim ga order saya sih,order_status,keyword_based,medium
+Sarung tangan musim dingin arctic layar sentuh bisa dipakai untuk apa,product_description,keyword_based,low
+erady ga jaket puffer pria omniheat solid bertudung-biru-kuning-l,product_stock,keyword_based,medium
+ready Kaus Kaki Campuran Wol Arctic Warmth,product_stock,hard_negative,clean
+Sudah ready bayar,payment_info,hard_negative,clean
+Bisa return barang ga,out_of_scope,keyword_based,clean
+Kak info bahannya dong thanks,product_description,hard_negative,clean
+Hai order ready dikirim belum sih,order_status,keyword_based,medium
+psnan gmana ya,order_status,hard_negative,low
+Pakai apa bisa,payment_info,generic,clean
+ready stock Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M,product_stock,keyword_based,low
+kak detail harga Jaket ya Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M min,product_price,hard_negative,medium
+Eh ada ukuran apa paket aksesori musim dingin arctic frost thx,product_description,keyword_based,medium
+Ada opsi linkaja,payment_info,keyword_based,clean
+halo gimana kabar pesanan thanks,order_status,keyword_based,high
+mau tau harga kupluk rajut unisex arctic cozy,product_price,keyword_based,medium
+Omniheat men's solid hooded puffer jacket masih ada,product_stock,keyword_based,clean
+ad promo OmniHeat nih Men's Solid Hooded Puffer Jacket,product_price,keyword_based,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M kayak gimana,product_description,generic,clean
+bisa transfer bank,payment_info,keyword_based,low
+Kak mau tanya yang kemarin ?,order_status,generic,high
+Pesanan berapa lama sampai,order_status,keyword_based,low
+Info lengkap sarung tangan musim dingin arctic layar sentuh,product_description,keyword_based,medium
+program affiliate,out_of_scope,keyword_based,medium
+itu gmiana bahannya,product_description,hard_negative,low
+bos kupluk rajut unisex arctic cozy habis belum pls,product_stock,generic,high
+Ready stock sarung tangan musim dingin arctic layar sentuh,product_stock,hard_negative,low
+eh yang saya beli kemarin gimana deh,order_status,generic,high
+halo recommended ga emm Kupluk Rajut Unisex Arctic Cozy,product_description,generic,medium
+ada sarung tangan musim dingin arctic layar sentuh,product_stock,hard_negative,medium
+permisi beraa banyak kan stok,product_stock,keyword_based,medium
+jadi sih reseller gimana,out_of_scope,keyword_based,low
+Spesifikasi kupluk rajut unisex arctic cozy,product_description,keyword_based,medium
+support mandiri,payment_info,generic,high
+hai transfer berapa please,payment_info,keyword_based,high
+min hi ya kak,out_of_scope,ambiguous,clean
+Accept kartu kredit,payment_info,generic,low
+Deskriipsi arctic bliss stylish winter kan scarf,product_description,keyword_based,medium
+minta info produk,product_description,hard_negative,low
+ready,out_of_scope,ambiguous,clean
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m ready,product_stock,keyword_based,medium
+misi pricey ga arctic frost winter accessories bundle sih,product_price,generic,high
+jaket puffer pria omniheat solid bertudung-biru-hijau-m ready stock,product_stock,keyword_based,medium
+kasih tau harganya,product_price,hard_negative,low
+itu udah jalan belum,order_status,generic,clean
+gimana sih omniheat men's solid hooded puffer jacket,product_description,keyword_based,low
+admin bisa bayar gopay ?,payment_info,keyword_based,high
+kak lacka hmm order 67809 please,order_status,keyword_based,medium
+eh worth it ga ebli Arctic Frost Winter Accessories Bundle min,product_description,generic,high
+Stok syal musim dingin arctic bliss penuh gaya ada,product_stock,keyword_based,medium
+available ga Paket Aksesori Musim Dingin Arctic Frost,product_stock,generic,medium
+bos ada promo pembayarann sih,payment_info,keyword_based,high
+halo terima credit crrad ??,payment_info,generic,medium
+btw discontinue belum OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M makasih,product_stock,generic,low
+Ada sale ga,product_price,keyword_based,clean
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m bisa dipakai untuk apa,product_description,keyword_based,clean
+hrgnya promo,product_price,hard_negative,low
+Tinggal berapa kaus kaki campuran wol arctic warmth,product_stock,hard_negative,clean
+Kaus kaki campuran wol arctic warmth harganya brp,product_price,keyword_based,medium
+hi mau info tentang OmniHHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L sih,product_description,keyword_based,low
+hi review kupluk rajut unisex arctic cozy ya,product_description,generic,low
+Cek order,order_status,hard_negative,clean
+pesanan ready kirim kpn,order_status,keyword_based,medium
+yang ready apa,product_stock,hard_negative,low
+kak kapan nyampe ya ?,order_status,generic,low
+OmniHeat Men's Solid Hooded Puffer Jacket kosong ga,product_stock,generic,low
+gimana kupluk rajut unisex arctic cozy,product_description,hard_negative,clean
+order ready dikirim blom,order_status,keyword_based,medium
+jaket puffer pria omniheat solid bertudung-biru-kuning-l ready kapan deh,product_stock,hard_negative,clean
+berapa harga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,keyword_based,high
+review Arctic Bliss Stylish Winter Scarf,product_description,generic,clean
+ready ga OmniHeat Men's Solid Hooded Puffer Jacket,product_stock,keyword_based,clean
+info pengiriman pesanan gw,order_status,keyword_based,high
+Kasih tau harganya,product_price,hard_negative,medium
+Kupluk rajut unisex arctic cozy mahal ga,product_price,generic,medium
+Hmm,out_of_scope,ambiguous,clean
+Bos jaket puffer pria omniheat solid bertudung-biru-kuning-m mahal ga,product_price,generic,high
+masih bisa dibeli arctic bliss stylish winter scarf,product_stock,generic,medium
+import atau lokal paket aksesori musim dingin arctic frost,product_description,generic,clean
+Lama banget nih,order_status,generic,low
+share info OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L,product_description,hard_negative,low
+Bisa langsung dikirim,product_stock,generic,clean

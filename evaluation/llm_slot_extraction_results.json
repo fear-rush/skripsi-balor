@@ -1,0 +1,3601 @@
+{
+  "timestamp": "2025-12-06T01:35:50.514610",
+  "total_queries": 80,
+  "valid_queries": 51,
+  "errors": 29,
+  "metrics": {
+    "task_accuracy": 0.9607843137254902,
+    "entity_score_mean": 0.8823529411764706,
+    "multi_intent_score_mean": 1.0,
+    "clarification_accuracy": 0.9803921568627451
+  },
+  "latency": {
+    "mean": 3.3568133185891544,
+    "min": 2.975029945373535,
+    "max": 5.018327713012695
+  },
+  "by_category": {
+    "check_stock": {
+      "accuracy": 0.9285714285714286,
+      "total": 14,
+      "correct": 13
+    },
+    "ask_price": {
+      "accuracy": 1.0,
+      "total": 10,
+      "correct": 10
+    },
+    "check_order": {
+      "accuracy": 1.0,
+      "total": 8,
+      "correct": 8
+    },
+    "ask_payment": {
+      "accuracy": 1.0,
+      "total": 7,
+      "correct": 7
+    },
+    "product_info": {
+      "accuracy": 1.0,
+      "total": 5,
+      "correct": 5
+    },
+    "out_of_scope": {
+      "accuracy": 0.5,
+      "total": 2,
+      "correct": 1
+    },
+    "multi_intent": {
+      "accuracy": 1.0,
+      "total": 5,
+      "correct": 5
+    }
+  },
+  "results": [
+    {
+      "query": "stok jaket biru masih ada ga?",
+      "latency": 4.4843220710754395,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "jaket biru"
+        },
+        "predicted": {
+          "product_name": "jaket",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "biru",
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "jaket biru"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "jaket",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "biru",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ready stock sepatu nike size 42?",
+      "latency": 3.3577399253845215,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "sepatu nike",
+          "variant": "size 42"
+        },
+        "predicted": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "size 42",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sepatu nike",
+          "variant": "size 42"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "size 42",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "apakah tas ransel warna hitam tersedia?",
+      "latency": 3.3582499027252197,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "tas ransel",
+          "variant": "warna hitam"
+        },
+        "predicted": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "warna hitam",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "tas ransel",
+          "variant": "warna hitam"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "warna hitam",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "kaos polos L ada?",
+      "latency": 0.48186707496643066,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "kaos polos",
+          "variant": "L"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "kaos polos",
+          "variant": "L"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "masih bisa beli hp samsung ga?",
+      "latency": 3.2057509422302246,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "hp samsung"
+        },
+        "predicted": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp samsung"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "celana jeans 32 ready ga kak?",
+      "latency": 3.2307839393615723,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "celana jeans",
+          "variant": "32"
+        },
+        "predicted": {
+          "product_name": "celana jeans",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "32",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "celana jeans",
+          "variant": "32"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "celana jeans",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "32",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "laptop asus vivobook stoknya ada?",
+      "latency": 3.2752082347869873,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "laptop asus vivobook"
+        },
+        "predicted": {
+          "product_name": "laptop asus vivobook",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "laptop asus vivobook"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "laptop asus vivobook",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ada stok smartwatch gak?",
+      "latency": 3.0624210834503174,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "smartwatch"
+        },
+        "predicted": {
+          "product_name": "smartwatch",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "smartwatch"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "smartwatch",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "headset bluetooth ready?",
+      "latency": 3.097490072250366,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "headset bluetooth"
+        },
+        "predicted": {
+          "product_name": "headset bluetooth",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "headset bluetooth"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "headset bluetooth",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "mouse wireless logitech ada stoknya?",
+      "latency": 3.1894519329071045,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "mouse wireless logitech"
+        },
+        "predicted": {
+          "product_name": "mouse wireless logitech",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "mouse wireless logitech"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "mouse wireless logitech",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "kemeja putih M kosong ga?",
+      "latency": 3.2718420028686523,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "kemeja putih",
+          "variant": "M"
+        },
+        "predicted": {
+          "product_name": "kemeja putih",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "M",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "kemeja putih",
+          "variant": "M"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "kemeja putih",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "M",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "dompet kulit pria tersedia tidak?",
+      "latency": 3.2717928886413574,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "dompet kulit pria"
+        },
+        "predicted": {
+          "product_name": "dompet kulit pria",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "dompet kulit pria"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "dompet kulit pria",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "hoodie abu-abu XL masih available?",
+      "latency": 3.314161777496338,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "hoodie",
+          "variant": "abu-abu XL"
+        },
+        "predicted": {
+          "product_name": "hoodie",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "abu-abu XL",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hoodie",
+          "variant": "abu-abu XL"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hoodie",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "abu-abu XL",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "sandal jepit swallow ada?",
+      "latency": 3.543070077896118,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "sandal jepit swallow"
+        },
+        "predicted": {
+          "product_name": "sandal jepit",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "swallow",
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sandal jepit swallow"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sandal jepit",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "swallow",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "kacamata hitam rdy ga?",
+      "latency": 3.3129689693450928,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "kacamata hitam"
+        },
+        "predicted": {
+          "product_name": "kacamata hitam",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "rdy",
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "kacamata hitam"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "kacamata hitam",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "rdy",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "harga tas ransel berapa?",
+      "latency": 3.3019351959228516,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "tas ransel"
+        },
+        "predicted": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "tas ransel"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ada diskon gak untuk laptop asus?",
+      "latency": 3.1871490478515625,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "laptop asus"
+        },
+        "predicted": {
+          "product_name": "laptop asus",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "laptop asus"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "laptop asus",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "brp hrg sepatu nike?",
+      "latency": 3.1872642040252686,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "sepatu nike"
+        },
+        "predicted": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu nike"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "jaket kulit ini harganya berapa ya?",
+      "latency": 3.1905338764190674,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "jaket kulit"
+        },
+        "predicted": {
+          "product_name": "jaket kulit",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "jaket kulit"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "jaket kulit",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "lagi ada promo ga untuk hp samsung?",
+      "latency": 3.2177248001098633,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "hp samsung"
+        },
+        "predicted": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "hp samsung"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "berapa harga celana jeans yang ini?",
+      "latency": 0.48395204544067383,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "celana jeans"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "celana jeans"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "smartwatch apple hrgnya brp?",
+      "latency": 3.147153854370117,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "smartwatch apple"
+        },
+        "predicted": {
+          "product_name": "smartwatch apple",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "smartwatch apple"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "smartwatch apple",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "mahal ga jam tangan ini?",
+      "latency": 0.4839308261871338,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "jam tangan"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "jam tangan"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "worth it ga beli headset ini dengan harga segitu?",
+      "latency": 3.1082770824432373,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "headset"
+        },
+        "predicted": {
+          "product_name": "headset",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "headset"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "headset",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "kalo beli 3 dapet diskon ga?",
+      "latency": 0.4879322052001953,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "quantity": 3
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "quantity": 3
+        },
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Produk apa yang ingin dibeli 3?"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "kemeja ini lagi sale ga?",
+      "latency": 3.1026291847229004,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "kemeja"
+        },
+        "predicted": {
+          "product_name": "kemeja",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "kemeja"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "kemeja",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ada voucher potongan harga?",
+      "latency": 3.086665153503418,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "harga grosir beda ga sama satuan?",
+      "latency": 0.4855196475982666,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "ongkir ke jakarta berapa?",
+      "latency": 0.48473405838012695,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "total semua jadi berapa ya kak?",
+      "latency": 3.0904347896575928,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "pesanan saya 12345 udah sampai mana?",
+      "latency": 3.220761775970459,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "12345"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": "12345",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "12345"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "12345",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "order gue kapan nyampe ya",
+      "latency": 3.8161890506744385,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": true,
+        "clarification_question": "Bisa tolong berikan nomor order Anda agar kami bisa cek status pesanan Anda?",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "psen gw 99871 gmn?",
+      "latency": 0.4835939407348633,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "order_id": "99871"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "99871"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "tolong cek status pesanan nomor 88234",
+      "latency": 3.222503900527954,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "88234"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": "88234",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "88234"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "88234",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "barang saya udah dikirim belum?",
+      "latency": 3.8562328815460205,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.8,
+        "needs_clarification": true,
+        "clarification_question": "Bisa tolong berikan nomor pesanan Anda untuk memeriksa status pengiriman?",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "tracking pesanan 77612 dong",
+      "latency": 3.230093002319336,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "77612"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": "77612",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "77612"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "77612",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "estimasi sampai kapan ya orderan saya?",
+      "latency": 0.4855940341949463,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "paket saya #55432 sudah sampai mana?",
+      "latency": 3.234743118286133,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "55432"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": "55432",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "55432"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "55432",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "kenapa pesanan saya belum dikirim?",
+      "latency": 0.48056983947753906,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "order 66123 pake ekspedisi apa?",
+      "latency": 3.221741199493408,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "66123"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": "66123",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "66123"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": "66123",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "pesanan kemarin udah diproses?",
+      "latency": 4.0464067459106445,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.8,
+        "needs_clarification": true,
+        "clarification_question": "Bisa tolong berikan nomor pesanan Anda untuk memeriksa status pesanan?",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "no resi pesanan 44521 apa?",
+      "latency": 0.48882079124450684,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "order_id": "44521"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "44521"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "bisa bayar pake gopay ga?",
+      "latency": 3.1049580574035645,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "payment_method": "gopay"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "gopay",
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "payment_method"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "gopay"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "gopay",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "cara bayar gimana sih?",
+      "latency": 3.021373987197876,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "terima transfer BCA ga?",
+      "latency": 3.1012959480285645,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "payment_method": "transfer BCA"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "BCA",
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "payment_method"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "transfer BCA"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "BCA",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "pembayaran via apa aja?",
+      "latency": 3.8767569065093994,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "bisa COD ga kak?",
+      "latency": 3.056520938873291,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "payment_method": "COD"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "COD",
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "payment_method"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "COD"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "COD",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ada cicilan 0% ga?",
+      "latency": 0.48168396949768066,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "payment_method": "cicilan"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "cicilan"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "bayar pake ovo bisa?",
+      "latency": 3.0597870349884033,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "payment_method": "ovo"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "ovo",
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "payment_method"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "ovo"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "ovo",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "transfer ke rekening apa?",
+      "latency": 2.975029945373535,
+      "task_match": true,
+      "entity_score": 0.0,
+      "entity_details": {
+        "expected": {
+          "payment_method": "transfer"
+        },
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": []
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "transfer"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "boleh kredit card ga?",
+      "latency": 0.480104923248291,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "payment_method": "credit card"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "credit card"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "bayar nanti dulu bisa ga?",
+      "latency": 0.48358917236328125,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "payment_method": "paylater"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "paylater"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "spek laptop lenovo yang ini gimana?",
+      "latency": 3.4171571731567383,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "laptop lenovo"
+        },
+        "predicted": {
+          "product_name": "laptop lenovo",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop lenovo"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop lenovo",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "bahan kaos ini apa ya?",
+      "latency": 3.060649871826172,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "kaos"
+        },
+        "predicted": {
+          "product_name": "kaos",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "kaos"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "kaos",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "ukuran tas ransel ini berapa?",
+      "latency": 3.1896610260009766,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "tas ransel"
+        },
+        "predicted": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "tas ransel"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "tas ransel",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "warna apa aja yang tersedia?",
+      "latency": 0.48864102363586426,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "hp ini RAM berapa GB?",
+      "latency": 3.0168278217315674,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "hp"
+        },
+        "predicted": {
+          "product_name": "hp",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "hp"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "hp",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "garansi produk ini berapa lama?",
+      "latency": 0.48294806480407715,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "sepatu ini waterproof ga?",
+      "latency": 0.47768712043762207,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "sepatu"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "sepatu"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "berat barang ini berapa kg?",
+      "latency": 0.48235392570495605,
+      "task_match": false,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "ada size chart ga kak?",
+      "latency": 3.7185189723968506,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "kak",
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "kak",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.7,
+        "needs_clarification": true,
+        "clarification_question": "Anda ingin mengetahui size chart untuk produk apa?",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "layar laptop ini berapa inch?",
+      "latency": 0.4830129146575928,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "laptop"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "mau refund dong barang rusak",
+      "latency": 3.2422149181365967,
+      "task_match": true,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "jam buka toko kapan ya?",
+      "latency": 0.4820210933685303,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "alamat toko offline dimana?",
+      "latency": 0.4808170795440674,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "mau komplain nih barang ga sesuai",
+      "latency": 0.483795166015625,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "bisa tukar ukuran ga?",
+      "latency": 4.3508689403533936,
+      "task_match": false,
+      "entity_score": 0.5,
+      "entity_details": {
+        "match": "expected_empty_but_predicted",
+        "predicted": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "tukar ukuran",
+          "variant": null,
+          "quantity": null
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": null,
+          "order_id": null,
+          "payment_method": "tukar ukuran",
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.7,
+        "needs_clarification": true,
+        "clarification_question": "Apakah Anda ingin mengetahui informasi tentang penggantian ukuran atau stok produk tertentu?",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "gimana cara jadi reseller?",
+      "latency": 0.48413705825805664,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "kontak customer service berapa?",
+      "latency": 0.48227906227111816,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "mau cancel pesanan gimana?",
+      "latency": 0.48301005363464355,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "match": "both_empty"
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "stok hp samsung ada ga? kalo ada harga berapa?",
+      "latency": 3.3094117641448975,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "hp samsung"
+        },
+        "predicted": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "expected": [
+          "ask_price"
+        ],
+        "predicted": [
+          "ask_price"
+        ],
+        "matches": [
+          "ask_price"
+        ]
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp samsung"
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp samsung",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "jaket ini ready ga? gimana cara bayarnya?",
+      "latency": 0.48642706871032715,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "jaket"
+        }
+      },
+      "multi_intent_score": 0.0,
+      "multi_intent_details": {
+        "match": "missed_multi_intent",
+        "expected": [
+          "ask_payment"
+        ]
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "jaket"
+        },
+        "multi_intent": [
+          "ask_payment"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "harga sepatu nike berapa? ada size 43 ga?",
+      "latency": 3.4738502502441406,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "sepatu nike",
+          "variant": "size 43"
+        },
+        "predicted": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "size 43",
+          "quantity": null
+        },
+        "matches": [
+          "product_name",
+          "variant"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "expected": [
+          "check_stock"
+        ],
+        "predicted": [
+          "check_stock"
+        ],
+        "matches": [
+          "check_stock"
+        ]
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu nike",
+          "variant": "size 43"
+        },
+        "multi_intent": [
+          "check_stock"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu nike",
+          "order_id": null,
+          "payment_method": null,
+          "variant": "size 43",
+          "quantity": null
+        },
+        "multi_intent": [
+          "check_stock"
+        ],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "laptop asus specs nya gimana? harganya berapa?",
+      "latency": 3.3074941635131836,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "laptop asus"
+        },
+        "predicted": {
+          "product_name": "laptop asus",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "expected": [
+          "ask_price"
+        ],
+        "predicted": [
+          "ask_price"
+        ],
+        "matches": [
+          "ask_price"
+        ]
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop asus"
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop asus",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "pesanan 12345 udah sampai belum? mau pesen lagi soalnya",
+      "latency": 0.48044800758361816,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "order_id": "12345"
+        }
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "match": "both_empty"
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "12345"
+        },
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "bisa COD ga? stok tas nya ada?",
+      "latency": 0.4857957363128662,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "payment_method": "COD",
+          "product_name": "tas"
+        }
+      },
+      "multi_intent_score": 0.0,
+      "multi_intent_details": {
+        "match": "missed_multi_intent",
+        "expected": [
+          "check_stock"
+        ]
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "ask_payment",
+        "entities": {
+          "payment_method": "COD",
+          "product_name": "tas"
+        },
+        "multi_intent": [
+          "check_stock"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "ready stok kaos? warna apa aja? harga berapa?",
+      "latency": 0.4805278778076172,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "kaos"
+        }
+      },
+      "multi_intent_score": 0.0,
+      "multi_intent_details": {
+        "match": "missed_multi_intent",
+        "expected": [
+          "product_info",
+          "ask_price"
+        ]
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "kaos"
+        },
+        "multi_intent": [
+          "product_info",
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "mau beli hp, ada yang RAM 8GB ga? budget 3 juta",
+      "latency": 0.47762107849121094,
+      "task_match": false,
+      "entity_score": 0.0,
+      "entity_details": {
+        "match": "predicted_empty",
+        "expected": {
+          "product_name": "hp",
+          "variant": "RAM 8GB"
+        }
+      },
+      "multi_intent_score": 0.0,
+      "multi_intent_details": {
+        "match": "missed_multi_intent",
+        "expected": [
+          "ask_price"
+        ]
+      },
+      "clarification_match": false,
+      "expected": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp",
+          "variant": "RAM 8GB"
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "confidence": 0.0,
+        "needs_clarification": true,
+        "clarification_question": "Maaf, saya tidak memahami pertanyaan Anda. Bisa diulangi?",
+        "error": "extraction_failed_after_3_attempts: None"
+      },
+      "error": "extraction_failed_after_3_attempts: None"
+    },
+    {
+      "query": "order 55512 kapan nyampe? sama mau tanya harga headset",
+      "latency": 5.018327713012695,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "order_id": "55512"
+        },
+        "predicted": {
+          "product_name": "headset",
+          "order_id": "55512",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "order_id"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "expected": [
+          "ask_price"
+        ],
+        "predicted": [
+          "ask_price"
+        ],
+        "matches": [
+          "ask_price"
+        ]
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "check_order",
+        "entities": {
+          "order_id": "55512"
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "check_order",
+        "entities": {
+          "product_name": "headset",
+          "order_id": "55512",
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "query": "sepatu ini bahan apa? waterproof ga? harga berapa?",
+      "latency": 3.4530811309814453,
+      "task_match": true,
+      "entity_score": 1.0,
+      "entity_details": {
+        "expected": {
+          "product_name": "sepatu"
+        },
+        "predicted": {
+          "product_name": "sepatu",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "matches": [
+          "product_name"
+        ]
+      },
+      "multi_intent_score": 1.0,
+      "multi_intent_details": {
+        "expected": [
+          "ask_price"
+        ],
+        "predicted": [
+          "ask_price"
+        ],
+        "matches": [
+          "ask_price"
+        ]
+      },
+      "clarification_match": true,
+      "expected": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "sepatu"
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "needs_clarification": false
+      },
+      "predicted": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "sepatu",
+          "order_id": null,
+          "payment_method": null,
+          "variant": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null,
+        "error": null
+      },
+      "error": null
+    }
+  ]
+}

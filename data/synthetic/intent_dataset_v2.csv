@@ -1,0 +1,3001 @@
+text,intent,noise_level
+Spesifikai kupluk,product_description,high
+kak boleh tau spesifikasi arctic touchscreen winter gloves tidak,product_description,low
+Bos bayar ppake apa ??,payment_info,extreme
+bayar pake apa sih,payment_info,high
+N0mor telepon toko,out_of_scope,medium
+Mau tau lebih detail tentang jacket,product_description,low
+Bertudung-biru-hijau-m harganya berapa,product_price,low
+Permisi apakah stok hadapi masih tersedia,product_stock,low
+brg ord123 dmn,order_status,low
+mba paket brp duit ya,product_price,high
+Kamu bot ya,out_of_scope,medium
+kak permisi kak utk pembayaran tersedia metode apa saja min,payment_info,medium
+halo uang sy kapan dikembalikan pls,out_of_scope,medium
+Bs cod g,payment_info,low
+ada cicilan ga,payment_info,medium
+mau tanya apakah bersama masih tersedia stoknya,product_stock,low
+Info produk bertudung-biru-hijau-m,product_description,medium
+mau kembalikan barang,out_of_scope,low
+gan pseanan nomor 123 udah sampai mana pls,order_status,high
+Bang omniheat men's solid hooded puffer jacket-blue-green-m berapa duit please,product_price,medium
+roderan syaa gmn,order_status,medium
+Admin metode pembayar@n apa aja tolong,payment_info,medium
+Priec chill,product_price,medium
+arctic bliss stylish winter scarf mahal ga,product_price,low
+Admin opsi pembayaran thx,payment_info,medium
+Kak boleh tau spesifikasi arctic bliss stylish winter scarf tidak ya,product_description,extreme
+misi deskrpsi penh tolong,product_description,extreme
+barang cacat,out_of_scope,high
+dit beanie,product_price,medium
+Pembayaran via apa,payment_info,low
+lacak psnan 1,order_status,medium
+permisi kak orderan saya yang 123 kok belum dateng,order_status,low
+pesanan ord-001 udah sssampai mana,order_status,low
+Terima virtual account tidak,payment_info,low
+mas kak jacket-blue-green-m masih ada ga stoknya thanks,product_stock,medium
+Sis lowongan ekraj ada ga min,out_of_scope,low
+proses refund berapa lama,out_of_scope,low
+coonnected rady?,product_stock,medium
+kisaran harga kaus kaki campuran wol arctic warmth,product_price,medium
+kok lama bgt order id 7788,order_status,low
+hi batalkan order ??,out_of_scope,high
+Unisex habis belum,product_stock,medium
+range harga bersama,product_price,medium
+bbiay4 pria,product_price,medium
+hi ad stok kau5 g please,product_stock,high
+mana nih orderan gw,order_status,high
+Status pengiriman 99,order_status,low
+gan info produk gaya,product_description,medium
+permisi mau nanya harga untuk OmniHeat Men's Solid Hooded Puffer Jacket berapa ya,product_price,medium
+Permisi order gue order-123 mana ya kak,order_status,high
+sis mau cek status ppesanan,order_status,extreme
+kak boleh tau spesifikasi arctic touchscreen winter gloves ga,product_description,medium
+Omniheat men's solid hooded puffer jacket murah ga,product_price,low
+cek psnan ord-001,order_status,medium
+Barang rusak,out_of_scope,low
+admin cuaca hari ini gimana thx,out_of_scope,low
+Hai estimasi pengiriman order 67890 please,order_status,medium
+Gan dmn psnan saya thanks,order_status,extreme
+pross refund brp lama,out_of_scope,extreme
+stock cchilly berapa,product_stock,medium
+frost gmn sih,product_description,medium
+Mba mau tany apakah syal musim dingin arctic bliss penuh gaya masih tersedia stoknya ya kak,product_stock,high
+Halo spec beanie ??,product_description,medium
+Halo beanie habis belum min,product_stock,medium
+halo cara refund gimana please,out_of_scope,medium
+uang saya kapan dikembalikan,out_of_scope,medium
+Byaar ppake apa,payment_info,extreme
+halo min mau tanya dong pesanan saya nomor 456 itu udah sampai mana ya,order_status,low
+brp musim,product_price,low
+kak Jakett Puffer Pria OmniHeat Solid Bertudung sold uot?,product_stock,extreme
+lokasi warehouse,out_of_scope,medium
+hai warna kenyamanan ada apa aja dong,product_description,medium
+Kelebihan bundlee,product_description,medium
+Hai permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+biaya jacket-blue-green-m,product_price,low
+stok sentuh ada,product_stock,medium
+terima mandiri tidak,payment_info,low
+Gan ada cicilan ga dong,payment_info,medium
+Halo omniheat brp duit thx,product_price,low
+admin metode byr apa makasih,payment_info,medium
+orderan saya gimana,order_status,medium
+Bisa return barang ga,out_of_scope,low
+sis pesanan nomor 555 udah sampai mana ya kak,order_status,medium
+mas tersedia omniheat ga dong,product_stock,low
+kak permisi apakah stok kaki masih tersedia dong,product_stock,medium
+Ada cicilan ga,payment_info,low
+bisa dijelasin tentang produk jaket puffer pria omniheat solid bertudung-biru-kuning-l dong,product_description,low
+pake cimb bs?,payment_info,low
+status pengiriman 789,order_status,low
+min lokasi warehouse thanks,out_of_scope,high
+Hai udah dikirim blm pesanan 999 ya kak,order_status,low
+kpn psnan #99 sampai,order_status,extreme
+mba apa kabar thx,out_of_scope,medium
+proses refund berapa lama,out_of_scope,low
+Ganti ukuran,out_of_scope,low
+Permisi halo min mau tanya dong psnan saya nomor 67890 itu udah sampai mana ya pls,order_status,low
+mba permisi apakah stok jacket-blue-yellow-m masih tersedia please,product_stock,extreme
+min byr dmn ?,payment_info,medium
+Cek psnan psnan 999,order_status,low
+Kamu bot ya,out_of_scope,extreme
+info produk omniheat men's solid hooded puffer jacket-blue-yellow-l,product_description,medium
+Dimana pesanan saya,order_status,medium
+Permisi mau nanya harga utk arctic frost winter accessories bundle brp ya,product_price,low
+Kleebihan penhu,product_description,medium
+gan harga campuran berapa tolong,product_price,high
+sis aksesori kosong ga ?,product_stock,medium
+kisran harga stylish,product_price,high
+bundle kosong ga,product_stock,medium
+admin edit pesanan makasih,out_of_scope,low
+bertudung kosong ga,product_stock,high
+Mau kembalikan barang,out_of_scope,high
+bang info produk sarung min,product_description,medium
+selamat siang admin saya mau cek status pesanan nomor ord-001,order_status,low
+Bisa return barang ga,out_of_scope,medium
+Kak brp hrg rajut ya,product_price,high
+Cara bayar orderan,payment_info,low
+Selamat siang admin saya mau cek status pesanan nomor 123,order_status,low
+Mba kak mau tanya pesanan saa dengan nomor ord-001 sudah diproses belum ya min,order_status,medium
+range hrg terhubung,product_price,high
+hai halo admin mau nanya pembayaran bisa pakai apa saja ya dong,payment_info,extreme
+mas bertudung-biru-hijau-m murah ga tolong,product_price,low
+admin jacket-blue-yellow-m gmn sih please,product_description,high
+permisi apakah stok hooded masih tersedia,product_stock,medium
+bayar pake apa sih,payment_info,low
+kak warna gloves ada apa aja tolong,product_description,medium
+Estimasi pengiriman order pesanan 999,order_status,low
+Metode byr apa,payment_info,medium
+Selamat siang admin sy mau cek status psnan nomor 67890,order_status,low
+Selamat siang admin saya mau cek status pesanan nomor 99,order_status,medium
+Range harga dekapan,product_price,low
+Pake cicilan bs?,payment_info,low
+terimma linkaja tidk,payment_info,medium
+byr dmn,payment_info,medium
+halo,out_of_scope,low
+mba jacket-blue-yellow-l ukurannya apa aja thx,product_description,extreme
+halo cara refund gimana,out_of_scope,low
+Nomoor tleepon toko,out_of_scope,high
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,medium
+spesifikasi bertudung-biru-hijau-l,product_description,medium
+ad stok Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M g,product_stock,high
+misi brg saya udah dikirim belum ?,order_status,low
+Permisi warna dengan ada apa aja,product_description,low
+Review paket,product_description,low
+Stok wool ada,product_stock,medium
+permisi hrg connected brp tolong,product_price,extreme
+mau kembalikan barang,out_of_scope,low
+kalo mau bayar pake kartu debit bisa ga min,payment_info,low
+kisaran harga musim,product_price,medium
+bs ambil langsung ga,out_of_scope,medium
+Admin harga experience berapa thanks,product_price,medium
+sis paket saya sudah smp mana ?,order_status,extreme
+byr dmn,payment_info,high
+permisi stock Paket Aksesori Musim Dingin Arctic Frost berapa pls,product_stock,high
+permisi kak orrderan saya yang 67890 kok belum dateng,order_status,extreme
+status pengiriman 99,order_status,high
+min bisa dijelasin tentang produk bertudung-biru-hijau-m dong ??,product_description,low
+test,out_of_scope,medium
+mau cek status pesanan,order_status,medium
+Permisi embrace kyk gmn dong,product_description,medium
+kak bundle ukurannya apa aja please,product_description,medium
+priccee kenyamanan,product_price,high
+mau tanya dong harga Syal Msuim Dingin Arctic Bliss Penuh Gaya yang ada di toko beraap ya,product_price,medium
+kak boelh tau spesiifkasi chill tidak,product_description,medium
+tersedia tangan ga,product_stock,medium
+tukar bar@ng,out_of_scope,medium
+spesifikasi jaket puffer pria omniheat solid bertudung-biru-hijau-l pls,product_description,medium
+hai mau cek status pesaanan pls,order_status,medium
+spec jaket puffer pria omniheat solid bertudung-biru-hijau-l,product_description,low
+misi kisarran harga campuran ya kak,product_price,high
+opsi pembaaran,payment_info,medium
+ebrsama brp duit,product_price,high
+Permisi estimasi pengiriman order 1 ?,order_status,low
+hi kamu bot ya thx,out_of_scope,high
+tertandingi kyk gmn,product_description,medium
+halo ktersediaan accessories pls,product_stock,high
+Orderan gw kok ga nyampe please,order_status,high
+Permisi warna puffer ada apa aja pls,product_description,low
+halo,out_of_scope,medium
+lokasi warehouse,out_of_scope,high
+mas order gue #1 mana thx,order_status,medium
+Selamat siang admin saya mau cek status pesanan nomor 789,order_status,high
+bos cara bayar gmn pls,payment_info,high
+Mau tau lebih detail tentang arctic warmth wool blend socks,product_description,low
+connected ready ga,product_stock,medium
+Mba cara bayar gmn thx,payment_info,medium
+pesanan 789 udah sampai mana,order_status,medium
+kak arctic frost wintre accessoris bundle murah ga ??,product_price,extreme
+alamat kantor,out_of_scope,medium
+bayar pake apa sih,payment_info,high
+Permisi test ?,out_of_scope,extreme
+Metode paymeent,payment_info,medium
+min brp bertudung makasih,product_price,extreme
+Bos mnaa nih orderan gw ?,order_status,medium
+Alamat toko dimana,out_of_scope,low
+kak boleh tau spesifikasi bertudung-biru-kuning-l tidak,product_description,medium
+Spec comfort,product_description,low
+Campuran kyk gmn,product_description,low
+Admin kak omniheat men's solid hooded puffer jacket-blue-green-l masih ada ga stkonya ?,product_stock,extreme
+terima cod gak,payment_info,low
+bahan bertudung-biru-hijau-m apa,product_description,high
+Pakee gopay bs?,payment_info,high
+harga unmatched sekarang,product_price,low
+ada toko offline,out_of_scope,low
+Misi permisi kak orderan saya yang nomor 555 kok belum dateng ya kak,order_status,high
+mas cuaca hari ini gimana makasih,out_of_scope,medium
+kak kamu bot ya makasih,out_of_scope,extreme
+gloves ready stock,product_stock,medium
+Tolong jelasin tentang kupluk dong,product_description,low
+bang ada cicilan ga,payment_info,medium
+mas bisa ambil langsung ga ?,out_of_scope,extreme
+misi terima kartu kreidt tidak,payment_info,high
+Hai orderan gw kok ga nyampe please,order_status,medium
+Admin permisi kak untuk pembayaran tersedia metode apa saja thanks,payment_info,high
+mau tanya apakah OmniHeeat Men's Solid Hooded Puffer Jacket-Blue-Green-L masih trsedia stoknya,product_stock,medium
+mas bayar pak apa makasih,payment_info,medium
+bersama harganya berapa,product_price,medium
+hai bisa dijelasin tentang produk cozy dong ya,product_description,high
+hi kalo mau bayar pake transfer bank bs ga min pls,payment_info,high
+Mau tanya apakah comfort masih tersedia stoknya,product_stock,low
+permisi cek pesanan id 7788 ?,order_status,extreme
+jacket-blue-yellow-m habis belum,product_stock,low
+hi knit bagus ga thanks,product_description,low
+gan terima kartu debit tidak ??,payment_info,high
+Bayar pake apa sih,payment_info,low
+Stock dengan berapa,product_stock,medium
+metode byr apa,payment_info,medium
+admin bs ambil alngsung ga,out_of_scope,medium
+bos chilly brp sih tolong,product_price,high
+mau tanya apakah unmatched masih tersedia stoknya,product_stock,low
+Paket aksesori musim dingin arctic frost ready stock,product_stock,medium
+sis gaya kosong ga ya kak,product_stock,medium
+Status pengiriman 12345,order_status,low
+Halo udah dikirim blm 123,order_status,medium
+halo bahan dekapan apa ya,product_description,medium
+gan bahan warmth apa ya,product_description,high
+Warna omniheat men's solid hooded puffer jacket-blue-green-l ada apa aja,product_description,medium
+cek resi ord123,order_status,medium
+sis barang saya udah dikirim belum makasih,order_status,high
+Permisi kak untuk pembayaran tersedia metode apa saja,payment_info,extreme
+bang support ewallet ga ?,payment_info,low
+ada cicilan ga,payment_info,medium
+Permisi kak orderan saya yang pesanan 999 kok belum dateng,order_status,medium
+sis omniheat ready stock ?,product_stock,medium
+halo min mau nanya hadapi masih ready stock tidak ya,product_stock,medium
+cek resi #1,order_status,medium
+hrg blend brp,product_price,medium
+Dinginnya ready?,product_stock,medium
+pembayaran via apa,payment_info,medium
+OmniHeat Men's Solid Hooded Puffer Jacket ready?,product_stock,medium
+Braang rusak,out_of_scope,medium
+Hrg jacket sekarang,product_price,medium
+Hi harga campuran brp thx,product_price,medium
+Order gue #99 mana,order_status,medium
+bs csah on delivery g,payment_info,low
+Bos biiisa dijelasin tentang produk accessories dong ya kak,product_description,high
+support ewallet ga,payment_info,low
+admin Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ready?,product_stock,extreme
+Mau kerraj disini,out_of_scope,medium
+har6a style beraapa,product_price,extreme
+tersedia kaaki ga,product_stock,extreme
+cuaca hari ini gimana,out_of_scope,medium
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M msh ad?,product_stock,low
+Sis dtl layar ??,product_description,low
+bisa bayar pakai bayar di tempat,payment_info,low
+ordean saya gimanna,order_status,high
+byr dmn,payment_info,high
+tracking pesanan ORD-001 please,order_status,low
+biaaya Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_price,medium
+permisi kak orderan saya yang pesanan 999 kok belum dateng,order_status,low
+mau tanya dong harga jaket yang ada di toko berapa ya,product_price,low
+hai kejsaama bisnis thx,out_of_scope,medium
+Batalkan order,out_of_scope,low
+permisi halo min mau nanya syal masih ready stock ga ya min,product_stock,high
+Misi omniheat men's solid hooded puffer jacket gmn sih please,product_description,medium
+gan byr dmn makasih,payment_info,high
+Cara abyar order4n,payment_info,high
+bos stock OmniHeat Men's Solid Hooded Puffer Jacket brp ya,product_stock,low
+mba bs transfer bank,payment_info,high
+hi bisa ddijelasin tentag produk dingin dong dong,product_description,extreme
+mba bersama kyk gmn min,product_description,extreme
+Min kisaran harga bertudung-biru-hijau-l ya kak,product_price,medium
+misi omniheat men's solid hooded puffer jacket-blue-yellow-m sold out?,product_stock,high
+wool gmn sih,product_description,medium
+hi tolong jelasin tentang bergaya donng ya,product_description,extreme
+Stok arctic abis blm,product_stock,low
+spec unisex,product_description,medium
+brp arctic,product_price,low
+Misi terima cimb gak min,payment_info,medium
+mas berapa harga bertudung-biru-hijau-l makasih,product_price,medium
+accept gopay ga,payment_info,low
+bisa ambil langsung ga,out_of_scope,low
+duit dengan,product_price,low
+Gan order pesanan 999 uuddah diproses belum ya kak,order_status,medium
+alamat kantor,out_of_scope,medium
+halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,high
+kualitas jelek,out_of_scope,medium
+mau tau lebih detail etntang rfost,product_description,medium
+Permisi dengan mahal ga makasih,product_price,medium
+Mana nih orderan gw,order_status,low
+ketersedian Arcitc Touchscreen Winter Gloves,product_stock,medium
+price bundle,product_price,low
+min permisi mau nanya harga untuk dengan berapa ya thanks,product_price,high
+hai,out_of_scope,medium
+kecewa samma pelayanan,out_of_scope,low
+Brg ord001 dmn,order_status,low
+Dut jacket-blue-ylelow-l,product_price,low
+Permisi apakah stok omniheat men's solid hoodeed puffer jackett masih tersedia,product_stock,low
+Gan jaket puffer pria omniheat solid bertudung-biru-kuning-m mahal ga thanks,product_price,low
+Misi pkaet sy suddah sampai mana,order_status,extreme
+Kisaran harga cozy,product_price,low
+min pake bca bs?,payment_info,extreme
+Admin kak mau tanya pesanan saya dengan nomor #99 sudah diproses belum ya ya kak,order_status,medium
+tersedia Kupluk Rajut Unisex Artic Cozy ga,product_stock,high
+produk tidak sesuai,out_of_scope,medium
+uadh dikirim blm nomor 555,order_status,medium
+udah dikirim blm order-123,order_status,low
+hai pake cod bs?,payment_info,medium
+order ORD123 udah diproses blm,order_status,extreme
+accept bayar di tempat ga pls,payment_info,medium
+Kisaran harga omniheat men's solid hooded puffer jacket-blue-yellow-m,product_price,low
+byr dmn,payment_info,low
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+Selamat siang admin saya mau cek status pesanan nomor 123,order_status,high
+Mau kerja disini,out_of_scope,medium
+uangg saya kapan dikebmalikan,out_of_scope,low
+admin blend mmur@h ga thx,product_price,medium
+Nomor telepon toko,out_of_scope,medium
+bbiaya kaki,product_price,high
+tangan gmn sih,product_description,low
+bs mandiri g,payment_info,high
+Dimana pesanan saya,order_status,low
+kak available connected thx,product_stock,high
+proses refund berapa lama,out_of_scope,medium
+permisi duit hooded thanks,product_price,low
+metode payment,payment_info,medium
+Min kualitas jelek makasih,out_of_scope,medium
+bisa return barang ga dong,out_of_scope,medium
+frost harganya berapa,product_price,medium
+Available bertudung,product_stock,medium
+produk tidak sesuai,out_of_scope,medium
+terima jenius tidakk,payment_info,high
+program affiliate,out_of_scope,low
+permisi paket sya sudah sampai mana dong,order_status,high
+accept credit card ga,payment_info,low
+gan deeskripsi bergaya ya kak,product_description,high
+omniheat men's solid hooded puffer jacket-blue-yellow-l bagus ga,product_description,medium
+dimana pesanan saya,order_status,medium
+Solid ready stock,product_stock,high
+barang rusak,out_of_scope,low
+cara bayar gimana thanks,payment_info,low
+terima dana ga,payment_info,medium
+Lokasi warehouse,out_of_scope,medium
+hi sisa stok scarf please,product_stock,extreme
+permisi cancel pesanan min,out_of_scope,extreme
+Kak arctic touchscreen winter gloves kosong ga,product_stock,extreme
+Price accessories,product_price,low
+Men's gmn sih,product_description,high
+Produk tidak sesuai,out_of_scope,high
+kak boleh tau spesifikasi socks tidak,product_description,low
+Kelebihan sarung,product_description,medium
+psnan gw 456 kemana,order_status,medium
+Cara bayar orderan,payment_info,low
+Mas bisa ambil langsung ga pls,out_of_scope,medium
+Accept kredivo ga,payment_info,low
+boleh tau harga bersama tidak,product_price,low
+cuaca hari ini gimana,out_of_scope,medium
+info produk omniheat men's solid hooded puffer jacket-blue-green-m,product_description,low
+Kak rasakan masih ada ga stoknya,product_stock,low
+Boleh tau harga omniheat men's solid hooded puffer jacket tidak,product_price,medium
+Kelebihan hangat,product_description,low
+pricce hangat,product_price,medium
+status order nomor 555,order_status,low
+Kisaran harga bertudung-biru-kuning-l,product_price,extreme
+lowongan kerja ada ga,out_of_scope,medium
+warna dengan ada apa aja,product_description,medium
+Brp syal,product_price,high
+ganti ukuran dong,out_of_scope,medium
+Cek pesanan nomor 555,order_status,high
+kak mau tanya apakah style masih tersedia stoknya makasih,product_stock,high
+spec hadapi,product_description,medium
+Halo mau tanya dong hrg kupluk rajut unisex arctic cozy yg ad di toko berapa ya tolong,product_price,high
+Bang metode payment ??,payment_info,medium
+mau cek status pesanan,order_status,low
+Tetap berapa duit,product_price,low
+boleh tau hara embrace tdak,product_price,low
+mba biaya wool ya,product_price,high
+Pesanan gw ord001 kemana,order_status,low
+halo lacak pesanan ord-001 thx,order_status,high
+hrg omniheat men's solid hooded puffer jacket-blue-green-l sekarang,product_price,extreme
+Edti pesanan,out_of_scope,low
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,extreme
+halo tetap ready stock makasih,product_stock,high
+kualitas jelek,out_of_scope,medium
+admin apa kabar ya,out_of_scope,high
+permisi apakah stok rasakan mas!h tersedia,product_stock,high
+terima kredivoo tidakk,payment_info,low
+stock haapi berapa,product_stock,high
+Ubah alamat pengiriman,out_of_scope,low
+Min mau komplain,out_of_scope,medium
+Bang pake virtual account bs?,payment_info,medium
+Hi test ?,out_of_scope,low
+Kit masih ada,product_stock,low
+mas mau tanya dong harga hangat yang ada di toko berapa ya ya kak,product_price,extreme
+socks msh ad?,product_stock,medium
+mau refund,out_of_scope,low
+lokasi warehouse,out_of_scope,medium
+Sis campuran terbuat d@ri apa ya kak,product_description,extreme
+hai deskripsi jaket ya,product_description,low
+Bos opsi pembayaran pls,payment_info,high
+Bang kehangatan ukurannya apa aja makasih,product_description,high
+pesanan ord123 udah sampai mana,order_status,medium
+sis bs ambil langsung ga makasih,out_of_scope,medium
+Arctic touchscreen winter gloves msh ad?,product_stock,medium
+paket saya sudah sampai mana,order_status,medium
+bayar pake apa sih,payment_info,medium
+lacak pesanan id 7788,order_status,high
+stock dengan berapa,product_stock,low
+kak terima va tidak thanks,payment_info,medium
+kak barang rusakk please,out_of_scope,extreme
+mau tanya apakah jaket puffer pria omniheat solid bertudung-biru-kunning-l masih tersedia soknya,product_stock,high
+min perm1si kak untuk pembayaran tersedia metode apa saja ya,payment_info,extreme
+admin halo admin mau nanya pembayaran bisa pakai apa saja ya dong,payment_info,low
+permisi metode byr apa ??,payment_info,medium
+jam buka toko,out_of_scope,low
+Admin pross refund berapa lama ya kak,out_of_scope,high
+deskripsi jacket-blue-yellow-m,product_description,low
+Ketersediaan tangan,product_stock,low
+hai Arctic Warmth Wool Blend Socks bagus ga,product_description,low
+Tolong jelasin tentang jacket-blue-yellow-m dong,product_description,medium
+bs bayar di tempat g,payment_info,medium
+Halo berapa harga omniheat ya kak,product_price,high
+hi pake kredivo bs?,payment_info,medium
+Selamat siang admin saya mau cek status pesanan nomor #12345,order_status,extreme
+bayar pake apa sih,payment_info,high
+Mas bersama murah ga min,product_price,high
+hai barang rusak min,out_of_scope,medium
+Paket saya sudah sampai mana,order_status,medium
+Mas cara bayar gimana tolong,payment_info,high
+Fitur hangat,product_description,medium
+Bos alamat kantorr ya kak,out_of_scope,high
+Jaket puffer pria omniheat solid bertudung-biru-kuning-m ready ga,product_stock,low
+Bos order #12345 udah diproses belum min,order_status,medium
+Bayar pake apa,payment_info,low
+Kak harga omniheat men's solid hooded puffer jacket-blue-yellow-m berapa thanks,product_price,low
+jacket-blue-yellow-l ready ga,product_stock,medium
+Kak prrogram afffiliate makasih,out_of_scope,medium
+Mau cek status pesanan,order_status,low
+berapa hrg jacket-blue-yellow-m,product_price,medium
+Permisi ad stok sarung tangan musim dingin arctic layar sentuh g ??,product_stock,low
+0psi pembayyaran,payment_info,extreme
+Terhubung brp sih,product_price,low
+order gue nomor 123 mana,order_status,low
+Bergaya ukurannya apa aja,product_description,high
+edit pesanan,out_of_scope,extreme
+mba halo admin mau nanya pembayaran bisa pakai apa saja ya thx,payment_info,extreme
+estimasi pengiriman order 456,order_status,medium
+Halo mana nih orderan gw pls,order_status,high
+permisi support ewallet ga ya,payment_info,high
+siapa kamu,out_of_scope,low
+edit pesanan,out_of_scope,extreme
+cuaca hari ini gimana,out_of_scope,medium
+Metode byr apa,payment_info,medium
+kak kamu bot ya ?,out_of_scope,high
+accessories ready ga,product_stock,medium
+halo kak mau tanya pesannan saya dengan nomor nomor 123 sudah diproses belum ya thanks,order_status,high
+permisi kak orderan saya yang 1 kok belum dateng,order_status,low
+Mba jacket brp sih ya kak,product_price,high
+ad stok socks g,product_stock,medium
+musim bagus ga,product_description,low
+Kerjaama bisnis,out_of_scope,medium
+halo fitur jacket-blue-yellow-m makasih,product_description,medium
+tolong jelasin tentang syal dong,product_description,low
+spec chill,product_description,low
+brp syal musim dingin arctic bliss penuh gaya,product_price,medium
+kak kecewa sama pelayanan pls,out_of_scope,medium
+stok dinginnya ada,product_stock,high
+test,out_of_scope,low
+tersedia tertandingi ga,product_stock,medium
+Kak gloves masih ada ga stoknya,product_stock,high
+dimana pesanan saya,order_status,medium
+kak boleh tau spesifikasi embrace tidak,product_description,low
+Bs ovo g,payment_info,low
+Kak kok lama bgt order 456 ?,order_status,medium
+kelebihan rasakan,product_description,low
+Bang spec jacket-blue-green-m pls,product_description,low
+gan bayar pake apa sih makasih,payment_info,extreme
+kelebihan bliss,product_description,low
+berapa harga men's,product_price,low
+Edit psnan,out_of_scope,low
+uang sy kpn dikembalikan,out_of_scope,medium
+Tambah item ke psnan,out_of_scope,low
+biaya omniheat,product_price,medium
+sarung tangan musim dingin arctic layar sentuh mahal ga,product_price,medium
+Kisaran hrg jacket-blue-green-l,product_price,extreme
+kualitas jelek,out_of_scope,low
+misi ganti ukuran tolong,out_of_scope,low
+mau tanya dong harga OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M yang ada di toko berapa ya,product_price,low
+Misi range harga chilly,product_price,low
+sis bi5a transfer bank pls,payment_info,high
+embrace sold out?,product_stock,medium
+sal raedy ga,product_stock,medium
+Order ord001 udah diproses belum,order_status,low
+Admin permisi mau nanya harga untuk kaus kaki campuran wol arctic warmth berapa ya ??,product_price,high
+batalan oredr,out_of_scope,high
+tracking pesanan nomor 123,order_status,low
+admin warna rajut ada apa aja ?,product_description,medium
+Terima bayar di tempat tidak,payment_info,low
+terhubung ready ga,product_stock,medium
+spesifikasi bertudung-biru-kuning-m,product_description,low
+Bisa return barang ga,out_of_scope,low
+mas tersedia OOmniHeat Men''s Solid Hooded Puffer Jacket-Blue-Yellow-M ga ya,product_stock,extreme
+detail beanie,product_description,low
+Bos bahann gaa apa tolong,product_description,low
+Kupluk Rajut Unisex Arctic Cozy brp duit,product_price,extreme
+Mau cek status pesanan,order_status,low
+mas proses refund brp lama ya kak,out_of_scope,extreme
+jacket mahal ga,product_price,medium
+orderan saya gmn,order_status,low
+bang kalo mau bayar pake ovo bs ga min please,payment_info,extreme
+misi terima bca gak min,payment_info,medium
+permisi biaya jakt puffer priia omniheat solid bertudung-biru-hijau-l dong,product_price,medium
+sisa stok bertudung-biru-hijau-m,product_stock,low
+Bang hai ya kak,out_of_scope,high
+terima transfer bank tidak,payment_info,low
+barang cacat,out_of_scope,medium
+Aksesori brp sih,product_price,low
+metode payment,payment_info,high
+tolong jelasin tentang tangan dong,product_description,medium
+tambah item ke pesanan,out_of_scope,high
+Trsdeia style ga,product_stock,high
+Touchscreen brp sih,product_price,low
+ketersediaan puffer,product_stock,low
+mas range hraga jaket thx,product_price,extreme
+spec sarung tangan musim dingin arctic layar sentuh,product_description,medium
+price chill,product_price,low
+Hi stock tetap berapa ya,product_stock,medium
+bs credit card g,payment_info,low
+Status pengiriman 12345,order_status,low
+kak sarung sold out?,product_stock,low
+range haga bertudung-biru-kuning-l,product_price,high
+kupluk rajut unisexx arctic cozy terbuat dari apa tolong,product_description,extreme
+Kak price socks ya kak,product_price,low
+dimana pesanan saya,order_status,low
+min cek rresi psnan 999 thx,order_status,medium
+opsi pembayaran,payment_info,low
+jacket-blue-green-l berapa duit,product_price,low
+cara bayar gimana,payment_info,medium
+Arctic bliss stylish winter scarf sold out?,product_stock,medium
+Bos halo admin mau nanya pembayarn bisa pakai apa saja ya,payment_info,extreme
+Maaf ganggu mau cek status order nomor 123 dong,order_status,medium
+Sis gantti ukuran thanks,out_of_scope,extreme
+deskripsi jaket,product_description,low
+Alamat toko dimana,out_of_scope,low
+style msh ad?,product_stock,high
+alamat kantor,out_of_scope,low
+stok chill ada,product_stock,low
+Info produk paket,product_description,low
+Ada cicilan ga,payment_info,low
+hagnat gmn sih,product_description,low
+Orderan gw kok ga nyampe,order_status,low
+Min tamah item ke pesanan thx,out_of_scope,extreme
+permisi Jaket Puffer Pria OmniHeat Solid Bertudung murah ga,product_price,low
+hi style baagus ga tolong,product_description,extreme
+mba bahan Kupluk Rajut Unisex Arctic Cozy apa thanks,product_description,medium
+Gan permisi kak untuk pembayaran tersedia metode apa saja please,payment_info,medium
+socks oksong ga,product_stock,high
+Kak available hooded dong,product_stock,high
+kak kerjasama bisnis ya kak,out_of_scope,high
+Terima qris gak,payment_info,medium
+duit bergaya,product_price,medium
+rajut kyk gmn,product_description,medium
+misi udah dikirim blm pesanan 999 ya,order_status,extreme
+Hi kaus kki campuran wol arctic warmth kosong ga makasih,product_stock,high
+Permisi terima dana gak ya,payment_info,low
+ada cicilan ga,payment_info,low
+info produk chill,product_description,medium
+Duit kaus kaki campuran wol artic wamrth,product_price,extreme
+Hai info produk gloves,product_description,high
+lowongan kerja ada ga,out_of_scope,low
+bang udah ddikirim blm ord1233 tolong,order_status,low
+Bos barang tidak sesuai mau tukar ya kak,out_of_scope,medium
+mba kelebihan jaket puffer pria omniheat solid bertudung-biru-hijau-m ya,product_description,low
+Kok lama bgt order 789,order_status,low
+Stok arctic frost winter accessories bundle abis blm,product_stock,medium
+Sis metode payment ya kak,payment_info,high
+halo warna cozy ada apa aja makasih,product_description,medium
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+tracking pesanan 1,order_status,medium
+dekapan ukurannya apa aja,product_description,low
+sis spec paket aksesori musim dingin arctic frost thx,product_description,high
+min cek epsanan ORD123 pls,order_status,medium
+harga connected sekarang,product_price,medium
+halo pembayaran via apa min,payment_info,high
+kak sarung masih ada ga stoknya,product_stock,medium
+kak mna nih orderan gw ??,order_status,high
+tangan murah ga,product_price,low
+permisi deskripsi layar please,product_description,low
+available rasakan,product_stock,high
+Harga bend berapa,product_price,medium
+Batalkan order,out_of_scope,medium
+sis orderan gw kok ga nyampe tolong,order_status,high
+Tracking pesanan 12345,order_status,low
+Mana nih orderan gw,order_status,low
+Cara bayar orderan,payment_info,high
+detail OmniHeat Men's Solid Hooded Puffer Jacket,product_description,low
+admin dimaa pesanan saya tolong,order_status,extreme
+mau tanya dong harga paket yg ad di toko berapa ya,product_price,medium
+Paket saya sudah sampai mana,order_status,low
+Status pengiriman 123,order_status,low
+Halo selamat siang admin sy mau cek status p$nan nomor order-123 dong,order_status,extreme
+fitur arctic toucchscreen winter gloves,product_description,high
+dtl Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M,product_description,medium
+chilly ready?,product_stock,low
+Kok lama bgt order nomor 555,order_status,low
+Permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+p4ke shopeepay bs?,payment_info,high
+Jacket mhal ga,product_price,medium
+hi tukar barang min,out_of_scope,medium
+Permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+Permisi mana nih orderan gw thx,order_status,medium
+Dmn psnan sy,order_status,extreme
+min stok sentuh ada please,product_stock,medium
+bertudung-biru-kuning-l kosong ga,product_stock,high
+Cara refund gimana,out_of_scope,low
+bahan Arctic Warmth Wool Blend Socks apa,product_description,medium
+bisa transfer bank,payment_info,low
+km bot ya,out_of_scope,medium
+Kak jacket-blue-green-l masih ada ga stoknya,product_stock,low
+sis lowongan kerja ada ga makasih,out_of_scope,high
+kak dtl chill dong,product_description,extreme
+kira kira arctic frost winter accessories bundle itu harganya berapa ya kak,product_price,medium
+metode byr apa,payment_info,low
+Kira kira omniheat men's solid hooded puffer jacketblue-yellow-l itu harganya brp ya kak pls,product_price,extreme
+style masih ada,product_stock,medium
+Sis cara bayar giimana pls,payment_info,extreme
+warna experience ada apa aja,product_description,low
+brg 456 dmn,order_status,medium
+pesanan gw 99 kemana,order_status,low
+Metode pembayaran apa aja,payment_info,high
+tersedia chill ga,product_stock,low
+ssa sttok omniheat,product_stock,medium
+Min estimasi pengiriman order 456 makasih,order_status,low
+stok jacket-blue-green-l ada,product_stock,high
+style ready stock,product_stock,low
+bos produk beda sama gambar,out_of_scope,high
+kaus habis belum,product_stock,medium
+arctic bagus ga,product_description,medium
+Support ewallet ga,payment_info,low
+bos bertudung-biru-kuning-l mrah ga min,product_price,extreme
+orderna saya ggimana,order_status,medium
+Mau taya dong hrg rasakan ynag ad di toko brp ya,product_price,medium
+Sis metode payment ?,payment_info,high
+Ibsa return brg ga,out_of_scope,high
+gan arctic cozy knit uni$ex beanie harganya berapa tolong,product_price,high
+kamu bot ya,out_of_scope,medium
+halo min mau nanya unmatched masih ready stock tidak ya,product_stock,low
+Mau cek status pesanan,order_status,medium
+Nfo produk jacket-blue-green-l,product_description,low
+Stylish habis belum,product_stock,medium
+experience mahal ga,product_price,low
+sis barang sy@a udah dikirim belum tolong,order_status,extreme
+sis udah dikirim blm #1 thx,order_status,extreme
+Orderan saya gimana,order_status,low
+misi lowongan kreja ad ga ya kak,out_of_scope,extreme
+mau komplain,out_of_scope,extreme
+permisi spec kaki dong,product_description,medium
+Paket saya sudah sampai mana,order_status,low
+Cara bayar orderan,payment_info,medium
+kamu bot ya,out_of_scope,high
+brg 123 dmn,order_status,medium
+Min tangan brp duit ya,product_price,medium
+kak mau refundd please,out_of_scope,medium
+tracking pesanan ORD001,order_status,medium
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+kak kualitas jelek thanks,out_of_scope,low
+Deskripsi omniheat men's solid hooded puffer jacket-blue-yellow-l,product_description,medium
+Bs dijelasin tentang produk cozy dong,product_description,medium
+bisa ambil langsung ga,out_of_scope,low
+Paket mahal ga,product_price,low
+kak mau tanya pesanan saya dengan nomor 67890 sudah diproses belum ya,order_status,medium
+min batalkan order dong,out_of_scope,high
+Permisi stok kaki abis blm please,product_stock,medium
+halo min mau nanya dekapan masih reddy stock tidak ya,product_stock,high
+dtl arctic frost winter accessories,product_description,low
+Bahan sentuh apa,product_description,medium
+lowongan kerja ada ga,out_of_scope,medium
+Stok bertudung-biru-kuning-m abis blm,product_stock,medium
+Mas cara refund gimana dong,out_of_scope,high
+bisa return barang ga,out_of_scope,low
+mana nih orderan gw,order_status,medium
+boleh tau harga omniheat tidak,product_price,low
+Range harga bliss,product_price,medium
+bia transfer bank,payment_info,medium
+bisa bayar pakai mandiri,payment_info,low
+biaya terhubung,product_price,low
+permisi hadapi terbuat dari apa dong,product_description,high
+tracking pesanan 789,order_status,high
+Gan pesanan 456 udah sampai mana thx,order_status,extreme
+Status order ord001,order_status,low
+stok omniheat men's solid hooded puffer jacket-blue-green-l ad,product_stock,high
+hai metode pembayaran apa aja pls,payment_info,medium
+Tambah item ke pesanan,out_of_scope,low
+Besrama mhal ga,product_price,medium
+udah dikirim blm 12345,order_status,low
+Kak bisa ambil langsung ga ya,out_of_scope,high
+udah dikiim blm 99,order_status,low
+maaf ganggu mau cek status order 123 dong,order_status,low
+hi alamat kantor ya,out_of_scope,high
+jadi reseller gimana,out_of_scope,medium
+metode byr apa,payment_info,low
+Kak mau tanya pesanan saya dengan nomor ord001 sudah diproses belum ya,order_status,low
+admin brp hooded please,product_price,medium
+mas kak boleh tau spesifikasi omniheat men's solid hooded puffer jacket-blue-green-l tidak ya,product_description,high
+booleh tau harga chll tidak,product_price,high
+Order 123 udah diproses belum,order_status,low
+kak kak hdaapi massih ada ga stoknya please,product_stock,medium
+pesanan ord001 udah smp mana,order_status,extreme
+Warna arctic bliss stylish winter scarf ada apa aja,product_description,high
+Kak kapan pesanan ord-001 smapai tolong,order_status,medium
+Ada cicilan ga,payment_info,high
+fitur pria ya,product_description,medium
+beanie gmn sih,product_description,high
+halo orderan gw kok ga nyampe ??,order_status,high
+misi siapa kamu pls,out_of_scope,high
+price sarung,product_price,low
+arctic warmth wool blend socks kyk gmn dong,product_description,high
+Kecewa sama pelayanan,out_of_scope,low
+Halo bs transfer bank ??,payment_info,high
+Min kalo mau bayar pake kartu kredit bisa ga min ya,payment_info,extreme
+admin arctic berapa duit ??,product_price,low
+Sis pake transfer bank bs?,payment_info,medium
+Order gue 1 mmana,order_status,high
+biaya connected,product_price,low
+Hi uah alammat pengiriman please,out_of_scope,extreme
+Admin spec style thanks,product_description,medium
+Min omniheat men's solid hooded puffer jacket kosong ga makasih,product_stock,medium
+comfortt sodl out?,product_stock,medium
+hi stk Arctic Cozy Knit Unisex Beanie ada please,product_stock,medium
+pria brp sih,product_price,low
+permisi uunisex ukurannya apa aja pls,product_description,high
+availale tertandingi,product_stock,medium
+bergaya ready ga,product_stock,low
+mba revviw beanie thanks,product_description,medium
+bang mau kembaliik4n barang,out_of_scope,low
+Sis bisa bayar pakia ovo dong,payment_info,extreme
+Kehangatan brp sih,product_price,medium
+Kupluk Rajut Unisex @rtcic Cozy habis blm,product_stock,high
+cara bayar gimana,payment_info,low
+Kelebihan bertudung-biru-kuning-m,product_description,low
+Ada toko offline,out_of_scope,medium
+mau tanya dong harga bliss yang ada di toko berapa ya,product_price,low
+kak stok frost ada tolong,product_stock,extreme
+ketersediaan gaaya,product_stock,low
+knit terbuat dari apa,product_description,low
+Cuaca hari ini gimana,out_of_scope,extreme
+pake credit card bs?,payment_info,low
+hai duit connected ya kak,product_price,low
+kelebihan chillly,product_description,medium
+diut rasakan,product_price,low
+Misi tersedia mne's ga ya kak,product_stock,high
+bisa dijelasin tentang produk accessories dong,product_description,medium
+cara bayar 9imana min,payment_info,high
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,high
+Spesifikasi tetap,product_description,medium
+puffer murah ga,product_price,medium
+accept cod ga,payment_info,medium
+metode byr apa,payment_info,medium
+Halo psnan gw psnan 999 kmn pls,order_status,medium
+hai orderan gw kok ga nyampe tolong,order_status,medium
+admin ganti ukuran ya,out_of_scope,high
+Mau tanya dong harga syal yang ada di toko berapa ya,product_price,low
+mas cara refund gimana thanks,out_of_scope,extreme
+ketersediaan hangat,product_stock,high
+admin inffo produk chill min,product_description,medium
+harga syal sekarang,product_price,medium
+mau cek status pesanan,order_status,medium
+hai mau tanyya utk pembayarannya bs pakai metode apa aja ya tolong,payment_info,extreme
+sis lacak pesanan 456,order_status,high
+mana nih orderan gw,order_status,low
+mana nih orderan gw,order_status,low
+permisi metode byr apa pls,payment_info,high
+boleh tau harga stylish tidak,product_price,medium
+dimana pesanan saya,order_status,low
+bos mau refnd thanks,out_of_scope,high
+min orderan saya gimana min,order_status,low
+kira kira sarung itu harganya berapa ya kak,product_price,low
+halo min mau nanya scarf masih ready stock tidak ya,product_stock,high
+Pembayaran via apa,payment_info,medium
+Produk tidak sesuai,out_of_scope,medium
+kak boleh tau spesifikasi accessories tidak,product_description,low
+bisa dijelasin tentang produk socks dong,product_description,low
+Kok lama bgt order #99,order_status,low
+Halo ya kak,out_of_scope,medium
+Status order #99,order_status,medium
+Pesanan gw ord123 kemana,order_status,medium
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,high
+Min hrg dinginnya brp ya kak,product_price,low
+Halo metode byr apa makasih,payment_info,extreme
+cozy bagus ga thanks,product_description,low
+Misi dmn pesanan sy thx,order_status,high
+Ubah alamat pengiiriman,out_of_scope,medium
+gan permisi mau nanya harga untku Arctic Frost Winter Accessories berapa ya ya kak,product_price,medium
+ad stok bertudung-biru-hijau-l g,product_stock,medium
+batalkan order,out_of_scope,low
+Mau komplain,out_of_scope,low
+Kak price stylish ya,product_price,medium
+cara bayar orderan,payment_info,low
+hrg bliss brp,product_price,medium
+Connected ukurannya apa aja,product_description,low
+Sarung Tangan Musim Dingin Arctic Layar Sentuh kosong ga,product_stock,low
+bs mandiri g,payment_info,low
+admin tolong jelasin tentang sentuh dong ?,product_description,high
+brg pesanan 999 dmn,order_status,low
+Mau kembalikan barang,out_of_scope,low
+ubah alamat pengiriman,out_of_scope,low
+Byr dmn,payment_info,low
+paket saya sudah sampai mana,order_status,medium
+tlg jelasin tentang terhubung dnog,product_description,high
+brp stylish,product_price,medium
+Misi stok bertudung-biru-kuning-m ada tolong,product_stock,medium
+Deskripsi accessories,product_description,low
+produk bead samaa gambar,out_of_scope,high
+hai bisa ambil lnagsung ga ?,out_of_scope,medium
+min maaf ganggu mau cek status order ppsnan 999 dong ??,order_status,high
+Gan barang cacat makasih,out_of_scope,medium
+halo order@n sy gmn ??,order_status,high
+Hai mau tanya dong harga tetap yang ada di toko berapa ya thanks,product_price,high
+biaya gaya,product_price,high
+Tukar barang,out_of_scope,medium
+udah dikirim blm 99,order_status,high
+Gan metode pembayaran apa aja ya kak,payment_info,high
+Stok jaket puffer pria omniheat solid bertudung-biru-kuning-l ada,product_stock,low
+jaket mahla ga,product_price,medium
+mau refund,out_of_scope,high
+bayar pake apa sih,payment_info,medium
+orderan gw kok ga nyampe,order_status,medium
+Hai review unmatched ya kak,product_description,high
+Byr dmn,payment_info,high
+permisi terima qris gak ?,payment_info,medium
+Bbenaie ready?,product_stock,medium
+s!apa kamu,out_of_scope,medium
+Duit omniheat m'ns solid hooded puffer jacket,product_price,extreme
+Hai byr dmn pls,payment_info,extreme
+jacket-blue-yellow-l mahal ga ya kak,product_price,medium
+Biaya bertudung-bir-ukuning-l,product_price,medium
+misi mana nih orderan gw pls,order_status,medium
+kak bs shopeepay g ya,payment_info,low
+prdok beda sama gambar,out_of_scope,medium
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+Mas order 67890 udah diproses belum thx,order_status,medium
+pake dana bs?,payment_info,medium
+stok bertudung-biru-hijau-m ada,product_stock,medium
+hai dingin hrgnya brp thx,product_price,medium
+price kehangatan,product_price,medium
+sisa stok Arctic Frost Winter Accessories,product_stock,medium
+Mba pembayaran via apa ??,payment_info,medium
+admin Arctic Bliss Stylihs Winter Scarf msh ad?,product_stock,extreme
+batalkan oorder,out_of_scope,medium
+min brp gglves please,product_price,medium
+brp connected,product_price,medium
+dimana pesanan saya,order_status,medium
+Halo boleh tau harga sarung tidak ya,product_price,low
+permisi mau nanya harga untuk kaki berapaa ya,product_price,medium
+spec omniheat,product_description,low
+admin sisa stok OmniHeat eMn's Solid Hoodd Puffer Jacket-Blue-Green-M ?,product_stock,extreme
+harag dinginnya b3rapa,product_price,high
+Misi rajut brp sih pls,product_price,medium
+warna Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-M ad apa aja,product_description,low
+bersamaa ready ga,product_stock,high
+bos hrg scarf brp pls,product_price,high
+brp hrg kehangatan,product_price,high
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+halo admin mau nanya pembayaran bisa pakai apa sja ya,payment_info,high
+Cara bayar gimana,payment_info,low
+Halo harga terhubung ebrapa ??,product_price,medium
+Bs bayar di tempat g,payment_info,high
+bang bisa ambil langsung ga tolong,out_of_scope,low
+Arctic Blis Stylish Winter Scaf berapa duit,product_price,extreme
+Kak tracking pesanan #1 tolong,order_status,low
+Misi tertandingi mahal ga makasih,product_price,high
+dinginnya ukurannya apa aja,product_description,medium
+bang biaya sentuh thanks,product_price,extreme
+Min hrg gaya berapa ya kak,product_price,high
+estimasi pengiriman order 789 min,order_status,medium
+Cek pesaanan 789,order_status,low
+Halo cancel pesanaan thanks,out_of_scope,low
+metode byr apa,payment_info,extreme
+ubbh alamat pengiriman,out_of_scope,high
+Ada too offline,out_of_scope,medium
+Deskripsi sarung tangan musim dingin arctic layar sentuh,product_description,medium
+Mas tersedia accessories ga ya,product_stock,high
+halo,out_of_scope,medium
+ad stok accessories g,product_stock,high
+jacket-blue-green-l ready ga,product_stock,low
+permisi solid habis blm ?,product_stock,extreme
+permisi apakah stok arctic masih tersedia,product_stock,low
+Knit brp sih,product_price,high
+ketersediaan bertudung-biru-kuning-l,product_stock,low
+harga style sekarang,product_price,low
+mau komplain,out_of_scope,high
+omniheat masih ada,product_stock,low
+kak tangan masih ada ga stoknya,product_stock,low
+bos mau tanya untuk pembayarannya bisa pakai metode apa aja ya please,payment_info,low
+kerjasama bisnis,out_of_scope,low
+Gan opsi pembayaran pls,payment_info,low
+bos Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L ukurannya apa aja tolong,product_description,medium
+Bang hrg bertudung-biru-hijau-l brp pls,product_price,extreme
+Hi ediit pesanan tolong,out_of_scope,extreme
+Pembayaran via apa,payment_info,medium
+kak available tertandingi please,product_stock,low
+boleh tau hrg arctic cozy knit uniesx beanie ga,product_price,high
+bang brp asesori ya,product_price,extreme
+kualitas jelek,out_of_scope,medium
+sis permisi apakah stok musim masih tersedia please,product_stock,extreme
+stok comfort abis blm,product_stock,low
+bisa dijelasin tentang produk omniheat men's solid hooded puffer jacket-blue-green-m dong,product_description,high
+gan permisi kak ordderan saa yang #99 kok blm dateng ??,order_status,high
+Halo brp harga syal tolong,product_price,extreme
+mau komplain,out_of_scope,low
+Mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,medium
+Admin bs bni g ?,payment_info,medium
+Estimasi pengiriman order 12345,order_status,medium
+Kak available omnihaet tolong,product_stock,medium
+bertudung brp duit,product_price,medium
+Bisa ambil lansgung ga,out_of_scope,high
+Chilly mahal ga,product_price,medium
+bang ketersediaan blend ??,product_stock,low
+Brg id 7788 dmn,order_status,medium
+Kak boleh tau spesifikasi omniheat men's solid hooded puffer jacket ga,product_description,high
+Kisaran harga jaket,product_price,medium
+kak kenyamanan ukurannya apa aja dong,product_description,medium
+knit habis belum,product_stock,medium
+range harga gyaa,product_price,low
+Hrg unisex brp,product_price,medium
+spec frost,product_description,low
+Jacket-blue-green-l sodd out?,product_stock,extreme
+dimana psnan sy,order_status,extreme
+kak kaki masih ada ga stoknya,product_stock,medium
+Dimana pesanan saya,order_status,low
+sis kak campuran masih ada ga stoknya please,product_stock,medium
+bos range hrg hadapi ya,product_price,high
+bang dtl touchscreen please,product_description,medium
+Cuaca hari ini gimana,out_of_scope,low
+accept virtual account ga,payment_info,medium
+Hi permisi apakah stok syal musim dingin arctic blss penuh gaya mmasih tersedia,product_stock,high
+misi halo min mau nanya arctic cozy knit unisex beanie masih ready stock tidak ya ?,product_stock,low
+Dtl stylish,product_description,high
+Halo min mau tanya dong pesanan saya nomor #1 itu udah sampai mana ya,order_status,low
+stock musim berapa,product_stock,low
+admin orderan sy gmn ya,order_status,medium
+connected ukurannya apa aja,product_description,low
+jd4i reseller gimana,out_of_scope,low
+Bos gloves berapa duit ??,product_price,medium
+detail men's,product_description,medium
+spesifikasi experience,product_description,high
+misi status pengiriman 1 ?,order_status,low
+stock bertudung-biru-hijau-l beraap,product_stock,high
+kak jacket-blue-yellow-l berapa duit please,product_price,high
+sisa sttko campuran,product_stock,low
+Kira kira aksesori itu harganya berapa ya kak,product_price,low
+sisa stok bergaya,product_stock,low
+available pria,product_stock,medium
+bayar pake apa sih,payment_info,high
+stok rajut abis blm,product_stock,low
+Hai stock kaik berapa ya,product_stock,high
+Permisi apakah stok puffer masih tersedia tolong,product_stock,low
+kak hai please,out_of_scope,high
+kok lama bgt order #1,order_status,high
+Bertudung-biru-kuning-m ready?,product_stock,medium
+biaya bertudung-biru-kuning-l,product_price,low
+Min lacak pesanan ord-001 makasih,order_status,high
+gan scarf masih ada makasih,product_stock,high
+bang batalkan oorder pls,out_of_scope,high
+hadapi terbuat dari apa,product_description,low
+Jacket murah ga,product_price,low
+Ada toko offline,out_of_scope,low
+Nomor telepon toko,out_of_scope,medium
+Detail cozy ??,product_description,high
+halo bs ambil langsung ga ya kak,out_of_scope,high
+edit pesanan,out_of_scope,low
+dinginnya murah ga,product_price,high
+Mau cek status pesanan,order_status,low
+hai dtl tangan ?,product_description,medium
+status pengiriman 789,order_status,medium
+bos metode payment thx,payment_info,high
+sis jackt-blue-yellow-l hrganya berapa makasih,product_price,high
+edit pesanan,out_of_scope,low
+kak boleh tau spesifikasi stylish tidak,product_description,medium
+ada cicilan ga,payment_info,high
+kaus mahal ga,product_price,medium
+Poses refund beerapa lama,out_of_scope,extreme
+sis spec embrace thanks,product_description,medium
+Min halo pls,out_of_scope,low
+gan mau cek status pesanan,order_status,high
+Duit campuran,product_price,medium
+halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,high
+kupluk bagus ga,product_description,medium
+info produk gaya,product_description,medium
+Misi kisaran hrg jacket-blue-yellow-m makasih,product_price,extreme
+scarf ready?,product_stock,low
+halo,out_of_scope,high
+permisi mau nanya harga untuk kupluk berapa ya,product_price,low
+Etrsedia jacket ga,product_stock,extreme
+brp syal,product_price,medium
+gan pesan@n #1 udah sampai maana tolong,order_status,high
+tukar barang,out_of_scope,medium
+available omniheat men's solid hooded puffer jacket-blue-green-m,product_stock,medium
+hi mau tanya dog harga rajuut yang ada di toko berapa ya please,product_price,medium
+tracking pesanan #12345,order_status,medium
+ketersediaan unisex,product_stock,low
+jam buka toko,out_of_scope,low
+terima cod tidak,payment_info,medium
+permisi kak orderan saya yang 67890 kok belum dateng,order_status,high
+metode payment,payment_info,medium
+sis jaket pufffer pria omniheat solid bertudung-biru-kuning-l sold out?,product_stock,high
+Bisa bayr pakai bni,payment_info,low
+byr dmn,payment_info,low
+kamu bot ya,out_of_scope,low
+detail touchscreen,product_description,low
+halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,medium
+Baang cact,out_of_scope,medium
+kira kira embrace itu harganya berapa ya kak,product_price,medium
+Paket saya sdh smp mana,order_status,extreme
+pesanan gw 67890 kemana,order_status,low
+kak mau tanya dong harga bersama yang ada di toko berapa ya thx,product_price,high
+OmniHeat Men's Soild Hooded Puffer Jacket-Blue-Green-M harganya bberapa,product_price,high
+scarf habiiis belum,product_stock,extreme
+Admin arctic bliss stylsih winter scarf ready ga ?,product_stock,medium
+cuaca hari ini gimaa,out_of_scope,low
+Sis brp knit,product_price,low
+bang jaket brp duit ya kak,product_price,high
+Hai,out_of_scope,low
+mba loksai warehuose thanks,out_of_scope,medium
+accept virtual account ga,payment_info,low
+Spec style,product_description,high
+price connected,product_price,medium
+mas sppec dinginnya thx,product_description,extreme
+Spec bertudung-biru-kuning-l,product_description,medium
+metode payment,payment_info,medium
+metode pembayaran apa aja,payment_info,low
+dtl accessories,product_description,medium
+cek resi 456,order_status,extreme
+Tolong jelasin tentang pria dong,product_description,low
+terima gopay gak,payment_info,medium
+Mas duit arctic ya kak,product_price,medium
+bergaya ready sotck,product_stock,medium
+Hi sisa stok arctic frost winter accessories bundle tolong,product_stock,medium
+pake cimb bs?,payment_info,low
+Hi metode pembayaran apa aja pls,payment_info,medium
+bertudung-biru-hijau-l murah ga,product_price,medium
+Brp kenyamanan,product_price,medium
+mau tanya dong harga frost yang ada di toko berapa ya,product_price,high
+lowongan kerja ada ga,out_of_scope,low
+Bahan musim apa,product_description,medium
+gan pria ready stock,product_stock,low
+admin almaat toko dimana min,out_of_scope,high
+Knit msh ad?,product_stock,extreme
+mas terim@ gopay gak ??,payment_info,extreme
+Maaf ganggu mau cek status order 456 dong,order_status,medium
+Unisex ready stock,product_stock,high
+sis stock bergaya berapa tolong,product_stock,low
+Status order 1,order_status,low
+Order gue 12345 mana,order_status,low
+Arctic touchscreen winter gloves kyk gmn,product_description,low
+Tambah item ke pesanan,out_of_scope,low
+hai stock arctic brp please,product_stock,low
+hi byr dmn,payment_info,high
+Halo boleh tau harga comfort tidak min,product_price,extreme
+kak available dekapan pls,product_stock,low
+program affiliate,out_of_scope,low
+Ada cicilan ga,payment_info,medium
+Bang kisaran hrg blend pls,product_price,medium
+bertudung-biru-hijau-l gmn sih,product_description,high
+spesifikasi arctic frost winter accessories,product_description,low
+price connected,product_price,high
+min bertudung-biru-hijau-m bagus ga ya kak,product_description,low
+biya tangan,product_price,low
+kapan pesanan oor0d01 sampai,order_status,medium
+Ubah allamat pengiriman,out_of_scope,medium
+Terhubung sold out?,product_stock,low
+Bs dijelasin tentang produk kehangatan dong,product_description,medium
+kira kira kaus kaki campuran wol arcticc warmth itu harganya berapa ya kak,product_price,extreme
+misi status order 12345 tolong,order_status,low
+bisa transfer bank,payment_info,medium
+bang stok terhubung ada ?,product_stock,medium
+spec scarf,product_description,medium
+permisi saipa kamu pls,out_of_scope,medium
+spec arctic,product_description,low
+Supoprt ewallet ga,payment_info,medium
+jam buka toko thanks,out_of_scope,extreme
+Info produk kenyamanan,product_description,low
+bang halo admin mau nanya pembayaran bisa pakai apa saja ya ??,payment_info,low
+Hangat masih ada,product_stock,low
+bang spec OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L pls,product_description,low
+Bang kak kaki masih ada ga stoknya dong,product_stock,high
+ubah alamat pengiriman,out_of_scope,low
+Mas spec campuran makasih,product_description,high
+Min order gue ord001 mana tolong,order_status,high
+Hai bayar pake apa sih ya,payment_info,extreme
+kak mau tanya psnan sy dengan nomor #99 sudah diproses belum ya,order_status,high
+bang test please,out_of_scope,low
+Dtl chill,product_description,high
+estmasi pengiriman order #1,order_status,medium
+duit cozy,product_price,low
+Min spec bertudung-biru-kuning-m thanks,product_description,high
+mas berapa harga kaki ?,product_price,medium
+Halo min mau nanya rasakan masih ready stock tidak ya,product_stock,low
+harga dengan sekarang,product_price,high
+Mas stock jacket-blu3-yellow-l berapa ya kak,product_stock,extreme
+Halo,out_of_scope,medium
+Permisi apakah stok omniheat men's solid hooded puffer jacket-blue-yellow-m masih tersedia,product_stock,low
+Sisa stok gloves,product_stock,low
+paket saya sudah sampai mana,order_status,low
+Mas permisi kak orderan saya yang nomor 123 kok belum dateng tolong,order_status,medium
+barang tidak sesuai mau tukar,out_of_scope,low
+bayar pake apa sih,payment_info,medium
+gan kisaran hrg socks,product_price,medium
+Tracking pesanan 123,order_status,low
+min kalo mau bayar pake gopay bisa ga min thanks,payment_info,low
+Bang hai ?,out_of_scope,low
+Bisa return barang ga,out_of_scope,low
+min ubah alamat pengiriman tolong,out_of_scope,medium
+Brp arctic frots winter cacessories,product_price,medium
+ad toko offline,out_of_scope,medium
+mau tau lebih detail tentang jacket-blue-green-l,product_description,high
+mas chill ukurannya apa aja ??,product_description,medium
+available jaket puffer pria omniheat solid bertudung,product_stock,medium
+accept kredivo ga,payment_info,medium
+Mau cek status pesanan,order_status,extreme
+brg rusak,out_of_scope,medium
+mana nih orderan gw,order_status,low
+Halo,out_of_scope,high
+Warmth bagus ga,product_description,medium
+Permisi pesanan ord-001 udah sampai mana ya,order_status,medium
+ygaa brp duit,product_price,medium
+Sis kira kira blend itu harganya berapa ya kak makasih,product_price,high
+ubah alamat pengiriman,out_of_scope,medium
+barang saay udah dikirim bleum,order_status,high
+spec tertandingi,product_description,low
+misi cara refund gimana ya,out_of_scope,high
+bos connected gmn sih please,product_description,extreme
+mba touchcreen ready stock please,product_stock,medium
+sis bayar pake apa ya kak,payment_info,medium
+bang opsi pem@yaran thanks,payment_info,medium
+kira kira kenyamanan itu harganya berapa ya kak,product_price,low
+ganti ukuran,out_of_scope,medium
+Halo kelebihan bertudung-biru-kuning-m thanks,product_description,high
+Kerjasama bisnis,out_of_scope,low
+Terima bri tidak,payment_info,low
+brg 12345 dmn,order_status,medium
+jacket-blue-yellow-l berapa duit,product_price,medium
+order gue 99 mana,order_status,low
+barang tidak sesuai mau tukar makasih,out_of_scope,low
+bayar pake apa,payment_info,low
+Kalo mau bayar pake permata bisa ga min,payment_info,medium
+duit Jaket Puffer Pria OmniHeat Solid Bertudung,product_price,medium
+mba metode pembayaran apa aja thx,payment_info,medium
+lowongan kerja ada ga,out_of_scope,medium
+mas order ORD123 udah diproses belum ??,order_status,medium
+Bertudung-biru-kuning-l brp duit,product_price,low
+kak chilly masih ad ga stoknya,product_stock,low
+Hai spesifikasi frost thanks,product_description,high
+bos orderan saya gimana makasih,order_status,medium
+kak siapa kamu ya,out_of_scope,medium
+kak review comfort ??,product_description,high
+Hrg chilly brp,product_price,medium
+kehangatan habis belum,product_stock,medium
+wool berapa duit,product_price,medium
+spec men's,product_description,low
+mau tau lebih detail tentang Arctic Touchscreen Winter Gloves,product_description,medium
+Estimasi pengiriman order nomor 555,order_status,low
+orderan gw kok ga nyampe,order_status,low
+sis udah dikirim blm id 7788 thanks,order_status,low
+Hangat brp duit,product_price,medium
+bertudung-biru-kuning-m kyk gmn,product_description,medium
+Permisi cara bayar gimana thx,payment_info,medium
+Spec bertudung-biru-kuning-m,product_description,low
+kelebihan sentuh,product_description,medium
+ubah alamat pengiriman,out_of_scope,medium
+mau refund,out_of_scope,low
+Halo tukar barang ya kak,out_of_scope,medium
+cara bayar gimana,payment_info,extreme
+Bos tambbah item ke pesanan min,out_of_scope,high
+gan harga omniheat sekarang ya,product_price,medium
+Tukar bang,out_of_scope,low
+bahan kenyamanan apa,product_description,low
+barang tidak sesuai mau tukar,out_of_scope,medium
+hai hrg Arctic rFost Winter Accessories brp min,product_price,extreme
+Sis bahan omniheat men's solid hooded puffer jacket-blue-green-l apa ??,product_description,high
+halo,out_of_scope,medium
+Bs bayar pakai bca,payment_info,high
+mas kok lama bgt order order-123 thx,order_status,medium
+kak jam buka toko min,out_of_scope,medium
+spec Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L,product_description,low
+halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,high
+ad stok kupluk g ?,product_stock,medium
+Mau cek status pesanan,order_status,medium
+hai ganti ukuran pls,out_of_scope,medium
+gan mau tanya untuk pembayarannya bisa pakai metode apa aja ya ??,payment_info,low
+Permisi kak orderan saya yang ord-001 kok belum daetng,order_status,low
+gan dtl dengan,product_description,medium
+kualitas jelek,out_of_scope,high
+Min winter gmn sih pls,product_description,high
+kisaran harga kupluk,product_price,low
+sis bisa dijelasin tentang produk Arctic Frost Winter Accessories dong dong,product_description,low
+halo min mau tanya dong pesanan saya nomor nomor 555 itu udah sampai mana ya,order_status,low
+permisi kak orderan saya yang #12345 kok belum dateng,order_status,low
+Detail jacket,product_description,high
+Dengan brp sih,product_price,medium
+mau tanya apakah bergaya masih tersedia stoknya,product_stock,high
+Dimana pesanan saaya,order_status,medium
+Min kaus kaki campuran wol arctic warmth bagus ga please,product_description,low
+mau tanya apakah tertandingi masih tersedia stoknya,product_stock,medium
+Bos opsi pembayaran please,payment_info,extreme
+min permisi mau nanya harga untuk touchscreen berapa ya,product_price,medium
+hi mau refund pls,out_of_scope,medium
+ada tko offline,out_of_scope,low
+Halo bahhan sarung apa tolong,product_description,medium
+kalo mau bayar pake cash bisa ga min,payment_info,medium
+cek psnan #1,order_status,high
+carra bayar orderan,payment_info,medium
+Mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,medium
+Paket saya sudah sampai mana,order_status,low
+Gan kisaran harga jaket pfufer pia omniheat solid bertudung-biru-kuning-m ?,product_price,high
+musim terbuat dari apa,product_description,medium
+biaya Sarung Tangan Musim Dingin Arctic Layar Sentuh,product_price,medium
+Udah dikirim blm #12345,order_status,medium
+Halo min mau nanya sarung tangan musim dingin arctic layar sentuh masih ready stock tidak ya,product_stock,high
+Sis spec penuh ??,product_description,low
+cara bayar gimana,payment_info,medium
+mas permisi apakah stok kehangatan masih tersedia min,product_stock,medium
+ad stok omniheat g,product_stock,low
+alamat kantor,out_of_scope,medium
+Hai metode payment,payment_info,low
+Spec omniheat men's soid hooded pfufer jacket-blue-yellow-m,product_description,low
+Udah dikirim blm ord001,order_status,medium
+Ad toko offline,out_of_scope,medium
+cek pesanan nomor 555,order_status,low
+order gue 12345 mana,order_status,medium
+hi hangat tterbut dari apa dong,product_description,extreme
+hai warmth ready stock,product_stock,medium
+Hi bbisa tranfser bank ?,payment_info,medium
+mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,medium
+Gan available stylish thanks,product_stock,low
+terhubung ready stock,product_stock,low
+order 12345 udah diproses belum please,order_status,medium
+status order order-123,order_status,medium
+mau tanya utk pembayarannya bs pakai metode apa aja ya,payment_info,low
+ada toko offline,out_of_scope,low
+hi jacket-blue-yllow-l gmn sih ya,product_description,high
+cancel pesanan,out_of_scope,medium
+fitur jacket-blue-yellow-m,product_description,medium
+Bang pembayaan via apa ?,payment_info,low
+Cancel pesanan,out_of_scope,low
+Deskripsi bergaya,product_description,low
+min dekapan murah ga thanks,product_price,medium
+Bisa return barang ga,out_of_scope,medium
+bos cuaca hari ini gmn ?,out_of_scope,high
+bang ccara abyar orderan ??,payment_info,extreme
+byr dmn,payment_info,medium
+permisi pake debit bs?,payment_info,extreme
+Metode pembayaran apa aja,payment_info,medium
+gan accept kredivo ga dong,payment_info,high
+metode pembayaran apa aja,payment_info,low
+kamu bot ya,out_of_scope,low
+Min pake jenius bs?,payment_info,medium
+bang almaat toko dimana ?,out_of_scope,high
+orderan saya gimana,order_status,medium
+Brg 12345 dmn,order_status,medium
+bos estimasi pengriman ordder #1 ?,order_status,high
+admin detail bliss pls,product_description,medium
+orderan gw kok ga nyampe,order_status,medium
+min pesanan gw 12345 kemana ?,order_status,medium
+bias trasnfer bank,payment_info,low
+byr dmn,payment_info,medium
+bisa dijelasin tentang produk dengan dong,product_description,low
+Tesredia puffer ga,product_stock,high
+Brp style,product_price,medium
+Kerjasama bisnis,out_of_scope,medium
+status pengiriman id 7788,order_status,medium
+Mau kerja disini,out_of_scope,medium
+admin rasakna habis blm min,product_stock,medium
+Metode payment,payment_info,medium
+sis selamat siang admin sy mau cek status pesanan nomor pesanan 999 tolong,order_status,medium
+Boleh tau hrg unisex ga,product_price,medium
+kisaran hrg embrace,product_price,low
+gaya msh ad?,product_stock,medium
+Stylish msh ad?,product_stock,low
+range harga Arctic Frost Winter Accessroies Bundle,product_price,high
+boleh tau harga arctic warmth wool blend socks tidak,product_price,low
+halo pria masih ada please,product_stock,extreme
+status order ord001,order_status,high
+kira kira bergaya itu harganya berapa ya kak,product_price,low
+admin orderan gw kok ga nyampe dong,order_status,medium
+sis lokasi warehouse makasih,out_of_scope,high
+mba mau tau lebih detail tentang bundle min,product_description,high
+barang rusak,out_of_scope,medium
+ad stok rajut g,product_stock,medium
+Kak syal ready?,product_stock,low
+bisa dijelasin tentang produk men's dong,product_description,low
+Kak mau tanya pesanan saya dengan nomor ord-001 sudah diproses belum ya,order_status,medium
+hai harga tangan sekarang thanks,product_price,low
+kak scarf masih ada ga stoknya,product_stock,extreme
+misi prduk beda sama gambar thx,out_of_scope,low
+Mas jaekt puffer pria omniheat solid bertudung-biru-hijau-m msh ad?,product_stock,high
+halo min mau tanya dong psnan saya nomor 99 itu udah sampai mana ya,order_status,high
+wool msh ad?,product_stock,medium
+ganti ukuran,out_of_scope,medium
+boleh tau harga omniheat men's solid hooded puffer jacket-blue-green-l tidak,product_price,high
+min mau kembalikan braanng min,out_of_scope,medium
+hi bayar pake apa ??,payment_info,medium
+mba pesanan gw pesanan 999 kemana dong,order_status,high
+pake shopeepay bs?,payment_info,medium
+Admin ganti ukuran ?,out_of_scope,medium
+Bang apa kabar min,out_of_scope,extreme
+Lacak pesanan order-123,order_status,low
+bos kak mau tanya pesanan saya dengan nomor nomor 555 sudah diproses belum ya ya kak,order_status,high
+mau tanya apakah paket masih tersedia stoknya,product_stock,medium
+permisi touchscreen habis belum please,product_stock,medium
+fitur hadapi,product_description,medium
+Kak mau tnaya pesanan saa dengan nomor id 7788 sudah diproses blm ya,order_status,extreme
+mana nih orderan gw,order_status,medium
+kira kira Arctic Frost Winter Accessories itu harganay berapa ya kak,product_price,extreme
+Berapa hrg arctiic,product_price,high
+order id 7788 udah diproses belum,order_status,low
+biaya jacket-blue-yellow-m,product_price,medium
+halo min mau nanya accessories masih ready stock tidak ya,product_stock,low
+halo pesanan gw 456 kemana ??,order_status,low
+kaus koong ga,product_stock,medium
+Gaya terbuat dari apa,product_description,medium
+Kelebihan omniheat men's solid hooded puffer jacket-blue-green-l,product_description,medium
+Hai socks ukurannya apa aja pls,product_description,medium
+hi halo min mau tanya dong pesanan saya nomor 99 itu udah sampai mana ya thx,order_status,medium
+permisi apakah stk bergaya masih tersediia,product_stock,low
+Apa kaabr,out_of_scope,medium
+Solid kosong ga,product_stock,low
+mba boleh tau harga kenyamanan tidak ya kak,product_price,medium
+Permisi halo admin mau nanya pembayaran bisa pakai apa saja ya pls,payment_info,low
+bang halo min mau nanya Arctic Cozy Knit Unisex Beanie masih ready stock tidak ya ya,product_stock,high
+permisi mana nih orderan gw thx,order_status,extreme
+Kalo mau bayar pake bayar di tempat bbisa ga min,payment_info,low
+Cara bayar gmn,payment_info,low
+Sarung tangan musim dingin arctic layar sentuh ukurannya apa aja,product_description,medium
+Mau kerja disini,out_of_scope,high
+Hi cara bayr gimana pls,payment_info,medium
+ada cicilan ga,payment_info,medium
+bang pembayaran via apa ?,payment_info,low
+chill ukurannya apa aja,product_description,medium
+halo ganti ukuran,out_of_scope,low
+permisi mau cek status pesanan ya kak,order_status,medium
+terima akulaku tiidk ya,payment_info,medium
+Arctic Touchscreen Winter Gloves ukurannya apa aja,product_description,high
+Pake cimb bs?,payment_info,medium
+support ewallet ga,payment_info,medium
+hai paket saya sudah sampai mana pls,order_status,low
+cara bayar orderan,payment_info,medium
+Kak terima ovo gak thx,payment_info,medium
+Halo paket saya sudah samai manna thanks,order_status,extreme
+Mas test thx,out_of_scope,extreme
+produk beda sama gambar,out_of_scope,low
+Admin metode byr apa ??,payment_info,high
+Stok kaus ada,product_stock,medium
+admin Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-L ukurannya apa aja min,product_description,medium
+Available arctic warmth wool blend socks,product_stock,medium
+kualitas jelek,out_of_scope,high
+spec tetap,product_description,medium
+sis mau tanya untuk pembayarannya bisa pakai metode apa aja ya thx,payment_info,extreme
+misi review dengan makasih,product_description,low
+test,out_of_scope,high
+bahan dengan apa,product_description,high
+tolong jelasin tentang arctic bliss stylish winter scarf dong,product_description,medium
+lokasi warehouse,out_of_scope,medium
+sis status pengiriman 99 ya,order_status,high
+mas info prouk jacket ya kak,product_description,medium
+Pake cash on delivery bs?,payment_info,high
+mas tracking pesanan ord123 please,order_status,low
+mas terseda chilly ga pls,product_stock,medium
+Selamat siang admin saya mau cek status pesanan nomor 123,order_status,medium
+warna hangat ad apa aja,product_description,high
+hi berapa harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L ?,product_price,medium
+hai,out_of_scope,medium
+mau tanya untuk pembayarannya bisa pkaai metode apa aja ya,payment_info,medium
+kkualitas jelke,out_of_scope,medium
+Mas stok cmofrot abis blm ya kak,product_stock,extreme
+apa k4bar,out_of_scope,high
+terima cash on delivery gak,payment_info,high
+winter kyk gmn,product_description,low
+Kamu bot ya,out_of_scope,low
+bayar pake apa sih,payment_info,low
+Harga kenyamanan sekarang,product_price,low
+permisi brp omniheat men's solid hooded puffer jacket-blue-yellow-l ?,product_price,medium
+status pengiriman 67890,order_status,low
+range harga epnnuh,product_price,high
+cek resi 99,order_status,low
+misi stok arctic abis blm dong,product_stock,medium
+hi kak boleh tau spesifikasi arctic tidak dong,product_description,extreme
+Hi dingin har9anya berapaa makasih,product_price,medium
+bos harga rajut sekarang ya,product_price,medium
+Estimasi pengiriman order #12345,order_status,extreme
+Metode payment ya kak,payment_info,medium
+Misi alamat kantor makasih,out_of_scope,high
+mau tau lebih detail tentang comfort,product_description,medium
+Hai,out_of_scope,medium
+jaket brp duit,product_price,high
+Kaus ssold ou?,product_stock,medium
+Misi available kupluk dong,product_stock,low
+bang mau tau lebih detail tentang kupluk tolong,product_description,extreme
+mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,medium
+admin tetap terbuat dari apa tolong,product_description,high
+hi bs return barang ga makasih,out_of_scope,medium
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,medium
+Min edit pesanan min,out_of_scope,medium
+pesanan gw #99 kemana,order_status,medium
+Pembayaran via apa,payment_info,low
+cek pesanan ORD123,order_status,medium
+Gan mau refund ya kak,out_of_scope,medium
+hi suupport ewallet ga makasih,payment_info,extreme
+available embrace,product_stock,medium
+spec knit,product_description,low
+status pengiriman 99,order_status,low
+halo min mau tanya dong pesanan saya nomor id 7788 itu udah sampai mana ya,order_status,medium
+Misi spec gaya,product_description,extreme
+Sentuh gmn sih,product_description,low
+Alamat kantor,out_of_scope,low
+terima bca gak,payment_info,low
+bahan syal apa,product_description,low
+Kak permisi apakah stok stylish masih tersedia ya kak,product_stock,high
+Status pengiriman 789,order_status,high
+paket ready stock,product_stock,medium
+Dengan murah ga,product_price,medium
+biaya jacket-blue-yellow-m,product_price,low
+Hrg embrace brp,product_price,medium
+alamat kantor,out_of_scope,medium
+misi pake jenius bs?,payment_info,extreme
+hi berappa harga rajut please,product_price,low
+mas bs dana g,payment_info,high
+touchscreen sold out?,product_stock,low
+barang cacat,out_of_scope,medium
+bang brg ORD-001 dmn ya kak,order_status,high
+Brp arctic bliss stylish winter scarf,product_price,high
+bos status pengiriman #1 min,order_status,low
+Detail bertudung,product_description,medium
+kok lama bgt order nomor 123,order_status,low
+Sis edit pesanan makasih,out_of_scope,medium
+min dimana pesanan saya ya,order_status,high
+Arctic Warmth Wool Blend Socks habis belum,product_stock,low
+mas avail4bble bergaya makasih,product_stock,extreme
+Mba kalo mau bayar pake credit card bs ga min thx,payment_info,high
+Admin fiitr touchscreen tolong,product_description,medium
+Mba !nfo produk tangan tolong,product_description,medium
+permisi mau nanya harga untuk men's berapa ya,product_price,low
+harga gloes berapa,product_price,high
+misi barang cacat thanks,out_of_scope,extreme
+statsu order 12345,order_status,medium
+brp sentuh,product_price,low
+min udah dikirim blm order-123 ya,order_status,medium
+admin bs bayar pakai qris min,payment_info,medium
+baalkan orrder,out_of_scope,medium
+Terima shopeepay tidak,payment_info,medium
+Arctic Cozy Knit Unisex Beanie terbuat dari apa,product_description,low
+Jacket-blue-green-m terbuat dari apa,product_description,low
+kok lama bgt order ORD123,order_status,extreme
+min terima qris tidak ya,payment_info,medium
+bos kak mau tanya pesanan saya dengan nomor ord-001 sudah diproses belum ya makasih,order_status,low
+stok kaus abis blm,product_stock,medium
+Kisaran harga puffer,product_price,low
+min estimasi pengiriman order 1 pls,order_status,extreme
+hai jacket-blue-green-m ukurannya apa aja makasih,product_description,extreme
+hrg bertudung-biru-hijau-l brp,product_price,low
+Permisi mau nanya harga untuk kaus kaki campuran wol arctic warmth berapa ya,product_price,low
+bos stok Kupluk Rajut Unisex Arctic Cozy abis blm dong,product_stock,low
+Pembayaran via apa,payment_info,medium
+stok comfort ada,product_stock,low
+hai paket bagus ga,product_description,medium
+Hi metode byr apa tolong,payment_info,medium
+omniheat msh ad?,product_stock,low
+dimana pesanan saya,order_status,low
+Cara refund gimana,out_of_scope,medium
+halo kaus kosong ga ya kak,product_stock,low
+produk beda sama gambar,out_of_scope,low
+Byr dmn,payment_info,extreme
+info produk layar,product_description,low
+knit gmn sih,product_description,low
+Deskripsi jacket,product_description,medium
+hai kak wool masih ada ga stoknya min,product_stock,low
+Pria ready ga,product_stock,medium
+Kak available hangat makasih,product_stock,medium
+sec rrasakan thanks,product_description,medium
+Kok lama bgt order id 7788,order_status,low
+mas mau tanya apakah winter masih tersedia st0knya ya kak,product_stock,high
+orderan saya gimana,order_status,low
+misi sattus order #123445 ?,order_status,high
+Kamuu bot ya,out_of_scope,low
+Jacket-blue-yellow-l redy?,product_stock,high
+mau tau lebih detail tentang winter,product_description,medium
+mas detail Arctic Bliss Stylish Winter Scarf ??,product_description,low
+Mau refund,out_of_scope,low
+selamat siang admin saya mau cek status pesanan nomor ord123,order_status,low
+program affiliate,out_of_scope,medium
+bisa dijelasin tetnang produk hooded dong,product_description,medium
+hrg tetap brp,product_price,low
+penuh ready?,product_stock,medium
+mana nih orderan gw,order_status,low
+Bayar pake apa,payment_info,medium
+permisi halo admin mau nanya pembayaran bisa pakai apa saja ya ?,payment_info,medium
+hi fitur omniheat men's solid hooded puffer jacket-blue-yellow-l,product_description,medium
+Bos dtl paket aksesori musim dingin arctic frost ya,product_description,extreme
+mba stock experi3nce berap4 dong,product_stock,medium
+sis permisi kak orderan saya yang pesanan 999 kok belum dateng,order_status,low
+Ketersediaan embrace,product_stock,high
+bang metode pembayaran apa aja ?,payment_info,high
+hai halo thx,out_of_scope,medium
+kisaran harga jacket,product_price,low
+info produk bliss,product_description,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-l ready ga,product_stock,medium
+mba permisi apakah sttok omniheat men's solid hooded puffer jacket-blue-green-m masih tersedia dong,product_stock,high
+metode pembayaran apa aja,payment_info,medium
+mas detail paket pls,product_description,extreme
+boleh tau harga unmatched tidak,product_price,low
+kisaran harga puffer,product_price,low
+orderan saya gimana,order_status,medium
+ketersediaan tangan,product_stock,low
+Mba boleh tau harg kupluk rajut unisex arctic cozy tidak dong,product_price,low
+kamuu bot ya,out_of_scope,medium
+Gan berapa harga tetp dong,product_price,extreme
+Mau tanya apakah kki masih tersedia stoknya,product_stock,medium
+brg #1 dmn,order_status,medium
+Paket sold out?,product_stock,low
+mas blend masih ada thx,product_stock,low
+permisi mau nanya harga utk jaket puffer pria omniheat solid bertudung-biru-hijau-l brp ya,product_price,low
+pket saay sudah sampai mana,order_status,medium
+carra bayar orderan,payment_info,high
+min men's gmn sih makasih,product_description,extreme
+Admin pake jenu!s bs?,payment_info,low
+Misi ada cicilan ga pls,payment_info,extreme
+Cara bayar orderan,payment_info,medium
+Kak spesifikasi omniheat men's solid hooded puffer jacket-blue-green-m,product_description,medium
+sis sisa stok jaket ??,product_stock,high
+misi selamat siang admin saya mau cek status psnan nomor nomor 123 please,order_status,medium
+Hai mau komplain tolong,out_of_scope,medium
+metode byr apa,payment_info,low
+tnagn berapa duit,product_price,high
+bisa bayar pakai akulaku,payment_info,low
+min tolong jelasin tentang jaket puffer pria omniheat solid bertudung-biru-hijau-l dong min,product_description,low
+jacket-blue-green-l terbuat dari apa,product_description,medium
+Ada tokko offline,out_of_scope,medium
+mas duit arctic touchscreen wiinter gloves makasih,product_price,high
+Bisa dijelasin tentang produk accessories dong,product_description,low
+mau kembal!kaan barang,out_of_scope,high
+duit tetap,product_price,high
+mba dekapan ready ga pls,product_stock,high
+mba Arctic Frost Winter Accessories Bundle brp duit,product_price,extreme
+Kualitas jelek,out_of_scope,low
+Halo ad cicilan ga ?,payment_info,medium
+hi stok Arctic Cozy Knit Unisex Beanie abis blm min,product_stock,low
+tet4p kyk gmn,product_description,medium
+Men's masih ada,product_stock,medium
+cancel pesanan,out_of_scope,low
+sis byr dmn ya kak,payment_info,medium
+dekapan ready ga,product_stock,medium
+Info prooduk bundle,product_description,high
+mas tolong jelasin tentang omniheat men's solid hooded puffer jacket-blue-green-m dong please,product_description,medium
+tlg jelasin tentang raskan dong ?,product_description,extreme
+bisa dijelasin tentang produk gloves dong,product_description,medium
+mba uang saya kapan dikembalikan tolong,out_of_scope,medium
+kak boleh tau harga omniheat men's solid hooded puffer jacket-blue-green-l tidak thanks,product_price,high
+Kak kualitas jelek please,out_of_scope,medium
+Bayar pake apa sih,payment_info,high
+bos jam buka toko please,out_of_scope,medium
+kira kira comfort itu harganya berapa ya kak,product_price,low
+omniheat men's solid hooded puffer jacket-blue-green-m msh ad?,product_stock,low
+musim ready stock,product_stock,medium
+kak boleh tau spesifikasi campuran tidak,product_description,high
+Kecewa sama pelayanan,out_of_scope,low
+bos tolong jelasin tentang stylish dong pls,product_description,extreme
+pesanan gw 99 kemana,order_status,medium
+biaya embrace,product_price,high
+ada cicilan ga,payment_info,medium
+Syyal ukurannya apa aja,product_description,medium
+Kapan pesanan ord-001 sampai,order_status,low
+Mba caa bayar gmiana please,payment_info,medium
+Tlg jelasin tentang arctic frost winter accessories bundle dong,product_description,medium
+mau kembalikan barang,out_of_scope,medium
+brp kehangatan,product_price,low
+metode pembayaran apa aja,payment_info,low
+mau tau lebih detail tentang chill,product_description,medium
+kira kira syal itu harganya berapa ya kak,product_price,low
+permisi availlable rrajut tolong,product_stock,medium
+Accept va ga thanks,payment_info,medium
+Mba blend mahal ga tolong,product_price,low
+Bos tersedia omniheat men's solid hooded puffer jacket ga ?,product_stock,medium
+cara bayar orderan,payment_info,high
+halo ketersediaan OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L dong,product_stock,medium
+bos barang ga sesuai mau tukar thx,out_of_scope,extreme
+Unmatched brp duit,product_price,low
+mau tanya apakah jacket-blue-green-m masih tersedia stoknya,product_stock,medium
+permisi prgram affiliate,out_of_scope,high
+kak winter brp sih thanks,product_price,medium
+ubah alamat pengiriman,out_of_scope,low
+Opsi pembayaran,payment_info,medium
+Byr dmn,payment_info,extreme
+Review jacket-blue-yellow-m,product_description,low
+min mau tau lebih detail tentang cozy tolong,product_description,high
+mas tolon9 jelasiin tentang bundle dong ya kak,product_description,medium
+ganti ukuran,out_of_scope,medium
+Permisi apakah stok jaket puffer pria omniheat solid bertudung-biru-kuning-l masih tersedia,product_stock,low
+hai tersedia puffer ga thx,product_stock,extreme
+hai spec jacket-blue-yellow-l pls,product_description,medium
+hai proses refund berapa lama,out_of_scope,low
+kerjasama bisnis,out_of_scope,medium
+stock OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M berapa,product_stock,medium
+mau tanya untuk pembayarannya bs pakai metode apa aja ya,payment_info,high
+Min produk beda sama gambar ya kak,out_of_scope,high
+Unisex habis belum,product_stock,high
+Bbias transfer bank,payment_info,medium
+Estimasi pengiriman order 123,order_status,low
+pake debit bs?,payment_info,extreme
+Mba lowongan kerja ada ga thx,out_of_scope,high
+sis tolong jelasin tentang bliss dong ya,product_description,low
+mau tanya dong harga sarung yang ada di toko berapa ya,product_price,high
+kak terima ccimb gak makasih,payment_info,medium
+hai,out_of_scope,medium
+Hai bayar pake apa please,payment_info,high
+embrace masih ada,product_stock,medium
+accessories harganya berapa,product_price,low
+mas kamu bot ya please,out_of_scope,high
+mba maaf ganggu mau cek status order 789 dong thanks,order_status,high
+admin buudle masih ada min,product_stock,high
+metode pembayaran apa aja,payment_info,medium
+Orderan gw kok ga nyampe,order_status,low
+kok lama bgt oder 123,order_status,extreme
+Misi selamat siang admin saya mau cek status pesanan nomor #1 thanks,order_status,medium
+lokasi warehouse,out_of_scope,medium
+kisaran harga arctic bliss stylish winter scarf,product_price,low
+stok accessories abis blm,product_stock,medium
+barang rusak,out_of_scope,medium
+ubah alamat pengiriman,out_of_scope,low
+estimasi pengiriman order noor 555,order_status,high
+kak metode payment ??,payment_info,low
+Arctic warmth wool blend socks kyk gmn,product_description,low
+mau refund,out_of_scope,medium
+kisaran ahrga omniheat men's solid hooded puffer jacket-blue-green-l,product_price,high
+Status pengiriman ord001,order_status,medium
+Cek pesanan 67890,order_status,medium
+Misi dinginnya msh ad?,product_stock,medium
+Kak syal musim dingin arctic bliss penuh gaya masih ad ga stoknya,product_stock,medium
+estimasi pengiriman order 21345,order_status,medium
+terhubung terbuat dari apa,product_description,medium
+Halo min mau tanya dong pesanan saya nomor 99 itu udah sampai mana ya,order_status,low
+kak program affiliate ya kak,out_of_scope,medium
+kak tracking pesaanan 456 ??,order_status,extreme
+Bayr pake apa,payment_info,high
+Boleh tau harga dingin tidak,product_price,medium
+duit tetap,product_price,medium
+Boleh tau harga dingin itdak makasih,product_price,extreme
+Admin permisi apakah stok jaket masih tersedia ?,product_stock,low
+Kok lama bgt order ord-001,order_status,medium
+Hai stok kaus ada ya kak,product_stock,high
+kupluk rajut unisex arctic cozy ready stock,product_stock,high
+mau cek stauts pesanan,order_status,extreme
+Support ewallet ga,payment_info,medium
+tukar barang,out_of_scope,high
+lacak pesanan #1,order_status,high
+hrg jaket puffer pria omniheat solid bertudung brp,product_price,medium
+mas metode byr apa dong,payment_info,high
+Arctic Frost Winter Accessories Bundle brp duit,product_price,medium
+bergaya ready?,product_stock,low
+cara refund gimana,out_of_scope,low
+Orderan saya 6imana,order_status,low
+kak touchscreen masih ada ga stoknya,product_stock,medium
+Admin bayar pake apa thx,payment_info,extreme
+maaf ganggu mau cek status order 1 dong,order_status,medium
+Permisi hrg campuran brp thanks,product_price,medium
+halo min mau tanya dong pesanan saya nomor 67890 itu udah sampai mana ya,order_status,low
+min psnan gw 123 kmn ya,order_status,high
+mba warna pria ada apa aja thanks,product_description,low
+lacak pesanan #1,order_status,medium
+hi kenyamanan brp sih thx,product_price,extreme
+orderan saya gimana,order_status,low
+sis embrace msh ad?,product_stock,medium
+mba pesanan gw 12345 kemana ya,order_status,medium
+produk beda sama gambar,out_of_scope,low
+kak mau tanya pesanan saya dengan nomor ord-001 sudah diproses belum ya,order_status,medium
+halo range harga dingin please,product_price,medium
+Bos permisi apakah stok aksesori masih tersedia thanks,product_stock,extreme
+mba terima bayar di tempat gak makasih,payment_info,low
+Mba arctic ukurannya apa aja thx,product_description,high
+bisa transfer bak,payment_info,high
+Jam buka toko,out_of_scope,medium
+Boleh tau harga experience tidak,product_price,low
+metode byr apa,payment_info,low
+gan dengan berapa duit min,product_price,high
+misi order pesanan 999 udah diproses belum min,order_status,high
+Gan range harga experience dong,product_price,high
+permisi hrg embrace brp ya,product_price,medium
+brp warmth,product_price,low
+Byr dmn,payment_info,extreme
+review jaket,product_description,low
+Misi proses refund berapa lama dong,out_of_scope,high
+kak tangan masih ada ga stoknya,product_stock,low
+hai alamat kantor dong,out_of_scope,medium
+Deiit psnan makasih,out_of_scope,high
+barang rsuak,out_of_scope,low
+kak halo tolong,out_of_scope,high
+bang pembayaran via apa,payment_info,high
+Permisi bahan syal musim dingin arctic bliss penuh gaya apa thanks,product_description,low
+bang kapan pesanan 12345 sampai ya kak,order_status,medium
+maaf ganggu mau cek status order id 7788 dong,order_status,low
+hi byr dmn,payment_info,high
+price chill,product_price,medium
+kak chilly masih ad ga stokya,product_stock,extreme
+kak jacket-blue-green-l masih ada ga stoknya,product_stock,medium
+Permisi paket murah ga min,product_price,medium
+hi bs ambil langsung ga please,out_of_scope,medium
+Kecewa sama pelayanan,out_of_scope,low
+Harga bergaya berapa,product_price,medium
+kira kira kehangatan itu harganya berapa ya kak,product_price,high
+halo min mau tanya dong pesanan sy nomor nomor 123 itu udah sampai mana ya,order_status,medium
+mau tanya apakah arctic bliss stylish winter scarf masih tersedia stoknya,product_stock,low
+Accept dana ga,payment_info,high
+pembayaran via apa,payment_info,medium
+kak kecewa sama pelayanan ?,out_of_scope,low
+Sis hrg connected brp ya kak,product_price,medium
+paket saya sudah sampai mana,order_status,low
+ketersediaan gaya,product_stock,medium
+maaf ganggu mau cek status order pesanan 999 dong,order_status,low
+Proess refuund berapa lama,out_of_scope,medium
+dimana peesanaan saya,order_status,low
+permisi spec kehangatan pls,product_description,high
+boleh tau harga unmatched tidak,product_price,medium
+Ad cicilan ga,payment_info,medium
+pembayaran via apa,payment_info,low
+pembayaran via apa,payment_info,medium
+ketersediaan bersaam makasih,product_stock,medium
+Halo min mau tanya dong pesanan saya nomor 789 itu udah sampai mana ya,order_status,medium
+gantti ukuran,out_of_scope,low
+Arctic warmth wool blend socks sold out?,product_stock,medium
+kak boleh tau spesifikasi sarung tangan musim dingin arctic layar sentuh tidak,product_description,extreme
+Bos opsi pembayaran ya,payment_info,medium
+berapa harga arctic,product_price,high
+cek resi 99,order_status,low
+halo bisa ambil langsung ga thx,out_of_scope,medium
+byr dmn,payment_info,low
+hai bliss masih ada dong,product_stock,extreme
+Sis warna jaket puffer pria omniheat solid bertudung-biru-hijau-m ada apa aja dong,product_description,extreme
+deskripsi omniheat,product_description,medium
+terima bca gak,payment_info,high
+Kira kira arctic touchscreen winter gloves itu harganya berapa ya kak,product_price,low
+admin spec stylish tolong,product_description,high
+Kak boleh tau spesifikasi unisex tidak,product_description,medium
+hi omniheat men's solid hooded puffer jacket-blue-yellow-l kyk gmn dong,product_description,medium
+mau cek status pesanan,order_status,medium
+misi kalo mau bayar pake debit bisa ga min,payment_info,extreme
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,low
+Solid murah ga,product_price,medium
+Uang saya kapan dikembalikan,out_of_scope,medium
+min chill harganya berapa pls,product_price,high
+Misi ada cicilan ga min,payment_info,high
+halo admin mau nanya pembayaran bisa pakai apa sjaa ya,payment_info,medium
+Deskripsi kupluk rajut unisex arctic cozy,product_description,low
+min acc3pt shopeepay ga ya,payment_info,medium
+gan bahan omniheat men's solid hooded puffer jacket-blue-green-l apa makasih,product_description,high
+hai terima kredivo gak tolong,payment_info,medium
+gan permisi mau nanyya harga utk pria brp ya ya kak,product_price,medium
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+Baayr ppake apa,payment_info,medium
+Udh dikirim blm 99,order_status,high
+bang kpn pesanan 99 sampai makasih,order_status,low
+Mau tau lebih detail tentang hooded,product_description,low
+Mau tanya dong harga sy4l musim dingin arctic bliss penuh gaya yang ada di toko berapa ya,product_price,low
+Admin metode payment ?,payment_info,extreme
+chilly ready?,product_stock,low
+hi kak boleh tau spesifikasi arctic frost winter accessories bundle tidak,product_description,extreme
+hi bahan scarf apa please,product_description,medium
+permisi AArctic Frost Winter Accessories mahal ga thanks,product_price,extreme
+Dtl gaya,product_description,low
+Metode pembayaran apa aja,payment_info,low
+Bos ganti ukuran please,out_of_scope,low
+dingin brp sih,product_price,medium
+Puffer brp duit,product_price,low
+Sis kisaran harga bersama,product_price,extreme
+Mau komplain,out_of_scope,medium
+d3tail campuran,product_description,high
+arctic bliss stylish winter scarf berapa duit,product_price,medium
+experience brp sih,product_price,medium
+Bahan jacket-blue-yyllow-l apa thanks,product_description,high
+kak mau tanya pesanan saya dengan nomor #1 sudah diproses belum ya,order_status,low
+Halo admin mau nanya pembayran bsa pakai apa saja ya,payment_info,medium
+Available dingin,product_stock,medium
+min metode peembayaran apa aja thanks,payment_info,extreme
+halo min mau tanya dong pesanan saya nomor 123 itu udah sampai mana ya,order_status,high
+halo bs bca g min,payment_info,medium
+mas available unmatched ya,product_stock,medium
+kak warna layar ada apa aja thx,product_description,medium
+tracking pesanan nomor 123,order_status,low
+Gan harga tetap berapa ya kak,product_price,extreme
+kak baiya asrung dong,product_price,medium
+Men's brp duit,product_price,medium
+cek resi nomor 555,order_status,medium
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M masih ada,product_stock,high
+bang range harga bertudung tolong,product_price,medium
+chill kosong ga,product_stock,low
+Tambah item ke pesanan,out_of_scope,low
+sis spesifikasi Syal Musim Dingin Arctic Bliss Penuh Gaya,product_description,medium
+Terima cod tidak,payment_info,medium
+kak puffer masih ada ga stoknya,product_stock,medium
+hi accessories kyk gmn thanks,product_description,extreme
+admin pesanan gw id 7788 kemana ya,order_status,low
+lacak pesanan 122345,order_status,high
+spesifikasi dekapan,product_description,low
+min estimasi pengiriman order #99 ?,order_status,medium
+sis halo admin mau nanya pembayaran bisa pakai apa saja ya thx,payment_info,high
+halo bayar pake apa makasih,payment_info,high
+paket saya sudah sampai mana,order_status,medium
+misi bisa dijelasin tentang produk touchscreen dong please,product_description,medium
+Spec jacket-blue-green-l,product_description,low
+tersedai bersama ga,product_stock,extreme
+warna accessories ada apa aja,product_description,medium
+Spec solid,product_description,low
+permisi kelebihan terhubung tolong,product_description,medium
+hi sarung tangan musim dingin arctic layar sentuh murah ga pls,product_price,extreme
+review bertudung,product_description,high
+Halo min mau nanya dekapan masih ready stock tidak ya,product_stock,low
+review gloves pls,product_description,high
+cuaca hari ini gimana,out_of_scope,extreme
+Ommniheat men's solid hooded puffer jacket-blue-yellow-m brp sih,product_price,low
+Permisi kaus kaki campuran wol arctic warmth ready ga ??,product_stock,extreme
+Hrg omniheat men's solid hooded puffer jacket-blue-yellow-l brp,product_price,extreme
+cara bayar orderan,payment_info,low
+Barang saya udah dikirim belum,order_status,medium
+misi spec OmniHeat Men's Solid Hooded Puffer Jacket min,product_description,medium
+gan spesifikasi jacket-blue-yellow-l thx,product_description,medium
+Jaket puffer pria omniheat solid bertudung msh ad?,product_stock,low
+biaya hoded,product_price,medium
+misi kisaran harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M ??,product_price,low
+socks brp duit,product_price,medium
+Pesanan gw #12345 kemana,order_status,medium
+Bahan socks apa,product_description,low
+Dinginnya gmn sih,product_description,medium
+available chill,product_stock,low
+halo aksesori kyk gmn pls,product_description,high
+Hangat harganya berapa,product_price,low
+selamat siang adminn saya mau cek status pesanan n0mor 1,order_status,low
+ketersediaan aksesori,product_stock,low
+mas warna Jakett Puffer Pria OmniHeat Solid Bertudung ada apa aja min,product_description,extreme
+Info produk arctic bliss stylish winter scarf,product_description,low
+dingin kyk gmn,product_description,low
+sis terima transfer bank tidak ya,payment_info,low
+Hi produk tidak sesuai pls,out_of_scope,low
+metode payment,payment_info,medium
+warna gaya ada apa aja,product_description,low
+Bos harga jacket-blue-green-l berapa thanks,product_price,high
+hai,out_of_scope,medium
+Status pengiriman nomor 555,order_status,low
+Unmatched berapa duit,product_price,low
+Kak oppsi pebmayaran dong,payment_info,medium
+gan mau tanya apakah winter masih tersedia stoknya ya,product_stock,medium
+sis OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L sold out?,product_stock,low
+Metode payment,payment_info,low
+Mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,low
+misi Arctic Touchscreen Winter Gloves ukuranya apa aja thx,product_description,high
+Brp penuh,product_price,low
+cara bayar roderan,payment_info,extreme
+Duit solid,product_price,low
+Halo dmn psnan saya tolong,order_status,high
+mau tanya untuk pembayarannya bs pakai metode apa aja ya,payment_info,medium
+beanie kosong ga,product_stock,low
+Mba udah dikirim blm ord-001 ya,order_status,medium
+Capur@n brp sih,product_price,medium
+Harag jaket puffer pria omniheat solid bertudung-biru-hijau-l berapa,product_price,medium
+udah dikirim blm 67890,order_status,medium
+Info produk ohoded,product_description,low
+Kalo mau bayar pake jenius bisa ga min,payment_info,medium
+misi Arctic Frost Winter Accessories beapa duit ya kak,product_price,high
+Brp puffer thx,product_price,medium
+kalo mau bayar pake cimb bisa ga min,payment_info,medium
+Sarung Tangan Musim Dingin Arctic LLayar Sentuh brp sih,product_price,high
+Jaket kyk gmn,product_description,high
+wool brp sih,product_price,low
+Ada cicilan ga,payment_info,low
+aksesori brp duit,product_price,low
+$iapa kamu,out_of_scope,high
+detail kehangatan,product_description,high
+cara bayar orderan,payment_info,low
+Bang dtl omniheat men's solid hooded puffer jacket-blue-green-l tolong,product_description,low
+kak deengan masiih ada ga stoknya,product_stock,medium
+kak jacket-blue-green-m ready stock ?,product_stock,high
+hai lacak pesanan nmoor 555 ya kak,order_status,high
+Penuh mahal ga,product_price,medium
+Gan unag saya kapan dikembalikan please,out_of_scope,medium
+admin wool habis belum ya,product_stock,medium
+order nomor 555 udah diproses belum,order_status,medium
+mas pesanan order-123 udah sampai mana thx,order_status,medium
+teredia jacket-blue-yellow-l ga,product_stock,medium
+hai produk beda sama gambar ??,out_of_scope,high
+misi estimasi pengiriman order ord-001 ya kak,order_status,low
+stok bundle ada,product_stock,medium
+berapa harga musim,product_price,medium
+review omniheat,product_description,medium
+gan opsi pembayaran thanks,payment_info,low
+kak boleh tau spesifikasi Arctic Cozy Knit Unisex Beanie tidak,product_description,low
+Kaus Kaki Campuran Wol Arctic Warmth sold out?,product_stock,medium
+omniheat msh ad?,product_stock,medium
+pake va bs?,payment_info,extreme
+kak penuh masih ada ga stoknya,product_stock,medium
+Kak bahan sntuh apa min,product_description,high
+kak boleh tau spesifikasi OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L tidak,product_description,medium
+Kak sentuh kyk gmn pls,product_description,high
+terima credit card tidak,payment_info,medium
+permisi kak boleh tau spesifikasi digin ga ya kak,product_description,high
+review kehangatan,product_description,low
+misi detail winter dong,product_description,high
+Tersedia chill ga,product_stock,low
+permisi mau tanya apakah rasakan masih tersedia stoknya makasih,product_stock,high
+Halo min mau nanya rajut masih ready stock tidak ya,product_stock,medium
+Mau tany@ untuk pembayarannya bisa pakai metode apa aja ya,payment_info,extreme
+halo min mau tanya dong pesanan sy nomor nomor 123 itu udah smp mana ya,order_status,low
+permisi mau nanya harga untuk OmniHeat Men's Sollid Hooded Pufffer Jacket berapa ya,product_price,low
+terrima ovo ga,payment_info,medium
+mau tanya dong harga Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L yang ada di toko berapa ya,product_price,low
+hrg jaket puffer pria omniheat solid bertudung-biru-kuning-m brp,product_price,medium
+brg ord-001 dmn,order_status,medium
+psnan ord-001 udah sampai mana,order_status,high
+produk tidak sesuai,out_of_scope,low
+bang sarung gmn sih,product_description,high
+Kaus kai campuran wol arctic warmth ready stock,product_stock,high
+omniheat men's solid hooded puffer jacket-blue-green-m berapa duit,product_price,low
+Status pengiriman nomor 123,order_status,medium
+scarf mahal ga,product_price,low
+Tolong jelasin tentang gaya dong,product_description,medium
+admin harga omniheat sekarang,product_price,high
+info produk frost,product_description,medium
+Opsi pembayaran,payment_info,low
+Bahan aksesori apa,product_description,medium
+Barang rusak dong,out_of_scope,low
+edit psnan,out_of_scope,medium
+mana nih orderan gw,order_status,medium
+Hi bs bca g tolong,payment_info,medium
+mau komplaiin,out_of_scope,medium
+spec unisex,product_description,low
+Mba penuh terbuat dari apa ya,product_description,high
+Admin paket terbuat dari apa ??,product_description,low
+mas ubah alamat pengiriman ?,out_of_scope,medium
+support ewallet ga,payment_info,low
+ad stok bertudung-biru-kuning-m g,product_stock,high
+jaket puffer pria omniheat solid bertudung-biru-hijau-m ukurannya apa aja,product_description,low
+Orderan gw kok ga nyampe,order_status,low
+Hai stok soocks ada ?,product_stock,medium
+kak Sarung Tangan Musim Dingin Arctic Layar Sentuh brp duit ??,product_price,high
+Status pengiriman 99,order_status,medium
+mas boleh tau hrg kupluk ga,product_price,extreme
+Hi hadapi murah ga makasih,product_price,medium
+kapan pesanan #1 sampai,order_status,medium
+permisi apakah stok omniheat masih tersedia,product_stock,low
+admin price layaar please,product_price,high
+available kehangatan,product_stock,high
+Arctic Warmth Wool Blend Socks msh ad?,product_stock,extreme
+Kualita$ jelek,out_of_scope,high
+Metode payment,payment_info,low
+orderan saya gimana,order_status,low
+mas kerjasama bisnis pls,out_of_scope,medium
+permisi stok cozy abis blm please,product_stock,medium
+mba hooded murahh ga ?,product_price,high
+Mba metode payment ya kak,payment_info,medium
+lacak pesanan pesanan 999,order_status,low
+mas sisa stok gloves pls,product_stock,medium
+Mba mau tanya dong harga tangan yang ada di toko berrapa ya ya,product_price,medium
+permisi dengan berapa duiit pls,product_price,medium
+maaf ganggu mau cek status order oord123 dong,order_status,high
+mba selamat siang adminn saya mau cek status pesanan nomor 12345 please,order_status,extreme
+Gan permisi mau nanya harga untuk omniheat men's solid hooded puffer jacket-blue-green-l berapa ya please,product_price,extreme
+detail kaus,product_description,low
+halo blend sold out?,product_stock,low
+mas halo admin mau nanya pembayaran bisa pakai apa saja ya thx,payment_info,extreme
+Tersedia kupluk ga,product_stock,medium
+stock jacket-blue-green-m berapa,product_stock,medium
+lacak pesanan 789,order_status,medium
+unisex mahal ga,product_price,medium
+pesnaan gw #12345 kmn,order_status,medium
+hrg bertudung-biru-hijau-m brp,product_price,medium
+cara refund gimana,out_of_scope,medium
+mas price bertuung,product_price,medium
+batalkan order,out_of_scope,low
+dinginnya terbuat dari apa,product_description,low
+Hai duit styel pls,product_price,extreme
+experience mahl ga,product_price,low
+Halo min mau nanya sarung masih ready stock tidak ya ??,product_stock,medium
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M murah ga,product_price,medium
+Halo orderan gw kok ga nyampe min,order_status,extreme
+Hi produk beda sama gambar tolong,out_of_scope,high
+Gan dmn psnan sy please,order_status,high
+hi bergaya brp duit makasih,product_price,high
+spec pia,product_description,extreme
+Min dimana pesanan saya ??,order_status,low
+mau refund,out_of_scope,extreme
+bos orderan saya gimana ??,order_status,low
+Warna campuran ada apa aja,product_description,low
+bundle ready ga,product_stock,medium
+paket sy sdh sampai mana,order_status,medium
+keters3diaan experiece,product_stock,high
+Stok arrctic cozy knit unisex beanie abis blm,product_stock,high
+Review hooded,product_description,medium
+Sis dtl kehangatan pls,product_description,medium
+berapa harga arctic warmth wool blend socks makasih,product_price,extreme
+support ewallet ga,payment_info,low
+admin halo min mau tanya dong pesanan saya nomor id 7788 itu udah sampai mana ya ya kak,order_status,high
+admin dingin masih ada pls,product_stock,medium
+Mba biaya hadapi thanks,product_price,high
+Warna scarf ada apa aja,product_description,medium
+ubah alamat pengiriman,out_of_scope,high
+Stok arctic frost winter accessories ada,product_stock,low
+Mas ubah alamat pengiriman ya,out_of_scope,medium
+mba paket saya sudah sampai manaa ??,order_status,extreme
+Permisi order gue #1 mana thx,order_status,high
+mba dgn berapa duit min,product_price,medium
+Kisaran harga kupluk rajut unisex arctic cozy,product_price,low
+price winter,product_price,medium
+Gan accessories msh ad?,product_stock,high
+Hi orderan saya gimana min,order_status,low
+Bang spec chilly thx,product_description,medium
+Gan halo min mau tanya dong pesanan saya nomor #1 itu udah sampai mana ya please,order_status,medium
+brp OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M,product_price,low
+tersedia men'ss ga,product_stock,medium
+Kelebihan cozy,product_description,medium
+roder gue 789 mana,order_status,high
+mau tau lebih detail tentang terhubung,product_description,medium
+Harga penuh sekarang,product_price,medium
+hi cara refund gimana thanks,out_of_scope,high
+mba sisa stok jakeet puffer rpia omniheat solid bertudung-biru-kuning-l,product_stock,extreme
+mas udah dikirim blm 1 ya,order_status,medium
+Mba mau refund min,out_of_scope,low
+bayar pake apa,payment_info,extreme
+ketersediaan jaket,product_stock,medium
+halo,out_of_scope,low
+jacket-blue-yellow-l gmn sih,product_description,medium
+Mas permisi mau nanya harga untuk unmatched berapa ya dong,product_price,medium
+wool terbuat drai apa,product_description,low
+1nfo produk bliss,product_description,medium
+tlg jelasin tentang Paket Aksesori Musim Dingin Arctic Frost dong,product_description,medium
+ad sottk style g,product_stock,medium
+Opsi pemmbayaran,payment_info,extreme
+Bang wool habs belum ya kak,product_stock,high
+Sarung Tangan Musim Dingin Arctic Layar Sentuh murah ga,product_price,low
+hai ada cicilan ga makasih,payment_info,medium
+kapan pesanan 789 sampai,order_status,high
+brg pesanan 999 dmn,order_status,medium
+berapa haarga style,product_price,medium
+permisi halo min mau nanya style masih ready stock ga ya,product_stock,medium
+sis barang cat ya,out_of_scope,medium
+kak ada cicilan ga tolong,payment_info,medium
+min brg 67890 dmn ??,order_status,medium
+halo order nomor 123 udaah diproses belm tolong,order_status,extreme
+kualitas jelek,out_of_scope,low
+spesifikasi jacket-blue-green-l,product_description,low
+Kak pake debit bs?,payment_info,medium
+arctic cozy knit unisex beanie terbu@t dari apa,product_description,medium
+Min bahan paket aksesori musim dingin arctic frost apa tolong,product_description,extreme
+Mas berapa harga blend ya kak,product_price,medium
+kupluk murah ga,product_price,medium
+Brg rusak,out_of_scope,low
+jacket berapa duit,product_price,high
+Spec bertudung-biru-kuning-m,product_description,low
+Mas dtl accessories please,product_description,medium
+spec chilly,product_description,medium
+accessories kosong ga,product_stock,medium
+blend kosong ga,product_stock,medium
+Gan halo ya kak,out_of_scope,extreme
+Admin dtl bertudung-biru-kuning-l ya kak,product_description,medium
+bang cek psanan ord001 pls,order_status,extreme
+etirma va gak,payment_info,medium
+kak boleh tau spesifikasi unmatched tidak,product_description,medium
+sis cara refund gimana thanks,out_of_scope,high
+terima linkaja gak,payment_info,medium
+misi deskripsi ssyal ??,product_description,extreme
+Hi bertudung-biru-hijau-m habis belm,product_stock,high
+halo test ??,out_of_scope,high
+hi deskripsi unisx min,product_description,extreme
+mas teirma cicilan gak makasih,payment_info,medium
+Dingin habis belum,product_stock,high
+Admin kisaran hrg bliss,product_price,medium
+hai pls,out_of_scope,extreme
+jacket-blue-green-m kosong ga,product_stock,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M masih ada,product_stock,low
+boleh tau harga arctic cozy knit unisex beanie tidak,product_price,low
+mana nih orderan gw,order_status,low
+pake virtual account bs?,payment_info,medium
+orderan saya gimana,order_status,low
+bahan connected apa,product_description,low
+misi kerjasama bisnis ?,out_of_scope,low
+Fitur winetr,product_description,extreme
+min hadpi kyk gmn tolong,product_description,extreme
+spec arctic frost winer accessories,product_description,medium
+admin beanie murah ga pls,product_price,low
+socks murah ga,product_price,medium
+kerjasama bisnis,out_of_scope,low
+accept bri ga,payment_info,low
+hangat msh ad?,product_stock,low
+men's mahal ga,product_price,low
+jam buka toko,out_of_scope,medium
+kak OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L ukurannya apa aja dong,product_description,high
+bs kartu debit g,payment_info,medium
+connected kyk gmn,product_description,medium
+admin stok pakt ada ya,product_stock,high
+Min support ewallet ga tolong,payment_info,medium
+gan kapan pesanan 67890 sampai min,order_status,low
+kak bs dijelasin tentang produk unisex dong thx,product_description,medium
+cek resi 123,order_status,high
+lacak pesanan 123,order_status,medium
+Jadi reseller gimana,out_of_scope,medium
+permisi kelebihan Jaket Pufferr Pria OmniHeat Solid Bertudung-Biru-Kuning-M please,product_description,high
+min halo min mau nanya arctic cozy knit unisex beanie masih ready stock tidak ya thx,product_stock,medium
+halo ?,out_of_scope,medium
+halo min mau tanya dong psnan saya nomor 123 itu udah smp mana ya,order_status,low
+kapan pesanan 1 sampai,order_status,medium
+hi mau tau lebih detail tentang stylish min,product_description,high
+priec bertudung,product_price,high
+apa kabar,out_of_scope,high
+Orderan gw kok ga nyampe,order_status,low
+Rajut ukurannya apa aja,product_description,low
+Mba berapa hrg tangan ya,product_price,medium
+bos esimasi pengiriman order nomor 555 ya,order_status,high
+Lacak psnan 67890,order_status,high
+warmth ready stock,product_stock,low
+tambah item ke pesanan,out_of_scope,medium
+Kehangatan sold out?,product_stock,low
+mba jam buka toko makasih,out_of_scope,high
+kira kira kehangatan itu harganya berapa ya kak,product_price,high
+mba pesanan #12345 udah sampai mana pls,order_status,extreme
+tukar barang,out_of_scope,low
+status pengiriman 123,order_status,high
+bisa bayar pakai cicilan ??,payment_info,medium
+Kak aksesori brp duit please,product_price,high
+mau cek status psnan,order_status,medium
+status pengiriman #99,order_status,medium
+mas bayar pake apa sih makasih,payment_info,medium
+halo admin mau nanya pembayaran bs pakai apa saja ya,payment_info,low
+kalo mau bayar pake linkaja bisa ga min,payment_info,low
+Jaket puffer pria omniheat solid bertudung-biru-kuning-l gmn sih,product_description,medium
+Cara bayar gimana min,payment_info,low
+arcitc cozy kit unisex beanie bagus ga,product_description,high
+halo mau tanya apakah hangat masih tersedia stoknya ya kak,product_stock,medium
+Jacket kyk gmn,product_description,high
+Misi boleh tau harga jacket-blue-green-m ga ya,product_price,low
+ada cicilan ga,payment_info,low
+halo cauca hari ini gmn ya kak,out_of_scope,high
+Arctic Touchscreen Winter Gloves sold out?,product_stock,medium
+Gan status pengiriman nomor 555 ?,order_status,high
+Ordre 789 udah diproses belum,order_status,high
+Boleh tau harga connected tidak,product_price,medium
+sis kira kira kaki itu harganya berapa ya kak thanks,product_price,high
+Hai pake cod bs?,payment_info,medium
+halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,extreme
+Touchscreen gmn sih,product_description,low
+kak available scarf please,product_stock,extreme
+psnan nomor 555 udah sampai mana,order_status,medium
+ran9e harga ppenuh,product_price,high
+Arctic Frost Winter Accessories ready stock,product_stock,low
+Permisi stok omniheat men's solid hooded puffer jacket-blue-green-m abis blm min,product_stock,low
+stock gloves berapa,product_stock,low
+sis Arctic Cozy Knit Unisex Beanie ready?,product_stock,low
+kenyamanan brp duit,product_price,low
+ad stok hangat g,product_stock,low
+kak jaket murah ga min,product_price,low
+kak puffer masih ada ga stoknya,product_stock,medium
+hai lokasi warehouse ?,out_of_scope,high
+Hai mau refuund ya,out_of_scope,high
+hi alamat toko dimana ya,out_of_scope,medium
+Omniheat ready stock,product_stock,low
+hai orderan gw kok ga nyampe ya kak,order_status,medium
+bundle msh ad?,product_stock,medium
+halo min mau nanya pria masih ready stock tidak ya,product_stock,medium
+dinginny4 ready?,product_stock,medium
+men's murah ga,product_price,low
+Mba jadi reseller gimana ??,out_of_scope,medium
+info produk OmniHeat Men's Solid Hooded Puffer Jacket,product_description,high
+test,out_of_scope,medium
+admin beanie murah ga min,product_price,low
+brp style,product_price,low
+Min kalo mau bayar pake qrsi bisa ga min thx,payment_info,medium
+barang tidak sesuai mau tukar,out_of_scope,medium
+ganti uukrn,out_of_scope,high
+Terima kredivo tidak ?,payment_info,low
+mba brg sy udah dikirim belum ya kak,order_status,extreme
+Mas mau kembalikan barang thanks,out_of_scope,low
+Support ewallet ga please,payment_info,medium
+kak kecewa sama pelayanan thanks,out_of_scope,low
+produk tidak sesuai,out_of_scope,low
+bos nomor telepon toko ya,out_of_scope,extreme
+hai,out_of_scope,medium
+mana nih orderan gw,order_status,low
+Bisa return barang ga,out_of_scope,low
+wool sold out?,product_stock,medium
+Hai spec arctic warmth wool blend socks makasih,product_description,extreme
+Misi halo min mau nanya aksesori masih ready stock tidak ya min,product_stock,extreme
+permisi kak utk pembayaran tersedia metode apa saja,payment_info,medium
+hi mau kea disini,out_of_scope,high
+opsi pembayaran,payment_info,medium
+admin warna connected ada apa aja ??,product_description,medium
+Halo deskripsi bertudung-biru-hiju-m min,product_description,medium
+halo min mau tanya dong pesanan saya nomor nomor 555 itu udah sampai mana ya,order_status,low
+Hi permisi kak orderan saya yang 789 kok belum dateng ya kak,order_status,high
+terhubung msh ad?,product_stock,medium
+stok kaus kaki campuran wol arctic warmth ada,product_stock,low
+Mau tau lebih detail tentang jaket,product_description,medium
+kak boleh tau spesifikasi bergaya tidak,product_description,low
+gan permsi kak untuk pembayaran tersedia metode apa saja ya,payment_info,extreme
+bayar pake apa,payment_info,high
+admin ad stok chilly g dong,product_stock,high
+status pengiriman 99,order_status,low
+lowongan kerja ada ga,out_of_scope,low
+hadpi habis belum,product_stock,low
+lowongan kerja ada ga,out_of_scope,medium
+km bot ya,out_of_scope,extreme
+bs transfer bank,payment_info,medium
+bang sarung ready?,product_stock,medium
+hai orderan gw kok ga nyampe dong,order_status,medium
+mtodde payment,payment_info,medium
+Permisi selamat siang admin saya mau cek status pesanan nomor 12345 thx,order_status,low
+deskripsi dekapan,product_description,low
+range harga embrace,product_price,low
+sisa stok kaus,product_stock,medium
+bos bertudung-biru-kuning-l kyk gmn ya,product_description,medium
+Bos mau tanya untuk pembayarannya bisa pakai metode apa aja ya makasih,payment_info,low
+Bang biaya winter thanks,product_price,extreme
+hai,out_of_scope,medium
+bahan Arctic Cozy Knit Unisex Beanie apa,product_description,low
+ad stok wool g,product_stock,low
+kapan pesanan 123 sampai please,order_status,medium
+Mau tau lebih detail tentang omniheat men's solid hoodd puffer jacket-blue-green-m,product_description,low
+Jaket puffer pria omniheat solid bertudung-biru-hijau-m harganya berapa,product_price,low
+bs transfer bank,payment_info,low
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-L masih ada,product_stock,low
+Ubah alamat pengiriman,out_of_scope,low
+batalkan order,out_of_scope,low
+Halo metode pembayaran apa aja pls,payment_info,low
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M msh ad?,product_stock,low
+Permisi halo admin mau nanya pembayaran bs pakai apa saja ya please,payment_info,high
+kak barang tidak sesuai mau tukar ya,out_of_scope,extreme
+Jadi reseller gmn,out_of_scope,medium
+dtl kaki,product_description,low
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+estimasi pengiriman order nomor 555,order_status,medium
+Op$i pembayaran,payment_info,high
+info produk gaya,product_description,low
+admin bisa transfer bank tolong,payment_info,extreme
+Sis mau tanya apakah kaki massih tersedia stoknya thx,product_stock,high
+kak boleh tau spesifikasi unisex tidak,product_description,low
+uang saya kapan dikembalikan,out_of_scope,low
+admin kak experience masih ada ga stoknya ya kak,product_stock,medium
+kisaran harga jacket,product_price,medium
+Bos mau tau lebih detail tentang terhubung,product_description,high
+min deskripsi bergaya ya kak,product_description,extreme
+kok lama bgt order id 7788,order_status,medium
+kamu bot ya,out_of_scope,medium
+Harga touchscreen berapa,product_price,low
+stok jacket abis blm,product_stock,medium
+jacket-blue-yellow-m ready ga,product_stock,medium
+ubah alamat pengiriman,out_of_scope,high
+Kak bisa bayar paakai ovo tolong,payment_info,medium
+kehangatan gmn sih,product_description,low
+edit pesanan,out_of_scope,medium
+byr dmn,payment_info,low
+Gan price scarf min,product_price,high
+bayar pake apa,payment_info,low
+Review rasakan,product_description,low
+bos hrg pria brp ??,product_price,medium
+Kak ubah alamat pengiriman dong,out_of_scope,extreme
+Biaya arctic frost winter accessories bundle,product_price,medium
+Warmth brp duit,product_price,low
+Layar bagus ga,product_description,low
+kak omniheat men's solid hooded puffer jacket-blue-yellow-l ukurannya apa aja thanks,product_description,high
+accept va ga,payment_info,low
+gan available jacket-blue-yellow-m ya,product_stock,low
+price gaya,product_price,low
+arctic frost winter accessories bundle sold out?,product_stock,low
+mau tanya dong harga dingin yang ada di toko berapa ya,product_price,medium
+hai hai ya,out_of_scope,high
+Kak ganti ukuran pls,out_of_scope,low
+harga bertudung-biru-kuning-l sekarang,product_price,medium
+Sis biaya omniheat men's solid hooded puffer jacket-blue-green-m ya kak,product_price,medium
+Bs bri g,payment_info,low
+available solid,product_stock,medium
+bos metode byr apa tolong,payment_info,low
+tolong jelasin tentang bersama dong,product_description,medium
+biaya style,product_price,medium
+Bang selamat siang admn sy mau cek status pesanan nomor #99 tolong,order_status,high
+Berapa harga bliss,product_price,low
+dmn psnan saya,order_status,medium
+Hi arctic touchscreen winter gloves sold out?,product_stock,medium
+Admin mana nih orderan gw ??,order_status,extreme
+kak terhubung masih ada ga stoknya,product_stock,medium
+lowongan kerja ada ga,out_of_scope,high
+Halo admin mau nanya pembayaran bs pakai apa saja ya,payment_info,medium
+Halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,medium
+deskripsi unmatched,product_description,medium
+Kira kira unisex itu hrgnya berapa ya kak,product_price,medium
+jaket ready stock,product_stock,low
+Kak stok tetap ada pls,product_stock,medium
+kak gloves masih ad ga stoknya,product_stock,low
+hi order gue nomor 123 mana please,order_status,medium
+Bang review chilly ?,product_description,high
+OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L kosong ga,product_stock,medium
+detail omniheat men's solid hooded puffer jacket-blue-green-m,product_description,medium
+halo min mau nanya gaya masih ready stock tidak ya,product_stock,medium
+Ad stok jaket puffer pria omniheat solid bertudung-biru-hijau-m g,product_stock,extreme
+deskripsi aksesori,product_description,medium
+Syal musim dingin arctic blis penhu gaya brp duit,product_price,low
+orderan saya giman,order_status,low
+bang status order 456 dong,order_status,medium
+kak hadpi masih ada ga stoknya,product_stock,low
+lacak pesanan #12345,order_status,medium
+ad stok tangan g,product_stock,low
+cara baayar gimana,payment_info,high
+mba spesifikasi cnnectd ??,product_description,extreme
+bos revieew kai ?,product_description,medium
+kuplku sold outt?,product_stock,low
+kapan pesanan nomor 555 sampai,order_status,medium
+jaket puffer pria omniheat solid bertudung-biru-hijau-m masih ad,product_stock,low
+pake cash on delivery bs?,payment_info,low
+udah dikirim blm nomor 555 tolong,order_status,medium
+maaf ganggu mau cek status order #12345 dong,order_status,medium
+misi orderan gw kok ga nyampe dong,order_status,medium
+kenyamanan brp duit,product_price,medium
+info produk sarung,product_description,extreme
+hi warmth ready stock pls,product_stock,extreme
+stok tangan ada,product_stock,medium
+Sis orderan saya gimana ya,order_status,high
+caar refund gimana,out_of_scope,medium
+fitur OmniHeat Men's Solid Hooded Puffer Jacket,product_description,low
+socks habis beulm,product_stock,high
+boleh tau harga bundle tidak,product_price,high
+Mba beanie gmn sih thx,product_description,high
+hooded masih ada,product_stock,high
+Spesifik@si jacket,product_description,extreme
+brg 12345 dmn,order_status,medium
+tracking peanan order-123,order_status,high
+Hi bisa dijelasin tentang produk kaki dong please,product_description,medium
+Fitur jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_description,medium
+mau tau lebih detail tentang hadapi,product_description,extreme
+hrg Syal Musim Dingin Arctic Bliss Penuh Gaya brp,product_price,low
+berapa harga dingin,product_price,low
+Bang sisa stok socks dong,product_stock,low
+Hrg arctic brp,product_price,high
+Arctic Warmth Wool Blend Socks ready?,product_stock,low
+misi edit pesanan min,out_of_scope,low
+Info produk bertudung-biru-kuning-m,product_description,medium
+mas dingin mmahal ga ya kak,product_price,extreme
+halo pesanan gw #99 kemana thx,order_status,high
+jaket puffer pria omniheat solid bertudung-biru-kuning-m terbuat dari apa,product_description,low
+metode byr apa,payment_info,medium
+kisaran harga campuran,product_price,low
+pembayaran via apa,payment_info,low
+hai mau cek status pesanan please,order_status,high
+Min ada toko offline min,out_of_scope,medium
+bahan Jaket Puffer Pria OmniHeat Solid Bertudung apa,product_description,low
+Stok bundle ada,product_stock,medium
+available sruang,product_stock,medium
+duit aksesori,product_price,low
+gan pesanan gw 123 kemana tolong,order_status,medium
+biisa transfer bank,payment_info,medium
+Sis unmatched brp sih ??,product_price,extreme
+tukar b@rang,out_of_scope,medium
+Cuaca hari ini gimana,out_of_scope,low
+cek resi ORD001,order_status,extreme
+Mas orderan saay gimana thanks,order_status,high
+admin berapa hara accessories tolong,product_price,extreme
+sis mau komplain ya kak,out_of_scope,extreme
+halo kok lama bgt order 1 please,order_status,high
+kelebihan omniheat men's solid hooded puffer jacket-blue-green-l,product_description,low
+tolong jelasin tentang OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M dong,product_description,high
+tukar barang,out_of_scope,low
+pembayaran via apa,payment_info,low
+ganti ukuran,out_of_scope,low
+misi kupluk gmn sih ya,product_description,high
+Hai ada toko offline thx,out_of_scope,medium
+info produk jaket puffer pria omniheat solid bertudung-biru-hijau-m,product_description,low
+sis pce paket,product_price,medium
+sisa stok bliss,product_stock,low
+min jam bua toko makasih,out_of_scope,extreme
+connected habis beulm,product_stock,extreme
+min kisaran harga dingin dong,product_price,extreme
+Bos kerjasama bisnis ya kak,out_of_scope,medium
+gan lacak p3sanan ORD001 please,order_status,high
+hai tracking pesanan #1 thanks,order_status,high
+Permisi kapan pesanan nomor 123 sampai ya kak,order_status,medium
+Bang pesanan order-123 udah sampai mana ya kak,order_status,medium
+misi tersedia jaket puffer pria omniheat solid bertudung-biru-kuning-m ga ya,product_stock,medium
+halo terrim cod ga tolong,payment_info,extreme
+Mba arctic gmn sih please,product_description,medium
+spesifikasi jacket-blue-yellow-m,product_description,high
+cozy kosong ga,product_stock,medium
+Hai hoodedd murah ga ya,product_price,extreme
+cara bayar orderan,payment_info,medium
+Kalo mau bayar pake gopay bisa ga min,payment_info,low
+orderan gw kok ga nyampe,order_status,medium
+sis test ya kak,out_of_scope,medium
+Bisa dijelasin tentang produk wool dong,product_description,low
+stylish mahal ga,product_price,medium
+jaket puffer pria omniheat solid bertudung sold out?,product_stock,low
+Available scarf,product_stock,medium
+admin detail embrace pls,product_description,high
+tambah item ke pesanan,out_of_scope,high
+gan opsi pembayaran ?,payment_info,medium
+Hangat ready?,product_stock,high
+tukar brg,out_of_scope,medium
+sis brp arctic warmth wool blend socks tolong,product_price,low
+tetap brp duit,product_price,low
+permisi tracki9 psnan 99,order_status,high
+Misi puffer habis belum min,product_stock,medium
+mas bayar pake apa sih ya kak,payment_info,high
+kak kapan psnan 1 smp dong,order_status,medium
+Mba info produk sarung tangan musim dingin arctic layar sentuh tolong,product_description,low
+Min permisi apakah stok bertudung-biru-hijau-l masih tersedia min,product_stock,medium
+jaket terbuat dari apa,product_description,extreme
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,medium
+Tolong jelasin tentang aksesori dong,product_description,low
+min estimasi pengiriman order ORD123 dong,order_status,high
+sarung tangan musim dingin arctic l@yar sentuh habis belum,product_stock,low
+Scarf bagus ga,product_description,low
+Sis lowongan kerja ad ga thanks,out_of_scope,high
+Available jaket puffer pria omniheat solid bertudung-biru-kuning-m,product_stock,medium
+Batalkan order,out_of_scope,low
+Misi bayar pake apa sih thx,payment_info,medium
+style ukurannya apa aja,product_description,low
+hi warna sylihs ada apa aja ??,product_description,medium
+hai kisaran hrg OmniHeat Men's Solid Hooded Puffer Jacket makasih,product_price,medium
+Hi kualita5 jelek thx,out_of_scope,medium
+admin cara bayar gimana ya kak,payment_info,low
+boleh tau harga kehangatan tidak pls,product_price,medium
+review omniheat men's solid hooded puffer jacket-blue-green-l,product_description,high
+harga kaki sekarang makasih,product_price,medium
+Bos bisa dijelain tentang produk frsot dong pls,product_description,extreme
+mba proses refund brp lama,out_of_scope,high
+orderan saya gimana,order_status,low
+Accept gopay ga,payment_info,low
+mas bayar pake apa min,payment_info,medium
+Status pengiriman #12345,order_status,extreme
+kak pesanan gw ORD123 kemana tolong,order_status,medium
+halo fitur scarf ??,product_description,high
+terima permata tidak,payment_info,medium
+Stok omniheat ada,product_stock,low
+spec Arctic Touchscreen Winter Gloves,product_description,medium
+bs bayaar pakai mndiri pls,payment_info,high
+permisi permisi kak untuk pembayaraan tersedia metode apa saja min,payment_info,extreme
+sisa stok blend,product_stock,medium
+Opsi pembayaran,payment_info,medium
+Kak bertudung ready?,product_stock,high
+cek resi ORD-0001,order_status,medium
+mau kerja disini,out_of_scope,medium
+dekapan msh ad?,product_stock,medium
+permisi apakah stok omniheat men's solid hooded puffer jacket-blue-yellow-m masih tersedia,product_stock,low
+gan OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-M ready?,product_stock,medium
+alamat kantor,out_of_scope,low
+permisi mau nanya harga untuk bundle berapa ya,product_price,low
+harga OmniHet Men's Solid Hooded Puffer Jacket-BlueGreen-L sekarang,product_price,medium
+barang rusak,out_of_scope,medium
+estimasi pengiriman order 99,order_status,medium
+hi bayar pake apa thanks,payment_info,medium
+apa kabar,out_of_scope,low
+bayar pkae apa dong,payment_info,extreme
+min kalo mau bayar pake kredivo bs ga min ??,payment_info,high
+mba kamu bot ya pls,out_of_scope,extreme
+Hi aksesori kyk gmn thanks,product_description,low
+penuh sold out?,product_stock,medium
+Kak sarung tangan musim dingin arctic layar sentuh gmn sih thx,product_description,medium
+Orderan sy gmn,order_status,medium
+accept va ga,payment_info,low
+dni6in terbuat dari apa,product_description,high
+cara bayar gimana,payment_info,high
+metode pembayaran apa aja,payment_info,medium
+order nomor 123 udah diproses belum,order_status,medium
+misi mau tanya apakah kaki masih tersedia stoknya makasih,product_stock,medium
+permisi kak orderan saya yang ORD-001 kok belum dateng,order_status,low
+Mas price tertandingi thx,product_price,medium
+bisa dijelasin tentang produk Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M dong,product_description,high
+lacak psnan nomorr 123,order_status,high
+sis mau kembalikan barang pls,out_of_scope,high
+cara byar gmana,payment_info,low
+ad stok Arctc Touchscreen Winter Gloves g,product_stock,high
+fitur syal,product_description,medium
+mau tau lebih detail tentang scarf,product_description,low
+permisi mau tanya dong harga unisex yang ada di toko berapa ya makasih,product_price,low
+hai duit experience thanks,product_price,high
+status order 456,order_status,medium
+Spesifikasi connected,product_description,medium
+mau tanya apakah arctic czoy knit unisex beanie masih tersedia stoknya,product_stock,medium
+Spec senthu,product_description,low
+brp tangan,product_price,low
+barang tidak sesuai mau tukar,out_of_scope,medium
+bisa transfer bank,payment_info,low
+Opsi pembayaran,payment_info,high
+barang saya udah dikirim belum,order_status,extreme
+apa kabar,out_of_scope,medium
+gan stok arctic cozy knit unsex beanie abiis blm ??,product_stock,extreme
+harga Arctic Frost Winter Accessories Bundle sekarang,product_price,medium
+Permisi order gue id 7788 mana,order_status,high
+kerjasama bisnis,out_of_scope,medium
+siapa kamu,out_of_scope,medium
+Brg 67890 dmn,order_status,high
+opsi pembayaran,payment_info,low
+uang saya kapan dikembalikan,out_of_scope,medium
+jacket-blue-green-m berapa duit,product_price,low
+Kak batalkan ordr please,out_of_scope,low
+kelebihan scarf,product_description,medium
+knit ready?,product_stock,high
+kok lama bgt order #99,order_status,medium
+Hi boleh tau harga terhuung tidak please,product_price,high
+accept kartu debit ga,payment_info,medium
+Bisa dijelasin tentang produk jacket-blue-green-m dong tolong,product_description,medium
+Terima bca gak,payment_info,extreme
+hi ganti ukuran dong,out_of_scope,low
+jacket-bue-yeellow-m ready?,product_stock,extreme
+permi$i apakah sok jacket-blue-yellow-m masih tersedia,product_stock,high
+gan kalo mau bayar pakee cod bia ga min min,payment_info,medium
+sis ketersediaan pria thx,product_stock,medium
+kak duah idkirim blm #12345 ya,order_status,high
+opsi pembayaran,payment_info,medium
+sis udah dikirim blm #12435 ??,order_status,extreme
+price frost,product_price,medium
+bisa dijelasin tentang produk bertudung-biru-kuning-l dong,product_description,low
+stock experience breapa,product_stock,low
+Biaya hangat,product_price,low
+embrace ready stock,product_stock,medium
+mas bahan jacket-blue-green-m apa pls,product_description,high
+Opi pembayaran,payment_info,medium
+kak dtl arctiic please,product_description,extreme
+kak tangan masih ada ga stoknya,product_stock,low
+permisi sttatus order ord123 thx,order_status,high
+Kupluk Rajut Unisex Arctic Cozy brp duit,product_price,low
+halo,out_of_scope,medium
+lowongan kerja ada ga,out_of_scope,low
+kisaran harga omniheat men's solid hooded puffer jacket-blue-green-m,product_price,medium
+hai alamat kantor thanks,out_of_scope,high
+sis tracking pesanan 456 dong,order_status,medium
+halo,out_of_scope,high
+alamat kantor,out_of_scope,high
+fitur omniheat men's solid hooded puffer jacket-blue-green-m,product_description,high
+Kak hrg musim brp makasih,product_price,medium
+ada cicilan ga,payment_info,low
+Cara bayar gimana,payment_info,low
+ad stok OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Yellow-L g,product_stock,medium
+halo deskripsi gloves ??,product_description,medium
+Boleh tau harga campuran tidak,product_price,medium
+deskripsi socks,product_description,medium
+sentuh k0song ga,product_stock,high
+bisa dijelasin tentang produk campuran dong,product_description,low
+mas harga accessories sekarang ya kak,product_price,extreme
+hangat ready ga,product_stock,low
+Arctic Frost Winter Accessories Bunle kosong ga,product_stock,low
+Kamu bot ya,out_of_scope,medium
+Campuran msh ad?,product_stock,high
+permisi terhubung brp duit thx,product_price,high
+Siapa kamu,out_of_scope,medium
+brp Arctic Touchscreen Winter Gloves,product_price,low
+halo detail dengan please,product_description,low
+min arctic murah ga thanks,product_price,medium
+mau kembalikan barang,out_of_scope,low
+harga Arctic Frost Winter Accessories Bundle berapa,product_price,medium
+solid brp sih,product_price,high
+kira kira arctic warmth wool blend socks itu hrgnya brp ya kak,product_price,low
+kak ada iccilan ga pls,payment_info,high
+scarf ready ga,product_stock,medium
+gan brg cacat thx,out_of_scope,high
+Orderan saya gimana,order_status,high
+misi kak jaket puffer pria omniheat solid bertudung masih ada ga stoknya min,product_stock,low
+Terima deebit gak thanks,payment_info,high
+Arctic bliss stylish winter scarf kosong ga,product_stock,high
+mau tanya apakkah omniheat masih tersedia stoknya,product_stock,low
+Mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,low
+min ttap murah ga thanks,product_price,medium
+stock OmniHeat Men's Soild Hooded Puffer Jacket-Blue-Green-L berapa ya,product_stock,medium
+lokasi warehouse,out_of_scope,low
+misi metode byr apa ??,payment_info,medium
+winter brp duit,product_price,low
+connected masih ada,product_stock,low
+Orderan saya gimana,order_status,medium
+price jacket-blue-green-m,product_price,low
+Sis kak mau tanya pesanan saya dengan nomor #99 sudah diproses belum ya thx,order_status,high
+gan tracking pesanan id 7788 dong,order_status,high
+kak selamat siang admin saya mau cek status pesanan nomor order-123 ya,order_status,low
+Pembayaran via apa,payment_info,low
+misi bhan campuran apa thanks,product_description,low
+Permisi kak untuk pembayaran tersedia metode apa saja,payment_info,extreme
+Kira kira scarf itu hrnya berapa ya kak,product_price,medium
+admin edit pesanan makasih,out_of_scope,high
+spec bertudung-biru-hijau-l,product_description,low
+Omniheat men's solid hooded puffer jacket-blue-green-l berapa duit,product_price,medium
+permisi rajut masih ada thx,product_stock,medium
+Deskripsi dinginnya,product_description,high
+Terima cash on delivery tidak,payment_info,medium
+nomor telepon toko,out_of_scope,low
+Admin spec connected tolong,product_description,high
+permisi kak orderan saya yang #1 kok belum dateng,order_status,high
+Mba brp ebmrce tolong,product_price,high
+Review stylish,product_description,medium
+kak knit masih ada ga stoknya,product_stock,low
+terima bayar di tempat gak,payment_info,low
+accept credit card ga,payment_info,high
+Mau komplain,out_of_scope,high
+batalkan order,out_of_scope,low
+bos stock layar berapa ya kak,product_stock,medium
+Jakt Puffer Pria OmniHeat Solid Bertudung ukurannya apa aja,product_description,medium
+test,out_of_scope,medium
+spesifikasi unmatched,product_description,low
+Alamat toko dimana,out_of_scope,low
+Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Hijau-M habis belum,product_stock,medium
+Bos bolhe tau hrg dngin ga,product_price,high
+mau tanya untuk pembayarannya bisa pakai metode apa aja ya,payment_info,high
+Bisa transfer bank,payment_info,low
+pesanan 99 udah sampai manna,order_status,high
+metode byr apa,payment_info,extreme
+bs cciian g,payment_info,medium
+layar ukurannya apa aja,product_description,medium
+Mau tau lebih detail tentang chill,product_description,low
+hai review chill pls,product_description,extreme
+hrg Jaket Puffer Pria OmnHeat Solid Bertudung-Biru-Kuning-L brp,product_price,medium
+hai harga scarff berpa dong,product_price,medium
+Halo min mau nanya gloves masih ready stock tidak ya tolong,product_stock,extreme
+arctic frost winter accessories brp sih,product_price,low
+Permisi kak orderan saya yang ord-001 kok belum dateng,order_status,high
+orderan saya gimana,order_status,medium
+Hi cuaac hari ini gimana min,out_of_scope,extreme
+bayar pake apa sih,payment_info,low
+bang kira kira wool itu harganya beraap ya kak please,product_price,extreme
+hi scarf ukurannya apa aja ya kak,product_description,extreme
+metode pymnt,payment_info,medium
+berapa harga terhubung,product_price,low
+cek pesanan 1,order_status,low
+brg ord-001 dmn,order_status,medium
+review chilly,product_description,medium
+metode payment,payment_info,medium
+kak beanie masih ada ga stoknya,product_stock,medium
+Comfort masih ada,product_stock,low
+Hai men's ukurannya apa aja tolong,product_description,medium
+brp kaki,product_price,high
+spesifiksi cnnected,product_description,low
+Permisi mau reefund thanks,out_of_scope,extreme
+halo available OmniHeat Men's Solid Hooded Puffer Jacket-Blue-Green-M makasih,product_stock,medium
+kalo mau bayar pake credit card bisa ga min,payment_info,medium
+orderan saya gimana,order_status,medium
+Cara bayar orderan,payment_info,medium
+kak boleh tau spesifikasi aksesori tidak,product_description,medium
+harga omniheat men's solid hooded puffer jackt-blue-yellow-m berapa,product_price,medium
+Warna dingin ada apa aja,product_description,medium
+bisa bayar pakai qris,payment_info,low
+Ad stok dinginnya g,product_stock,high
+Metode payment,payment_info,medium
+kecewa sama pelayanan ya,out_of_scope,extreme
+opsi pembayaran,payment_info,medium
+kualitas jelek,out_of_scope,medium
+Kenyamanan harganya berapa,product_price,low
+permisi kak utk pmbayaran tersedia metode apa saja,payment_info,high
+stock dinginnya berapa,product_stock,medium
+jam buak toko,out_of_scope,low
+tertandingi reyd?,product_stock,medium
+min kualitas jelek please,out_of_scope,medium
+Hi jacket-blue-green-m kosong ga,product_stock,low
+mas tracking pesanan 123 thx,order_status,medium
+jaket habis blm,product_stock,medium
+mba fiiutr tetap dong,product_description,low
+sis produk tidak sesuai min,out_of_scope,extreme
+Mba mau tanya apakah jaket puffer pria omniheat solid bertudung-biru-hijau-l masih tersedia stoknya thx,product_stock,extreme
+kupluk rajut unisex arctic cozy msh ad?,product_stock,medium
+Pesanan gw pesanan 999 kemannna,order_status,medium
+mau komplain,out_of_scope,low
+sis mau tanya dong hrg Kupluk Rajut Unisex Arctic Cozy yg ad di toko brp ya tolong,product_price,medium
+pake debit bs?,payment_info,low
+metode byr apa,payment_info,medium
+misi status pengiriman order-123 makasih,order_status,high
+Hai kuaalitas jelek ??,out_of_scope,medium
+estimasi pengiriman order ORD-001,order_status,medium
+mba kak campuran masih ada ga stoknya makasih,product_stock,high
+Psnan gw ord123 kemana,order_status,medium
+Misi spec kenyamanan makasih,product_description,medium
+hi premisi appakah stok omniheat masih tersedia tolong,product_stock,high
+biaya tertandingi,product_price,low
+bang kamu bot ya makasih,out_of_scope,low
+order pesanan 999 udah diproses belum,order_status,medium
+omniheat terbuat dari apa,product_description,medium
+Admin bayar pake apa sih ??,payment_info,medium
+Kak fitur bersama ??,product_description,medium
+ganti ukuran,out_of_scope,high
+sis bayar pake apa sih makasih,payment_info,medium
+kak mau tanya pesanan sy dgn nomor 456 sdh diproses belum ya,order_status,low
+hai mau komplain min,out_of_scope,medium
+Tukar barang,out_of_scope,medium
+Stok embrace abis blm,product_stock,medium
+hai edit pesaanan dong,out_of_scope,extreme
+permisi syal musim dingin arctic biss penuh gaya brp duit ?,product_price,high
+kak uang saya kapan dikembalikan,out_of_scope,medium
+admin harga syal musim dingin arctic bliss penuh gaya sekarang pls,product_price,low
+Stock puffer berapa pls,product_stock,medium
+Misi mau tnaya apakah omniheat men's solid hooded puffer jacket-blue-yellow-l masih tersedia stoknya tolong,product_stock,extreme
+mas avilabl3 winter thanks,product_stock,medium
+misi hai dong,out_of_scope,medium
+tersedia paket ga,product_stock,low
+mas tracking pesanan 456 please,order_status,medium
+barang saya udah dikirim belum,order_status,medium
+Kerjasama bisnis,out_of_scope,low
+bos pmebayaran via apa min,payment_info,high
+admin frst mhal ga ??,product_price,extreme
+bisa ambil langsung ga,out_of_scope,low
+s!pa kamu thx,out_of_scope,extreme
+mas selamat siang admin sy mau cek status psnan nomor 1 pls,order_status,high
+selamat siang admin sy mau cek stauts psnan nomor #1235,order_status,medium
+Edit pesanan,out_of_scope,high
+range hargga penuh,product_price,high
+harga accessoreis berapa,product_price,low
+Stok pria abis blm,product_stock,high
+range harga jaket,product_price,medium
+uang saya kapan dikembalikan,out_of_scope,high
+duit OmniHeat Men's Solid Hooded Pufer Jacket-Bue-Green-L,product_price,medium
+syal musim dingin arctic bliss penuh gaya brp duit,product_price,medium
+Paket saya sudah sampai mana,order_status,medium
+misi lowongan kerja ada ga ?,out_of_scope,medium
+mau tanya apakah jacket-blue-yellow-l masih tersedia stoknya,product_stock,high
+omniheat mens' solid hooded puffer jacket-blue-green-l msh ad?,product_stock,extreme
+Mas barang tidak sesuai mau tukar please,out_of_scope,medium
+Kecewa sama pelayanan,out_of_scope,low
+Available omniheat,product_stock,medium
+ada toko offline,out_of_scope,low
+bias bayar paakai jenius,payment_info,high
+Meotde byr apa,payment_info,extreme
+Support ewallet ga,payment_info,medium
+kira kira dingin itu hrgnya berapa ya kak,product_price,low
+biaya OmniHeat Men's Sold Hooded Puffer Jacket-Blue-Green-M,product_price,high
+pesanan pesanan 999 udah sampai mana,order_status,low
+bos bayar pake apa sih ??,payment_info,extreme
+Byr dmn,payment_info,low
+Kamu bot ya,out_of_scope,high
+permisi review omniheat men's solid hoodedd puffer jacket-blue-yellow-m ??,product_description,extreme
+bang mau tanya apakah accessories amshi tersedia stoknya ??,product_stock,extreme
+paket saya sudah sampai mana,order_status,medium
+min kisarn hrg syal ?,product_price,extreme
+Kualitas jelek,out_of_scope,medium
+gaya mahal ga,product_price,high
+Kupluk Rajut Unisex Arctic Cozy ready stock,product_stock,medium
+menn'ss kyk gmn,product_description,medium
+Halo brg 789 dmn pls,order_status,low
+Bahan sarung tangan musim dingin arctic layar sentuh apa,product_description,high
+gan Arctic Cozy Knit Unisex Beanie brp duit dong,product_price,medium
+kak tetap masih ada ga stoknya,product_stock,low
+hrg style brp,product_price,medium
+lokasi warehouse,out_of_scope,medium
+Bayar pake apa sih,payment_info,high
+mas mau tanya apakah knit masih tersedia stoknya ??,product_stock,medium
+Hai maaf ganggu mau cek status order ord-001 dong thanks,order_status,low
+jaket puffer pria omniheat solid bertudung-biru-hijau-l kosong ga,product_stock,low
+stylish harganya berapa,product_price,low
+alamat toko dmn,out_of_scope,low
+Kak kak boleh tau spesifikasi jaket puffer pria omniheat solid bertudung-biru-hijau-l tidak makasih,product_description,medium
+barang cacat,out_of_scope,medium
+tracking pesanan pesanan 999 ya,order_status,low
+barang rusak,out_of_scope,medium
+mau cek status pesanan,order_status,medium
+Orderan saya gimana,order_status,low
+Gan barang sya udah dikirim blum ?,order_status,extreme
+tlg jelasin tentang gaya donng,product_description,extreme
+bang maaf ganggu mau cek status order 12345 dong ??,order_status,medium
+pria kosong ga,product_stock,extreme
+alamat kantor,out_of_scope,low
+mba Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L terbuat dari apa ??,product_description,extreme
+Misi metode paymennt ?,payment_info,extreme
+min produk beda sama gambar makasih,out_of_scope,extreme
+Tersedia arctic frost winter accessories ga,product_stock,medium
+posi peembayaran,payment_info,low
+accept link@ja ga,payment_info,high
+Halo lowongan kerja ada ga makasih,out_of_scope,medium
+accept debit ga,payment_info,high
+bahan Arctic Cozy Knit Unisex Beanie apa,product_description,medium
+Barangg saya uah dikirim belum,order_status,high
+Dimana pesanan saya,order_status,medium
+bahan paket apa,product_description,medium
+ganti ukuran,out_of_scope,medium
+bang permisi kak orderan saya yang pesanan 999 kok belum dateng makasih,order_status,low
+permisi apakah stok arctic frost winter accessories masih tersedia,product_stock,low
+batalkan order,out_of_scope,low
+mba bs kartu debit g ??,payment_info,extreme
+bos pake va bs?,payment_info,high
+bos order #1 udah diproses belum dong,order_status,medium
+harga beanie sekarangg,product_price,low
+mau komplain,out_of_scope,medium
+produk tidak sesuai,out_of_scope,low
+permisi h4lo min mau tanya dong pesanan saya nomor id 7788 itu udah asmpai mana ya makasih,order_status,medium
+ino produk penuh,product_description,high
+edit pesanan,out_of_scope,low
+Fitur kkai,product_description,high
+mba kalo mau bayar pake cash bisa ga min thanks,payment_info,high
+bang status pengiriman nomor 123 dong,order_status,medium
+metode pembayaran apa aja,payment_info,low
+status pengiriman 12345,order_status,low
+min boleh tau harga hangat tidak tolong,product_price,medium
+alamat kantor,out_of_scope,medium
+Permisi kak utk pembayaran tersedia metode apa saja,payment_info,medium
+Campuran ready?,product_stock,medium
+Pesanan gw #12345 kemana,order_status,low
+sis wool ready stock makasih,product_stock,high
+permisi kak untuk pembayaran tersedia metode apa saja,payment_info,low
+tolong jelasin tentang bertudung-biru-hijau-l dong,product_description,high
+Kak tetandingi masih ada ga stoknya,product_stock,high
+bang halo min mau nanya warmth masih ready stock tidak ya thx,product_stock,high
+terima cicilan tidak,payment_info,low
+mas kak boleh tau spesifikasi peunh tidak dong,product_description,medium
+bayar pake apa,payment_info,medium
+min mau komplain dong,out_of_scope,high
+tambah item ke pesanan dong,out_of_scope,high
+Order gue 456 mana,order_status,medium
+support ewallet ga,payment_info,high
+mba bahan sarung tangan musim dingin arctic layar sentuh apa makasih,product_description,medium
+ketersediaan chilly,product_stock,medium
+Stok pak3t aksesori musim dingin arctic frost ada,product_stock,low
+Halo min mau tanya dong pesanan saya nomor #1 itu udah sampai mana ya,order_status,low
+perisi mau nanya harga untku kaus kaki campuran wol arctic warmth brp ya,product_price,low
+bos halo min mau tanya dong pesanan saya nomor 99 itu udah sampai mana ya,order_status,medium
+Misi halo admin mau nanya pembayaran bisa pakai apa saja ya,payment_info,high
+bayar pake apa,payment_info,low
+sspec terhubung,product_description,high
+sis cara baar orderan ya kak,payment_info,medium
+Price jacket,product_price,medium
+misi tersedia hoooded ga ya kak,product_stock,high
+orderan gw kok ga nyampe,order_status,low
+bs bni g,payment_info,medium
+ketersediaan kehangatn,product_stock,extreme
+dmn psnan sy,order_status,extreme
+dtl tetpa,product_description,low
+bisa return barang ga,out_of_scope,low
+Admin hai dong,out_of_scope,extreme
+min support ewallet ga pls,payment_info,low
+available artic,product_stock,medium
+Halo min mau nanya arctic warmth wool blend socks masih ready stock tidak ya,product_stock,high
+Permisi aksesori terbuat dari apa dong,product_description,low
+halo pake transfer bank bs?,payment_info,medium
+Orderran saya gimana,order_status,high
+boleh tau harga tangan tidak,product_price,low
+permisi kak orderan saya yang nomor 555 kok belum dateng,order_status,low
+metode byr apa,payment_info,extreme
+permisi unisex ready?,product_stock,medium
+deskripsi jacket-blue-yellow-m,product_description,low
+permisi kak utk pembyaran terssedia metode apa saja,payment_info,high
+bersama bagus ga thanks,product_description,medium
+bos ganti kuuran please,out_of_scope,extreme
+biaay bertudung-biru-kuning-m,product_price,high
+order gue ord123 mana,order_status,low
+halo terima akulaku tidak ?,payment_info,high
+Sis permisi kak untuk pembayaran tersedia metode apa saja please,payment_info,high
+Harga comfort berapa,product_price,medium
+boleh tau harga cozy tidak,product_price,low
+misi wara pria ada apa aja min,product_description,medium
+Tambah item ke pesanan,out_of_scope,low
+ubah alamat pengiriman,out_of_scope,high
+barang rusak,out_of_scope,medium
+bs kredivo g,payment_info,medium
+halo apa kabar ?,out_of_scope,extreme
+Hai kalo mau bayar pake va bisa ga min please,payment_info,medium
+hi halo admin mau nanya pembayaran bisa pkai apa sajja ya please,payment_info,extreme
+mas bayar pake apa thanks,payment_info,medium
+pesanan pesanan 999 udah sampai mana,order_status,low
+Alamat kantor,out_of_scope,low
+kak beanie masih ada ga tsoknya,product_stock,high
+bayar pake apa,payment_info,low
+Kira kira bertudung itu harganya berapa ya kak,product_price,medium
+Misi metode payment please,payment_info,medium
+Lacak pesanan ord123,order_status,high
+permisi mau tana apakh dingin masih tersedia stoknya,product_stock,high
+review penuh,product_description,medium
+Keecwa sama pelayanan,out_of_scope,high
+sis edit spnnan ?,out_of_scope,high
+Stock kehangatan berapa,product_stock,medium
+mas dimana pesanan saya thx,order_status,medium
+Bahan jaekt apa,product_description,high
+mas harga kaki berapa ??,product_price,low
+hi halo min mau nanya tetap masih ready stock tidak ya pls,product_stock,high
+Admin cozy harganya berapa makasih,product_price,medium
+Admin embrace brp sih ?,product_price,medium
+Review beanie,product_description,low
+kira kira bertudung-biru-kuning-l itu harganya berapa ya kak,product_price,low
+seamat siang admin saya mau cek satus pesanan nomor 456,order_status,high
+Mau tau lebih detail tentang omniheat men's solid hooded puffer jacket-blue-yellow-l,product_description,low
+hi tersediaa arctic ga min,product_stock,extreme
+layar brp duit,product_price,high
+mau tanya dong harga Arctic Warmth Wool Blend Socks yang ada di toko berapa ya,product_price,low
+Bang range harga sentuh thanks,product_price,medium
+Cek pesanan 99,order_status,medium
+gan warmth murah ga ya kak,product_price,medium
+Accept dana ga,payment_info,medium
+Kak wintter masih ada ga stoknya,product_stock,medium
+orderan gw kok ga nyampe,order_status,high
+Boleh tau hrg jaket puffer pria omniheat solid bertudung ga,product_price,low
+Udah dikirim blm 789,order_status,high
+cek psanan pesanan 999,order_status,low
+misi bisa dijelasin tentang produk scarf dong ya,product_description,extreme
+Gan kualitas jelek thx,out_of_scope,high
+cara bayar orderan,payment_info,medium
+pae mandri bs?,payment_info,low
+balkan order,out_of_scope,extreme
+accept bayar di tempat ga,payment_info,medium
+Terima bca ga,payment_info,low
+hai byr dmn ?,payment_info,high
+nomor telepon toko,out_of_scope,high
+omniheat men's solid hooded puffer jacket-blue-yellow-l berapa duit,product_price,high
+admin spec stylish ??,product_description,high
+Brg 12345 dmn tolong,order_status,low
+batalkan order ??,out_of_scope,medium
+halo pembayaran via apa dong,payment_info,medium
+spec scarf please,product_description,medium
+Stok arctic touchscreen winter gloves ada,product_stock,low
+Kaki murah ga,product_price,low
+hrg hadapi brp,product_price,medium
+kira kira Sarung Tangan Musim Dingin Arctic Layar Sentuh itu harganya berapa ya kak,product_price,medium
+mba tersedia bundle ga ?,product_stock,low
+halo,out_of_scope,medium
+Proses refund berapa lama,out_of_scope,low
+pembayaran via apa,payment_info,medium
+Apa kabar,out_of_scope,low
+permisi ganti ukuran ya kak,out_of_scope,low
+hi hallo min mau nanya gaya maih ready stock ga ya ?,product_stock,extreme
+halo min mau nanya scarf masih ready stock tidak ya,product_stock,medium
+misi opsi pembayaran please,payment_info,low
+sld murah ga,product_price,extreme
+dtl bertudung,product_description,high
+order order-123 udah diproses belum,order_status,medium
+mba km bot ya please,out_of_scope,high
+pembayaran via apa,payment_info,medium
+harga bertudung sekarang,product_price,low
+permisi pembbayaran via apa min,payment_info,high
+psnan ORDD123 udah smp mana,order_status,medium
+halo deskripsi Jaket Puffer Pria OmniHeat Solid Bertudung-Biru-Kuning-L dong,product_description,extreme
+Ibsa dijelasin tntang produk frost dong,product_description,medium
+Duit beanie,product_price,low
+Order gue #12345 mana,order_status,medium
+Min kak boleh tau spesifikasi knit tidak ya kak,product_description,low
+kecewa sama pelayanan,out_of_scope,low
+permisi apakah stok unisex masih tersedia,product_stock,low
+Byr dmn,payment_info,low
+Estimasi pengiriman order 123,order_status,low
+ad stok unisex g,product_stock,low
+Mba men's msh ad?,product_stock,medium
+Pake transfer bank bs?,payment_info,low
+boleh tau harga scarf tidak,product_price,medium
+rasakan maish ada,product_stock,medium
+dimana pesanan sy,order_status,extreme
+Maaf ganggu mau cek status order #99 dong,order_status,low
+sis tersedia accessories ga pls,product_stock,extreme
+Bos stok comffort ada thanks,product_stock,high
+Price tertandingi,product_price,low
+available omniheat men's solid hoooded puffer jacket-blue-yellow-m,product_stock,low
+hi bisa transfr abnk min,payment_info,high
+permisi opsi pembayaran ?,payment_info,medium
+Paket ready ga,product_stock,low
+Kak mau tanya apakah gaya masih tersedia stoknya makasih,product_stock,medium
+kisaran harga bertudung-biru-kuning-l,product_price,medium
+tersedia forst ga,product_stock,medium
+halo min mau tanya dong pesanan saya nomor 456 itu udah sampai amna ya,order_status,high
+pesanan gw #1 kemana,order_status,medium
+sarung kosong ga,product_stock,low
+gan brg pesanan 999 dmn,order_status,high
+winter habis belum,product_stock,medium
+Admin arctic terbuat dair apa makasih,product_description,extreme
+halo revew syal musim dingin arctic bliss penuh gayya thx,product_description,high
+spec tetap,product_description,medium
+mba pembayaran via apa min,payment_info,medium
+Price campuran,product_price,high
+jacket-blue-green-m murah ga,product_price,medium
+kerjasama bisnis,out_of_scope,medium
+pesanan 1 udah sampai mana,order_status,medium
+Test,out_of_scope,medium
+fitur jacket-blue-yellow-l,product_description,medium
+chill ready?,product_stock,medium
+jaket puffer pria omniheat solid bertudung terbuat dari apa,product_description,medium
+mas omniheat men's solid hooded puffer jacket kosong ga dong,product_stock,low
+hai halo min mau tanya dong pesanan saya nomor 1 itu udah sampai mana ya dong,order_status,low
+hi produk tidak sesuai please,out_of_scope,low
+halo admin mau nanya pembayaran bs pakai apa saja ya,payment_info,medium
+duit sarung tangan musim dingin arctic layar sentuh,product_price,low
+Kak boleh tau spesifikasi wramth ga,product_description,extreme
+Pesanan 456 udah sampai mana,order_status,low
+proses refund berapa lama,out_of_scope,medium
+halo gloves mahal ga pls,product_price,medium
+hooded terbuat dari apa,product_description,medium
+warna blend ada apa aja,product_description,low
+mas kenyamanan msh ad?,product_stock,medium
+Tolong jelasin etntang jacket-blue-yellow-l dong,product_description,high
+Syal musim dingin arcic bliss peunh gaya harganya brp,product_price,high
+bos boleh tau harga paket tidak,product_price,extreme
+Stylish kyk gmn,product_description,low
+Mas harga jacket-blue-yellow-m sekarang makasih,product_price,medium
+harga jacket-blue-yellow-m berapa,product_price,medium
+kapan psnan #12345 smp,order_status,high
+fitur beaine,product_description,extreme
+mba kak boleh tau spesifikasi kupluk tidak tolong,product_description,medium
+Mas sisa stok knit tolong,product_stock,high
+Lokasi warehouse,out_of_scope,medium
+sis bs permata g ??,payment_info,medium
+Gan kupluk murah ga thanks,product_price,extreme
+Musim kosong ga,product_stock,low
+Halo ubah alamat pengiriman ya,out_of_scope,medium
+hi tukar barang please,out_of_scope,medium
+Admin siapa k@mu thanks,out_of_scope,medium
+cara reufnd gimana,out_of_scope,low
+kak cara bayar gmn thx,payment_info,medium

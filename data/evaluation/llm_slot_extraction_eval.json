@@ -1,0 +1,991 @@
+{
+  "metadata": {
+    "description": "Evaluation dataset for LLM-based slot extraction",
+    "version": "1.0",
+    "created": "2025-12-05",
+    "total_queries": 80,
+    "language": "Indonesian (formal + informal)",
+    "task_distribution": {
+      "check_stock": 15,
+      "ask_price": 15,
+      "check_order": 12,
+      "ask_payment": 10,
+      "product_info": 10,
+      "out_of_scope": 8,
+      "multi_intent": 10
+    }
+  },
+  "queries": [
+    {
+      "id": 1,
+      "query": "stok jaket biru masih ada ga?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "jaket biru"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 2,
+      "query": "ready stock sepatu nike size 42?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "sepatu nike", "variant": "size 42"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 3,
+      "query": "apakah tas ransel warna hitam tersedia?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "tas ransel", "variant": "warna hitam"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "formal"
+    },
+    {
+      "id": 4,
+      "query": "kaos polos L ada?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "kaos polos", "variant": "L"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 5,
+      "query": "masih bisa beli hp samsung ga?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "hp samsung"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 6,
+      "query": "celana jeans 32 ready ga kak?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "celana jeans", "variant": "32"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 7,
+      "query": "laptop asus vivobook stoknya ada?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "laptop asus vivobook"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 8,
+      "query": "ada stok smartwatch gak?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "smartwatch"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 9,
+      "query": "headset bluetooth ready?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "headset bluetooth"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 10,
+      "query": "mouse wireless logitech ada stoknya?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "mouse wireless logitech"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 11,
+      "query": "kemeja putih M kosong ga?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "kemeja putih", "variant": "M"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 12,
+      "query": "dompet kulit pria tersedia tidak?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "dompet kulit pria"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "formal"
+    },
+    {
+      "id": 13,
+      "query": "hoodie abu-abu XL masih available?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "hoodie", "variant": "abu-abu XL"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 14,
+      "query": "sandal jepit swallow ada?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "sandal jepit swallow"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal"
+    },
+    {
+      "id": 15,
+      "query": "kacamata hitam rdy ga?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "kacamata hitam"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_stock",
+      "style": "informal_typo"
+    },
+    {
+      "id": 16,
+      "query": "harga tas ransel berapa?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "tas ransel"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 17,
+      "query": "ada diskon gak untuk laptop asus?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "laptop asus"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 18,
+      "query": "brp hrg sepatu nike?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "sepatu nike"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal_typo"
+    },
+    {
+      "id": 19,
+      "query": "jaket kulit ini harganya berapa ya?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "jaket kulit"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 20,
+      "query": "lagi ada promo ga untuk hp samsung?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "hp samsung"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 21,
+      "query": "berapa harga celana jeans yang ini?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "celana jeans"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "formal"
+    },
+    {
+      "id": 22,
+      "query": "smartwatch apple hrgnya brp?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "smartwatch apple"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal_typo"
+    },
+    {
+      "id": 23,
+      "query": "mahal ga jam tangan ini?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "jam tangan"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 24,
+      "query": "worth it ga beli headset ini dengan harga segitu?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "headset"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 25,
+      "query": "kalo beli 3 dapet diskon ga?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"quantity": 3},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Produk apa yang ingin dibeli 3?"
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 26,
+      "query": "kemeja ini lagi sale ga?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "kemeja"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 27,
+      "query": "ada voucher potongan harga?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 28,
+      "query": "harga grosir beda ga sama satuan?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 29,
+      "query": "ongkir ke jakarta berapa?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 30,
+      "query": "total semua jadi berapa ya kak?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_price",
+      "style": "informal"
+    },
+    {
+      "id": 31,
+      "query": "pesanan saya 12345 udah sampai mana?",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "12345"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 32,
+      "query": "order gue kapan nyampe ya",
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 33,
+      "query": "psen gw 99871 gmn?",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "99871"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal_typo"
+    },
+    {
+      "id": 34,
+      "query": "tolong cek status pesanan nomor 88234",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "88234"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "formal"
+    },
+    {
+      "id": 35,
+      "query": "barang saya udah dikirim belum?",
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 36,
+      "query": "tracking pesanan 77612 dong",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "77612"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 37,
+      "query": "estimasi sampai kapan ya orderan saya?",
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 38,
+      "query": "paket saya #55432 sudah sampai mana?",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "55432"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 39,
+      "query": "kenapa pesanan saya belum dikirim?",
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 40,
+      "query": "order 66123 pake ekspedisi apa?",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "66123"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 41,
+      "query": "pesanan kemarin udah diproses?",
+      "expected": {
+        "task": "check_order",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Mohon berikan nomor pesanan Anda"
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 42,
+      "query": "no resi pesanan 44521 apa?",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "44521"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "check_order",
+      "style": "informal"
+    },
+    {
+      "id": 43,
+      "query": "bisa bayar pake gopay ga?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "gopay"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 44,
+      "query": "cara bayar gimana sih?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 45,
+      "query": "terima transfer BCA ga?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "transfer BCA"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 46,
+      "query": "pembayaran via apa aja?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 47,
+      "query": "bisa COD ga kak?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "COD"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 48,
+      "query": "ada cicilan 0% ga?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "cicilan"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 49,
+      "query": "bayar pake ovo bisa?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "ovo"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 50,
+      "query": "transfer ke rekening apa?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "transfer"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 51,
+      "query": "boleh kredit card ga?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "credit card"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 52,
+      "query": "bayar nanti dulu bisa ga?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "paylater"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "ask_payment",
+      "style": "informal"
+    },
+    {
+      "id": 53,
+      "query": "spek laptop lenovo yang ini gimana?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "laptop lenovo"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 54,
+      "query": "bahan kaos ini apa ya?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "kaos"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 55,
+      "query": "ukuran tas ransel ini berapa?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "tas ransel"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 56,
+      "query": "warna apa aja yang tersedia?",
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 57,
+      "query": "hp ini RAM berapa GB?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "hp"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 58,
+      "query": "garansi produk ini berapa lama?",
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "category": "product_info",
+      "style": "formal"
+    },
+    {
+      "id": 59,
+      "query": "sepatu ini waterproof ga?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "sepatu"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 60,
+      "query": "berat barang ini berapa kg?",
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 61,
+      "query": "ada size chart ga kak?",
+      "expected": {
+        "task": "product_info",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": true,
+        "clarification_question": "Untuk produk apa?"
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 62,
+      "query": "layar laptop ini berapa inch?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "laptop"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "product_info",
+      "style": "informal"
+    },
+    {
+      "id": 63,
+      "query": "mau refund dong barang rusak",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 64,
+      "query": "jam buka toko kapan ya?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 65,
+      "query": "alamat toko offline dimana?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 66,
+      "query": "mau komplain nih barang ga sesuai",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 67,
+      "query": "bisa tukar ukuran ga?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 68,
+      "query": "gimana cara jadi reseller?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 69,
+      "query": "kontak customer service berapa?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 70,
+      "query": "mau cancel pesanan gimana?",
+      "expected": {
+        "task": "out_of_scope",
+        "entities": {},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "out_of_scope",
+      "style": "informal"
+    },
+    {
+      "id": 71,
+      "query": "stok hp samsung ada ga? kalo ada harga berapa?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "hp samsung"},
+        "multi_intent": ["ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 72,
+      "query": "jaket ini ready ga? gimana cara bayarnya?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "jaket"},
+        "multi_intent": ["ask_payment"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 73,
+      "query": "harga sepatu nike berapa? ada size 43 ga?",
+      "expected": {
+        "task": "ask_price",
+        "entities": {"product_name": "sepatu nike", "variant": "size 43"},
+        "multi_intent": ["check_stock"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 74,
+      "query": "laptop asus specs nya gimana? harganya berapa?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "laptop asus"},
+        "multi_intent": ["ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 75,
+      "query": "pesanan 12345 udah sampai belum? mau pesen lagi soalnya",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "12345"},
+        "multi_intent": [],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 76,
+      "query": "bisa COD ga? stok tas nya ada?",
+      "expected": {
+        "task": "ask_payment",
+        "entities": {"payment_method": "COD", "product_name": "tas"},
+        "multi_intent": ["check_stock"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 77,
+      "query": "ready stok kaos? warna apa aja? harga berapa?",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "kaos"},
+        "multi_intent": ["product_info", "ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 78,
+      "query": "mau beli hp, ada yang RAM 8GB ga? budget 3 juta",
+      "expected": {
+        "task": "check_stock",
+        "entities": {"product_name": "hp", "variant": "RAM 8GB"},
+        "multi_intent": ["ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 79,
+      "query": "order 55512 kapan nyampe? sama mau tanya harga headset",
+      "expected": {
+        "task": "check_order",
+        "entities": {"order_id": "55512"},
+        "multi_intent": ["ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    },
+    {
+      "id": 80,
+      "query": "sepatu ini bahan apa? waterproof ga? harga berapa?",
+      "expected": {
+        "task": "product_info",
+        "entities": {"product_name": "sepatu"},
+        "multi_intent": ["ask_price"],
+        "needs_clarification": false
+      },
+      "category": "multi_intent",
+      "style": "informal"
+    }
+  ]
+}

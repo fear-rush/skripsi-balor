@@ -1,0 +1,766 @@
+{
+  "timestamp": "2025-12-06T18:33:25.942717",
+  "total_tests": 27,
+  "passed": 27,
+  "failed": 0,
+  "pass_rate": 100.0,
+  "avg_latency_ms": 3528.1,
+  "single_turn_results": [
+    {
+      "test_id": "ST-001",
+      "test_name": "Check order with ID",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "5"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "5",
+        "quantity": null
+      },
+      "response": "Pesanan #5 Anda saat ini berstatus **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+      "latency_ms": 3607.2,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-002",
+      "test_name": "Check order with ID (informal)",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "5"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "5",
+        "quantity": null
+      },
+      "response": "Status orderan #5: **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+      "latency_ms": 3446.0,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-003",
+      "test_name": "Check stock with product name",
+      "passed": true,
+      "expected_task": "check_stock",
+      "actual_task": "check_stock",
+      "expected_entities": {
+        "product_name": "beanie"
+      },
+      "actual_entities": {
+        "product_name": "beanie",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "**Arctic Cozy Knit Unisex Beanie** masih ada **10 unit** ya!",
+      "latency_ms": 3480.8,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-004",
+      "test_name": "Check stock with brand",
+      "passed": true,
+      "expected_task": "check_stock",
+      "actual_task": "check_stock",
+      "expected_entities": {
+        "product_name": "jaket"
+      },
+      "actual_entities": {
+        "product_name": "jaket",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Kabar baik! **Jaket Puffer Pria OmniHeat Solid Bertudung** ready stock **100 unit**",
+      "latency_ms": 3469.1,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-005",
+      "test_name": "Ask price",
+      "passed": true,
+      "expected_task": "ask_price",
+      "actual_task": "ask_price",
+      "expected_entities": {
+        "product_name": "beanie"
+      },
+      "actual_entities": {
+        "product_name": "beanie",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Untuk **Arctic Cozy Knit Unisex Beanie**, harganya **Rp 89,000**",
+      "latency_ms": 3514.2,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-006",
+      "test_name": "Ask price (informal)",
+      "passed": true,
+      "expected_task": "ask_price",
+      "actual_task": "ask_price",
+      "expected_entities": {
+        "product_name": "jaket"
+      },
+      "actual_entities": {
+        "product_name": "jaket",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "**Jaket Puffer Pria OmniHeat Solid Bertudung** dijual seharga **Rp 349,000**",
+      "latency_ms": 3511.0,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-007",
+      "test_name": "Ask payment methods",
+      "passed": true,
+      "expected_task": "ask_payment",
+      "actual_task": "ask_payment",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Metode pembayaran yang tersedia:\n- **Cash on Delivery (COD)**: Bayar saat barang sampai ke alamat Anda\n- **Transfer Bank**: Transfer ke rekening bank (BCA, Mandiri, BNI, BRI)\n\nSemua aman dan terpercay...",
+      "latency_ms": 3439.2,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-008",
+      "test_name": "Ask payment (informal)",
+      "passed": true,
+      "expected_task": "ask_payment",
+      "actual_task": "ask_payment",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Anda bisa bayar pakai:\n- **Cash on Delivery (COD)**: Bayar saat barang sampai ke alamat Anda\n- **Transfer Bank**: Transfer ke rekening bank (BCA, Mandiri, BNI, BRI)\n\nTinggal pilih sesuai kebutuhan!",
+      "latency_ms": 3412.8,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-009",
+      "test_name": "Product info",
+      "passed": true,
+      "expected_task": "product_info",
+      "actual_task": "product_info",
+      "expected_entities": {
+        "product_name": "beanie"
+      },
+      "actual_entities": {
+        "product_name": "beanie",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "**Arctic Cozy Knit Unisex Beanie**\n\nEmbrace the chilly days in style with our Arctic Cozy Knit Beanie. Crafted from a soft and durable blend of acrylic, this classic beanie offers warmth and versatili...",
+      "latency_ms": 3475.4,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-010",
+      "test_name": "Product list",
+      "passed": true,
+      "expected_task": "product_list",
+      "actual_task": "product_list",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Berikut produk yang tersedia di toko kami:\n- **Arctic Cozy Knit Unisex Beanie** - Rp 89,000\n- **Arctic Bliss Stylish Winter Scarf** - Rp 79,000\n- **Arctic Touchscreen Winter Gloves** - Rp 69,000\n- **A...",
+      "latency_ms": 3444.5,
+      "errors": [],
+      "confidence": 0.85,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-011",
+      "test_name": "Search product",
+      "passed": true,
+      "expected_task": "search_product",
+      "actual_task": "search_product",
+      "expected_entities": {
+        "product_name": "jaket"
+      },
+      "actual_entities": {
+        "product_name": "jaket",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Hasil pencarian untuk **jaket**:\n\n**Jaket Puffer Pria OmniHeat Solid Bertudung**\nHarga: Rp 349,000\nTetap hangat dan bergaya dengan Jaket Puffer Pria OmniHeat Solid Bertudung kami. Jaket ini dirancang....",
+      "latency_ms": 3484.4,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-012",
+      "test_name": "Product by category",
+      "passed": true,
+      "expected_task": "product_by_category",
+      "actual_task": "product_by_category",
+      "expected_entities": {
+        "category": "fashion"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": "fashion",
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Produk dalam kategori **fashion**:\n- **Arctic Cozy Knit Unisex Beanie** - Rp 89,000\n- **Arctic Bliss Stylish Winter Scarf** - Rp 79,000\n- **Arctic Touchscreen Winter Gloves** - Rp 69,000\n- **Arctic Wa...",
+      "latency_ms": 3534.9,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-013",
+      "test_name": "Out of scope - refund",
+      "passed": true,
+      "expected_task": "out_of_scope",
+      "actual_task": "out_of_scope",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Hmm, ini di luar area saya. Silakan chat CS kami langsung di: +6281234567890",
+      "latency_ms": 3447.1,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-014",
+      "test_name": "Out of scope - store hours",
+      "passed": true,
+      "expected_task": "out_of_scope",
+      "actual_task": "out_of_scope",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Pertanyaan ini di luar kemampuan saya. Untuk bantuan lebih lanjut, silakan hubungi CS kami via WhatsApp: +6281234567890",
+      "latency_ms": 3454.8,
+      "errors": [],
+      "confidence": 0.9,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-015",
+      "test_name": "Check completed order",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "8"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "8",
+        "quantity": null
+      },
+      "response": "Pesanan #8 Anda saat ini berstatus **Completed**. Pesanan sudah selesai. Terima kasih!",
+      "latency_ms": 3501.3,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-016",
+      "test_name": "Check cancelled order",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "10"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "10",
+        "quantity": null
+      },
+      "response": "Orderan #10 sedang **Canceled** nih. Pesanan telah dibatalkan.",
+      "latency_ms": 3519.3,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-017",
+      "test_name": "Check processing order",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "5"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "5",
+        "quantity": null
+      },
+      "response": "Kabar baik! Pesanan #5 statusnya **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+      "latency_ms": 3489.3,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-018",
+      "test_name": "Check non-existent order",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {
+        "order_id": "999"
+      },
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "999",
+        "quantity": null
+      },
+      "response": "Pesanan 999 tidak ditemukan",
+      "latency_ms": 3545.6,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-019",
+      "test_name": "Product with attributes",
+      "passed": true,
+      "expected_task": "['check_stock', 'product_by_attribute']",
+      "actual_task": "product_by_attribute",
+      "expected_entities": {
+        "product_name": "jaket"
+      },
+      "actual_entities": {
+        "product_name": "jaket",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": "hitam",
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Ditemukan **Jaket Puffer Pria OmniHeat Solid Bertudung** (hitam)!\n\nHarga: Rp 349,000\nStok: 100 unit",
+      "latency_ms": 3626.2,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ST-020",
+      "test_name": "Multi-intent query",
+      "passed": true,
+      "expected_task": "check_stock",
+      "actual_task": "check_stock",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": "beanie",
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Stok **Arctic Cozy Knit Unisex Beanie**: **10 unit** tersedia\n\nHarga: Rp 89,000",
+      "latency_ms": 3868.6,
+      "errors": [],
+      "confidence": 0.85,
+      "turn_number": 1
+    }
+  ],
+  "multi_turn_results": [
+    {
+      "test_id": "MT-001",
+      "test_name": "Order status with clarification",
+      "passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "query": "cek pesanan dong",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {}
+          },
+          "response": "Silakan masukkan nomor ID pesanan Anda.",
+          "needs_clarification": true,
+          "latency_ms": 3891.2,
+          "confidence": 0.9,
+          "errors": []
+        },
+        {
+          "turn": 2,
+          "query": "5",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {},
+            "order_id": "5"
+          },
+          "response": "Pesanan #5 Anda saat ini berstatus **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+          "needs_clarification": false,
+          "latency_ms": 2.8,
+          "confidence": 0.95,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "test_id": "MT-002",
+      "test_name": "Order status with hash in ID",
+      "passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "query": "cek status pesanan",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {}
+          },
+          "response": "Silakan masukkan nomor ID pesanan Anda.",
+          "needs_clarification": true,
+          "latency_ms": 4036.2,
+          "confidence": 0.9,
+          "errors": []
+        },
+        {
+          "turn": 2,
+          "query": "#8",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {},
+            "order_id": "8"
+          },
+          "response": "Pesanan #8 Anda saat ini berstatus **Completed**. Pesanan sudah selesai. Terima kasih!",
+          "needs_clarification": false,
+          "latency_ms": 8.5,
+          "confidence": 0.95,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "test_id": "MT-003",
+      "test_name": "Order status informal clarification",
+      "passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "query": "pesen gue mana ya",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {}
+          },
+          "response": "Bisa kasih nomor order Anda ya?",
+          "needs_clarification": true,
+          "latency_ms": 3320.7,
+          "confidence": 0.8,
+          "errors": []
+        },
+        {
+          "turn": 2,
+          "query": "nomor 5",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {},
+            "order_id": "5"
+          },
+          "response": "Pesanan #5 Anda saat ini berstatus **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+          "needs_clarification": false,
+          "latency_ms": 1.9,
+          "confidence": 0.95,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "test_id": "MT-004",
+      "test_name": "Product inquiry then price",
+      "passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "query": "stok beanie ada ga?",
+          "passed": true,
+          "task": "check_stock",
+          "entities": {
+            "product_name": "beanie",
+            "attributes": {}
+          },
+          "response": "Tersedia **10 unit** untuk **Arctic Cozy Knit Unisex Beanie**",
+          "needs_clarification": false,
+          "latency_ms": 3721.9,
+          "confidence": 0.9,
+          "errors": []
+        },
+        {
+          "turn": 2,
+          "query": "harganya berapa?",
+          "passed": true,
+          "task": "ask_price",
+          "entities": {
+            "product_name": "beanie",
+            "attributes": {}
+          },
+          "response": "Untuk **Arctic Cozy Knit Unisex Beanie**, harganya **Rp 89,000**",
+          "needs_clarification": false,
+          "latency_ms": 3609.0,
+          "confidence": 0.9,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "test_id": "MT-005",
+      "test_name": "Three turn conversation",
+      "passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "query": "mau cek pesanan",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {}
+          },
+          "response": "Silakan masukkan nomor order Anda.",
+          "needs_clarification": true,
+          "latency_ms": 3713.9,
+          "confidence": 0.9,
+          "errors": []
+        },
+        {
+          "turn": 2,
+          "query": "5",
+          "passed": true,
+          "task": "check_order",
+          "entities": {
+            "attributes": {},
+            "order_id": "5"
+          },
+          "response": "Pesanan #5 Anda saat ini berstatus **Processing**. Pesanan sedang disiapkan untuk pengiriman.",
+          "needs_clarification": false,
+          "latency_ms": 4.7,
+          "confidence": 0.95,
+          "errors": []
+        },
+        {
+          "turn": 3,
+          "query": "cara bayar gimana?",
+          "passed": true,
+          "task": "ask_payment",
+          "entities": {
+            "order_id": "5",
+            "attributes": {}
+          },
+          "response": "Anda bisa bayar pakai:\n- **Cash on Delivery (COD)**: Bayar saat barang sampai ke alamat Anda\n- **Transfer Bank**: Transfer ke rekening bank (BCA, Mand...",
+          "needs_clarification": false,
+          "latency_ms": 3555.8,
+          "confidence": 0.95,
+          "errors": []
+        }
+      ]
+    }
+  ],
+  "error_results": [
+    {
+      "test_id": "ERR-001",
+      "test_name": "Non-existent order",
+      "passed": true,
+      "expected_task": "check_order",
+      "actual_task": "check_order",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": null,
+        "category": null,
+        "attributes": {
+          "brand": null,
+          "color": null,
+          "size": null
+        },
+        "order_id": "999999",
+        "quantity": null
+      },
+      "response": "Pesanan 999999 tidak ditemukan",
+      "latency_ms": 3682.2,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    },
+    {
+      "test_id": "ERR-002",
+      "test_name": "Non-existent product",
+      "passed": true,
+      "expected_task": "ask_price",
+      "actual_task": "ask_price",
+      "expected_entities": {},
+      "actual_entities": {
+        "product_name": "iphone 15",
+        "category": null,
+        "attributes": {
+          "brand": "iphone",
+          "color": null,
+          "size": null
+        },
+        "order_id": null,
+        "quantity": null
+      },
+      "response": "Produk 'iphone 15' tidak ditemukan. Silakan cek kembali nama produknya atau lihat katalog kami.",
+      "latency_ms": 3664.4,
+      "errors": [],
+      "confidence": 0.95,
+      "turn_number": 1
+    }
+  ]
+}

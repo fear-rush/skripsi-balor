@@ -1,0 +1,567 @@
+{
+  "timestamp": "2025-12-06T16:48:40.605803",
+  "model": "Qwen3-4B-Instruct-2507-GGUF (Q4_K_M)",
+  "runtime": "macOS 14.4.1 - arm",
+  "backend": "Native llama.cpp (Homebrew) + Metal GPU",
+  "system_prompt_version": "v2.0 - 10 Tasks with Bahasa Indonesia",
+  "total_queries": 23,
+  "tasks_supported": [
+    "product_list",
+    "check_order",
+    "product_by_attribute",
+    "ask_price",
+    "search_product",
+    "product_by_category",
+    "check_stock",
+    "ask_payment",
+    "product_info",
+    "out_of_scope"
+  ],
+  "latency_stats": {
+    "mean": 3.1910068055857783,
+    "std": 1.3062708262318432,
+    "min": 2.758370876312256,
+    "max": 9.277838945388794,
+    "median": 2.87349796295166,
+    "throughput_per_min": 18.802843007094655
+  },
+  "accuracy_stats": {
+    "mean_confidence": 0.8978260869565216,
+    "high_confidence_rate": 0.9565217391304348,
+    "needs_clarification_count": 1,
+    "multi_intent_count": 2
+  },
+  "task_distribution": {
+    "check_order": 3,
+    "product_info": 2,
+    "product_list": 2,
+    "search_product": 2,
+    "product_by_category": 2,
+    "product_by_attribute": 1,
+    "check_stock": 4,
+    "ask_price": 2,
+    "ask_payment": 2,
+    "out_of_scope": 3
+  },
+  "entity_extraction_stats": {
+    "product_names": 12,
+    "categories": 2,
+    "order_ids": 2,
+    "attributes_brand": 8,
+    "attributes_color": 3,
+    "attributes_size": 2
+  },
+  "results": [
+    {
+      "query": "pesanan saya 12345 udah sampai mana?",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": "12345",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 9.277838945388794
+    },
+    {
+      "query": "psen gw 99871 gmn?",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": "99871",
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 3.3429577350616455
+    },
+    {
+      "query": "order gue kapan nyampe ya",
+      "result": {
+        "task": "check_order",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": true,
+        "clarification_question": "Bisakah Anda sebutkan nomor order Anda?"
+      },
+      "latency": 3.097493886947632
+    },
+    {
+      "query": "bahan kaos ini apa ya",
+      "result": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "kaos",
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.80816388130188
+    },
+    {
+      "query": "spek laptop lenovo yang ini gimana?",
+      "result": {
+        "task": "product_info",
+        "entities": {
+          "product_name": "laptop",
+          "category": null,
+          "attributes": {
+            "brand": "lenovo",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.8695149421691895
+    },
+    {
+      "query": "produk ada apa aja?",
+      "result": {
+        "task": "product_list",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.78016996383667
+    },
+    {
+      "query": "barang yang dijual apa saja?",
+      "result": {
+        "task": "product_list",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.78157901763916
+    },
+    {
+      "query": "cari sepatu lari dong",
+      "result": {
+        "task": "search_product",
+        "entities": {
+          "product_name": "sepatu lari",
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.8972418308258057
+    },
+    {
+      "query": "cariin tas ransel",
+      "result": {
+        "task": "search_product",
+        "entities": {
+          "product_name": "tas ransel",
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.8686468601226807
+    },
+    {
+      "query": "produk fashion ada apa aja?",
+      "result": {
+        "task": "product_by_category",
+        "entities": {
+          "product_name": null,
+          "category": "fashion",
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.8273541927337646
+    },
+    {
+      "query": "kategori elektronik ada apa?",
+      "result": {
+        "task": "product_by_category",
+        "entities": {
+          "product_name": null,
+          "category": "elektronik",
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.914274215698242
+    },
+    {
+      "query": "ada baju nike warna merah ukuran L?",
+      "result": {
+        "task": "product_by_attribute",
+        "entities": {
+          "product_name": "baju",
+          "category": null,
+          "attributes": {
+            "brand": "nike",
+            "color": "merah",
+            "size": "L"
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 3.004940986633301
+    },
+    {
+      "query": "sepatu adidas size 42 warna hitam ada ga?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "sepatu",
+          "category": null,
+          "attributes": {
+            "brand": "adidas",
+            "color": "hitam",
+            "size": "42"
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 3.013356924057007
+    },
+    {
+      "query": "harga laptop asus berapa?",
+      "result": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "laptop",
+          "category": null,
+          "attributes": {
+            "brand": "asus",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.8858089447021484
+    },
+    {
+      "query": "brp hrg sepatu nike?",
+      "result": {
+        "task": "ask_price",
+        "entities": {
+          "product_name": "sepatu",
+          "category": null,
+          "attributes": {
+            "brand": "nike",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.95,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.916081190109253
+    },
+    {
+      "query": "stok hp xiaomi masih ada?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp",
+          "category": null,
+          "attributes": {
+            "brand": "xiaomi",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.839313268661499
+    },
+    {
+      "query": "ready stock jaket biru?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "jaket",
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": "biru",
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.87349796295166
+    },
+    {
+      "query": "bisa bayar pake gopay ga?",
+      "result": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.76487398147583
+    },
+    {
+      "query": "cara bayar gimana sih",
+      "result": {
+        "task": "ask_payment",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.758370876312256
+    },
+    {
+      "query": "mau refund dong barang rusak",
+      "result": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.783078908920288
+    },
+    {
+      "query": "jam buka toko kapan ya",
+      "result": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": null,
+          "category": null,
+          "attributes": {
+            "brand": null,
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [],
+        "confidence": 0.9,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 2.785446882247925
+    },
+    {
+      "query": "stok hp samsung ada ga? kalo ada harga berapa?",
+      "result": {
+        "task": "check_stock",
+        "entities": {
+          "product_name": "hp",
+          "category": null,
+          "attributes": {
+            "brand": "samsung",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "ask_price"
+        ],
+        "confidence": 0.85,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 3.059401273727417
+    },
+    {
+      "query": "jaket nike ready ga? gimana cara bayarnya?",
+      "result": {
+        "task": "out_of_scope",
+        "entities": {
+          "product_name": "jaket nike",
+          "category": null,
+          "attributes": {
+            "brand": "nike",
+            "color": null,
+            "size": null
+          },
+          "order_id": null,
+          "quantity": null
+        },
+        "multi_intent": [
+          "check_stock",
+          "ask_payment"
+        ],
+        "confidence": 0.7,
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "latency": 3.2437498569488525
+    }
+  ]
+}

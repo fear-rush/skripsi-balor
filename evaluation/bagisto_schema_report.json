@@ -1,0 +1,575 @@
+{
+  "schema": {
+    "orders": {
+      "row_count": 1,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int unsigned",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": "auto_increment"
+        },
+        {
+          "name": "increment_id",
+          "type": "varchar(255)",
+          "null": "NO",
+          "key": "UNI",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "status",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "channel_name",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "is_guest",
+          "type": "tinyint(1)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "customer_email",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "customer_first_name",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "customer_last_name",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "shipping_method",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "shipping_title",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "shipping_description",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "coupon_code",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "is_gift",
+          "type": "tinyint(1)",
+          "null": "NO",
+          "key": "",
+          "default": "0",
+          "extra": ""
+        },
+        {
+          "name": "total_item_count",
+          "type": "int",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "total_qty_ordered",
+          "type": "int",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "base_currency_code",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "channel_currency_code",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "order_currency_code",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "grand_total",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_grand_total",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "grand_total_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_grand_total_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "grand_total_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_grand_total_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "sub_total",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_sub_total",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "sub_total_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_sub_total_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "sub_total_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_sub_total_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "discount_percent",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "discount_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_discount_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "discount_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_discount_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "discount_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_discount_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "tax_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_tax_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "tax_amount_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_tax_amount_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "tax_amount_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_tax_amount_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_invoiced",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_refunded",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_discount_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_discount_amount",
+          "type": "decimal(12,4)",
+          "null": "YES",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_tax_amount",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_tax_amount",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_tax_refunded",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_tax_refunded",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "sub_total_incl_tax",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_sub_total_incl_tax",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "shipping_amount_incl_tax",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "base_shipping_amount_incl_tax",
+          "type": "decimal(12,4)",
+          "null": "NO",
+          "key": "",
+          "default": "0.0000",
+          "extra": ""
+        },
+        {
+          "name": "customer_id",
+          "type": "int unsigned",
+          "null": "YES",
+          "key": "MUL",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "customer_type",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "channel_id",
+          "type": "int unsigned",
+          "null": "YES",
+          "key": "MUL",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "channel_type",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "cart_id",
+          "type": "int",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "applied_cart_rule_ids",
+          "type": "varchar(255)",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp",
+          "null": "YES",
+          "key": "",
+          "default": null,
+          "extra": ""
+        }
+      ],
+      "foreign_keys": [
+        {
+          "COLUMN_NAME": "channel_id",
+          "REFERENCED_TABLE_NAME": "channels",
+          "REFERENCED_COLUMN_NAME": "id"
+        },
+        {
+          "COLUMN_NAME": "customer_id",
+          "REFERENCED_TABLE_NAME": "customers",
+          "REFERENCED_COLUMN_NAME": "id"
+        }
+      ],
+      "sample_data": [
+        {
+          "id": 1,
+          "increment_id": "1",
+          "status": "pending",
+          "channel_name": "Default",
+          "is_guest": 0,
+          "customer_email": "balord@gmail.com",
+          "customer_first_name": "Rizky",
+          "customer_last_name": "Balor",
+          "shipping_method": "free_free",
+          "shipping_title": "Free Shipping - Free Shipping",
+          "shipping_description": "Free Shipping",
+          "coupon_code": null,
+          "is_gift": 0,
+          "total_item_count": 1,
+          "total_qty_ordered": 1,
+          "base_currency_code": "IDR",
+          "channel_currency_code": "IDR",
+          "order_currency_code": "IDR",
+          "grand_total": 

@@ -1,0 +1,24 @@
+{
+  "version": "v3",
+  "description": "Fixed overfitting - separate train/test entity pools",
+  "train_val_samples": 2093,
+  "test_samples_ood": 482,
+  "intents": [
+    "product_stock",
+    "product_price",
+    "order_status",
+    "product_description",
+    "out_of_scope",
+    "payment_info"
+  ],
+  "products_train_count": 50,
+  "products_test_count": 22,
+  "key_improvements": [
+    "Separate product pools for train/test (OOD evaluation)",
+    "Template usage limits (max 5 per noise level)",
+    "Deduplication applied",
+    "Hard negatives added",
+    "Semantic noise (synonyms, fillers) added",
+    "50+ templates per intent (vs 20-27 in v2)"
+  ]
+}

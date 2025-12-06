@@ -1,0 +1,21 @@
+{
+  "version": "v2",
+  "total_samples": 3000,
+  "samples_per_intent": 500,
+  "intents": [
+    "product_description",
+    "payment_info",
+    "out_of_scope",
+    "product_price",
+    "product_stock",
+    "order_status"
+  ],
+  "noise_levels": [
+    "high",
+    "low",
+    "extreme",
+    "medium"
+  ],
+  "products_count": 93,
+  "products_source": "Bagisto database (dynamic)"
+}

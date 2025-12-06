@@ -1,0 +1,52 @@
+text,intent,difficulty,notes
+"barangnya kok belum nyampe ya udah 3 hari",order_status,hard,natural complaint style
+"pesanan gw yg kemarin udah dikirim blm sih",order_status,medium,casual with abbreviations
+"status orderan 12345 dong min",order_status,easy,direct request
+"paketnya masih di mana ya kak",order_status,medium,polite indirect query
+"kok lama bgt sih ngirimnya",order_status,hard,no explicit mention of order
+"kapan sampenya pak orderan saya",order_status,medium,mix formal/informal
+"tracking number resi ada ga",order_status,medium,asking for tracking
+"pesanan saya kayaknya nyasar deh",order_status,hard,indirect complaint
+"bisa bayar pake dana ga kak",payment_info,easy,direct question
+"transfer ke bank apa aja min",payment_info,medium,asking payment options
+"bs tf bca g",payment_info,hard,heavy abbreviation
+"ada cicilan 0% ga",payment_info,medium,specific payment feature
+"pembayarannya gmn caranya",payment_info,easy,asking process
+"terima shopeepay ga sis",payment_info,easy,specific ewallet
+"cod bisa ga min",payment_info,easy,cash on delivery
+"virtual account available?",payment_info,medium,mixed language
+"bayar di tempat msh bisa kn",payment_info,medium,COD variation
+"harga jaket yang warna merah brp",product_price,easy,specific product
+"brp duit tuh topi",product_price,hard,very casual
+"price list dong kak",product_price,medium,asking for prices
+"sepatu nike yang ini berapa ya",product_price,easy,with product reference
+"kisaran harganya brp sih",product_price,medium,asking range
+"mahal ga barangnya",product_price,hard,indirect price question
+"ada diskon ga buat produk ini",product_price,medium,price related
+"harganya masih sama kyk kemarin?",product_price,hard,price comparison
+"beanie warna hitam msh ad ga",product_stock,easy,specific stock query
+"stok sepatu size 42 ready kah",product_stock,easy,size specific
+"msh ada barangnya?",product_stock,medium,vague product
+"restock kapan ya min",product_stock,hard,out of stock follow-up
+"yg L ready g",product_stock,hard,size only abbreviation
+"sold out belum",product_stock,medium,stock status
+"available ga semua size",product_stock,medium,multiple sizes
+"ready stock nya tinggal brp",product_stock,medium,quantity question
+"bahan nya apa sih ini produk",product_description,easy,material question
+"spek lengkapnya dong",product_description,medium,asking specs
+"ukuran chart ada ga",product_description,medium,size information
+"warna lain ada?",product_description,hard,could be stock too
+"produknya awet ga min",product_description,medium,quality question
+"waterproof kah",product_description,medium,feature question
+"ini berat ga ya barangnya",product_description,easy,weight inquiry
+"review dari customer gimana",product_description,hard,asking reviews
+"mau refund dong barang ga sesuai",out_of_scope,easy,refund request
+"komplain nih min barangnya rusak",out_of_scope,easy,complaint
+"cancel order bisa ga",out_of_scope,easy,cancellation
+"mau tuker ukuran bisa?",out_of_scope,medium,exchange request
+"alamat toko offline dimana",out_of_scope,easy,store location
+"lowongan kerja ada ga",out_of_scope,easy,job inquiry
+"halo",out_of_scope,easy,greeting only
+"siapa yang bales chat ini",out_of_scope,medium,asking about agent
+"ini barangnya original bukan sih",product_description,hard,authenticity question
+"ada garansi brp lama",product_description,medium,warranty inquiry

@@ -1,0 +1,36 @@
+{
+  "version": "v4",
+  "description": "True semantic learning - breaks keyword exclusivity",
+  "train_samples": 1950,
+  "test_samples_ood": 465,
+  "intents": [
+    "payment_info",
+    "product_description",
+    "product_price",
+    "out_of_scope",
+    "product_stock",
+    "order_status"
+  ],
+  "distribution": {
+    "keyword_based": 944,
+    "generic": 541,
+    "hard_negative": 345,
+    "ambiguous": 120
+  },
+  "key_improvements": [
+    "Shared keywords across intents (breaks exclusivity)",
+    "28% generic patterns (no exclusive keywords)",
+    "20% hard negative pairs (confusing similar queries)",
+    "10% ambiguous queries (genuinely unclear)",
+    "Expected epoch 1 accuracy: 50-55% (not 84%)",
+    "Expected final accuracy: 85-90% (not 98%)"
+  ],
+  "shared_keywords": [
+    "berapa",
+    "ready",
+    "ada",
+    "gimana",
+    "info",
+    "bisa"
+  ]
+}

@@ -1,0 +1,49 @@
+text,expected,predicted,confidence,category,correct
+cek pesanan 12345,order_status,order_status,0.9994018077850342,easy,True
+status order saya,order_status,order_status,0.99930739402771,easy,True
+pesanan saya sudah sampai mana,order_status,order_status,0.9993225336074829,easy,True
+tracking pesanan #123,order_status,order_status,0.9993995428085327,easy,True
+orderan saya gimana,order_status,order_status,0.9993584752082825,easy,True
+cek psanan 123,order_status,order_status,0.7517694234848022,typo,True
+ordr sy mn,order_status,product_info,0.7889670729637146,typo,False
+psnan gw kmn bro,order_status,product_info,0.6825692653656006,typo,False
+staus order,order_status,order_status,0.9988573789596558,typo,True
+halo min mau tanya dong pesanan saya yang kemarin itu udah dikirim belum ya,order_status,order_status,0.999350368976593,verbose,True
+permisi kak orderan saya yang nomor 12345 kok belum dateng ya sampai sekarang,order_status,order_status,0.9993366599082947,verbose,True
+bisa bayar pakai gopay?,payment_info,payment_info,0.9991998076438904,easy,True
+metode pembayaran apa aja,payment_info,payment_info,0.9991863369941711,easy,True
+cara bayar gimana,payment_info,payment_info,0.9991808533668518,easy,True
+accept transfer bank ga,payment_info,payment_info,0.999062716960907,easy,True
+bisa cod tidak,payment_info,payment_info,0.998898983001709,easy,True
+byr pk ap,payment_info,product_info,0.9561449885368347,typo,False
+mtode byr,payment_info,product_info,0.9409685134887695,typo,False
+bs gpay g,payment_info,product_info,0.842711329460144,typo,False
+mau tanya untuk pembayarannya bisa pakai metode apa aja ya kak,payment_info,payment_info,0.9991683959960938,verbose,True
+kalo mau bayar pake ovo atau gopay bisa ga min,payment_info,payment_info,0.9989826083183289,verbose,True
+harga laptop berapa,product_info,product_info,0.9989344477653503,easy,True
+stok sepatu ada ga,product_info,product_info,0.9988865256309509,easy,True
+spesifikasi hp gimana,product_info,product_info,0.9988890290260315,easy,True
+info produk beanie,product_info,product_info,0.9986215829849243,easy,True
+berapa harga topi,product_info,product_info,0.9989007711410522,easy,True
+hrg laptop brp,product_info,product_info,0.9988918900489807,typo,True
+stok septu ada g,product_info,product_info,0.9986377358436584,typo,True
+brp duit beanie,product_info,product_info,0.9979988932609558,typo,True
+mau tanya dong harga produk beanie yang ada di toko berapa ya,product_info,product_info,0.998607337474823,verbose,True
+kak mau nanya apakah stok scarf masih tersedia atau sudah habis,product_info,product_info,0.9879888296127319,verbose,True
+mau beli sepatu bisa cod ga,payment_info,product_info,0.9911045432090759,ambiguous,False
+harga berapa kalau bayar cash,product_info,payment_info,0.9979357719421387,ambiguous,False
+orderan belum bayar gimana,order_status,payment_info,0.9399033188819885,ambiguous,False
+produk ready bisa langsung kirim,product_info,product_info,0.997904896736145,ambiguous,True
+mau refund dong,out_of_scope,product_info,0.9864426851272583,out_of_scope,False
+barang rusak mau komplain,out_of_scope,product_info,0.9748972654342651,out_of_scope,False
+jam buka toko kapan,out_of_scope,product_info,0.9985881447792053,out_of_scope,False
+alamat warehouse dimana,out_of_scope,order_status,0.41947200894355774,out_of_scope,False
+cancel pesanan,out_of_scope,order_status,0.9973057508468628,out_of_scope,False
+gimana cara refund,out_of_scope,payment_info,0.7103998064994812,out_of_scope,False
+lowongan kerja ada ga,out_of_scope,product_info,0.9977462887763977,out_of_scope,False
+mau jadi reseller,out_of_scope,product_info,0.9671062231063843,out_of_scope,False
+brg gw mna bro,order_status,product_info,0.9632698893547058,slang,False
+bs gpay ga sih,payment_info,payment_info,0.9923704862594604,slang,True
+brp duit laptop,product_info,product_info,0.9988553524017334,slang,True
+ready ga stoknya,product_info,product_info,0.9987087249755859,slang,True
+gan order gw mana,order_status,order_status,0.9990437626838684,slang,True

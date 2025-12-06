@@ -1,0 +1,32 @@
+{
+  "model_version": "v1",
+  "total_test_cases": 48,
+  "in_scope_accuracy": 0.775,
+  "per_category": {
+    "easy": {
+      "accuracy": 1.0,
+      "correct": 15,
+      "total": 15
+    },
+    "typo": {
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10
+    },
+    "verbose": {
+      "accuracy": 1.0,
+      "correct": 6,
+      "total": 6
+    },
+    "ambiguous": {
+      "accuracy": 0.25,
+      "correct": 1,
+      "total": 4
+    },
+    "slang": {
+      "accuracy": 0.8,
+      "correct": 4,
+      "total": 5
+    }
+  }
+}
